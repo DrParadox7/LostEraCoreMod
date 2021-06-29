@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Pokepatch",
+  "name": "Pokepatch",
+  "description": "Fixes various bugs for the \"The lost Era\" Modpack.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["pOwOke"],
+  "credits": "The clock gang",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
