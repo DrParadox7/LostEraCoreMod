@@ -12,6 +12,9 @@ public class Ic2LuminatorTransformer extends Transformer {
 
     @Override
     public byte[] transform(String name, String transformedName, byte[] basicClass) {
+
+        System.out.println("PATCHING IC2");
+
         ClassNode cn = getNode(basicClass);
 
         for (MethodNode mn : cn.methods) {

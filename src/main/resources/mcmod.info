@@ -1,6 +1,6 @@
 [
 {
-  "modid": "Pokepatch",
+  "modid": "pokepatch",
   "name": "Pokepatch",
   "description": "Fixes various bugs for the \"The lost Era\" Modpack.",
   "version": "${version}",

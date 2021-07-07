@@ -84,5 +84,6 @@ jar {
     manifest {
         attributes "Manifest-Version": "1.0"
         attributes "FMLCorePlugin": "sexy.poke.PatchCore"
+        attributes "FMLCorePluginContainsFMLMod": "true"
     }
 }

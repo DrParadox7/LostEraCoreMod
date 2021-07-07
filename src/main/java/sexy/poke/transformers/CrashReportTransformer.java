@@ -14,6 +14,9 @@ public class CrashReportTransformer extends Transformer {
 
     @Override
     public byte[] transform(String name, String transformedName, byte[] basicClass) {
+
+        System.out.println("PATCHING Crash");
+
         ClassNode cn = getNode(basicClass);
 
         String[] astring = new String[]{"Damn you Kaito!!!!", "Kaito strikes again", "I blame Kaito", "How dare you Kaito",};

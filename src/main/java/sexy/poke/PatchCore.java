@@ -10,7 +10,7 @@ public class PatchCore implements IFMLLoadingPlugin {
     @Override
     public String[] getASMTransformerClass() {
         return new String[] {
-                "sexy.poke.FlickerTransformer"
+                "sexy.poke.CoreTransformer"
         };
     }
 
