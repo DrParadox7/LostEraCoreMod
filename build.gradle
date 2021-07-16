@@ -49,8 +49,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 version = "1.0"
-group = "sexy.poke.Ic2LuminatorFix" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "Ic2LuminatorFix"
+group = "sexy.poke.Pokepatch" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "PokePatch"
 
 minecraft {
     version = "1.7.10-10.13.4.1558-1.7.10"
