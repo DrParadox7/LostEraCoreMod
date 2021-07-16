@@ -21,7 +21,7 @@ public class CoreTransformer implements IClassTransformer {
         transformers.add(new CrashReportTransformer());
         transformers.add(new PatchOptifineGuiButtons());
         transformers.add(new PatchOptifineGuiSlider());
-        transformers.add(new DynamicLightTransformer());
+        //transformers.add(new DynamicLightTransformer());
 
         /*transformers.add(new TransformUpdate());
         transformers.add(new TransformRender());

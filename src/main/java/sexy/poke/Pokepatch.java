@@ -35,8 +35,6 @@ public class Pokepatch {
 
     private static boolean reloaded = false;
 
-    public static int[] blacklistedLightDims = new int[]{};
-
     Logger logger = LogManager.getLogger(MODID);
 
     @SubscribeEvent
@@ -267,9 +265,9 @@ public class Pokepatch {
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
         config.load();
 
-        Property disabledDimensionIds = config.get(Configuration.CATEGORY_GENERAL, "blacklistedLightDims", new int[]{-100});
-        disabledDimensionIds.comment = "list of dimensions ids that are disabled for dynamic lights";
-        blacklistedLightDims = disabledDimensionIds.getIntList();
+        //Property disabledDimensionIds = config.get(Configuration.CATEGORY_GENERAL, "blacklistedLightDims", new int[]{-100});
+        //disabledDimensionIds.comment = "list of dimensions ids that are disabled for dynamic lights";
+        //blacklistedLightDims = disabledDimensionIds.getIntList();
 
         config.save();
     }
