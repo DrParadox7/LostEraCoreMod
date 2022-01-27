@@ -28,7 +28,7 @@ public class CoreTransformer implements IClassTransformer {
         transformers.add(new TransformTileEntityRendererDispatcher());*/
 
         transformers.add(new HardcoreEnderFix());
-        transformers.add(new ThaumcraftLeavesFix());
+     //   transformers.add(new ThaumcraftLeavesFix());
     }
 
     @Override

@@ -21,6 +21,7 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 import sexy.poke.transformers.TransformTileEntityRendererDispatcher;
 import sexy.poke.transformers.TransformUpdate;
+import com.jadarstudios.developercapes.DevCapes;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -279,6 +280,7 @@ public class Pokepatch {
         FMLCommonHandler.instance().bus().register(this);
 
         if (event.getSide() == Side.CLIENT) {
+            DevCapes.getInstance().registerConfig("https://raw.githubusercontent.com/DrParadox7/LostEraCoreMod/master/capes/capes.json");
             if (FMLClientHandler.instance().hasOptifine()) {
                 GameSettings settings = Minecraft.getMinecraft().gameSettings;
                 try {
