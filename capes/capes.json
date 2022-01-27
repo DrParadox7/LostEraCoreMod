@@ -1,8 +1,9 @@
 {
     "Modpackdevs": {
-    "capeUrl": "https://github.com/DrParadox7/LostEraCoreMod/raw/1.2/capes/resources/test_cape.png",
+    "capeUrl": "https://github.com/DrParadox7/LostEraCoreMod/blob/master/capes/resources/test_cape.png",
     "users": [
       "565cae7c-e4b0-4b6d-be9c-ffe23e04a380"
     ]
-  }
+  },
+  "59f631fd-f286-43b3-a066-f7fc058dadb4": "https://github.com/DrParadox7/LostEraCoreMod/blob/master/capes/resources/server_plague.png"  
 }
