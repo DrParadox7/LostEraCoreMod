@@ -1,10 +1,10 @@
 [
 {
-  "modid": "pokepatch",
-  "name": "Pokepatch",
+  "modid": "${modId}",
+  "name": "${modName}",
   "description": "Fixes various bugs for the \"The lost Era\" Modpack.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "version": "${modVersion}",
+  "mcversion": "${minecraftVersion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["pOwOke"],

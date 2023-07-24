@@ -28,11 +28,11 @@ import java.lang.reflect.Modifier;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-@Mod(modid = "pokepatch", version = "1.0")
+@Mod(modid = Tags.MODID, version = Tags.VERSION, name = Tags.MODNAME, acceptedMinecraftVersions = "[1.7.10]")
 public class Pokepatch {
 
-    public static final String MODID = "pokepatch";
-    public static final String VERSION = "1.0";
+    public static final String MODID = Tags.MODID;
+    public static final String VERSION = Tags.VERSION;
 
     private static boolean reloaded = false;
 
