@@ -7,13 +7,17 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.settings.GameSettings;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraftforge.common.config.Configuration;
-import net.minecraftforge.common.config.Property;
+import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.input.Keyboard;
@@ -21,6 +25,7 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 import sexy.poke.transformers.TransformTileEntityRendererDispatcher;
 import sexy.poke.transformers.TransformUpdate;
+import sexy.poke.common.items.*;
 import com.jadarstudios.developercapes.DevCapes;
 
 import java.lang.reflect.Field;
@@ -38,6 +43,9 @@ public class Pokepatch {
 
     Logger logger = LogManager.getLogger(MODID);
 
+
+    //Item Registration
+    public static Item craftingComponent;
     @SubscribeEvent
     public void tick(TickEvent.ClientTickEvent event) {
         long time = System.currentTimeMillis();
@@ -271,6 +279,10 @@ public class Pokepatch {
         //blacklistedLightDims = disabledDimensionIds.getIntList();
 
         config.save();
+
+        //Register Items
+        craftingComponent = new craftingComponent().setUnlocalizedName("craftingComponent").setTextureName(Tags.MODID + ":amethystGearItem");
+        GameRegistry.registerItem(craftingComponent, craftingComponent.getUnlocalizedName().substring(5));
     }
 
     @Mod.EventHandler
@@ -296,6 +308,15 @@ public class Pokepatch {
                 }
             }
         }
+        //Register Oredict
+        ItemStack enderAmethyst = GameRegistry.findItemStack("BiomesOPlenty", "gems", 1);
+        OreDictionary.registerOre("gemEnderAmethyst", enderAmethyst);
+        OreDictionary.registerOre("gearEnderAmethyst", new ItemStack(craftingComponent));
+
+
+        //Register Recipes
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(craftingComponent), " A ", "AGA", " A ", 'A', "gemEnderAmethyst", 'G', "gearDiamond"));
+
     }
 
     public static Field makeAccessible(Field in) {
