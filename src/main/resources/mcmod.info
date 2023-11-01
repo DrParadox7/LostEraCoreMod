@@ -2,13 +2,13 @@
 {
   "modid": "${modId}",
   "name": "${modName}",
-  "description": "Fixes various bugs for the \"The lost Era\" Modpack.",
+  "description": "Coremod for the \"The lost Era\" Modpack.",
   "version": "${modVersion}",
   "mcversion": "${minecraftVersion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["pOwOke"],
-  "credits": "The clock gang",
+  "authorList": ["pOwOke", "TechnoParadox", "BamBam01"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
