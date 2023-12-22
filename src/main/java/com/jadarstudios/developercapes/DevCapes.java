@@ -1,28 +1,34 @@
 /**
- * DeveloperCapes by Jadar
- * License: MIT License
- * (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE)
- * version 4.0.0.x
+ * DeveloperCapes by Jadar License: MIT License (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE) version
+ * 4.0.0.x
  */
 package com.jadarstudios.developercapes;
 
-import com.jadarstudios.developercapes.cape.CapeConfig;
-import com.jadarstudios.developercapes.cape.CapeConfigManager;
-import net.minecraftforge.common.MinecraftForge;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+import net.minecraftforge.common.MinecraftForge;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.jadarstudios.developercapes.cape.CapeConfig;
+import com.jadarstudios.developercapes.cape.CapeConfigManager;
+
 /**
- * DeveloperCapes is a library for Minecraft. It allows developers to quickly add capes for players they specify. DevCapes uses Minecraft Forge.
+ * DeveloperCapes is a library for Minecraft. It allows developers to quickly add capes for players they specify.
+ * DevCapes uses Minecraft Forge.
  *
  * @author jadar
  */
 public class DevCapes {
+
     private static DevCapes instance;
 
     public static final Logger logger = LogManager.getLogger("DevCapes");
@@ -74,14 +80,12 @@ public class DevCapes {
 
     @Deprecated
     /**
-     * DEPRECATED: Please use {@link #registerConfig(String jsonUrl)} instead.<p>
+     * DEPRECATED: Please use {@link #registerConfig(String jsonUrl)} instead.
+     * <p>
      * Registers a config with DevCapes.
      *
-     * @param jsonUrl
-     *            The URL as a String that links to the Json file that you want
-     *            to add
-     * @param identifier
-     *            A unique Identifier, normally your mod id
+     * @param jsonUrl    The URL as a String that links to the Json file that you want to add
+     * @param identifier A unique Identifier, normally your mod id
      * @return The id of the registered config
      */
     public int registerConfig(String jsonURL, String identifier) {
@@ -91,8 +95,7 @@ public class DevCapes {
     /**
      * Registers a config with DevCapes.
      *
-     * @param jsonUrl The URL as a String that links to the Json file that you want
-     *                to add
+     * @param jsonUrl The URL as a String that links to the Json file that you want to add
      * @return The id of the registered config
      */
     public int registerConfig(String jsonUrl) {
@@ -108,13 +111,12 @@ public class DevCapes {
 
     @Deprecated
     /**
-     * DEPRECATED: Please use {@link #registerConfig(URL url)} instead.<p>
+     * DEPRECATED: Please use {@link #registerConfig(URL url)} instead.
+     * <p>
      * Registers a config with DevCapes.
      *
-     * @param jsonUrl
-     *            A {@link URL} that links to the Json file that you want to add
-     * @param identifier
-     *            A unique Identifier, normally your mod id
+     * @param jsonUrl    A {@link URL} that links to the Json file that you want to add
+     * @param identifier A unique Identifier, normally your mod id
      * @return The id of the registered config
      */
     public int registerConfig(URL url, String identifier) {
@@ -132,7 +134,8 @@ public class DevCapes {
         InputStream is = this.getStreamForURL(jsonUrl);
 
         if (is == null) {
-            DevCapes.logger.error(String.format("Unable to establish a connection to the server, %s", jsonUrl.getHost()));
+            DevCapes.logger
+                    .error(String.format("Unable to establish a connection to the server, %s", jsonUrl.getHost()));
             return id;
         }
 
@@ -153,7 +156,6 @@ public class DevCapes {
     private static void silentClose(InputStream is) {
         try {
             is.close();
-        } catch (IOException ignored) {
-        }
+        } catch (IOException ignored) {}
     }
 }

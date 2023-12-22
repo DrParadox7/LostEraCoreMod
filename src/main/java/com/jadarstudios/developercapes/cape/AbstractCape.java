@@ -1,8 +1,6 @@
 /**
- * DeveloperCapes by Jadar
- * License: MIT License
- * (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE)
- * version 4.0.0.x
+ * DeveloperCapes by Jadar License: MIT License (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE) version
+ * 4.0.0.x
  */
 package com.jadarstudios.developercapes.cape;
 
@@ -15,6 +13,7 @@ import net.minecraft.util.ResourceLocation;
  * @author jadar
  */
 public abstract class AbstractCape implements ICape {
+
     protected String name;
     protected ITextureObject texture;
     protected ResourceLocation location;

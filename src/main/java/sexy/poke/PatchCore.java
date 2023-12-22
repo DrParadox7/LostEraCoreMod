@@ -1,17 +1,16 @@
 package sexy.poke;
 
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
-
 import java.util.Map;
+
+import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 
 @IFMLLoadingPlugin.SortingIndex(1001)
 @IFMLLoadingPlugin.Name("Ic2FlickerFix")
 public class PatchCore implements IFMLLoadingPlugin {
+
     @Override
     public String[] getASMTransformerClass() {
-        return new String[] {
-                "sexy.poke.CoreTransformer"
-        };
+        return new String[] { "sexy.poke.CoreTransformer" };
     }
 
     @Override

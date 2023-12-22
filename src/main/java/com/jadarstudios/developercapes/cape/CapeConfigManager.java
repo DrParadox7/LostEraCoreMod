@@ -1,10 +1,13 @@
 /**
- * DeveloperCapes by Jadar
- * License: MIT License
- * (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE)
- * version 4.0.0.x
+ * DeveloperCapes by Jadar License: MIT License (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE) version
+ * 4.0.0.x
  */
 package com.jadarstudios.developercapes.cape;
+
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.BitSet;
+import java.util.Map;
 
 import com.google.common.collect.HashBiMap;
 import com.google.common.primitives.UnsignedBytes;
@@ -15,14 +18,6 @@ import com.jadarstudios.developercapes.user.Group;
 import com.jadarstudios.developercapes.user.GroupManager;
 import com.jadarstudios.developercapes.user.User;
 import com.jadarstudios.developercapes.user.UserManager;
-import org.apache.commons.lang3.ObjectUtils;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.BitSet;
-import java.util.Map;
 
 /**
  * All configs need a manager, this is it.
@@ -32,7 +27,7 @@ import java.util.Map;
 public class CapeConfigManager {
 
     protected static CapeConfigManager instance;
-    
+
     protected static BitSet availableIds = new BitSet(256);
     protected HashBiMap<Integer, CapeConfig> configs;
 
@@ -57,18 +52,18 @@ public class CapeConfigManager {
         addUsers(config.users);
         addGroups(config.groups);
     }
-    
-    protected void addUsers(Map<String, User> users){
-    	try {
-    		UserManager.getInstance().addUsers(users.values());
+
+    protected void addUsers(Map<String, User> users) {
+        try {
+            UserManager.getInstance().addUsers(users.values());
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    
-    protected void addGroups(Map<String, Group> groups){
-    	try {
-    		GroupManager.getInstance().addGroups(groups.values());
+
+    protected void addGroups(Map<String, Group> groups) {
+        try {
+            GroupManager.getInstance().addGroups(groups.values());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -87,7 +82,7 @@ public class CapeConfigManager {
     }
 
     public static int claimId(int id) throws InvalidCapeConfigIdException {
-        if(id <= 0){
+        if (id <= 0) {
             throw new InvalidCapeConfigIdException("The config ID must be a positive non-zero integer");
         }
         try {
@@ -122,34 +117,35 @@ public class CapeConfigManager {
                 if (obj instanceof Map) {
                     parseGroup(instance, nodeName, (Map) obj);
                 } else if (obj instanceof String) {
-                	parseUser(instance, nodeName, (String) obj);
+                    parseUser(instance, nodeName, (String) obj);
                 }
             }
         } catch (JsonSyntaxException e) {
-        	DevCapes.logger.error("CapeConfig could not be parsed because:");
+            DevCapes.logger.error("CapeConfig could not be parsed because:");
             e.printStackTrace();
         }
 
         return instance;
     }
-    
+
     protected void parseGroup(CapeConfig config, String node, Map group) {
         Group g = GroupManager.getInstance().parse(node, group);
         if (g != null) {
-        	config.groups.put(g.name, g);
+            config.groups.put(g.name, g);
         }
     }
-    
+
     protected void parseUser(CapeConfig config, String node, String user) {
-    	User u = UserManager.getInstance().parse(node, user);
+        User u = UserManager.getInstance().parse(node, user);
         if (u != null) {
-        	config.users.put(node, u);
+            config.users.put(node, u);
         }
     }
 
     /**
-     * DEPRECATED! Please use {@link com.jadarstudios.developercapes.cape.CapeConfigManager#parse(java.io.InputStream is)}
-     * This will be removed in the next major release.
+     * DEPRECATED! Please use
+     * {@link com.jadarstudios.developercapes.cape.CapeConfigManager#parse(java.io.InputStream is)} This will be removed
+     * in the next major release.
      */
     @Deprecated
     public CapeConfig parseFromStream(InputStream is) {
@@ -157,6 +153,7 @@ public class CapeConfigManager {
     }
 
     public static class InvalidCapeConfigIdException extends Exception {
+
         public InvalidCapeConfigIdException() {
             super();
         }

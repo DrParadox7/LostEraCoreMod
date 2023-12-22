@@ -1,5 +1,132 @@
-// Add your dependencies here
+configurations {
+    transformedMod // Mods that can be transformed - used for compiling hodgepodge, but not necessary at runtime
+    transformedMod.canBeConsumed = false
+    transformedModCompileOnly
+    transformedModCompileOnly.canBeConsumed = false
+
+    // Add the transformed mod dependencies to the compilation and runtime classpaths, but don't publish them in the Maven metadata
+    compileClasspath.extendsFrom(transformedMod, transformedModCompileOnly)
+    runtimeClasspath.extendsFrom(transformedMod)
+    testCompileClasspath.extendsFrom(transformedMod, transformedModCompileOnly)
+    testRuntimeClasspath.extendsFrom(transformedMod)
+}
 
 dependencies {
+    transformedMod(deobfCurse("aroma1997core-223735:2257644"))
+    transformedMod(deobfCurse("aroma1997s-dimensional-world-60092:2219018"))
+    //transformedMod("curse.maven:immersive-cavegen-521557:4723376")
+}
 
+// Replace when RFG support deobfuscation from notch mappings
+
+import java.nio.file.Files
+import java.nio.file.Paths
+import java.util.zip.ZipEntry
+import java.util.zip.ZipOutputStream
+
+def deobfNotch(String sourceURL) {
+    try {
+        URL url = new URL(sourceURL)
+        String fileName = url.getFile()
+
+        //get rid of directories:
+        int lastSlash = fileName.lastIndexOf("/")
+        if (lastSlash > 0) {
+            fileName = fileName.substring(lastSlash + 1)
+        }
+        //get rid of extension:
+        if (fileName.endsWith(".jar") || fileName.endsWith(".litemod")) {
+            fileName = fileName.substring(0, fileName.lastIndexOf("."))
+        }
+
+        String hostName = url.getHost()
+        if (hostName.startsWith("www.")) {
+            hostName = hostName.substring(4)
+        }
+        List parts = Arrays.asList(hostName.split("\\."))
+        Collections.reverse(parts)
+        hostName = String.join(".", parts)
+
+        return deobfNotch(sourceURL, "$hostName/$fileName")
+    } catch (Exception ignored) {
+        return deobfNotch(sourceURL, "deobf/${sourceURL.hashCode()}")
+    }
+}
+
+def deobfNotch(String sourceURL, String rawFileName) {
+    String bon2Version = "2.5.1"
+    String fileName = URLDecoder.decode(rawFileName, "UTF-8")
+    String cacheDir = "$project.gradle.gradleUserHomeDir/caches"
+    String bon2Dir = "$cacheDir/forge_gradle/deobf"
+    String bon2File = "$bon2Dir/BON2-${bon2Version}.jar"
+    String obfFile = "$cacheDir/modules-2/files-2.1/${fileName}.jar"
+    String deobfFile = "$cacheDir/modules-2/files-2.1/${fileName}-deobf.jar"
+
+    if (file(deobfFile).exists()) {
+        return files(deobfFile)
+    }
+
+    String mappingsVer
+    String remoteMappings = project.hasProperty('remoteMappings') ? project.remoteMappings : 'https://raw.githubusercontent.com/MinecraftForge/FML/1.7.10/conf/'
+    if (remoteMappings) {
+        String id = "${forgeVersion.split("\\.")[3]}-$minecraftVersion"
+        String mappingsZIP = "$cacheDir/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot_nodoc/$id/mcp_snapshot_nodoc-${id}.zip"
+
+        zipMappings(mappingsZIP, remoteMappings, bon2Dir)
+
+        mappingsVer = "snapshot_$id"
+    } else {
+        mappingsVer = "${channel}_$mappingsVersion"
+    }
+
+    download.run {
+        src "https://github.com/GTNewHorizons/BON2/releases/download/$bon2Version/BON2-$bon2Version-CUSTOM-all.jar"
+        dest bon2File
+        overwrite false
+    }
+
+    download.run {
+        src sourceURL
+        dest obfFile
+        overwrite false
+    }
+
+    exec {
+        commandLine 'java', '-jar', bon2File, '--inputJar', obfFile, '--outputJar', deobfFile, '--mcVer', minecraftVersion, '--mappingsVer', mappingsVer, '--notch'
+        workingDir bon2Dir
+    }
+
+    return files(deobfFile)
+}
+
+def zipMappings(String zipPath, String url, String bon2Dir) {
+    File zipFile = new File(zipPath)
+    if (zipFile.exists()) {
+        return
+    }
+
+    String fieldsCache = "$bon2Dir/data/fields.csv"
+    String methodsCache = "$bon2Dir/data/methods.csv"
+
+    download.run {
+        src "${url}fields.csv"
+        dest fieldsCache
+    }
+    download.run {
+        src "${url}methods.csv"
+        dest methodsCache
+    }
+
+    zipFile.getParentFile().mkdirs()
+    ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(zipFile))
+
+    zos.putNextEntry(new ZipEntry("fields.csv"))
+    Files.copy(Paths.get(fieldsCache), zos)
+    zos.closeEntry()
+
+    zos.putNextEntry(new ZipEntry("methods.csv"))
+    Files.copy(Paths.get(methodsCache), zos)
+    zos.closeEntry()
+
+    zos.close()
 }

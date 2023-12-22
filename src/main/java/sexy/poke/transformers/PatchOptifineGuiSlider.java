@@ -1,14 +1,20 @@
 package sexy.poke.transformers;
 
-import net.minecraft.client.gui.GuiOptionSlider;
-import net.minecraft.client.settings.GameSettings;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.tree.*;
+import static sexy.poke.Pokepatch.makeAccessible;
+import static sexy.poke.transformers.PatchOptifineGuiButtons.blacklistedOptions;
 
 import java.lang.reflect.Field;
 
-import static sexy.poke.Pokepatch.makeAccessible;
-import static sexy.poke.transformers.PatchOptifineGuiButtons.blacklistedOptions;
+import net.minecraft.client.gui.GuiOptionSlider;
+import net.minecraft.client.settings.GameSettings;
+
+import org.objectweb.asm.Opcodes;
+import org.objectweb.asm.tree.AbstractInsnNode;
+import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.tree.InsnList;
+import org.objectweb.asm.tree.MethodInsnNode;
+import org.objectweb.asm.tree.MethodNode;
+import org.objectweb.asm.tree.VarInsnNode;
 
 public class PatchOptifineGuiSlider extends Transformer {
 
@@ -56,7 +62,13 @@ public class PatchOptifineGuiSlider extends Transformer {
                     if (ain.getOpcode() == Opcodes.RETURN) {
                         InsnList list = new InsnList();
                         list.add(new VarInsnNode(Opcodes.ALOAD, 0));
-                        list.add(new MethodInsnNode(Opcodes.INVOKESTATIC, "sexy/poke/transformers/PatchOptifineGuiSlider", "updateGuiSlider", "(Lnet/minecraft/client/gui/GuiOptionSlider;)V", false));
+                        list.add(
+                                new MethodInsnNode(
+                                        Opcodes.INVOKESTATIC,
+                                        "sexy/poke/transformers/PatchOptifineGuiSlider",
+                                        "updateGuiSlider",
+                                        "(Lnet/minecraft/client/gui/GuiOptionSlider;)V",
+                                        false));
 
                         mn.instructions.insertBefore(ain, list);
                     }
@@ -67,4 +79,3 @@ public class PatchOptifineGuiSlider extends Transformer {
         return getNodeBytes(cn);
     }
 }
-

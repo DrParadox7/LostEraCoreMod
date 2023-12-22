@@ -1,17 +1,15 @@
 /**
- * DeveloperCapes by Jadar
- * License: MIT License
- * (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE)
- * version 4.0.0.x
+ * DeveloperCapes by Jadar License: MIT License (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE) version
+ * 4.0.0.x
  */
 package com.jadarstudios.developercapes.cape;
-
-import com.jadarstudios.developercapes.DevCapes;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Collection;
 import java.util.HashMap;
+
+import com.jadarstudios.developercapes.DevCapes;
 
 /**
  * This manages all of the capes, be nice to it or you won't get one!
@@ -56,13 +54,14 @@ public class CapeManager {
         this.capes.put(name, cape);
         return cape;
     }
-    
+
     public ICape parse(String name, Object object) {
         ICape cape = null;
-        if(object instanceof String || object instanceof URL){
-        	cape = parse(name, object.toString());
-        }else{
-        	DevCapes.logger.error(String.format("Cape, %s, could not be parsed because it is not in an accepted format!", object));
+        if (object instanceof String || object instanceof URL) {
+            cape = parse(name, object.toString());
+        } else {
+            DevCapes.logger.error(
+                    String.format("Cape, %s, could not be parsed because it is not in an accepted format!", object));
         }
         return cape;
     }

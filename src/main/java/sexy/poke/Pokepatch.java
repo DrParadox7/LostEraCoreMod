@@ -1,14 +1,10 @@
 package sexy.poke;
 
-import com.google.common.util.concurrent.AtomicDouble;
-import cpw.mods.fml.client.FMLClientHandler;
-import cpw.mods.fml.common.*;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.gameevent.TickEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.relauncher.Side;
+import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
+import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.settings.GameSettings;
@@ -18,20 +14,28 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapedOreRecipe;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
-import sexy.poke.transformers.TransformTileEntityRendererDispatcher;
-import sexy.poke.transformers.TransformUpdate;
-import sexy.poke.common.items.*;
+
+import com.google.common.util.concurrent.AtomicDouble;
 import com.jadarstudios.developercapes.DevCapes;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
+import cpw.mods.fml.client.FMLClientHandler;
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.gameevent.TickEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.relauncher.Side;
+import sexy.poke.common.items.craftingComponent;
+import sexy.poke.transformers.TransformTileEntityRendererDispatcher;
+import sexy.poke.transformers.TransformUpdate;
 
 @Mod(modid = Tags.MODID, version = Tags.VERSION, name = Tags.MODNAME, acceptedMinecraftVersions = "[1.7.10]")
 public class Pokepatch {
@@ -41,16 +45,15 @@ public class Pokepatch {
 
     private static boolean reloaded = false;
 
-    Logger logger = LogManager.getLogger(MODID);
+    public static final Logger logger = LogManager.getLogger(MODID);
 
-
-    //Item Registration
+    // Item Registration
     public static Item craftingComponent;
+
     @SubscribeEvent
     public void tick(TickEvent.ClientTickEvent event) {
         long time = System.currentTimeMillis();
         TransformUpdate.map.entrySet().removeIf(it -> it.getValue() + 3000L < time);
-
 
         if (Keyboard.isKeyDown(Keyboard.KEY_NUMPAD0)) {
             if (!wasPressed) {
@@ -79,7 +82,7 @@ public class Pokepatch {
 
     public static void render() {
 
-        //fix blackscreen
+        // fix blackscreen
         if (!reloaded) {
             reloaded = true;
 
@@ -99,7 +102,7 @@ public class Pokepatch {
 
             GL11.glDepthMask(false);
 
-            //logger.log(Level.ALL, TransformUpdate.map.size());
+            // logger.log(Level.ALL, TransformUpdate.map.size());
 
             for (AxisAlignedBB bb : TransformUpdate.map.keySet()) {
                 drawBox(bb, 0);
@@ -129,27 +132,36 @@ public class Pokepatch {
 
             GL11.glColor4f(1f, 1f, 1f, 1f);
 
-            for (Map.Entry<Class, TransformTileEntityRendererDispatcher.AccumulatingRolling> e : TransformTileEntityRendererDispatcher.map.entrySet()) {
+            for (Map.Entry<Class, TransformTileEntityRendererDispatcher.AccumulatingRolling> e : TransformTileEntityRendererDispatcher.map
+                    .entrySet()) {
                 e.getValue().finishSample();
             }
 
             AtomicInteger offset = new AtomicInteger();
             AtomicDouble totalTime = new AtomicDouble();
-            TransformTileEntityRendererDispatcher.map.entrySet().stream().sorted((o1, o2) -> Double.compare(o2.getValue().getAverage(), o1.getValue().getAverage())).forEach(it -> {
-                offset.getAndIncrement();
+            TransformTileEntityRendererDispatcher.map.entrySet().stream()
+                    .sorted((o1, o2) -> Double.compare(o2.getValue().getAverage(), o1.getValue().getAverage()))
+                    .forEach(it -> {
+                        offset.getAndIncrement();
 
-                double time = it.getValue().getAverage();
+                        double time = it.getValue().getAverage();
 
-                double ms = time / 1000000d;
+                        double ms = time / 1000000d;
 
-                totalTime.addAndGet(ms);
+                        totalTime.addAndGet(ms);
 
-                Minecraft.getMinecraft().fontRenderer.drawStringWithShadow(it.getKey().getSimpleName() + ": " + String.format("%,.2f", ms) + "ms total", 200, 20 + offset.get() * 10, 16777215);
-            });
+                        Minecraft.getMinecraft().fontRenderer.drawStringWithShadow(
+                                it.getKey().getSimpleName() + ": " + String.format("%,.2f", ms) + "ms total",
+                                200,
+                                20 + offset.get() * 10,
+                                16777215);
+                    });
 
-
-            Minecraft.getMinecraft().fontRenderer.drawStringWithShadow("total render time: " + String.format("%,.2f", totalTime.get()), 200, 5, 16777215);
-
+            Minecraft.getMinecraft().fontRenderer.drawStringWithShadow(
+                    "total render time: " + String.format("%,.2f", totalTime.get()),
+                    200,
+                    5,
+                    16777215);
 
             TransformTileEntityRendererDispatcher.rendered.clear();
 
@@ -274,14 +286,16 @@ public class Pokepatch {
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
         config.load();
 
-        //Property disabledDimensionIds = config.get(Configuration.CATEGORY_GENERAL, "blacklistedLightDims", new int[]{-100});
-        //disabledDimensionIds.comment = "list of dimensions ids that are disabled for dynamic lights";
-        //blacklistedLightDims = disabledDimensionIds.getIntList();
+        // Property disabledDimensionIds = config.get(Configuration.CATEGORY_GENERAL, "blacklistedLightDims", new
+        // int[]{-100});
+        // disabledDimensionIds.comment = "list of dimensions ids that are disabled for dynamic lights";
+        // blacklistedLightDims = disabledDimensionIds.getIntList();
 
         config.save();
 
-        //Register Items
-        craftingComponent = new craftingComponent().setUnlocalizedName("craftingComponent").setTextureName(Tags.MODID + ":amethystGearItem");
+        // Register Items
+        craftingComponent = new craftingComponent().setUnlocalizedName("craftingComponent")
+                .setTextureName(Tags.MODID + ":amethystGearItem");
         GameRegistry.registerItem(craftingComponent, craftingComponent.getUnlocalizedName().substring(5));
     }
 
@@ -290,7 +304,8 @@ public class Pokepatch {
         FMLCommonHandler.instance().bus().register(this);
 
         if (event.getSide() == Side.CLIENT) {
-            DevCapes.getInstance().registerConfig("https://raw.githubusercontent.com/DrParadox7/LostEraCoreMod/master/capes/capes.json");
+            DevCapes.getInstance().registerConfig(
+                    "https://raw.githubusercontent.com/DrParadox7/LostEraCoreMod/master/capes/capes.json");
             if (FMLClientHandler.instance().hasOptifine()) {
                 GameSettings settings = Minecraft.getMinecraft().gameSettings;
                 try {
@@ -308,14 +323,22 @@ public class Pokepatch {
                 }
             }
         }
-        //Register Oredict
+        // Register Oredict
         ItemStack enderAmethyst = GameRegistry.findItemStack("BiomesOPlenty", "gems", 1);
         OreDictionary.registerOre("gemEnderAmethyst", enderAmethyst);
         OreDictionary.registerOre("gearEnderAmethyst", new ItemStack(craftingComponent));
 
-
-        //Register Recipes
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(craftingComponent), " A ", "AGA", " A ", 'A', "gemEnderAmethyst", 'G', "gearDiamond"));
+        // Register Recipes
+        GameRegistry.addRecipe(
+                new ShapedOreRecipe(
+                        new ItemStack(craftingComponent),
+                        " A ",
+                        "AGA",
+                        " A ",
+                        'A',
+                        "gemEnderAmethyst",
+                        'G',
+                        "gearDiamond"));
 
     }
 

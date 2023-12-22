@@ -1,8 +1,14 @@
 package sexy.poke.transformers;
 
 import net.minecraft.client.gui.GuiOptionButton;
+
 import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.tree.*;
+import org.objectweb.asm.tree.AbstractInsnNode;
+import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.tree.InsnList;
+import org.objectweb.asm.tree.MethodInsnNode;
+import org.objectweb.asm.tree.MethodNode;
+import org.objectweb.asm.tree.VarInsnNode;
 
 public class PatchOptifineGuiButtons extends Transformer {
 
@@ -12,9 +18,8 @@ public class PatchOptifineGuiButtons extends Transformer {
     }
 
     public static String[] blacklistedOptions() {
-        return new String[]{"SMOOTH_FPS", "SMOOTH_WORLD", "PRELOADED_CHUNKS",
-                "CHUNK_UPDATES", "CHUNK_UPDATES_DYNAMIC", "FAST_MATH",
-                "LAZY_CHUNK_LOADING", "FAST_RENDER", "CHUNK_LOADING"};
+        return new String[] { "SMOOTH_FPS", "SMOOTH_WORLD", "PRELOADED_CHUNKS", "CHUNK_UPDATES",
+                "CHUNK_UPDATES_DYNAMIC", "FAST_MATH", "LAZY_CHUNK_LOADING", "FAST_RENDER", "CHUNK_LOADING" };
     }
 
     public static void updateGuiButton(GuiOptionButton button) {
@@ -40,7 +45,13 @@ public class PatchOptifineGuiButtons extends Transformer {
                     if (ain.getOpcode() == Opcodes.RETURN) {
                         InsnList list = new InsnList();
                         list.add(new VarInsnNode(Opcodes.ALOAD, 0));
-                        list.add(new MethodInsnNode(Opcodes.INVOKESTATIC, "sexy/poke/transformers/PatchOptifineGuiButtons", "updateGuiButton", "(Lnet/minecraft/client/gui/GuiOptionButton;)V", false));
+                        list.add(
+                                new MethodInsnNode(
+                                        Opcodes.INVOKESTATIC,
+                                        "sexy/poke/transformers/PatchOptifineGuiButtons",
+                                        "updateGuiButton",
+                                        "(Lnet/minecraft/client/gui/GuiOptionButton;)V",
+                                        false));
 
                         mn.instructions.insertBefore(ain, list);
                     }

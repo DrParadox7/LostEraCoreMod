@@ -1,19 +1,18 @@
 /**
- * DeveloperCapes by Jadar
- * License: MIT License
- * (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE)
- * version 4.0.0.x
+ * DeveloperCapes by Jadar License: MIT License (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE) version
+ * 4.0.0.x
  */
 package com.jadarstudios.developercapes.cape;
 
-import com.jadarstudios.developercapes.HDImageBuffer;
-import com.mojang.authlib.minecraft.MinecraftProfileTexture;
+import java.net.URL;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.client.renderer.ThreadDownloadImageData;
 import net.minecraft.util.ResourceLocation;
 
-import java.net.URL;
+import com.jadarstudios.developercapes.HDImageBuffer;
+import com.mojang.authlib.minecraft.MinecraftProfileTexture;
 
 /**
  * Default Cape implementation

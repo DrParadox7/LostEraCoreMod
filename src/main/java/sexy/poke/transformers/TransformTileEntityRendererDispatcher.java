@@ -1,15 +1,22 @@
 package sexy.poke.transformers;
 
-import net.minecraft.tileentity.TileEntity;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.tree.*;
-import sexy.poke.Pokepatch;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
+import net.minecraft.tileentity.TileEntity;
+
+import org.objectweb.asm.Opcodes;
+import org.objectweb.asm.tree.AbstractInsnNode;
+import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.tree.MethodInsnNode;
+import org.objectweb.asm.tree.MethodNode;
+import org.objectweb.asm.tree.VarInsnNode;
+
+import sexy.poke.Pokepatch;
+
 public class TransformTileEntityRendererDispatcher extends Transformer {
+
     @Override
     public String getTransformClass() {
         return "net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher";
@@ -54,7 +61,7 @@ public class TransformTileEntityRendererDispatcher extends Transformer {
     public static Set<Class> rendered = new HashSet<>();
 
     public static void startBenchmark(TileEntity e) {
-        if(!Pokepatch.showTileInfo) return;
+        if (!Pokepatch.showTileInfo) return;
 
         last = e.getClass();
         rendered.add(last);
@@ -62,11 +69,10 @@ public class TransformTileEntityRendererDispatcher extends Transformer {
     }
 
     public static void stopBenchmark() {
-        if(!Pokepatch.showTileInfo) return;
+        if (!Pokepatch.showTileInfo) return;
 
         AccumulatingRolling r = map.get(last);
-        if(r == null)
-            r = new AccumulatingRolling(60 * 3);
+        if (r == null) r = new AccumulatingRolling(60 * 3);
         r.add(System.nanoTime() - time);
         map.put(last, r);
     }
@@ -78,12 +84,25 @@ public class TransformTileEntityRendererDispatcher extends Transformer {
         for (MethodNode mn : cn.methods) {
             if (mn.name.equals("func_147549_a")) {
 
-                mn.instructions.insert(new MethodInsnNode(Opcodes.INVOKESTATIC, "sexy/poke/transformers/TransformTileEntityRendererDispatcher", "startBenchmark", "(Lnet/minecraft/tileentity/TileEntity;)V", false));
+                mn.instructions.insert(
+                        new MethodInsnNode(
+                                Opcodes.INVOKESTATIC,
+                                "sexy/poke/transformers/TransformTileEntityRendererDispatcher",
+                                "startBenchmark",
+                                "(Lnet/minecraft/tileentity/TileEntity;)V",
+                                false));
                 mn.instructions.insert(new VarInsnNode(Opcodes.ALOAD, 1));
 
                 for (AbstractInsnNode ain : mn.instructions.toArray()) {
                     if (ain.getOpcode() == Opcodes.RETURN) {
-                        mn.instructions.insertBefore(ain, new MethodInsnNode(Opcodes.INVOKESTATIC, "sexy/poke/transformers/TransformTileEntityRendererDispatcher", "stopBenchmark", "()V", false));
+                        mn.instructions.insertBefore(
+                                ain,
+                                new MethodInsnNode(
+                                        Opcodes.INVOKESTATIC,
+                                        "sexy/poke/transformers/TransformTileEntityRendererDispatcher",
+                                        "stopBenchmark",
+                                        "()V",
+                                        false));
                     }
                 }
 

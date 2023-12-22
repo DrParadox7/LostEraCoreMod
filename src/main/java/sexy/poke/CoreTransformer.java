@@ -1,13 +1,15 @@
 package sexy.poke;
 
-import net.minecraft.block.BlockLeavesBase;
-import net.minecraft.launchwrapper.IClassTransformer;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.tree.*;
-import sexy.poke.transformers.*;
-
 import java.util.ArrayList;
 
+import net.minecraft.launchwrapper.IClassTransformer;
+
+import sexy.poke.transformers.CrashReportTransformer;
+import sexy.poke.transformers.HardcoreEnderFix;
+import sexy.poke.transformers.Ic2LuminatorTransformer;
+import sexy.poke.transformers.PatchOptifineGuiButtons;
+import sexy.poke.transformers.PatchOptifineGuiSlider;
+import sexy.poke.transformers.Transformer;
 
 public class CoreTransformer implements IClassTransformer {
 
@@ -16,19 +18,19 @@ public class CoreTransformer implements IClassTransformer {
     public CoreTransformer() {
         System.out.println("Loading Patches");
 
-
         transformers.add(new Ic2LuminatorTransformer());
         transformers.add(new CrashReportTransformer());
         transformers.add(new PatchOptifineGuiButtons());
         transformers.add(new PatchOptifineGuiSlider());
-        //transformers.add(new DynamicLightTransformer());
+        // transformers.add(new DynamicLightTransformer());
 
-        /*transformers.add(new TransformUpdate());
-        transformers.add(new TransformRender());
-        transformers.add(new TransformTileEntityRendererDispatcher());*/
+        /*
+         * transformers.add(new TransformUpdate()); transformers.add(new TransformRender()); transformers.add(new
+         * TransformTileEntityRendererDispatcher());
+         */
 
         transformers.add(new HardcoreEnderFix());
-     //   transformers.add(new ThaumcraftLeavesFix());
+        // transformers.add(new ThaumcraftLeavesFix());
     }
 
     @Override
@@ -41,6 +43,5 @@ public class CoreTransformer implements IClassTransformer {
 
         return basicClass;
     }
-
 
 }

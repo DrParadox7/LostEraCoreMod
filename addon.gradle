@@ -1,0 +1,6 @@
+
+jar {
+    manifest {
+        attributes "CCTransformer": "sexy.poke.CoreTransformer"
+    }
+}

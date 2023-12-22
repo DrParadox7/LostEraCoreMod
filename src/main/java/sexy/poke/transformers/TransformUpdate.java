@@ -1,16 +1,20 @@
 package sexy.poke.transformers;
 
-import com.google.common.cache.Cache;
-import com.google.common.cache.CacheBuilder;
+import java.util.HashMap;
+
 import net.minecraft.util.AxisAlignedBB;
+
 import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.tree.*;
+import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.tree.InsnList;
+import org.objectweb.asm.tree.MethodInsnNode;
+import org.objectweb.asm.tree.MethodNode;
+import org.objectweb.asm.tree.VarInsnNode;
+
 import sexy.poke.Pokepatch;
 
-import java.util.HashMap;
-import java.util.concurrent.TimeUnit;
-
 public class TransformUpdate extends Transformer {
+
     @Override
     public String getTransformClass() {
         return "net.minecraft.client.renderer.RenderGlobal";
@@ -37,7 +41,13 @@ public class TransformUpdate extends Transformer {
                 list.add(new VarInsnNode(Opcodes.ILOAD, 4));
                 list.add(new VarInsnNode(Opcodes.ILOAD, 5));
                 list.add(new VarInsnNode(Opcodes.ILOAD, 6));
-                list.add(new MethodInsnNode(Opcodes.INVOKESTATIC, "sexy/poke/transformers/TransformUpdate", "blockUpdate", "(IIIIII)V", false));
+                list.add(
+                        new MethodInsnNode(
+                                Opcodes.INVOKESTATIC,
+                                "sexy/poke/transformers/TransformUpdate",
+                                "blockUpdate",
+                                "(IIIIII)V",
+                                false));
                 mn.instructions.insert(list);
             }
         }

@@ -5,6 +5,7 @@ import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.tree.ClassNode;
 
 public abstract class Transformer {
+
     public abstract String getTransformClass();
 
     public abstract byte[] transform(String name, String transformedName, byte[] basicClass);

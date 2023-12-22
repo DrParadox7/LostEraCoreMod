@@ -1,17 +1,17 @@
 /**
- * DeveloperCapes by Jadar
- * License: MIT License
- * (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE)
- * version 4.0.0.x
+ * DeveloperCapes by Jadar License: MIT License (https://raw.github.com/jadar/DeveloperCapes/master/LICENSE) version
+ * 4.0.0.x
  */
 package com.jadarstudios.developercapes;
+
+import net.minecraft.client.entity.AbstractClientPlayer;
+import net.minecraftforge.client.event.RenderPlayerEvent;
 
 import com.jadarstudios.developercapes.cape.ICape;
 import com.jadarstudios.developercapes.user.User;
 import com.jadarstudios.developercapes.user.UserManager;
+
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import net.minecraft.client.entity.AbstractClientPlayer;
-import net.minecraftforge.client.event.RenderPlayerEvent;
 
 /**
  * This is not the class you are looking for.
