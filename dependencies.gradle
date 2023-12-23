@@ -15,6 +15,7 @@ dependencies {
     transformedMod(deobfCurse("aroma1997core-223735:2257644"))
     transformedMod(deobfCurse("aroma1997s-dimensional-world-60092:2219018"))
     //transformedMod("curse.maven:immersive-cavegen-521557:4723376")
+    compileOnly(rfg.deobf("curse.maven:grimoire-of-gaia-228948:2260836"))
 }
 
 // Replace when RFG support deobfuscation from notch mappings

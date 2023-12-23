@@ -17,7 +17,16 @@ public enum Mixins {
                     "aroma.MixinBiomeGenMining",
                     "aroma.MixinChunkProviderMining",
                     "aroma.MixinWorldProviderMiner")
-            .setApplyIf(() -> true).addTargetedMod(TargetedMod.AROMA));
+            .setApplyIf(() -> true).addTargetedMod(TargetedMod.AROMA)),
+
+    GOG3MIXIN(new Builder("GoG3Mixin").setPhase(Phase.LATE).setSide(Side.BOTH)
+            .addMixinClasses(
+                    "GrimoireOfGaia.MixinEntityMermaid",
+                    "GrimoireOfGaia.MixinEntityNaga",
+                    "GrimoireOfGaia.MixinEntitySahuagin",
+                    "GrimoireOfGaia.MixinEntitySharko",
+                    "GrimoireOfGaia.MixinEntitySiren")
+            .setApplyIf(() -> true).addTargetedMod(TargetedMod.GRIMORIREOFGAIA3));
 
     private final List<String> mixinClasses;
     private final List<TargetedMod> targetedMods;

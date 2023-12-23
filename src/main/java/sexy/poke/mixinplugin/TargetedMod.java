@@ -14,7 +14,9 @@ public enum TargetedMod {
     // Replace with your injected mods here, but always keep VANILLA:
     VANILLA("Minecraft", null),
     AROMA("Aroma1997Core", null, "Aroma1997Core"),
-    ICG("Immersive Cavegen", null, "immersivecavegen");
+    ICG("Immersive Cavegen", null, "immersivecavegen"),
+    GRIMORIREOFGAIA3("Grimoire of Gaia 3", null, "GrimoireOfGaia");
+
 
     /** The "name" in the {@link Mod @Mod} annotation */
     public final String modName;
