@@ -15,8 +15,9 @@ public enum TargetedMod {
     VANILLA("Minecraft", null),
     AROMA("Aroma1997Core", null, "Aroma1997Core"),
     ICG("Immersive Cavegen", null, "immersivecavegen"),
-    GRIMORIREOFGAIA3("Grimoire of Gaia 3", null, "GrimoireOfGaia");
-
+    GRIMORIREOFGAIA3("Grimoire of Gaia 3", null, "GrimoireOfGaia"),
+    CropsPlusPlus("Crops++", null, "berriespp"),
+    Hodgepodge("Hodgepodge", null, "hodgepodge");
 
     /** The "name" in the {@link Mod @Mod} annotation */
     public final String modName;

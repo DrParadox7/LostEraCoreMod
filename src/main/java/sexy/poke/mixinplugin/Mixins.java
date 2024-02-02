@@ -26,7 +26,10 @@ public enum Mixins {
                     "GrimoireOfGaia.MixinEntitySahuagin",
                     "GrimoireOfGaia.MixinEntitySharko",
                     "GrimoireOfGaia.MixinEntitySiren")
-            .setApplyIf(() -> true).addTargetedMod(TargetedMod.GRIMORIREOFGAIA3));
+            .setApplyIf(() -> true).addTargetedMod(TargetedMod.GRIMORIREOFGAIA3)),
+
+    CROPSPLUSPLUSMIXIN(new Builder("CropsPlusPlusMixin").setPhase(Phase.LATE).setSide(Side.BOTH)
+            .addMixinClasses("cpp.MixinBonsais").setApplyIf(() -> true).addTargetedMod(TargetedMod.CropsPlusPlus));
 
     private final List<String> mixinClasses;
     private final List<TargetedMod> targetedMods;
