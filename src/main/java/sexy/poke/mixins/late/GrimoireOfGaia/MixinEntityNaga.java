@@ -1,4 +1,4 @@
-package sexy.poke.mixins.late.GrimoireOfGaia.entity;
+package sexy.poke.mixins.late.GrimoireOfGaia;
 
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
@@ -8,13 +8,13 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
 import gaia.entity.EntityAttributes;
-import gaia.entity.EntityMobBase;
-import gaia.entity.monster.EntityGaiaSharko;
+import gaia.entity.EntityMobDay;
+import gaia.entity.monster.EntityGaiaNaga;
 
-@Mixin(EntityGaiaSharko.class)
-public class MixinEntitySharko extends EntityMobBase {
+@Mixin(EntityGaiaNaga.class)
+public class MixinEntityNaga extends EntityMobDay {
 
-    public MixinEntitySharko(World par1World) {
+    public MixinEntityNaga(World par1World) {
         super(par1World);
     }
 
@@ -25,7 +25,7 @@ public class MixinEntitySharko extends EntityMobBase {
     @Overwrite
     public void onLivingUpdate() {
         if (this.isInWater()) {
-            this.addPotionEffect(new PotionEffect(Potion.damageBoost.id, 100, 0));
+            this.addPotionEffect(new PotionEffect(Potion.resistance.id, 100, 0));
         }
 
         if (this.getHealth() <= EntityAttributes.maxHealth2 * 0.25F) {

@@ -8,14 +8,14 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import aroma1997.world.dimension.WorldProviderMiner;
 
-@Mixin(value = WorldProviderMiner.class, remap = false)
+@Mixin(value = WorldProviderMiner.class, remap = true)
 public abstract class MixinWorldProviderMiner {
 
     /**
      * @author DrParadox
      * @reason
      */
-    @Overwrite
+    @Overwrite(remap = false)
     public double getMovementFactor() {
         return 2.0;
     }
@@ -24,7 +24,7 @@ public abstract class MixinWorldProviderMiner {
      * @author DrParadox
      * @reason Hardcode the config to max height as the ceiling is now hardcoded to Bedrock
      */
-    @Overwrite
+    @Overwrite()
     public int getAverageGroundLevel() {
         return 256;
     }

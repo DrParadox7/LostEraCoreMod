@@ -1,4 +1,4 @@
-package sexy.poke.mixins.late.GrimoireOfGaia.entity;
+package sexy.poke.mixins.late.GrimoireOfGaia;
 
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;

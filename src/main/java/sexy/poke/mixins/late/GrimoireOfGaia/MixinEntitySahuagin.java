@@ -1,4 +1,4 @@
-package sexy.poke.mixins.late.GrimoireOfGaia.entity;
+package sexy.poke.mixins.late.GrimoireOfGaia;
 
 import net.minecraft.entity.ai.EntityAIArrowAttack;
 import net.minecraft.init.Items;
