@@ -29,7 +29,10 @@ public enum Mixins {
             .setApplyIf(() -> true).addTargetedMod(TargetedMod.GRIMORIREOFGAIA3)),
 
     CROPSPLUSPLUSMIXIN(new Builder("CropsPlusPlusMixin").setPhase(Phase.LATE).setSide(Side.BOTH)
-            .addMixinClasses("cpp.MixinBonsais").setApplyIf(() -> true).addTargetedMod(TargetedMod.CropsPlusPlus));
+            .addMixinClasses("cpp.MixinBonsais").setApplyIf(() -> true).addTargetedMod(TargetedMod.CropsPlusPlus)),
+    THERMALEXPANSIONMIXIN(new Builder("ThermalExpansionMixin").setPhase(Phase.LATE).setSide(Side.BOTH)
+            .addMixinClasses("ThermalExpansion.MixinBlockMachine").setApplyIf(() -> true)
+            .addTargetedMod(TargetedMod.ThermalExpansion));
 
     private final List<String> mixinClasses;
     private final List<TargetedMod> targetedMods;

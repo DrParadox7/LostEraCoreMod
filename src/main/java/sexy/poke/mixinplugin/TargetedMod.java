@@ -17,7 +17,8 @@ public enum TargetedMod {
     ICG("Immersive Cavegen", null, "immersivecavegen"),
     GRIMORIREOFGAIA3("Grimoire of Gaia 3", null, "GrimoireOfGaia"),
     CropsPlusPlus("Crops++", null, "berriespp"),
-    Hodgepodge("Hodgepodge", null, "hodgepodge");
+    Hodgepodge("Hodgepodge", null, "hodgepodge"),
+    ThermalExpansion("Thermal Expansion", null, "ThermalExpansion");
 
     /** The "name" in the {@link Mod @Mod} annotation */
     public final String modName;
