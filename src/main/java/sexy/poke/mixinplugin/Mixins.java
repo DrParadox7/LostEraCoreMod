@@ -17,7 +17,7 @@ public enum Mixins {
                     "aroma.MixinBiomeGenMining",
                     "aroma.MixinChunkProviderMining",
                     "aroma.MixinWorldProviderMiner")
-            .setApplyIf(() -> true).addTargetedMod(TargetedMod.AROMA)),
+            .setApplyIf(() -> false).addTargetedMod(TargetedMod.AROMA)),
 
     GOG3MIXIN(new Builder("GoG3Mixin").setPhase(Phase.LATE).setSide(Side.BOTH)
             .addMixinClasses(
