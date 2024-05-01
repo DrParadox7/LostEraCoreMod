@@ -11,7 +11,7 @@ import com.mitchej123.hodgepodge.XSTR;
 
 import ic2.api.crops.ICropTile;
 
-@Mixin(targets = { "com.github.bartimaeusnek.cropspp.crops.cpp.Bonsais.InternalVanillaBonsais" }, remap = false)
+@Mixin(targets = { "com.github.bartimaeusnek.cropspp.crops.cpp.Bonsais$InternalVanillaBonsais" }, remap = false)
 public class MixinBonsais {
 
     @Final
