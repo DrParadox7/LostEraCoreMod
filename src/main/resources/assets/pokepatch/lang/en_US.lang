@@ -2178,11 +2178,11 @@ lostera.quest532.desc=The Sprinkler is used to keep its surrounding area hydrate
 
 # Quest.533 - Lunch Bag
 lostera.quest533.name=Lunch Bag
-lostera.quest533.desc=The lunch bag has 3 slots that are only able to hold food.%n%nIf you right click them on an inventory while open, it will automatically fill them with a variety of foods from that inventory (chosen based on how filling they are).%n%nWhen eating from an open lunch bag, it will intelligently choose the most filling food to eat from it.
+lostera.quest533.desc=The lunch bag has 3 slots that are only able to hold food.%n%nIf you right click it on an inventory while open, it will automatically refill it with a variety of foods (chosen based on how filling they are).%n%nWhen eating from an open lunch bag, it will intelligently choose the most filling food to eat from it.
 
 # Quest.534 - Lunch Box
 lostera.quest534.name=Lunch Box
-lostera.quest534.desc=The lunch box has 6 slots that are only able to hold food.%n%nIf you right click them on an inventory while open, it will automatically fill them with a variety of foods from that inventory (chosen based on how filling they are).%n%nWhen eating from an open lunch box, it will intelligently choose the most filling food to eat from it.
+lostera.quest534.desc=The lunch box has 6 slots that are only able to hold food.%n%nIf you right click it on an inventory while open, it will automatically refill it with a variety of foods (chosen based on how filling they are).%n%nWhen eating from an open lunch box, it will intelligently choose the most filling food to eat from it.
 
 # Quest.535 - Culinary Generator
 lostera.quest535.name=Culinary Generator
@@ -3249,7 +3249,7 @@ lostera.quest800.desc=The Daffomill is a functional flower that uses mana to pus
 
 # Quest.801 - Vinculotus
 lostera.quest801.name=Vinculotus
-lostera.quest801.desc=The Tigerseye is a functional flower that uses mana to prevent nearby Enderman from teleportation.%n%nInstead of it, they will teleports to position of flower.%n%n%n§8Consult the Lexica Botania for additional information.§r
+lostera.quest801.desc=The Vinculotus is a functional flower that uses mana to prevent nearby Enderman from teleportation.%n%nInstead of it, they will teleports to position of flower.%n%n%n§8Consult the Lexica Botania for additional information.§r
 
 # Quest.802 - Pollidisiac
 lostera.quest802.name=Pollidisiac
@@ -4297,7 +4297,7 @@ lostera.quest1062.desc=A lot of machines in this chapter have color-code based G
 
 # Quest.1063 - Augment: Integrated Hopper Apparatus
 lostera.quest1063.name=Augment: Integrated Hopper Apparatus
-lostera.quest1063.desc=An Augment is used to add functionality to machines. %n%nThis Augment gives machines the ability to automatically transfer input items into themselves, pulling from adjacent inventories. An evenly divided amount of items is pulled from all available inventories.%n%nIt is integrated in all machines, but removable, without it machines must have their output emptied by hand or extracted by a Servo or Wooden Transport Pipe.%n%nItems are transferred in every 1.6 seconds (32 ticks).%n%nThe amount of items transferred at once is limited by Machine Frame tier: %n%n§nBasic Machines§r can transfer 8 items at a time%n§e§nHardened Machines§r 16 items%n§c§nReinforced Machines§r 32 items %n§3§nResonant Machines§r 64 items.%n§8%n%n§oIt does not work with fluids.
+lostera.quest1063.desc=An Augment is used to add functionality to machines. %n%nThis Augment gives machines the ability to automatically extract input items from adjacent inventories. An evenly divided amount of items is pulled from all available inventories.%n%nItems are transferred in every 1.6 seconds (32 ticks).%n%nThe amount of items transferred at once is limited by Machine Frame tier: %n%n§nBasic Machines§r can transfer 8 items at a time%n§e§nHardened Machines§r 16 items%n§c§nReinforced Machines§r 32 items %n§3§nResonant Machines§r 64 items.%n§8%n%n§oIt does not work with fluids.
 
 # Quest.1064 - Augment: Transmission Coil Ducting
 lostera.quest1064.name=Augment: Transmission Coil Ducting
@@ -10614,7 +10614,7 @@ lostera.quest2642.desc=You are getting the knack of micromanaging golems and you
 
 # Quest.2643 - Red Alloy
 lostera.quest2643.name=Red Alloy
-lostera.quest2643.desc=Relying on mere dust for sturdy logic is far too unreliable.%n%nRedstone ought to be more mechanical, more metallic!%n%nBy combining a redstone and iron in a smeltery a new material is born.%n%nI hence forth present you the Redstone Ingot!%n%n%n§lThis quest unlocks "Mechanical Redstone".
+lostera.quest2643.desc=Relying on mere dust for sturdy logic is far too unreliable.%n%nRedstone ought to be more mechanical, more metallic!%n%nBy combining a redstone and copper in a smeltery a new material is born.%n%nI hence forth present you the Redstone Ingot!%n%n%n§lThis quest unlocks "Mechanical Redstone".
 
 # Quest.2644 - Thaumium Fortress
 lostera.quest2644.name=Thaumium Fortress
@@ -10990,7 +10990,7 @@ lostera.quest2736.desc=The Liquid fuelled Firebox will allow a boiler to be run 
 
 # Quest.2737 - High Pressure Boiler Tank
 lostera.quest2737.name=High Pressure Boiler Tank
-lostera.quest2737.desc=The High Pressure Boiler Tank will produce as much steam as possible, consuming a high amount of resources.%n%nThese can be recommended for 24/7 steam boilers, as they take a long time to warm up, but produce twice as much steam as the alternative Tank. %n%nEach cubic meter of High Pressure Boiler Tanks will produce 20 Steam/tick when completely warmed up.%n%n§7§oBoiler Tanks automatically output steam to any liquid pipes in contact to it due to steam pressure.
+lostera.quest2737.desc=The High Pressure Boiler Tank will produce as much steam as possible, consuming a high amount of resources.%n%nThese can be recommended for 24/7 steam boilers, as they take a long time to warm up, but produce twice as much steam as the alternative Tank. %n%nEach cubic meter of High Pressure Boiler Tanks will produce 40 Steam/tick when completely warmed up.%n%n§7§oBoiler Tanks automatically output steam to any liquid pipes in contact to it due to steam pressure.
 
 # Quest.2738 - Water Tank
 lostera.quest2738.name=Water Tank
@@ -11170,7 +11170,7 @@ lostera.quest2781.desc=The Anchor Cart acts as a chunk loader, functionally the 
 
 # Quest.2782 - Chest Cart
 lostera.quest2782.name=Chest Cart
-lostera.quest2782.desc=A minecart on a chest to carry all your items on rails. %nFunctions just like a chest, but mobile!
+lostera.quest2782.desc=A minecart on a chest to carry all your items on rails. %nFunctions just like a chest, but mobile!%n%n%n§lThis quest unlocks "Modular Carts".
 
 # Quest.2783 - Common Issues
 lostera.quest2783.name=Common Issues
@@ -11222,7 +11222,7 @@ lostera.quest2794.desc=Like the look of Gravel under your rail, but can't be bot
 
 # Quest.2795 - Tunnel Bore
 lostera.quest2795.name=Tunnel Bore
-lostera.quest2795.desc=Tired of digging miles of tunnels by hand? You've come to the right place. The Tunnel Bore can do it for you!%n%nThe Tunnel Bore is an automatic miner capable of digging a 3×3 tunnel in whichever direction it travels.%n%nIt will automatically place tracks and gravel if there is not a spot to place the tracks.%n%nThe Tunnel Bore requires fuel and a Bore Head to operate.%n%n§4§nBore can stop for several reasons;§r %n-The Bore Head has broken%n- It has run out of fuel, tracks, or gravel%n-There is a hole greater than 10 blocks deep%n-Water is encountered, lava is suspected, or an unbreakable block is in its path.%n%n§7Mined items will be placed in linked Chestcarts.%nFuel and Gravel will be retrieved from linked Chestcarts when the Bore runs low.§r%n%n%n§lThis quest unlocks "Modular Carts".
+lostera.quest2795.desc=Tired of digging miles of tunnels by hand? You've come to the right place. The Tunnel Bore can do it for you!%n%nThe Tunnel Bore is an automatic miner capable of digging a 3×3 tunnel in whichever direction it travels.%n%nIt will automatically place tracks and gravel if there is not a spot to place the tracks.%n%nThe Tunnel Bore requires fuel and a Bore Head to operate.%n%n§4§nBore can stop for several reasons;§r %n-The Bore Head has broken%n- It has run out of fuel, tracks, or gravel%n-There is a hole greater than 10 blocks deep%n-Water is encountered, lava is suspected, or an unbreakable block is in its path.%n%n§7Mined items will be placed in linked Chestcarts.%nFuel and Gravel will be retrieved from linked Chestcarts when the Bore runs low.
 
 # Quest.2796 - Steam Locomotive
 lostera.quest2796.name=Steam Locomotive
@@ -13236,8 +13236,8 @@ lostera.quest3297.desc=The Spellbinding Cloth is a fabric capable of dissolving 
 lostera.quest3298.name=Cloak of Sin
 lostera.quest3298.desc=The Cloak of Sin grants the wearer the ability to share pain to all nearby enemies when damaged.%n%nThis has a 10 second cooldown but otherwise has no other cost.%n%n%n§8Consult the Lexica Botania for additional information.§r
 
-# Quest.3299 - Cloak of Sin
-lostera.quest3299.name=Cloak of Sin
+# Quest.3299 - Cloak of Virtue
+lostera.quest3299.name=Cloak of Virtue
 lostera.quest3299.desc=The Cloak of Virtue has the ability to completely nullify damage to its wearer every 10 seconds.%n%n%n§8Consult the Lexica Botania for additional information.§r
 
 # Quest.3300 - Life Aggregator
@@ -13516,8 +13516,8 @@ lostera.quest3367.desc=§lActivation Cost:§r     15,000 LP%n§lCost:§r     10 
 lostera.quest3368.name=Orchestra of the Phantom Hands
 lostera.quest3368.desc=§lActivation Cost:§r     10,000 LP%n§lCost:§r     10 LP per operation%n%n%n"Transfers items between inventories based on the configuration from §3Routing Foci§r within its 8 chests."%n%n"These chests are only used for giving instructions to the ritual. Chests placed adjacent to the §dMaster Ritual Stone§r are for §bInput Instuctions§r while chests place on the outer 4 corners are for§c Output Instructions§r."%n%n §c▉§8▉  ▉§c▉%n §8▉▉§b▉§8▉▉%n   §b▉§r§d▉§b▉§8%n ▉▉§b▉§8▉▉%n §c▉§8▉  ▉§c▉§r%n%n%n"§aRouting Foci§r, when placed in the above chests, specify the inventories affected by the ritual while §eitems§r placed right afterwards will indicate which items the ritual should interact with:"%n%n§a▉§eXXX§r%n%n"You can also place multiple foci next to one another, in which case §2all adjacent foci§r will copy the setting of the §afurthest foci§r:""%n%n§2▉▉▉§a▉§eXXX§r%n%n"Configurations are separated by new foci after the item list:"%n%n§a▉§eXXX§r§a▉§eXXX§r%n\ 1 /\ 2 /%n%n§lMore information is found in the "Routing Focus" quest in the "Transference Agent" chapter
 
-# Quest.3369 - Ritual of the Crusher
-lostera.quest3369.name=Ritual of the Crusher
+# Quest.3369 - Ritual of Speed
+lostera.quest3369.name=Ritual of Speed
 lostera.quest3369.desc=§lActivation Cost:§r     1,000 LP%n§lCost:§r    5 LP per use%n%n%n"Imbues momentum into creatures moving over it towards the direction indicated by the §8§lDusk Rune§r, launching them at great distance"%n%n%n§lReagents:§r%n%n§nAether:§r Increases acceleration.%n§2§nTerrae:§r Decreases height of throw.%n§7§nReductus:§r Prevent fall damage.%n§8§nTennebrae:§r Affect only adult animals.%n§6§nSanctus:§r Affect only baby animals.
 
 # Quest.3370 - Ritual of the Shepherd
@@ -13644,13 +13644,13 @@ lostera.quest3399.desc=The Questbook is a trusty guide to everything this world 
 lostera.quest3400.name=Air Quality
 lostera.quest3400.desc=Air Quality is an environmental attribute that measures the crop's ability to access and benefit from the quality of the surrounding air. %n%nThis attribute is influenced by 3 factors:%n%n§bSky View:§r%nAn unobstructed view of the sky increases air quality by §a+2 points§r.%n%n§9Altitude:§r%nThe altitude at which a crop is planted relative to sea level (Y-64) will also increase air quality.%n%nFor every 15 blocks above this point, the crop's air quality improves by §a+1 point§r (up to a maximum of +4 points at 124 and above). %n%n§dPersonal Space:§r%nObstructions surrounding the crop§r will affect the crop's access to fresh air quality.%n%nFor every §eunobstructed space§r or empty spot around the crop§r, its air quality improves by §a+1/2 point§r (up to 4 points).%n%n§e▉▉▉%n▉§8▉§e▉%n▉▉▉%n
 
-# Quest.3401 - Inscriber Logical Press
-lostera.quest3401.name=Inscriber Logical Press
-lostera.quest3402.desc=The Inscriber Logical Press is responsible for the production of the §6Logical Processor§r.%n%nThis is the processor responsible for the processing of logical calculations, which are used to determine when certain conditions are true and base actions from it according to its program.
+# Quest.3401 - Inscriber Calculation Press
+lostera.quest3401.name=Inscriber Calculation Press
+lostera.quest3401.desc=The Inscriber Calculation Press is responsible for the production of the §9Calculation Processor§r.%n%n%nThis is the processor responsible for the processing of mathematical calculations, which are used to measure, compare and estimate numbers, formulas and algorithms.
 
-# Quest.3402 - Inscriber Calculation Press
-lostera.quest3402.name=Inscriber Calculation Press
-lostera.quest3402.desc=The Inscriber Calculation Press is responsible for the production of the §9Calculation Processor§r.%n%n%nThis is the processor responsible for the processing of mathematical calculations, which are used to measure, compare and estimate numbers, formulas and algorithms.
+# Quest.3402 - Inscriber Logical Press
+lostera.quest3402.name=Inscriber Logical Press
+lostera.quest3402.desc=The Inscriber Logical Press is responsible for the production of the §6Logical Processor§r.%n%nThis is the processor responsible for the processing of logical calculations, which are used to determine when certain conditions are true and base actions from it according to its program.
 
 # Quest.3403 - Inscriber Silicon Press
 lostera.quest3403.name=Inscriber Silicon Press
