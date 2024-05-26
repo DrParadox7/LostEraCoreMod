@@ -17,6 +17,7 @@ dependencies {
     compileOnly(rfg.deobf("curse.maven:grimoire-of-gaia-228948:2260836"))
     compileOnly(rfg.deobf("curse.maven:thermal-expansion-69163:2388758"))
     transformedMod(deobfCurse("cofh-core-69162:2388750"))
+    transformedMod(deobfCurse('dynamic-lights-227874:2337326'))
     transformedMod("com.github.GTNewHorizons:Crops-plus-plus:1.6.3:dev")
     transformedMod("com.github.GTNewHorizons:Hodgepodge:2.4.21-pre:dev")
 }

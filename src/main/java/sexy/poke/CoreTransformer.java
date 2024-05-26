@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import net.minecraft.launchwrapper.IClassTransformer;
 
 import sexy.poke.transformers.CrashReportTransformer;
+import sexy.poke.transformers.DynamicLightTransformer;
 import sexy.poke.transformers.HardcoreEnderFix;
 import sexy.poke.transformers.Ic2LuminatorTransformer;
 import sexy.poke.transformers.PatchOptifineGuiButtons;
@@ -13,7 +14,7 @@ import sexy.poke.transformers.Transformer;
 
 public class CoreTransformer implements IClassTransformer {
 
-    private ArrayList<Transformer> transformers = new ArrayList<>();
+    private final ArrayList<Transformer> transformers = new ArrayList<>();
 
     public CoreTransformer() {
         System.out.println("Loading Patches");
@@ -22,7 +23,7 @@ public class CoreTransformer implements IClassTransformer {
         transformers.add(new CrashReportTransformer());
         transformers.add(new PatchOptifineGuiButtons());
         transformers.add(new PatchOptifineGuiSlider());
-        // transformers.add(new DynamicLightTransformer());
+        transformers.add(new DynamicLightTransformer());
 
         /*
          * transformers.add(new TransformUpdate()); transformers.add(new TransformRender()); transformers.add(new
