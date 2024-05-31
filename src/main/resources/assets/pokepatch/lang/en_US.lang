@@ -146,7 +146,7 @@ lostera.quest24.desc=Storage is pretty important when you are getting further in
 
 # Quest.25 - The Grindstone
 lostera.quest25.name=The Grindstone
-lostera.quest25.desc=This device allows you to double the yield of your ores! %n%n%nAfter carefully placing it, insert the crank at the top and put some ores inside of the grindstone. %n%nHold rightclick on the crank and watch your ores turn into dust through your shear strenght.%n%nYou can now smelt the dust into ingots.
+lostera.quest25.desc=This device allows you to double the yield of your ores! %n%n%nAfter carefully placing it, insert the crank at the top and put some ores inside of the grindstone. %n%nHold rightclick on the crank and watch your ores turn into dust through your shear strength.%n%nYou can now smelt the dust into ingots.
 
 # Quest.26 - Enchantment Table
 lostera.quest26.name=Enchantment Table
@@ -158,7 +158,7 @@ lostera.quest27.desc=Inside the Thaumonomicon is everything you need to know abo
 
 # Quest.28 - §2¬§r Mystical Botany
 lostera.quest28.name=§2¬§r Mystical Botany
-lostera.quest28.desc=Not much advancements were made in studying Mystical Flora.%n%nNot matter how long one waited they just would grow. . .%n%nThat is until they were coaxed to grow from a §dMystical Petal§r using §eBonemeal§r!%n%n%nNow learning the ways of magic from mystical flora you are given the §aLexica Botania§r.%n%nThis book translates whispers of knowledge from Mystical Flowers and records it for later reads.%n%n§8As you increase your mastery, the book will grow with you, unlock more secrets. %n%n%n§r§lThis quest unlocks "Force of Nature". 
+lostera.quest28.desc=Not much advancements were made in studying Mystical Flora.%n%nNot matter how long one waited they just wouldn't grow. . .%n%nThat is until they were coaxed to grow from a §dMystical Petal§r using §eBonemeal§r!%n%n%nNow learning the ways of magic from mystical flora you are given the §aLexica Botania§r.%n%nThis book translates whispers of knowledge from Mystical Flowers and records it for later reads.%n%n§8As you increase your mastery, the book will grow with you, unlock more secrets. %n%n%n§r§lThis quest unlocks "Force of Nature". 
 
 # Quest.29 - Minecraftian Literature
 lostera.quest29.name=Minecraftian Literature
@@ -2509,7 +2509,7 @@ lostera.quest615.desc=Taglock Kits are used to collect taglocks from other playe
 
 # Quest.616 - Familiars
 lostera.quest616.name=Familiars
-lostera.quest616.desc=Familiars are supernatural beings that assist witches and cunning folk in their practice of magic. %n%nThese are animals inhabited by a minor demon or spirit using the §d§lRite of Binding§r.%n%nFamiliars and their owners share a sympathetic link, sharing a portion of all damage received by either of them and if one dies so does the other.%n§8The closer these two are the stronger the link.§r%n%nA familiar is dismissed by sneak+right click while it is sitting or on death. %nA dismissed familiar can be summoned using a §5§lRite of Summoning§r.%n%nAll familiars are extremely resilient, possess supernatural abilities and even enhance the powers of their owners:%n§8When a familiar is dismissed, the witch will not benefit from any of its effects.%n%n§9§lCat Familiar§r%nEnhances the mastery of curses.%n%n-Curses you cast are stronger and harder to remove.%n-Curses you receive are easier to remove.%n%n-Enables you to cast the §4Curse of Corrupt Poppet§r.%n-Enables you to brew the §3Brew of Cursed Leaping§r.%n%n§e§lOwl Familiar§r%nEnhances the mastery of flight.%n%n-Faster flying Enchanted Brooms.§r%n-Enhanced manoeuvrability with Enchanted Brooms.%n%n-Enables you to brew the §3Brew of Bodega§r.%n%n§a§lToad Familiar%n§rEnhances the mastery of brews.%n%n-Increases the chance of bottling additional brews.%n-Increases strenght and range of several brews.%n%n-Enables you to brew the §3Brew of Frog Tongues§r.
+lostera.quest616.desc=Familiars are supernatural beings that assist witches and cunning folk in their practice of magic. %n%nThese are animals inhabited by a minor demon or spirit using the §d§lRite of Binding§r.%n%nFamiliars and their owners share a sympathetic link, sharing a portion of all damage received by either of them and if one dies so does the other.%n§8The closer these two are the stronger the link.§r%n%nA familiar is dismissed by sneak+right click while it is sitting or on death. %nA dismissed familiar can be summoned using a §5§lRite of Summoning§r.%n%nAll familiars are extremely resilient, possess supernatural abilities and even enhance the powers of their owners:%n§8When a familiar is dismissed, the witch will not benefit from any of its effects.%n%n§9§lCat Familiar§r%nEnhances the mastery of curses.%n%n-Curses you cast are stronger and harder to remove.%n-Curses you receive are easier to remove.%n%n-Enables you to cast the §4Curse of Corrupt Poppet§r.%n-Enables you to brew the §3Brew of Cursed Leaping§r.%n%n§e§lOwl Familiar§r%nEnhances the mastery of flight.%n%n-Faster flying Enchanted Brooms.§r%n-Enhanced manoeuvrability with Enchanted Brooms.%n%n-Enables you to brew the §3Brew of Bodega§r.%n%n§a§lToad Familiar%n§rEnhances the mastery of brews.%n%n-Increases the chance of bottling additional brews.%n-Increases strength and range of several brews.%n%n-Enables you to brew the §3Brew of Frog Tongues§r.
 
 # Quest.617 - Polynesia Charm
 lostera.quest617.name=Polynesia Charm
@@ -2773,7 +2773,7 @@ lostera.quest681.desc=A Cane Sword is essentially cane with a sword hidden insid
 
 # Quest.682 - Coffin
 lostera.quest682.name=Coffin
-lostera.quest682.desc=A coffin can be used by vampires to sleep in. %nThey differ from normal beds, for they allow the vampire player to sleep thought the day. %n§8%nIn order to sleep in a coffin, the vampire must first open it and then right clicking on it as normal. 
+lostera.quest682.desc=A coffin can be used by vampires to sleep in. %nThey differ from normal beds, for they allow the vampire player to sleep through the day. %n§8%nIn order to sleep in a coffin, the vampire must first open it and then right clicking on it as normal. 
 
 # Quest.683 - Torment
 lostera.quest683.name=Torment
@@ -2797,7 +2797,7 @@ lostera.quest687.desc=Necromancers Robes have the same durability and protection
 
 # Quest.688 - Boline
 lostera.quest688.name=Boline
-lostera.quest688.desc=A Boline is a tool with two purposes, the first is to aid in collecting ingredients. To this end is functions as shears with the additional benefit that it will harvest cobweb without turning it to string. %n%nIt can also be used to harvest Blood Roses and Trapped Plants without breaking them.%n%n%nIt is frequently used Circle Magic rites dealing in Necromancy.
+lostera.quest688.desc=A Boline is a tool with two purposes, the first is to aid in collecting ingredients. To this end it functions as shears with the additional benefit that it will harvest cobweb without turning it to string. %n%nIt can also be used to harvest Blood Roses and Trapped Plants without breaking them.%n%n%nIt is frequently used Circle Magic rites dealing in Necromancy.
 
 # Quest.689 - Wormwood
 lostera.quest689.name=Wormwood
@@ -4457,7 +4457,7 @@ lostera.quest1102.desc=The Kinetic Generator transforms §cKinetic Units (kU)§r
 
 # Quest.1103 - Wind Mill
 lostera.quest1103.name=Wind Mill
-lostera.quest1103.desc=Wind Mills are Generators that utilize the energy of the wind to produce EU.%n%n§rIts production varies depending on the on placement and weather conditions.%n%n§6§oWind Strenght * (Height - 64 - obstructions) / 750%n%n§rA Wind Mill's efficiency can be hindered by any kind of block obstructing in a 9x9x7 area around it:%n%n-For each obstructing block, a Wind Mill's effective height lowers by 1%n%n-It produce 50%% extra EU/t in a thunderstorm, and 20%% when it's raining but not in a thunderstorm.%n§r%n§4-§o§lIf a wind mill produces more than 5 EU/t, it has a chance of breaking.§r%n%n%n§lEU Output: §r§bLow Voltage
+lostera.quest1103.desc=Wind Mills are Generators that utilize the energy of the wind to produce EU.%n%n§rIts production varies depending on the on placement and weather conditions.%n%n§6§oWind Strength * (Height - 64 - obstructions) / 750%n%n§rA Wind Mill's efficiency can be hindered by any kind of block obstructing in a 9x9x7 area around it:%n%n-For each obstructing block, a Wind Mill's effective height lowers by 1%n%n-It produce 50%% extra EU/t in a thunderstorm, and 20%% when it's raining but not in a thunderstorm.%n§r%n§4-§o§lIf a wind mill produces more than 5 EU/t, it has a chance of breaking.§r%n%n%n§lEU Output: §r§bLow Voltage
 
 # Quest.1104 - Kinetic Steam Generator
 lostera.quest1104.name=Kinetic Steam Generator
@@ -5344,7 +5344,7 @@ lostera.quest1324.desc=The Laser Focus, when placed in a Laser Drill, increases 
 
 # Quest.1325 - RedNet Meter
 lostera.quest1325.name=RedNet Meter
-lostera.quest1325.desc=The RedNet Meter, when right clicked on a RedNet Cable, will list the active channels currently being used by that cable and its signal strenght.
+lostera.quest1325.desc=The RedNet Meter, when right clicked on a RedNet Cable, will list the active channels currently being used by that cable and its signal strength.
 
 # Quest.1326 - Potato Cannon
 lostera.quest1326.name=Potato Cannon
@@ -5979,7 +5979,7 @@ lostera.quest1483.desc=The High Pressure Steam Furnace is an upgrade to the stan
 
 # Quest.1484 - Steel
 lostera.quest1484.name=Steel
-lostera.quest1484.desc=The Bronze Blast Furnace is extremely hot when active but the end result is your first Steel Ingot!%n%nSteel is simply iron infused with carbon to greatly increase its durability and its tensile strenght §8(resistance under continuous stress)§r.%n%n%n§9This material's properties make it essential for the creation of electric machines and a necessary step for progress.%n%n§r%nYou will need a lot of steel, and with that, a LOT of time to smelt the steel needed.%n%n%n§lThis quest unlocks "Electrical Age".
+lostera.quest1484.desc=The Bronze Blast Furnace is extremely hot when active but the end result is your first Steel Ingot!%n%nSteel is simply iron infused with carbon to greatly increase its durability and its tensile strength §8(resistance under continuous stress)§r.%n%n%n§9This material's properties make it essential for the creation of electric machines and a necessary step for progress.%n%n§r%nYou will need a lot of steel, and with that, a LOT of time to smelt the steel needed.%n%n%n§lThis quest unlocks "Electrical Age".
 
 # Quest.1485 - Disk Drive
 lostera.quest1485.name=Disk Drive
@@ -6787,11 +6787,11 @@ lostera.quest1685.desc=Redstone Energy Meter, when installed to side of most mac
 
 # Quest.1686 - Redstone Item Detector
 lostera.quest1686.name=Redstone Item Detector
-lostera.quest1686.desc=The Redstone Item Detector, when installed on a machine's face, will outputs redstone signal strenght depending on the number of items stored
+lostera.quest1686.desc=The Redstone Item Detector, when installed on a machine's face, will outputs redstone signal strength depending on the number of items stored
 
 # Quest.1687 - Redstone Liquid Detector
 lostera.quest1687.name=Redstone Liquid Detector
-lostera.quest1687.desc=The Redstone Liquid Detector, when installed on a machine's face, will outputs redstone signal strenght depending on the quantity of liquid stored.
+lostera.quest1687.desc=The Redstone Liquid Detector, when installed on a machine's face, will outputs redstone signal strength depending on the quantity of liquid stored.
 
 # Quest.1688 - Redstone Signalizer
 lostera.quest1688.name=Redstone Signalizer
@@ -6999,7 +6999,7 @@ lostera.quest1738.desc=§4Signal Buses§r are wires that essentially act as a mi
 
 # Quest.1739 - Red Alloy Wire
 lostera.quest1739.name=Red Alloy Wire
-lostera.quest1739.desc=The Red Alloy Wire acts essentially like redstone dust but without all of its limitations.%n%nThe Red Alloy Wire can carry a max strenght redstone signal for up to 255 blocks away before needing a boost from a Redstone Repeater §8(if it will ever need one)§r.%n%nIt be placed on ALL sides of a block, allowing wires to be run up walls and ceilings.%n%n%n§lThis quest unlocks "Logic Circuitry".
+lostera.quest1739.desc=The Red Alloy Wire acts essentially like redstone dust but without all of its limitations.%n%nThe Red Alloy Wire can carry a max strength redstone signal for up to 255 blocks away before needing a boost from a Redstone Repeater §8(if it will ever need one)§r.%n%nIt be placed on ALL sides of a block, allowing wires to be run up walls and ceilings.%n%n%n§lThis quest unlocks "Logic Circuitry".
 
 # Quest.1740 - Bundled Cable
 lostera.quest1740.name=Bundled Cable
@@ -7219,7 +7219,7 @@ lostera.quest1793.desc=Landmines are defense traps that can make use of either p
 
 # Quest.1794 - Logic Gates
 lostera.quest1794.name=Logic Gates
-lostera.quest1794.desc=A Logic Gate's purpose is to manipulate redstone signals in a very compact manner and can be placed in any face of a block.%n%nMost of them can be configured by shift-right-clicking with the screwdriver.%n%n%n§6§lInputs/Output:§r%nEach gate can have up to 4 inputs and 4 outputs. The connections can be one of several types:%n%n%n§cAnalog IOs§r - A standard redstone port capable of sensing and emitting a signal of analog strength (0 - 15).%n%n§4Digital IOs§r - A redstone port specifically designed for Redstone Alloy, capable of sensing and emitting signal of digital strenght (0-255).%n%n§9Bundled IOs§r - will only connect to a bundled cable or devices capable of accepting bundled signal. 
+lostera.quest1794.desc=A Logic Gate's purpose is to manipulate redstone signals in a very compact manner and can be placed in any face of a block.%n%nMost of them can be configured by shift-right-clicking with the screwdriver.%n%n%n§6§lInputs/Output:§r%nEach gate can have up to 4 inputs and 4 outputs. The connections can be one of several types:%n%n%n§cAnalog IOs§r - A standard redstone port capable of sensing and emitting a signal of analog strength (0 - 15).%n%n§4Digital IOs§r - A redstone port specifically designed for Redstone Alloy, capable of sensing and emitting signal of digital strength (0-255).%n%n§9Bundled IOs§r - will only connect to a bundled cable or devices capable of accepting bundled signal. 
 
 # Quest.1795 - Combinatorial
 lostera.quest1795.name=Combinatorial
@@ -7551,7 +7551,7 @@ lostera.quest1876.desc=The Transporter Core is a device that allows teleportatio
 
 # Quest.1877 - Transporter Scanner
 lostera.quest1877.name=Transporter Scanner
-lostera.quest1877.desc=While it is easier to teleport subjects, it is really hard to teleport them whole between 2 point.%n%nThis is where Transporter Scanner plays an important part, greatly facilitating the scanning of entities directly above.%n§8It is build with 1 Teleporter Scanner in the center while Teleporter Containers are placed around it.§r%n%nA Transporter Scanner must be placed up to 8 blocks away from its Transporter Core.%n%nTeleportation subjects must be locked into place and build up§9 Lock Strenght§r at a sufficient level to ensure safety before teleportation.%n§9Lock strength is measured in percent, 100%% is your target. §r§8%n%nExceeding it gives you some safety but it can quickly become a massive loss of energy. %n%nInsufficient lock strength may work, but when it doesn't the beam may collapse with catastrophic effects on transported entities (read: lucky ones will die quickly to it).§r%n%n§lLock Strenght Values:%n%n§9Transporter Scanner: §r100%%%n§dBeacon:§r 50%%%n§aRemote Location:§r 25%%%n§8%n§nBase Lock Strenght§r §8= (%%Start + %%Destination) : 2§r%n%n%nThe Lock Strenght can be further boosted using more power.%n%n§5Max Lock Strenght§r = Base + (%%Power Factor -100) * 0.5%n%n§rLastly you will notice on the computer GUI 2 Energy requirements:%nEnergy Requirement = §9#EU/t§r then §6#EU/t§r.%n%nThe first is the §9cost per tick for locking a target§r while the second is the consumption of teleporting an entity during the teleportation process §8(it lasts 100 ticks)§r.%n%n§81EU = 4RF 
+lostera.quest1877.desc=While it is easier to teleport subjects, it is really hard to teleport them whole between 2 point.%n%nThis is where Transporter Scanner plays an important part, greatly facilitating the scanning of entities directly above.%n§8It is build with 1 Teleporter Scanner in the center while Teleporter Containers are placed around it.§r%n%nA Transporter Scanner must be placed up to 8 blocks away from its Transporter Core.%n%nTeleportation subjects must be locked into place and build up§9 Lock Strength§r at a sufficient level to ensure safety before teleportation.%n§9Lock strength is measured in percent, 100%% is your target. §r§8%n%nExceeding it gives you some safety but it can quickly become a massive loss of energy. %n%nInsufficient lock strength may work, but when it doesn't the beam may collapse with catastrophic effects on transported entities (read: lucky ones will die quickly to it).§r%n%n§lLock Strength Values:%n%n§9Transporter Scanner: §r100%%%n§dBeacon:§r 50%%%n§aRemote Location:§r 25%%%n§8%n§nBase Lock Strength§r §8= (%%Start + %%Destination) : 2§r%n%n%nThe Lock Strength can be further boosted using more power.%n%n§5Max Lock Strength§r = Base + (%%Power Factor -100) * 0.5%n%n§rLastly you will notice on the computer GUI 2 Energy requirements:%nEnergy Requirement = §9#EU/t§r then §6#EU/t§r.%n%nThe first is the §9cost per tick for locking a target§r while the second is the consumption of teleporting an entity during the teleportation process §8(it lasts 100 ticks)§r.%n%n§81EU = 4RF 
 
 # Quest.1878 - Transporter Beacon
 lostera.quest1878.name=Transporter Beacon
@@ -7603,7 +7603,7 @@ lostera.quest1889.desc=The Minedrake is the insane result of crossing a mandrake
 
 # Quest.1890 - Blood Crucible
 lostera.quest1890.name=Blood Crucible
-lostera.quest1890.desc=A Blood Crucible is used by vampire covens to collect their victims blood for the exclusive use of the master of the coven.%n%nIt can only be used by a §4Master Vampire §8(lvl 10)§r with their own vampire coven.%n%nA Blood Crucible must be placed one near where they have created their vampire children.%nWhen these return from their nightly hunt, they will partially fill the crucible.%n%nWhen the crucible is full, the Master Vampire may use one of the following fovus on it, to receive up to 5 charges of powerful ritual spells: %n%n§b§lCall storm§r %n§7§lFocus: Water Artichoke%n%n§rWhen activated will start a thunder storm, which allows a vampire to go outside at daytime.%n%n§5§lTeleport §r%n§7§lFocus: Bone%n%n§rWhen activated away from their spawn point, will teleport the vampire to their spawn. %nWhen activated near their spawn point, will teleport the vampire to the closest village.%n%n§c§lBat Swarm §r%n§7§lFocus: Wool of Bat§r%n%nWhen activated will summon a swam of bats, if the caster then looks at a creature or player, the bats will fly towards it and attack.%n%n%n§nAll Blood Crucibles' ritual spells can be activated at any time just like any other vampiric ability.
+lostera.quest1890.desc=A Blood Crucible is used by vampire covens to collect their victims blood for the exclusive use of the master of the coven.%n%nIt can only be used by a §4Master Vampire §8(lvl 10)§r with their own vampire coven.%n%nA Blood Crucible must be placed one near where they have created their vampire children.%nWhen these return from their nightly hunt, they will partially fill the crucible.%n%nWhen the crucible is full, the Master Vampire may use one of the following foci on it, to receive up to 5 charges of powerful ritual spells: %n%n§b§lCall storm§r %n§7§lFocus: Water Artichoke%n%n§rWhen activated will start a thunder storm, which allows a vampire to go outside at daytime.%n%n§5§lTeleport §r%n§7§lFocus: Bone%n%n§rWhen activated away from their spawn point, will teleport the vampire to their spawn. %nWhen activated near their spawn point, will teleport the vampire to the closest village.%n%n§c§lBat Swarm §r%n§7§lFocus: Wool of Bat§r%n%nWhen activated will summon a swam of bats, if the caster then looks at a creature or player, the bats will fly towards it and attack.%n%n%n§nAll Blood Crucibles' ritual spells can be activated at any time just like any other vampiric ability.
 
 # Quest.1891 - The Complete Tale
 lostera.quest1891.name=The Complete Tale
@@ -10238,7 +10238,7 @@ lostera.quest2548.desc=The Mundane Filling Agent is used to recharging the usage
 
 # Quest.2549 - Average Filling Agent
 lostera.quest2549.name=Average Filling Agent
-lostera.quest2549.desc=The Average Filling Agent is strenghtened to fill potions even further.%n%nIts effectiveness diminishes based on the number of effects binded to the potion it is recharging:%n%n1 Effect  - +8 Uses%n2 Effects - +4 Uses%n3 Effects - +2 Uses%n4 Effects - +1 Uses%n5+ Effects - §4Ineffective%n%n§6Refilling a potion does not require any Life Essence from a Blood Orb.
+lostera.quest2549.desc=The Average Filling Agent is strengthened to fill potions even further.%n%nIts effectiveness diminishes based on the number of effects binded to the potion it is recharging:%n%n1 Effect  - +8 Uses%n2 Effects - +4 Uses%n3 Effects - +2 Uses%n4 Effects - +1 Uses%n5+ Effects - §4Ineffective%n%n§6Refilling a potion does not require any Life Essence from a Blood Orb.
 
 # Quest.2550 - Greater Filling Agent
 lostera.quest2550.name=Greater Filling Agent
@@ -10252,9 +10252,9 @@ lostera.quest2551.desc=The Standard Binding Agent is much more stable than its p
 lostera.quest2552.name=Potion Flask
 lostera.quest2552.desc=Potion Flask are specially designed for the containment of potions created in the Alchemy Chemistry Set.%n%nThis the only known method to keep §6Life Essence§r based potions from seeping out.%n%nThese types of potions can be consumed from a Potion Flask §aup to 8 times§r.%n%nOne of their great benefits that even when the potion's usage has been fully exhausted it can be refilled back to full with §dFilling Agents.
 
-# Quest.2553 - Strenghtened Catalyst
-lostera.quest2553.name=Strenghtened Catalyst
-lostera.quest2553.desc=The Strenghtened Catalyst is an upgraded version of the Simple Catalyst.%n%nWith its increased quality and capacity of magic within it allows for the creation of more potent alchemical products.
+# Quest.2553 - Strengthened Catalyst
+lostera.quest2553.name=Strengthened Catalyst
+lostera.quest2553.desc=The Strengthened Catalyst is an upgraded version of the Simple Catalyst.%n%nWith its increased quality and capacity of magic within it allows for the creation of more potent alchemical products.
 
 # Quest.2554 - Concentrated Catalyst
 lostera.quest2554.name=Concentrated Catalyst
@@ -10290,7 +10290,7 @@ lostera.quest2561.desc=The Blood Letter's Pack was designed specifically for tho
 
 # Quest.2562 - Introduction to Blood Alchemy
 lostera.quest2562.name=Introduction to Blood Alchemy
-lostera.quest2562.desc=Below you will find the details on the various magical effects for each alchemical ingredient when used in conjunction to a §bBinding Agent§r.%n%nYou can turn any Flask into a Splash Flask by providing a §dBlank Slate§r as an alchemical ingredient.%n%n§a§lPositive Effects:§r%n%nWater Bucket§8 - Water Breathing§r%nGlass Bottle§8 - Invisibility§r%nSugar§8 - Speed§r%nFeather§8 - Flight§r%nPoisonous Potato§8 - Saturation§r%nRedstone§8 - Haste§r%nArrow§8 - Reflect Damage (ignores armor)§r%nGolden Carrot§8 - Night Vision§r%nGlistering Melon§8 - Instant Health§r%nBlaze Powder§8 - Strenght§r%nMagma Cream§8 - Fire Resistance§r%nDiamond§8 - Resistance§r%nGhast Tear§8 - Regeneration§r%n%nAether§8 - Jump Boost§r%nTerrae§8 - Step Assist§r%n%nWeak Blood Shard§8 - Absorbtion§r%nDemon Blood Shard§8 - Health Boost§r%n%nRunic Plate§8 - Enhances Bound Armor protection%n%n%n§c§lNegative Effects:§r%n%nSlime Ball§8 - Deafening§r%nSpider Eye§8 - Poison§r%nInk Sac§8 - Blindness§r%nFermented Spider Eye§8 - Weakness§r%nClay§8 - Slowness§r%nWater Bottle§8 - Drowning§r%nEnder Pearl §8- Prevents Teleportation%n§rSoul Sand§8 - Soul Frail (Reduces Life Essence intake)%n§rTainted Blood Shard§8 - Blood Seal (Blocks Life Essence intake)§r 
+lostera.quest2562.desc=Below you will find the details on the various magical effects for each alchemical ingredient when used in conjunction to a §bBinding Agent§r.%n%nYou can turn any Flask into a Splash Flask by providing a §dBlank Slate§r as an alchemical ingredient.%n%n§a§lPositive Effects:§r%n%nWater Bucket§8 - Water Breathing§r%nGlass Bottle§8 - Invisibility§r%nSugar§8 - Speed§r%nFeather§8 - Flight§r%nPoisonous Potato§8 - Saturation§r%nRedstone§8 - Haste§r%nArrow§8 - Reflect Damage (ignores armor)§r%nGolden Carrot§8 - Night Vision§r%nGlistering Melon§8 - Instant Health§r%nBlaze Powder§8 - Strength§r%nMagma Cream§8 - Fire Resistance§r%nDiamond§8 - Resistance§r%nGhast Tear§8 - Regeneration§r%n%nAether§8 - Jump Boost§r%nTerrae§8 - Step Assist§r%n%nWeak Blood Shard§8 - Absorbtion§r%nDemon Blood Shard§8 - Health Boost§r%n%nRunic Plate§8 - Enhances Bound Armor protection%n%n%n§c§lNegative Effects:§r%n%nSlime Ball§8 - Deafening§r%nSpider Eye§8 - Poison§r%nInk Sac§8 - Blindness§r%nFermented Spider Eye§8 - Weakness§r%nClay§8 - Slowness§r%nWater Bottle§8 - Drowning§r%nEnder Pearl §8- Prevents Teleportation%n§rSoul Sand§8 - Soul Frail (Reduces Life Essence intake)%n§rTainted Blood Shard§8 - Blood Seal (Blocks Life Essence intake)§r 
 
 # Quest.2563 - §2¬§r Staffmancy
 lostera.quest2563.name=§2¬§r Staffmancy
@@ -10394,7 +10394,7 @@ lostera.quest2587.desc=Minions summoned by your wand, while they have the abilit
 
 # Quest.2588 - Greater Demons
 lostera.quest2588.name=Greater Demons
-lostera.quest2588.desc=Greater Demons are the strongest calamities of the demon realm.%n%nTo maintain their ranks into the demon realm, they seek to make their strenght known to the mortal realms by malming the foolish blood mages who dare summon them.%n%n%nDemons bested in combat may occasionally leave behind a §cDemonic Crystal§r to those they feel worthy.%n%nThese can be used to re-summon that demon to become a contractor once given a Weak Blood Shard as a down payment.%n%n§8To re-summon a demon, simply use the same offerings as you would use to summon a demon of that specific type but instead of using a Master Blood Orb, use their Demonic Crystal. 
+lostera.quest2588.desc=Greater Demons are the strongest calamities of the demon realm.%n%nTo maintain their ranks into the demon realm, they seek to make their strength known to the mortal realms by malming the foolish blood mages who dare summon them.%n%n%nDemons bested in combat may occasionally leave behind a §cDemonic Crystal§r to those they feel worthy.%n%nThese can be used to re-summon that demon to become a contractor once given a Weak Blood Shard as a down payment.%n%n§8To re-summon a demon, simply use the same offerings as you would use to summon a demon of that specific type but instead of using a Master Blood Orb, use their Demonic Crystal. 
 
 # Quest.2589 - Elementals
 lostera.quest2589.name=Elementals
@@ -12366,7 +12366,7 @@ lostera.quest3080.desc=The Beacon is an artifact that projects a light beam to t
 
 # Quest.3081 - Enchanted Apples
 lostera.quest3081.name=Enchanted Apples
-lostera.quest3081.desc=Enchanted Apples are special consumables that greatly power up the user's combat abilities.%n%nThere exists 4 types of these Apples:%n%n§eGolden Apple:§r%nProvides Absorption I and Regeneration II.%n%n§6Golden Enchanted Apple:§r%nProvides Absorption IV, Regeneration II, Fire Resistance I and Resistance I.%n%n§bJewelled Apple:§r%nProvides Haste I, Strenght I, Absorption I and Resistance I.%n%n§dStarry Apple:§r%nProvides Strenght II, Absorption I, Regeneration II, Resistance II and Anti-Wither I §8(Wither effect immunity)§r. 
+lostera.quest3081.desc=Enchanted Apples are special consumables that greatly power up the user's combat abilities.%n%nThere exists 4 types of these Apples:%n%n§eGolden Apple:§r%nProvides Absorption I and Regeneration II.%n%n§6Golden Enchanted Apple:§r%nProvides Absorption IV, Regeneration II, Fire Resistance I and Resistance I.%n%n§bJewelled Apple:§r%nProvides Haste I, Strength I, Absorption I and Resistance I.%n%n§dStarry Apple:§r%nProvides Strength II, Absorption I, Regeneration II, Resistance II and Anti-Wither I §8(Wither effect immunity)§r. 
 
 # Quest.3082 - A Loud Beak
 lostera.quest3082.name=A Loud Beak
@@ -12422,7 +12422,7 @@ lostera.quest3094.desc=Beryllium is an rare material for it is naturally formed 
 
 # Quest.3095 - Redstone Dust
 lostera.quest3095.name=Redstone Dust
-lostera.quest3095.desc=Redstone Dust is an underground mineral capable of conducting redstone signal §remitted by §c§lTransmission Components§r.%n%nWhen placed as a line it will power any blocks it directly runs into as well as §rthe blocks they are placed on.%n%nThe signal strenght emitted by a Transmission Component can range §cbetween 1-15§r, which dictates how far the signal can travel.%nSignal strenght carried by Redstone Dust §cdrops by 1 for every block travelled§r.%n%nRedstone signal can be used to interact with other §6§lMechanism Components§r such as fences gates §8(open/close)§r and lanters §8(on/off)§r. 
+lostera.quest3095.desc=Redstone Dust is an underground mineral capable of conducting redstone signal §remitted by §c§lTransmission Components§r.%n%nWhen placed as a line it will power any blocks it directly runs into as well as §rthe blocks they are placed on.%n%nThe signal strength emitted by a Transmission Component can range §cbetween 1-15§r, which dictates how far the signal can travel.%nSignal strength carried by Redstone Dust §cdrops by 1 for every block travelled§r.%n%nRedstone signal can be used to interact with other §6§lMechanism Components§r such as fences gates §8(open/close)§r and lanters §8(on/off)§r. 
 
 # Quest.3096 - Redstone Torch
 lostera.quest3096.name=Redstone Torch
@@ -12442,15 +12442,15 @@ lostera.quest3099.desc=The Stone Pressure Plate is a §c§lTransmission Componen
 
 # Quest.3100 - Weighted Pressure Plate (Heavy)
 lostera.quest3100.name=Weighted Pressure Plate (Heavy)
-lostera.quest3100.desc=The Weighted Pressure Plate (Heavy) is a §c§lTransmission Component§r.%n%nIt will output a Redstone signal to all adjacent blocks and charge the block it is on as long as there is an entity atop of it.%n%nHowever, the strenght of the redstone signal is based on the number of entities atop of it.%n%n§91 Strenght for every 10 entities:§r%n%n50 Entities on the Pressure Plate%n |%n\/%n§9§l_%n§4▉_____§8____ §45 Redstone output%n%n%n§8Entities are not limited to living creatures as dropped items count as one. 
+lostera.quest3100.desc=The Weighted Pressure Plate (Heavy) is a §c§lTransmission Component§r.%n%nIt will output a Redstone signal to all adjacent blocks and charge the block it is on as long as there is an entity atop of it.%n%nHowever, the strength of the redstone signal is based on the number of entities atop of it.%n%n§91 Strength for every 10 entities:§r%n%n50 Entities on the Pressure Plate%n |%n\/%n§9§l_%n§4▉_____§8____ §45 Redstone output%n%n%n§8Entities are not limited to living creatures as dropped items count as one. 
 
 # Quest.3101 - Lightweighted Pressure Plate
 lostera.quest3101.name=Lightweighted Pressure Plate
-lostera.quest3101.desc=The Weighted Pressure Plate (Light) is a §c§lTransmission Component§r.%n%nIt will output a Redstone signal to all adjacent blocks and charge the block it is on as long as there is an entity atop of it.%n%nHowever, the strenght of the redstone signal is based on the number of entities atop of it.%n%n§61 Strenght for every entities:§r%n%n5 Entities on the Pressure Plate%n |%n\/%n§6§l_%n§4▉_____§8____ §45 Redstone output%n%n%n§8Entities are not limited to living creatures as dropped items count as one. 
+lostera.quest3101.desc=The Weighted Pressure Plate (Light) is a §c§lTransmission Component§r.%n%nIt will output a Redstone signal to all adjacent blocks and charge the block it is on as long as there is an entity atop of it.%n%nHowever, the strength of the redstone signal is based on the number of entities atop of it.%n%n§61 Strength for every entities:§r%n%n5 Entities on the Pressure Plate%n |%n\/%n§6§l_%n§4▉_____§8____ §45 Redstone output%n%n%n§8Entities are not limited to living creatures as dropped items count as one. 
 
 # Quest.3102 - Trapped Chest
 lostera.quest3102.name=Trapped Chest
-lostera.quest3102.desc=The Trapped Chest is a §c§lTransmission Components§r.%n%nIt will output a Redstone signal of 1 strenght to all adjacent blocks and charge the block directly below it for as long as it is opened.
+lostera.quest3102.desc=The Trapped Chest is a §c§lTransmission Components§r.%n%nIt will output a Redstone signal of 1 strength to all adjacent blocks and charge the block directly below it for as long as it is opened.
 
 # Quest.3103 - Hopper
 lostera.quest3103.name=Hopper
@@ -12494,7 +12494,7 @@ lostera.quest3112.desc=The Sticky Piston is a §6Mechanism Component§r.%n%nWhen
 
 # Quest.3113 - Daylight Detector
 lostera.quest3113.name=Daylight Detector
-lostera.quest3113.desc=The Daylight Detector is a §c§lTransmission Component§r.%n%nIt will output a Redstone signal to all adjacent blocks with strenght proportionate to the sunlight it receives.%n%nRight clicking the Daylight Detector will have its signal strenght be proportional to the moonlight instead. 
+lostera.quest3113.desc=The Daylight Detector is a §c§lTransmission Component§r.%n%nIt will output a Redstone signal to all adjacent blocks with strength proportionate to the sunlight it receives.%n%nRight clicking the Daylight Detector will have its signal strength be proportional to the moonlight instead. 
 
 # Quest.3114 - Redstone Lamp
 lostera.quest3114.name=Redstone Lamp
@@ -12506,11 +12506,11 @@ lostera.quest3115.desc=The Switch is a §c§lTransmission Component§r.%n%nIt wi
 
 # Quest.3116 - Redstone Repeater
 lostera.quest3116.name=Redstone Repeater
-lostera.quest3116.desc=The Redstone Repeater is a §c§lTransmission Components§r.%n%nWhen given a redstone signal from its back, it will transmit at full power at its front:%n%nInput: §c- - -%n§rOutput: §4-%n§rRedstone Repeater: §6>>§r%n%n%n §c3 2 1    §415%n §c- - -§6 >>§4 -  §r%n§8Numbers indicate signal strenght.§r%n%n%nAs long as the block directly behind it is either in a §lPowered§r or §lCharged§r state, the Redstone Repeater will output a signal at full strenght.%n%nBlocks directly being transmitted to by the repeater take on a §lCharged§r state.
+lostera.quest3116.desc=The Redstone Repeater is a §c§lTransmission Components§r.%n%nWhen given a redstone signal from its back, it will transmit at full power at its front:%n%nInput: §c- - -%n§rOutput: §4-%n§rRedstone Repeater: §6>>§r%n%n%n §c3 2 1    §415%n §c- - -§6 >>§4 -  §r%n§8Numbers indicate signal strength.§r%n%n%nAs long as the block directly behind it is either in a §lPowered§r or §lCharged§r state, the Redstone Repeater will output a signal at full strength.%n%nBlocks directly being transmitted to by the repeater take on a §lCharged§r state.
 
 # Quest.3117 - Redstone Comparator
 lostera.quest3117.name=Redstone Comparator
-lostera.quest3117.desc=The Redstone Comparator is a §c§lTransmission Components§r.%n%nIt will output the same strenght Redstone signal as received from the rear:%n%nInput: §c- - -%n§rOutput: §4-%n§rRedstone Repeater: §b[>§r%n%n §c3 2 1    §41%n §c- - -§b [>§4 -  §r%n§8Numbers indicate signal strenght.§r%n%nLike the Redstone Repeater, it can also read the signal strenght of blocks in §lPowered§r or §lCharged §rstates§r%n%n%n§d§nMetric Block State%n§r%nA feature unique to Redstone Comparators is treating inventories as §c§lTransmission Components§r.%n%nThese will emitting redstone proportional to a block's current capacity.%n%n§8Minecart inventories are can be detected only if on a Detection Rail.%nItem Frame's signal strenght depends on item rotation instead.%n%n§a§nExtended Range§r%n%nShould the back of the Redstone Comparator be facing a solid block, it will extend its range by 1 to read the state of a block on the other side:%n %n  §8▉%n§6▉§8▉§b[>§4---§r%n  §8▉%n Wall
+lostera.quest3117.desc=The Redstone Comparator is a §c§lTransmission Components§r.%n%nIt will output the same strength Redstone signal as received from the rear:%n%nInput: §c- - -%n§rOutput: §4-%n§rRedstone Repeater: §b[>§r%n%n §c3 2 1    §41%n §c- - -§b [>§4 -  §r%n§8Numbers indicate signal strength.§r%n%nLike the Redstone Repeater, it can also read the signal strength of blocks in §lPowered§r or §lCharged §rstates§r%n%n%n§d§nMetric Block State%n§r%nA feature unique to Redstone Comparators is treating inventories as §c§lTransmission Components§r.%n%nThese will emitting redstone proportional to a block's current capacity.%n%n§8Minecart inventories are can be detected only if on a Detection Rail.%nItem Frame's signal strength depends on item rotation instead.%n%n§a§nExtended Range§r%n%nShould the back of the Redstone Comparator be facing a solid block, it will extend its range by 1 to read the state of a block on the other side:%n %n  §8▉%n§6▉§8▉§b[>§4---§r%n  §8▉%n Wall
 
 # Quest.3118 - Obsidian Pressure Plate
 lostera.quest3118.name=Obsidian Pressure Plate
@@ -12530,7 +12530,7 @@ lostera.quest3121.desc=These are more advanced features of the Redstone Repeater
 
 # Quest.3122 - §cAdvance Usages:§r Redstone Comparator
 lostera.quest3122.name=§cAdvance Usages:§r Redstone Comparator
-lostera.quest3122.desc=These are more advanced features of the Redstone Repeater used for actually comparing 2 redstone signals:%n%n§d§nComparison Mode:§r%n%nA Redstone Comparator with it's frontal torch unpowered is in §dComparator Mode§r.%n%nComparison mode is when the comparator compares the signal strengths of its§c rear input§r to the §6side inputs§r.%n%nShould either side inputs be stronger than the rear input the signal is not carried over:%n%n§8Numbers indicate signal strenght.§r%n     §65%n §c6§r   §6|   §46%n§c--- §b[> §4--§r%nShould the signal be stopped? %n§65 §r> §c6§r = §lfalse %n%n       §68%n   §c6   §6|§r   %n§c- - - §b[>%n§rShould the signal be stopped? %n§68§r > §c6§r = §ltrue%n%n%n§b§nSubtraction Mode:§r%n%nA Redstone Comparator with it's frontal torch powered is in §bSubtraction Mode§r.%n%nSubtraction mode is when the comparator subtracts the signal strengths of the higher of its §6side inputs§r from its§c rear input§r:%n%n       §65%n   §c9   §6|§r   §4 4%n§c- - - §b[> §4- - -%n§r%n§4Output§r = §cRear input§r - §6Side Input§r%n§c9§r-§65 §r= §44§r
+lostera.quest3122.desc=These are more advanced features of the Redstone Repeater used for actually comparing 2 redstone signals:%n%n§d§nComparison Mode:§r%n%nA Redstone Comparator with it's frontal torch unpowered is in §dComparator Mode§r.%n%nComparison mode is when the comparator compares the signal strengths of its§c rear input§r to the §6side inputs§r.%n%nShould either side inputs be stronger than the rear input the signal is not carried over:%n%n§8Numbers indicate signal strength.§r%n     §65%n §c6§r   §6|   §46%n§c--- §b[> §4--§r%nShould the signal be stopped? %n§65 §r> §c6§r = §lfalse %n%n       §68%n   §c6   §6|§r   %n§c- - - §b[>%n§rShould the signal be stopped? %n§68§r > §c6§r = §ltrue%n%n%n§b§nSubtraction Mode:§r%n%nA Redstone Comparator with it's frontal torch powered is in §bSubtraction Mode§r.%n%nSubtraction mode is when the comparator subtracts the signal strengths of the higher of its §6side inputs§r from its§c rear input§r:%n%n       §65%n   §c9   §6|§r   §4 4%n§c- - - §b[> §4- - -%n§r%n§4Output§r = §cRear input§r - §6Side Input§r%n§c9§r-§65 §r= §44§r
 
 # Quest.3123 - Wooden Button
 lostera.quest3123.name=Wooden Button
@@ -13342,7 +13342,7 @@ lostera.quest3324.desc=An Augment is used to add functionality to the Redstone F
 
 # Quest.3325 - 1. Capacity
 lostera.quest3325.name=1. Capacity
-lostera.quest3325.desc=Effect Capacity of a brew determines the number and strenght of effects it can hold.%n%nA brew can either hold multiple low level effects or a very limited number high level effects. %n%nYou can increase a brew's either using the catalyst below:%n%n§81) §6§lMandrake Root:§r %n+1 Effect Capacity%n%n§82) §c§lNether Wart:§r %n+2 Effect Capacity%n%n§83) §9§lTear of the Goddess:§r %n+2 Effect Capacity%n%n§84) §3§lDiamond Vapor:§r %n+2 Effect Capacity%n%n§85) §b§lDiamond:§r %n+2 Effect Capacity%n%n§86) §5§lNether Star:%n§r+4 Effect Capacity%n%n%nYou can begin a brew at any catalyst but any subsequent ones must match the order above.%n%n§8For example, if the first catalyst used is a Nether Wart, the subsequent catalyst must be a Tear of the Goddess%n%n§nNo other combination will work.
+lostera.quest3325.desc=Effect Capacity of a brew determines the number and strength of effects it can hold.%n%nA brew can either hold multiple low level effects or a very limited number high level effects. %n%nYou can increase a brew's either using the catalyst below:%n%n§81) §6§lMandrake Root:§r %n+1 Effect Capacity%n%n§82) §c§lNether Wart:§r %n+2 Effect Capacity%n%n§83) §9§lTear of the Goddess:§r %n+2 Effect Capacity%n%n§84) §3§lDiamond Vapor:§r %n+2 Effect Capacity%n%n§85) §b§lDiamond:§r %n+2 Effect Capacity%n%n§86) §5§lNether Star:%n§r+4 Effect Capacity%n%n%nYou can begin a brew at any catalyst but any subsequent ones must match the order above.%n%n§8For example, if the first catalyst used is a Nether Wart, the subsequent catalyst must be a Tear of the Goddess%n%n§nNo other combination will work.
 
 # Quest.3326 - ...or make it a Ritual!
 lostera.quest3326.name=...or make it a Ritual!
