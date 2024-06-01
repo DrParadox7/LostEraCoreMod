@@ -158,7 +158,7 @@ lostera.quest27.desc=Inside the Thaumonomicon is everything you need to know abo
 
 # Quest.28 - §2¬§r Mystical Botany
 lostera.quest28.name=§2¬§r Mystical Botany
-lostera.quest28.desc=Not much advancements were made in studying Mystical Flora.%n%nNot matter how long one waited they just wouldn't grow. . .%n%nThat is until they were coaxed to grow from a §dMystical Petal§r using §eBonemeal§r!%n%n%nNow learning the ways of magic from mystical flora you are given the §aLexica Botania§r.%n%nThis book translates whispers of knowledge from Mystical Flowers and records it for later reads.%n%n§8As you increase your mastery, the book will grow with you, unlock more secrets. %n%n%n§r§lThis quest unlocks "Force of Nature". 
+lostera.quest28.desc=Not much advancements were made in studying Mystical Flora.%n%nNot matter how long one waited they just wouldn't grow. . .%n%nThat is until they were coaxed to grow from a §dMystical Petal§r using §eBonemeal§r!%n%n%nNow learning the ways of magic from mystical flora you are given the §aLexica Botania§r.%n%nThis book translates whispers of knowledge from Mystical Flowers and records it for later reading.%n%n§8As you increase your mastery, the book will grow with you and unlock more secrets. %n%n%n§r§lThis quest unlocks "Force of Nature". 
 
 # Quest.29 - Minecraftian Literature
 lostera.quest29.name=Minecraftian Literature
@@ -194,7 +194,7 @@ lostera.quest36.desc=The Charm of Keeping is a small item resembling a lock. %n%
 
 # Quest.37 - §3¬§r Witch's Garden
 lostera.quest37.name=§3¬§r Witch's Garden
-lostera.quest37.desc=A Witch's garden differs from a normal garden, in that their properties are as fascinating as the plants themselves.%n%nPerhaps strangest of all is the Mandrake’s. %n%nIts roots twist in a somewhat humanoid fashion, resembling misshapen dolls with spindly limbs. %n%nMany practitioners insists that mandrakes scream when pulled up from the earth, and that their cries are harms all within earshot.%n%nLittle did you know this rumour would prove true today.%n%n§5Will you pursue the magical art of witchcraft to control the natural magic present in this world and beyond?%n%n%n§r§lThis quest unlocks "Witchcraft". 
+lostera.quest37.desc=A Witch's garden differs from a normal garden, in that its properties are as fascinating as the plants themselves.%n%nPerhaps strangest of all is the Mandrakes. %n%nIts roots twist in a somewhat humanoid fashion, resembling misshapen dolls with spindly limbs. %n%nMany practitioners insists that mandrakes scream when pulled up from the earth, and that their cries harm all within earshot.%n%nLittle did you know this rumour would prove true today.%n%n§5Will you pursue the magical art of witchcraft to control the natural magic present in this world and beyond?%n%n%n§r§lThis quest unlocks "Witchcraft". 
 
 # Quest.38 - Personal Space
 lostera.quest38.name=Personal Space
@@ -1386,7 +1386,7 @@ lostera.quest334.desc=Laser Tractor Beam can merge and redirect Laser beams. %n%
 
 # Quest.335 - Jukebox
 lostera.quest335.name=Jukebox
-lostera.quest335.desc=Jukeboxes is a device used to play music stored within §dMusic Discs§r.%n%nMusic Discs can be found scattered across the world for you to discover.%n%nTo play the song stored within a Music Disc, simply right click a Jukebox with it.
+lostera.quest335.desc=A Jukebox is a device used to play music stored within §dMusic Discs§r.%n%nMusic Discs can be found scattered across the world for you to discover.%n%nTo play the song stored within a Music Disc, simply right click a Jukebox with it.
 
 # Quest.336 - Plasma Ignition
 lostera.quest336.name=Plasma Ignition
@@ -1406,7 +1406,7 @@ lostera.quest339.desc=Become a Wizard or a Witch.
 
 # Quest.340 - Dormant Boon
 lostera.quest340.name=Dormant Boon
-lostera.quest340.desc=Druism is a school of magic that calls upon the duality of Nature itself.%n%nThrough understanding flora, you may gain knowledge of secrets of the Arcane.%n%nThe first step into your journey is to discover and obtain insights on plants with magical influence.
+lostera.quest340.desc=Druidism is a school of magic that calls upon the duality of Nature itself.%n%nThrough understanding flora, you may gain knowledge of secrets of the Arcane.%n%nThe first step into your journey is to discover and obtain insights on plants with magical influence.
 
 # Quest.341 - Iron Chest
 lostera.quest341.name=Iron Chest
@@ -1646,11 +1646,11 @@ lostera.quest399.desc=Portable Tanks store fluids, and can be used to transport 
 
 # Quest.400 - Diamond Chest
 lostera.quest400.name=Diamond Chest
-lostera.quest400.desc=The Diamond Chest is the high-end luxury chest.%nBoth elegant and practical, this the best choice for a storage device.%n%nIt has a generous 108 inventory slots, which is 36 more than the Gold Chest.§8%nNeed any more to be said?%n§r%nIt also comes with not 1 but 2 style option to choose from.%nTruly the most optimal storage solution!
+lostera.quest400.desc=The Diamond Chest is the high-end luxury chest.%nBoth elegant and practical, this the best choice for a storage device.%n%nIt has a generous 108 inventory slots, which is 36 more than the Gold Chest.§8%nNeed any more to be said?%n§r%nIt also comes with not 1 but 2 style options to choose from.%nTruly the most optimal storage solution!
 
 # Quest.401 - Silver Chest
 lostera.quest401.name=Silver Chest
-lostera.quest401.desc=The Silver Chest is the entry level luxury chest.%n%nMost chests just lack in the "Wow" factor department. Silver chest aim to address that and more without breaking the bank.%n%nIt comes packet with 72 inventory slots, 18 more than an Iron Chest making it not just a pretty piece of furniture but an actual worthwhile upgrade.%n%nGet it while stock lasts!
+lostera.quest401.desc=The Silver Chest is the entry level luxury chest.%n%nMost chests just lack in the "Wow" factor department. The Silver chest aims to address that and more without breaking the bank.%n%nIt comes packed with 72 inventory slots (18 more than an Iron Chest), making it not just a pretty piece of furniture but an actual worthwhile upgrade.%n%nGet it while stock lasts!
 
 # Quest.402 - Gold Chest
 lostera.quest402.name=Gold Chest
@@ -1730,7 +1730,7 @@ lostera.quest420.desc=The Drawer Controller is an advanced inventory routing blo
 
 # Quest.421 - Controller Slave
 lostera.quest421.name=Controller Slave
-lostera.quest421.desc=The Controller Slave is used to automatically insert items into a system from another entry point, without the need to insert directly into Drawer Controller, which there can be only one existing in the system. %n%nThe Controller Slave must be connected to the drawer system within 12 blocks of the Drawer Controller, but can easily be hidden behind a wall of drawers.%n%nItems should be fed into the Controller Slave using a Hopper, Pipes or similar.%n%n%nA Controller Slave simply exposes additional faces for its controller block for item flow automation.
+lostera.quest421.desc=The Controller Slave is used to automatically insert items into a system from another entry point, without the need to insert directly into Drawer Controller (since there can be only one existing Drawer Controller in the system). %n%nThe Controller Slave must be connected to the drawer system within 12 blocks of the Drawer Controller, but can easily be hidden behind a wall of drawers.%n%nItems should be fed into the Controller Slave using a Hopper, Pipes or similar.%n%n%nA Controller Slave simply exposes additional faces for its controller block for item flow automation.
 
 # Quest.422 - Framing Table
 lostera.quest422.name=Framing Table
@@ -1754,7 +1754,7 @@ lostera.quest426.desc=The Upgrade Template is a component used for all other Dra
 
 # Quest.427 - Status Upgrade
 lostera.quest427.name=Status Upgrade
-lostera.quest427.desc=The Upgrade Template is used to show the amount of an item stored in the Drawer. %n%nThe §cStatus Upgrade I§r will add a bar that light up when full capacity is reached.%nThe §4Status Upgrade II §rwill add a bar that will gradually fill as it gets filled.  
+lostera.quest427.desc=The Status Upgrade is used to show the amount of an item stored in the Drawer. %n%nThe §cStatus Upgrade I§r will add a bar that light up when full capacity is reached.%nThe §4Status Upgrade II §rwill add a bar that will gradually fill as it gets filled.  
 
 # Quest.428 - Storage Upgrades
 lostera.quest428.name=Storage Upgrades
@@ -2158,11 +2158,11 @@ lostera.quest527.desc=The XP drain is used to extract experience from a player.%
 
 # Quest.528 - Auto Anvil
 lostera.quest528.name=Auto Anvil
-lostera.quest528.desc=The Auto Anvil functions much like a vanilla Anvil, but it can be fully automated. %n%nUnlike a regular anvil, this anvil requires§a Liquid Experience§r as a fuel.%n%nThe Auto Anvil can be configured to draw experience from a Tank using the "auto drink" setting. %n%nAnother setting allows automatically pulling input items from a nearby inventory, and a final setting allows automatically ejecting finished items into a nearby container. %n%nAll 3 settings can be set to work with certain sides of the block.
+lostera.quest528.desc=The Auto Anvil functions much like a vanilla Anvil, but it can be fully automated. %n%nUnlike a regular anvil, this anvil requires§a Liquid Experience§r as a fuel.%n%nThe Auto Anvil can be configured to draw experience from a Tank using the "auto drink" setting. %n%nAnother setting allows for automatically pulling input items from a nearby inventory, and a final setting allows for automatically ejecting finished items into a nearby container. %n%nAll 3 settings can be set to work with certain sides of the block.
 
 # Quest.529 - Auto Enchanting Table
 lostera.quest529.name=Auto Enchanting Table
-lostera.quest529.desc=The Auto Enchantment Table is an enchantment table that can be fully automated. %n%nUnlike a regular Enchantment Table, it requires§a Liquid Experience§r as a fuel.%n%nThe Auto Enchantment Table can be configured to draw experience from a Tank using the "auto drink" setting. %n%nAnother setting allows to automatically pull input items from a nearby inventory, and a final setting allows automatically ejecting finished items into a nearby container. %n§8%nAll 3 settings can be set to work with certain sides of the block.
+lostera.quest529.desc=The Auto Enchantment Table is an enchantment table that can be fully automated. %n%nUnlike a regular Enchantment Table, it requires§a Liquid Experience§r as a fuel.%n%nThe Auto Enchantment Table can be configured to draw experience from a Tank using the "auto drink" setting. %n%nAnother setting allows it to automatically pull input items from a nearby inventory, and a final setting allows it to automatically eject finished items into a nearby container. %n§8%nAll 3 settings can be set to work with certain sides of the block.
 
 # Quest.530 - XP Bottler
 lostera.quest530.name=XP Bottler
@@ -7591,7 +7591,7 @@ lostera.quest1886.desc=§kLorem ipsum dolor sit amet, consectetur adipiscing eli
 
 # Quest.1887 - Village Trading
 lostera.quest1887.name=Village Trading
-lostera.quest1887.desc=Emerals are rare and elusive gems commonly used as currency by villages.%n%nYou can readily obtain these gems from trading with nearby villages to further trade with them.%n%nSuccessfully rading with villagers will also increase their professional level §8(indicated by their badge color)§r expanding their offers.%n%nThe type of merchandise they have available to sell to you vastly depends on the type of profession they have.
+lostera.quest1887.desc=Emeralds are rare and elusive gems commonly used as currency by villagers.%n%nYou can readily obtain these gems from trading with nearby villagers to further trade with them.%n%nSuccessfully trading with villagers will also increase their professional level §8(indicated by their badge color)§r and expand their offers.%n%nThe type of merchandise they have available to sell to you vastly depends based on the type of profession they have.
 
 # Quest.1888 - After Dark
 lostera.quest1888.name=After Dark
@@ -9647,15 +9647,15 @@ lostera.quest2400.desc=The Painting Press adds paintings to a painting canvas to
 
 # Quest.2401 - Atlas
 lostera.quest2401.name=Atlas
-lostera.quest2401.desc=The Atlas is a book that display maps, create new maps and automatically select the map that shows your location on a chosen zoom level.%n%n§lThe Atlas also works with the Map Frames:§r%n%n-Sneak-right clicking an empty Map Frame will make a copy of the selected map from the Atlas and place it on the Map Frame with all of its waypoints §8(Requires blank maps)§r.%n%n-Sneak right-clicking a Map Frame with a map, will get the Atlas to find and display a matching map or, if no map is found, will make a copy of the map in the Map Frame along with any waypoints §8(Requires blank maps)§r.%n%n-If the atlas contains a copy of a map in a map frame and you sneak right-click the map, a menu will open and let you copy and update the set of waypoints either on the map frame or in the atlas.%n%n%nThe Atlas can be upgraded to the Eternal Atlas that, when you die, you will provide you with an §cEternal Compass§r leading you back to your point of death to recover it.
+lostera.quest2401.desc=The Atlas is a book that display maps, create new maps and automatically select the map that shows your location on a chosen zoom level.%n%n§lThe Atlas also works with the Map Frames:§r%n%n-Sneak-right clicking an empty Map Frame will make a copy of the selected map from the Atlas and place it on the Map Frame with all of its waypoints §8(Requires blank maps)§r.%n%n-Sneak right-clicking a Map Frame with a map, will get the Atlas to find and display a matching map or, if no map is found, will make a copy of the map in the Map Frame along with any waypoints §8(Requires blank maps)§r.%n%n-If the atlas contains a copy of a map in a map frame and you sneak right-click the map, a menu will open and let you copy and update the set of waypoints either on the map frame or in the atlas.%n%n%nThe Atlas can be upgraded to the Eternal Atlas so that, when you die, you will be provided with an §cEternal Compass§r leading you back to your point of death to recover it.
 
 # Quest.2402 - Stockroom Catalogue
 lostera.quest2402.name=Stockroom Catalogue
-lostera.quest2402.desc=The Stockroom Catalog allows you track the contents of any inventories you shift+right click it with in realtime.%n§8Sneak right-click the same block again to remove that block from the list.§r%n%nEach entry in the catalogue will have a chest button providing the inventories that contain those items, their coordinates and 8 slots for Waypoint Compasses.%n%nIf one currently holds a §6Waypoint Compass §rin their inventory, the book will allow to input those coordinates at a click of a button for ease of find.
+lostera.quest2402.desc=The Stockroom Catalog allows you to track the contents of any inventories you shift+right click it with in real-time.%n§8Sneak right-click the same block again to remove that block from the list.§r%n%nEach entry in the catalogue will have a chest button providing the inventories that contain those items, their coordinates and 8 slots for Waypoint Compasses.%n%nIf one currently holds a §6Waypoint Compass §rin their inventory, the book will allow to input those coordinates at a click of a button for ease of find.
 
 # Quest.2403 - Labels
 lostera.quest2403.name=Labels
-lostera.quest2403.desc=Labels are small wooden devices most often placed on chests or similar to indicate its contents.%n%nIt can be shift-right clicked with an empty hand to add or remove up to 3 items into it,%n%nThese will be showcased on the Label itself allowing you to tell its contents at first sight.
+lostera.quest2403.desc=Labels are small wooden devices most often placed on chests or similar storage devices to indicate their contents.%n%nIt can be shift-right clicked with an empty hand to add or remove up to 3 items into it,%n%nThese will be showcased on the Label itself allowing you to tell its contents at first sight.
 
 # Quest.2404 - Map Frames
 lostera.quest2404.name=Map Frames
@@ -12778,7 +12778,7 @@ lostera.quest3183.desc=The Carrier Robot is designed to transfer items between i
 
 # Quest.3184 - Fireworks
 lostera.quest3184.name=Fireworks
-lostera.quest3184.desc=Fireworks are flying rockets that detonates its §bFirework Star§r into pretty lightworks.%n%nAll Firework Rockets and Stars are made at a §nCrafting Table§r.%n%nPaper can be combined with the following components to customize your Fireworks Rockets:%n%n§l§nRocket Components:%n%n§r§9Gunpowder§r §7(Max 3)§r - The propulsion fuel defining how high the rocket flies.%n§5Firework Star§r§7 (Max 7)§r -  The explosive responsible for creating the aesthetic lightworks.%n%n%n§l§nStar Component:§r%n%nThe base Firework Star is made by simply combining §7§lGunpowder§r with §7§lany Dye§r but can be further personalized with the following components:%n%n§nShape Effects:%n%n§cFire Charge§r - Larger Explosion%n§6Gold Nugget§r - Star Shaped Explosion%n§dFeather§r - Burst Shaped Explosion%n§aHead§r - Creeper Faced Explosion%n%n§nExplosion Effects:§r%n%n§eGlowstone§r - Twinkle Effect%n§bDiamond§r - Trailing Effect%n%nA finished Firework Star can combined with another Dye to slowly fade to that color upon explosion. 
+lostera.quest3184.desc=Fireworks are flying rockets that detonate §bFirework Stars§r into pretty lightworks.%n%nAll Firework Rockets and Stars are made at a §nCrafting Table§r.%n%nPaper can be combined with the following components to customize your Fireworks Rockets:%n%n§l§nRocket Components:%n%n§r§9Gunpowder§r §7(Max 3)§r - The propulsion fuel defining how high the rocket flies.%n§5Firework Star§r§7 (Max 7)§r -  The explosive responsible for creating the aesthetic lightworks.%n%n%n§l§nStar Component:§r%n%nThe base Firework Star is made by simply combining §7§lGunpowder§r with §7§lany Dye§r but can be further personalized with the following components:%n%n§nShape Effects:%n%n§cFire Charge§r - Larger Explosion%n§6Gold Nugget§r - Star Shaped Explosion%n§dFeather§r - Burst Shaped Explosion%n§aHead§r - Creeper Faced Explosion%n%n§nExplosion Effects:§r%n%n§eGlowstone§r - Twinkle Effect%n§bDiamond§r - Trailing Effect%n%nA finished Firework Star can combined with another Dye to slowly fade to that color upon explosion. 
 
 # Quest.3185 - Tank Robot
 lostera.quest3185.name=Tank Robot
@@ -13326,7 +13326,7 @@ lostera.quest3320.desc=One of the main problems with managing Flora is that it c
 
 # Quest.3321 - Hungry for Knowledge
 lostera.quest3321.name=Hungry for Knowledge
-lostera.quest3321.desc=The forbidden Eldritch Arts the most perverse branch of magic capable of corrupting their user’s mind.%n%nEven so, there are many who pursue it to transcend their mortal limitations and control the fabric of reality.%n%n§5This type of knowledge will seek you out on its own, present itself at your front door.§r%n%nYou must inherit by feasting on the "intellect" of those who delved too far into the arts and payed the ultimate price. 
+lostera.quest3321.desc=The forbidden Eldritch Arts is the most perverse branch of magic capable of corrupting their user’s mind.%n%nEven so, there are many who pursue it to transcend their mortal limitations and control the fabric of reality.%n%n§5This type of knowledge will seek you out on its own, present itself at your front door.§r%n%nYou must inherit by feasting on the "intellect" of those who delved too far into the arts and payed the ultimate price. 
 
 # Quest.3322 - High-Density Polyethylene
 lostera.quest3322.name=High-Density Polyethylene
