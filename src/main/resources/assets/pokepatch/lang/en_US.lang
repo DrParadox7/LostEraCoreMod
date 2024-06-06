@@ -4924,7 +4924,7 @@ lostera.quest1219.desc=Shards are the crystallized manifestation of primal vis c
 
 # Quest.1220 - Electrical Engine
 lostera.quest1220.name=Electrical Engine
-lostera.quest1220.desc=Many machines here will require Redstone Flux for you to use them but fret not.%n%nThe Electrical Engine, if provided EU/t, it will generate enough RF to fill your needs.%n%n§lSpecs:§r%n%n-The engine produces 20 RF/t and requires 6 EU/t to run%n%n-It can be connected to any voltage without exploding%n%n%n§rShould you have a spare §lsoldering iron§r and §lcircuit board§r at hand, you can upgrade its stats further by populating the circuit board with the following:%n%n§7Iron Electron Tube:%n§r§nEfficiency:§r -1 EU/t input, +/-0 RF/t%n%n§cCopper Electron Tube%n§r§nChoke:§r -2 EU/t input, -10 RF/t output%n%n§eTin Electron Tube%n§r§nBoost I:§r +7 EU/t input, +20RF/t output%n%n§bBronze Electron Tube%n§r§nBoost II:§r +15 EU/t input, +40 RF/t output 
+lostera.quest1220.desc=Many machines here will require Redstone Flux for you to use them but fret not.%n%nThe Electrical Engine, if provided EU/t, it will generate enough RF to fill your needs.%n%n§lSpecs:§r%n%n-The engine produces 20 RF/t and requires 6 EU/t to run%n%n%n§rShould you have a spare §lsoldering iron§r and §lcircuit board§r at hand, you can upgrade its stats further by populating the circuit board with the following:%n%n§7Iron Electron Tube:%n§r§nEfficiency:§r -1 EU/t input, +/-0 RF/t%n%n§cCopper Electron Tube%n§r§nChoke:§r -2 EU/t input, -10 RF/t output%n%n§eTin Electron Tube%n§r§nBoost I:§r +7 EU/t input, +20RF/t output%n%n§bBronze Electron Tube%n§r§nBoost II:§r +15 EU/t input, +40 RF/t output%n%n§lMax Voltage:§r §eHigh Voltage%n
 
 # Quest.1221 - Dining Set
 lostera.quest1221.name=Dining Set
