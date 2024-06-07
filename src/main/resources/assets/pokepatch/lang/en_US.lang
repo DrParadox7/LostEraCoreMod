@@ -62,15 +62,15 @@ lostera.quest3.desc=Upgrade your pickaxe to mine better ores.%n%n§8Still inferi
 
 # Quest.4 - Ultimate Navigation Manual
 lostera.quest4.name=Ultimate Navigation Manual
-lostera.quest4.desc=Not all who wonder are lost... only the ones without a map.%n%nRight click to open or keep it in your hotbar to enable the minimap. Document points of interests on it and never lose your way again!%n%n§6If you sync two Antique Atlases via crafting table you can keep one copy aside to lead you to your death point.
+lostera.quest4.desc=Not all who wonder are lost... only the ones without a map.%n%nRight-click to open or keep it in your hotbar to enable the minimap. Document points of interest on it and never lose your way again!%n%n§6If you sync two Antique Atlases via crafting table, you can keep one copy aside to lead you to your death point.
 
 # Quest.5 - Natural Remedies
 lostera.quest5.name=Natural Remedies
-lostera.quest5.desc=Milk bottles are powerful cure-all potions able to rid the user of status effects affecting them including:%n%n§aPoison%n§9Wither%n§3Blindness%n§eNausea§r%n...and many others%n%n%n§8While not an actual potion, it is best to always have a dozen at hand to avoid any unexpected surprise.
+lostera.quest5.desc=Milk bottles are powerful cure-all potions able to rid the user of status effects affecting them, including:%n%n§aPoison%n§9Wither%n§3Blindness%n§eNausea§r%n...and many others%n%n%n§8While not an actual potion, it is best to always have a dozen on hand to avoid any unexpected surprises.
 
 # Quest.6 - Getting started with Tinker Construct
 lostera.quest6.name=Getting started with Tinker Construct
-lostera.quest6.desc=So, you have decided that rudimentary tools just won't cut it?%n%nNeed something more tailor made to your needs?%n%nFret not! Within these pages you will find the first steps to make your own tools and materials. 
+lostera.quest6.desc=So, you have decided that rudimentary tools just won't cut it?%n%nNeed something more tailor-made to your needs?%n%nFret not! Within these pages, you will find the first steps to make your own tools and materials.
 
 # Quest.7 - Part Builder
 lostera.quest7.name=Part Builder
@@ -78,27 +78,27 @@ lostera.quest7.desc=The Part Builder is a workbench used to create tool parts.%n
 
 # Quest.8 - Chapter 2: Seared Bricks
 lostera.quest8.name=Chapter 2: Seared Bricks
-lostera.quest8.desc=Seared Brick is a very high heat resistant used for the construction of a smeltery.%n%nWith it you will be able to process metal in ways you didn't think was possible.
+lostera.quest8.desc=Seared Brick is a highly heat resistant material used for the construction of a smeltery.%n%nWith it, you will be able to process metal in ways you didn't think were possible.
 
 # Quest.9 - Smeltery Casting
 lostera.quest9.name=Smeltery Casting
-lostera.quest9.desc=The Smeltery Casting is the main device used in creating metal parts from molten liquids.%n%nTo create parts, one must provide a mold in the form of a §eCast §ror §bClay Cast§r and pout molten metal over it.%n%n%nThe Smeltery Basing allows you to pour liquids into a cubic mold allowing you to create blocks.
+lostera.quest9.desc=The Smeltery Casting is the main device used in creating metal parts from molten liquids.%n%nTo create parts, one must provide a mold in the form of a §eCast§r, or §bClay Cast§r, and pour molten metal over it.%n%n%nThe Smeltery Basing allows you to pour liquids into a cubic mold, allowing you to create blocks.
 
 # Quest.10 - Knapsack
 lostera.quest10.name=Knapsack
-lostera.quest10.desc=The Knapsack is a wearable accessory.%n%nWhen worn, it provides further inventory space equivalent to a chest.%n%n%n§8Whilst in your inventory you will notice a diamond armour tab. %nThis is where you can equip accessories such as the Knapsack. 
+lostera.quest10.desc=The Knapsack is a wearable accessory.%n%nWhen worn, it provides further inventory space equivalent to a chest.%n%n%n§8Whilst in your inventory you will notice a diamond armor tab. %nThis is where you can equip accessories such as the Knapsack.
 
 # Quest.11 - Tool Station
 lostera.quest11.name=Tool Station
-lostera.quest11.desc=The Tool Station is an upgrade to the Tool Bench allowing you to create more complex and interesting tools.
+lostera.quest11.desc=The Tool Station is an upgrade to the Tool Bench, allowing you to create more complex and interesting tools.
 
 # Quest.12 - Ceramic Molds
 lostera.quest12.name=Ceramic Molds
-lostera.quest12.desc=Ceramic Molds allow you to create tools out of molten materials.%n%nTo use, simply cast molten metal over a Ceramic Mold on a Casting Table to create the resulting tool part.%n%n§8Ceramic cast burn out after each use.
+lostera.quest12.desc=Ceramic Molds allow you to create tools out of molten materials.%n%nTo use, simply cast molten metal over a Ceramic Mold on a Casting Table to create the resulting tool part.%n%n§8Ceramic Casts burn out after each use.
 
 # Quest.13 - Requests
 lostera.quest13.name=Requests
-lostera.quest13.desc=The Requester is a machine that enables you to request items from robots using gates.%n%nSpecifically, it is made to work with the §5§lRequest Needed Items§r gate action and the §aDelivery Robot§r.%n%nWhen such action is triggered, the Docking Station will request its robot to provide the items listed in the §dRequester's§r filter §8(left gui inventory)§r to its internal inventory.%n%nShould the action be triggered on a §6Builder§r instead, the missing materials required by the Builder's active blueprint are requested.
+lostera.quest13.desc=The Requester is a machine that enables you to request items from robots using gates.%n%nSpecifically, it is made to work with the §5§lRequest Needed Items§r gate action and the §aDelivery Robot§r.%n%nWhen such action is triggered, the Docking Station will request its robot to provide the items listed in the §dRequester's§r filter §8(left GUI inventory)§r to its internal inventory.%n%nShould the action be triggered on a §6Builder§r instead, the missing materials required by the Builder's active blueprint are requested.
 
 # Quest.14 - Underground Surveying
 lostera.quest14.name=Underground Surveying
@@ -118,11 +118,11 @@ lostera.quest17.desc=A bed is the minimum standard of a home and it can be acqui
 
 # Quest.18 - Getting Started
 lostera.quest18.name=Getting Started
-lostera.quest18.desc=You'll need to set yourself up with four main machines before you can do anything else. There are other machines, but these machines will help you get started.%n%nMost of these machines will require a §6Sturdy Casing §ras a component so you will need some bronze.%n%n%nFor privacy reasons, every machine in Forestry allows you to set a permission level.%n%n§a§nShared§7§o(Default)§r%nEveryone can see the contents of the block and break it.%n%n§e§nRestricted§r%nEveryone can see the contents of the block, but only the owner can break it.%n%n§c§nPrivate§r%nOnly the owner may see the contents or break the block.%n§8Item transfers from pipes or similar will not work in this mode for security reasons.
+lostera.quest18.desc=You'll need to set yourself up with four main machines before you can do anything else. There are other machines, but these machines will help you get started.%n%nMost of these machines will require a §6Sturdy Casing§r as a component, so you will need some bronze.%n%n%nFor privacy reasons, every machine in Forestry allows you to set a permission level.%n%n§a§nShared§7§o(Default)§r%nEveryone can see the contents of the block and break it.%n%n§e§nRestricted§r%nEveryone can see the contents of the block, but only the owner can break it.%n%n§c§nPrivate§r%nOnly the owner may see the contents or break the block.%n§8Item transfers from pipes or similar will not work in this mode for security reasons.
 
 # Quest.19 - Super Wheat
 lostera.quest19.name=Super Wheat
-lostera.quest19.desc=The Wild Grain is the easiest and most common of the grain crops to grow.%n%nIt grows as quickly as weed but has poor quality grains making it only good for bread or other simple dishes. %n%n%nIn short, this plant is the best friend for starving stomachs like yourself. %nGo and get some!
+lostera.quest19.desc=Wild Grain is the easiest and most common of the grain crops to grow.%n%nIt grows as quickly as weed but has poor quality grains making it only good for bread or other simple dishes. %n%n%nIn short, this plant is the best friend for starving stomachs like yourself. %nGo and get some!
 
 # Quest.20 - Bread
 lostera.quest20.name=Bread
@@ -158,7 +158,7 @@ lostera.quest27.desc=Inside the Thaumonomicon is everything you need to know abo
 
 # Quest.28 - §2¬§r Mystical Botany
 lostera.quest28.name=§2¬§r Mystical Botany
-lostera.quest28.desc=Not much advancements were made in studying Mystical Flora.%n%nNot matter how long one waited they just wouldn't grow. . .%n%nThat is until they were coaxed to grow from a §dMystical Petal§r using §eBonemeal§r!%n%n%nNow learning the ways of magic from mystical flora you are given the §aLexica Botania§r.%n%nThis book translates whispers of knowledge from Mystical Flowers and records it for later reading.%n%n§8As you increase your mastery, the book will grow with you and unlock more secrets. %n%n%n§r§lThis quest unlocks "Force of Nature". 
+lostera.quest28.desc=Not much advancements were made in studying Mystical Flora.%n%nNo matter how long one waited they just wouldn't grow. . .%n%nThat is until they were coaxed to grow from a §dMystical Petal§r using §eBonemeal§r!%n%n%nNow learning the ways of magic from mystical flora you are given the §aLexica Botania§r.%n%nThis book translates whispers of knowledge from Mystical Flowers and records it for later reading.%n%n§8As you increase your mastery, the book will grow with you and unlock more secrets. %n%n%n§r§lThis quest unlocks "Force of Nature". 
 
 # Quest.29 - Minecraftian Literature
 lostera.quest29.name=Minecraftian Literature
@@ -166,7 +166,7 @@ lostera.quest29.desc=Books are the most essential storage of knowledge and exper
 
 # Quest.30 - We Need To Go Deeper
 lostera.quest30.name=We Need To Go Deeper
-lostera.quest30.desc=At the depths of this world lies a much more frightening, hellish realm that has long been banished for its depravity.%n%nHowever there is still a way to sneak into such corrupted lands.%n%nYou will need to create a §5Obsidian Portal§r and set it ablaze.%n§8%nThe simplest method of starting a fire is using a Fire Charge.%n§5%n  ▉▉%n▉§r    §5▉%n▉    §5▉%n▉    ▉%n  ▉▉%n§r%n%n%n§lThis quest unlocks "Treasure Seeker".
+lostera.quest30.desc=At the depths of this world lies a much more frightening, hellish realm that has long been banished for its depravity.%n%nHowever, there is still a way to sneak into such corrupted lands.%n%nYou will need to create a §5Obsidian Portal§r and set it ablaze.%n§8%nThe simplest method of starting a fire is using a Fire Charge.%n§5%n  ▉▉%n▉§r    §5▉%n▉    §5▉%n▉    ▉%n  ▉▉%n§r%n%n%n§lThis quest unlocks "Treasure Seeker".
 
 # Quest.31 - Your First Diamond
 lostera.quest31.name=Your First Diamond
@@ -174,19 +174,19 @@ lostera.quest31.desc=Congrats! Fortune smiles upon you.%n%nThe first diamond bri
 
 # Quest.32 - Railmaster
 lostera.quest32.name=Railmaster
-lostera.quest32.desc=The Crowbar is a multi-purpose tool any rail engineer should carry. It makes removal of old rails a breeze.%n%nAdditionally, right-clicking on a rail will allow you to adjust the rail. Most of the time that means reversing the rail's direction, but some rails will open a GUI.%n%nThe Crowbar can also interact with carts in number of ways. Of interest is the ability to give carts a small boost just by whacking them with the Crowbar (right click). %n%nOn Locomotives, this actually flips the facing of the locomotive. %nAdditionally, the Crowbar can be used to link carts together with shift right-click to create a §lTrain§r.
+lostera.quest32.desc=The Crowbar is a multi-purpose tool any rail engineer should carry. It makes the removal of old rails a breeze.%n%nAdditionally, right-clicking on a rail will allow you to adjust the rail. Most of the time that means reversing the rail's direction, but some rails will open a GUI.%n%nThe Crowbar can also interact with carts in number of ways. Of interest is the ability to give carts a small boost just by whacking them with the Crowbar (right click). %n%nOn Locomotives, this actually flips the facing of the locomotive. %nAdditionally, the Crowbar can be used to link carts together with shift right-click to create a §lTrain§r.
 
 # Quest.33 - Infusion of Otherwhere
 lostera.quest33.name=Infusion of Otherwhere
-lostera.quest33.desc=The Infusion of Otherwhere, infuses the power of the End into a witch. %n%nThis power grants the ability to teleport.%n%n§l§nAbilities:%n§8To use the active powers a Witch Hand must be equipped:§r%n%n§5Blink: §rRight-click to teleport a short distance to the targeted location or creature.%n§5Transmission: §rHold right-click to teleport a long distance to the targeted location or creature.%n%n§5Marking: §rHold right-click while sneaking to store the current location as a recall point.%n§5Recall: §rRight-click while sneaking to teleport to the last saved recall point.%n%n§5Warping Flight: §rLeft-click on an entity to teleport them and you into the air §8(this can be done multiple times).%n%n§5Bonded Teleportation: §rLeft-click while sneaking on an entity to teleport them and you to the last saved recall point. 
+lostera.quest33.desc=The Infusion of Otherwhere infuses the power of the End into a witch.%n%nThis power grants the ability to teleport.%n%n§l§nAbilities:%n§8To use the active powers, a Witch Hand must be equipped:§r%n%n§5Blink: §rRight-click to teleport a short distance to the targeted location or creature.%n§5Transmission: §rHold right-click to teleport a long distance to the targeted location or creature.%n%n§5Marking: §rHold right-click while sneaking to store the current location as a recall point.%n§5Recall: §rRight-click while sneaking to teleport to the last saved recall point.%n%n§5Warping Flight: §rLeft-click on an entity to teleport them and you into the air §8(this can be done multiple times).%n%n§5Bonded Teleportation: §rLeft-click while sneaking on an entity to teleport them and you to the last saved recall point.
 
 # Quest.34 - A Vessel for Recollection
 lostera.quest34.name=A Vessel for Recollection
-lostera.quest34.desc=Upon vanquishing the residual consciousness of the unknown scholar you are overwhelmed with information, perhaps memories of days past? %n%nHowever all this information is all too much and too convoluted, barely accessible in the first place!%n%nThe first step is to always transfer the burden of knowledge into something other than one's brain.%n%nA book would be most ideal but your memories showed that only an entire §6Bookshelf§r could contain such vast knowledge §8(and even then only barely)§r. 
+lostera.quest34.desc=Upon vanquishing the residual consciousness of the unknown scholar, you are overwhelmed with information, perhaps memories of days past? %n%nHowever, all this information is all too much and too convoluted, barely accessible in the first place! %n%nThe first step is to always transfer the burden of knowledge into something other than one's brain. %n%nA book would be most ideal, but your memories showed that only an entire §6Bookshelf§r could contain such vast knowledge §8(and even then only barely)§r.
 
 # Quest.35 - §5¬§r The Tome of Miracles
 lostera.quest35.name=§5¬§r The Tome of Miracles
-lostera.quest35.desc=This last step requires a magical wand to act as medium between you and the bookshelf.%n%nYour first wand may look shabby, but considering your lack of magical materials, that is to be expected.%n%nNow the next step should be a simple yet most crucial:%n%n§5Cast the spell from those memories onto a bookshelf using your newly built wand.§r%n%n%n§r§lThis quest unlocks "Thaumaturgy". 
+lostera.quest35.desc=This last step requires a magical wand to act as a medium between you and the bookshelf.%n%nYour first wand may look shabby, but considering your lack of magical materials, that is to be expected.%n%nNow the next step should be a simple yet most crucial:%n%n§5Cast the spell from those memories onto a bookshelf using your newly built wand.§r%n%n%n§r§lThis quest unlocks "Thaumaturgy
 
 # Quest.36 - Charm of Keeping
 lostera.quest36.name=Charm of Keeping
@@ -194,27 +194,27 @@ lostera.quest36.desc=The Charm of Keeping is a small item resembling a lock. %n%
 
 # Quest.37 - §3¬§r Witch's Garden
 lostera.quest37.name=§3¬§r Witch's Garden
-lostera.quest37.desc=A Witch's garden differs from a normal garden, in that its properties are as fascinating as the plants themselves.%n%nPerhaps strangest of all is the Mandrakes. %n%nIts roots twist in a somewhat humanoid fashion, resembling misshapen dolls with spindly limbs. %n%nMany practitioners insists that mandrakes scream when pulled up from the earth, and that their cries harm all within earshot.%n%nLittle did you know this rumour would prove true today.%n%n§5Will you pursue the magical art of witchcraft to control the natural magic present in this world and beyond?%n%n%n§r§lThis quest unlocks "Witchcraft". 
+lostera.quest37.desc=A Witch's garden differs from a normal garden, in that its properties are as fascinating as the plants themselves.%n%nPerhaps strangest of all is the Mandrakes. %n%nIts roots twist in a somewhat humanoid fashion, resembling misshapen dolls with spindly limbs. %n%nMany practitioners insist that mandrakes scream when pulled up from the earth, and that their cries harm all within earshot.%n%nLittle did you know this rumour would prove true today.%n%n§5Will you pursue the magical art of witchcraft to control the natural magic present in this world and beyond?%n%n%n§r§lThis quest unlocks "Witchcraft".
 
 # Quest.38 - Personal Space
 lostera.quest38.name=Personal Space
-lostera.quest38.desc=The Security Lock is used for adding access control to Thermal Expansion machines and containers. %n%nThis allows for extra security in preventing other players from stealing inventory or resources such as stored energy.
+lostera.quest38.desc=The Security Lock is used for adding access control to Thermal Expansion machines and containers. %n%nThis allows for extra security in preventing other players from stealing inventory or resources, such as stored energy.
 
 # Quest.39 - Steam Dynamo
 lostera.quest39.name=Steam Dynamo
-lostera.quest39.desc=The Steam Dynamo generates power from water and burnables at a rate of 10 RF/tick.%n%nUnlike a Sterling Engine §6it will not explode§r and is much more efficient with fuel lasting 50%% longer.%n%nIt requires §7Steam§r to create power generated internally with water and fuel or, alternatively, supplied directly via fluid pipes or similar. 
+lostera.quest39.desc=The Steam Dynamo generates power from water and burnables at a rate of 10 RF/tick.%n%nUnlike a Sterling Engine §6it will not explode§r and is much more efficient with fuel, lasting 50%% longer.%n%nIt requires §7Steam§r to create power, generated internally with water and fuel or, alternatively, supplied directly via fluid pipes or similar.
 
 # Quest.40 - Magmatic Dynamo
 lostera.quest40.name=Magmatic Dynamo
-lostera.quest40.desc=The Magmatic Dynamo generates power from §chot fluids§r at a rate of §420 RF/tick§r.%n%nIt requires§c lava (or other hot fluids)§r to generate power. %nThese liquids can be input directly with a bucket or through a pipe such as a Fluiduct.
+lostera.quest40.desc=The Magmatic Dynamo generates power from §chot fluids§r at a rate of §420 RF/tick§r.%n%nIt requires §clava (or other hot fluids)§r to generate power. %nThese liquids can be input directly with a bucket or through a pipe, such as a Fluiduct.
 
 # Quest.41 - Compression Dynamo
 lostera.quest41.name=Compression Dynamo
-lostera.quest41.desc=The Compression Dynamo generates power from §eFuels§r at a rate of 50 RF/tick.%n%nIt requires §eFuel §rto generate power as well as coolant to generate power.%nThis may be supplied directly via Fluiducts, or a bucket.%n%n§6§nList of some of the compatible fuel:%n§rOil, Fuel, Ethanol, Biofuel, Liquified Coal, Biogas and Hydrogen.%n%n§b§nList of some of the compatible coolant (not extensive):%n§rWater, Distilled Water, Crushed Ice, Liquid Nitrogen and Gelid Cryotheum, 
+lostera.quest41.desc=The Compression Dynamo generates power from §eFuels§r at a rate of 50 RF/tick.%n%nIt requires §eFuel §rto generate power as well as coolant to generate power.%nThis may be supplied directly via Fluiducts or a bucket.%n%n§6§nList of some of the compatible fuel:%n§rOil, Fuel, Ethanol, Biofuel, Liquified Coal, Biogas, and Hydrogen.%n%n§b§nList of some of the compatible coolant (not extensive):%n§rWater, Distilled Water, Crushed Ice, Liquid Nitrogen, and Gelid Cryotheum.
 
 # Quest.42 - Reactant Dynamo
 lostera.quest42.name=Reactant Dynamo
-lostera.quest42.desc=The Reactant Dynamo generates power from §5alchemy reactions §rat a rate of 60 RF/tick.%n%nIt requires an §5alchemy reaction§r of a solid catalyst with a liquid fuel to enhance the energy production and generate power.%n%nThe §6Fuel§r defines the amount of energy generated per 1,000 mB while the §5Catalyst§r sustains the chemical reaction that allows the energy to be extracted.%n%nThe Dynamo generates energy when both a fuel and a catalyst is present. %n%nThe catalyst is consumed after a certain amount of energy is produced regardless of the fuel used. %n%n§6§nList of Fuel accepted:§r%nAcid, Biomass, Creosote Oil, Destabilized Redstone, Ender Goo, Energized Glowstone, Honey, Juice, Liquid XP, Mead, Milk, Poison, Resonant Ender, Seed Oil, Sewage, Short Mead, Sludge.%n%n§5§nList of Catalyst accepted:%n§rSugar, Gunpowder, Blaze Powder, Ghast Tear, Nether Star.
+lostera.quest42.desc=The Reactant Dynamo generates power from §5alchemy reactions§r at a rate of 60 RF/tick.%n%nIt requires an §5alchemy reaction§r of a solid catalyst with a liquid fuel to enhance the energy production and generate power.%n%nThe §6Fuel§r defines the amount of energy generated per 1,000 mB while the §5Catalyst§r sustains the chemical reaction that allows the energy to be extracted.%n%nThe Dynamo generates energy when both a fuel and a catalyst are present. %n%nThe catalyst is consumed after a certain amount of energy is produced regardless of the fuel used. %n%n§6§nList of Fuel accepted:%n§rAcid, Biomass, Creosote Oil, Destabilized Redstone, Ender Goo, Energized Glowstone, Honey, Juice, Liquid XP, Mead, Milk, Poison, Resonant Ender, Seed Oil, Sewage, Short Mead, Sludge.%n%n§5§nList of Catalyst accepted:%n§rSugar, Gunpowder, Blaze Powder, Ghast Tear, Nether Star.
 
 # Quest.43 - Enervation Dynamo
 lostera.quest43.name=Enervation Dynamo
@@ -222,19 +222,19 @@ lostera.quest43.desc=The Enervation Dynamo generates power from §4redstone§r a
 
 # Quest.44 - Leadstone Energy Cell
 lostera.quest44.name=Leadstone Energy Cell
-lostera.quest44.desc=Energy Cells store Redstone Flux (RF) and can be picked up with a Pickaxe or a Crescent Hammer keeping the stored RF intact.%n%nWhen placed all sides are set to input (blue) except the bottom which is set to output (orange). %n%nThe Energy's GUI is able to configure redstone response, input and output rate, and face interaction.%n%n§8§nThe Leadstone Energy Cell§r has:%nCapacity:   400,000 RF%nMax Input & Output:   200 RF/tick
+lostera.quest44.desc=Energy Cells store Redstone Flux (RF) and can be picked up with a Pickaxe or a Crescent Hammer, keeping the stored RF intact.%n%nWhen placed, all sides are set to input (blue) except the bottom, which is set to output (orange). %n%nThe Energy's GUI is able to configure redstone response, input and output rate, and face interaction.%n%n§8§nThe Leadstone Energy Cell§r has:%nCapacity:   400,000 RF%nMax Input & Output:   200 RF/tick
 
 # Quest.45 - Hardened Cell
 lostera.quest45.name=Hardened Cell
-lostera.quest45.desc=Energy Cells store Redstone Flux (RF) and can be picked up with a Pickaxe or a Crescent Hammer keeping the stored RF intact.%n%nWhen placed all sides are set to input (blue) except the bottom which is set to output (orange).%n %nThe Energy's GUI is able to configure redstone response, input and output rate, and face interaction.%n%n§7§nThe Hardened Energy Cell§r has:%nCapacity:   2,000,000 RF%nMax Input & Output:   800 RF/tick
+lostera.quest45.desc=Energy Cells store Redstone Flux (RF) and can be picked up with a Pickaxe or a Crescent Hammer, keeping the stored RF intact.%n%nWhen placed, all sides are set to input (blue) except the bottom, which is set to output (orange).%n %nThe Energy's GUI is able to configure redstone response, input and output rate, and face interaction.%n%n§7§nThe Hardened Energy Cell§r has:%nCapacity:   2,000,000 RF%nMax Input & Output:   800 RF/tick
 
 # Quest.46 - Redstone Cell
 lostera.quest46.name=Redstone Cell
-lostera.quest46.desc=Energy Cells store Redstone Flux (RF) and can be picked up with a Pickaxe or a Crescent Hammer keeping the stored RF intact.%n%nWhen placed all sides are set to input (blue) except the bottom which is set to output (orange).%n %nThe Energy's GUI is able to configure redstone response, input and output rate, and face interaction.%n%n§c§nThe Redstone Energy Cell§r has:%nCapacity:   20,000,000 RF%nMax Input & Output:   8000 RF/tick
+lostera.quest46.desc=Energy Cells store Redstone Flux (RF) and can be picked up with a Pickaxe or a Crescent Hammer, keeping the stored RF intact.%n%nWhen placed, all sides are set to input (blue) except the bottom, which is set to output (orange).%n %nThe Energy's GUI is able to configure redstone response, input and output rate, and face interaction.%n%n§c§nThe Redstone Energy Cell§r has:%nCapacity:   20,000,000 RF%nMax Input & Output:   8000 RF/tick
 
 # Quest.47 - Resonant Cell
 lostera.quest47.name=Resonant Cell
-lostera.quest47.desc=Energy Cells store Redstone Flux (RF) and can be picked up with a Pickaxe or a Crescent Hammer keeping the stored RF intact.%n%nWhen placed all sides are set to input (blue) except the bottom which is set to output (orange).%n %nThe Energy's GUI is able to configure redstone response, input and output rate, and face interaction.%n%n§3§nThe Resonant Energy Cell§r has:%nCapacity:   80,000,000 RF%nMax Input & Output:   32,000 RF/tick
+lostera.quest47.desc=Energy Cells store Redstone Flux (RF) and can be picked up with a Pickaxe or a Crescent Hammer, keeping the stored RF intact.%n%nWhen placed, all sides are set to input (blue) except the bottom, which is set to output (orange).%n %nThe Energy's GUI is able to configure redstone response, input and output rate, and face interaction.%n%n§3§nThe Resonant Energy Cell§r has:%nCapacity:   80,000,000 RF%nMax Input & Output:   32,000 RF/tick
 
 # Quest.48 - Redstone Furnace
 lostera.quest48.name=Redstone Furnace
@@ -242,7 +242,7 @@ lostera.quest48.desc=The Redstone Furnace functions identically to a vanilla fur
 
 # Quest.49 - Pulverizer
 lostera.quest49.name=Pulverizer
-lostera.quest49.desc=The Pulverizer is used to turn Ores into 2 Dusts. %n%nThese can then be smelted in any type of Furnace to produce Ingots. %n%nAdditionally, it has a chance of giving a secondary output, such as §6Nickel§r from §7Iron Ore, §bSilver §rfrom §9Lead Ore §ror §ePlatinum §rfrom §6Nickel Ore§r. 
+lostera.quest49.desc=The Pulverizer is used to grinds ores into 2 units of dusts. %n%nThe resulting dust can be smelted in any furnace to produce ingots. %n%nAdditionally, it has a chance of giving a secondary output, such as §6Nickel§r from §7Iron Ore§r, §bSilver§r from §9Lead Ore§r or §ePlatinum§r from §6Nickel Ore§r. 
 
 # Quest.50 - Sawmill
 lostera.quest50.name=Sawmill
@@ -254,7 +254,7 @@ lostera.quest51.desc=The Induction Smelter is a machine that uses a catalyst (su
 
 # Quest.52 - Magma Crucible
 lostera.quest52.name=Magma Crucible
-lostera.quest52.desc=The Magma Crucible melt down solid materials into fluids at incredibly high temperature.%n%nThis often takes a large amount of energy.
+lostera.quest52.desc=The Magma Crucible melts down solid materials into fluids at incredibly high temperature.%n%nThis process often requires a large amount of energy.
 
 # Quest.53 - Fluid Transposer
 lostera.quest53.name=Fluid Transposer
@@ -298,11 +298,11 @@ lostera.quest62.desc=The Autonomous Activator is a machine that simulates the ac
 
 # Quest.63 - Flux-Infused Axe
 lostera.quest63.name=Flux-Infused Axe
-lostera.quest63.desc=The Flux-Infused Axe functions as a normal axe when quelled. %n%nWhen empowered it can cut wood in a 3x3x3 cube. %n%nBy default §dpress V§r to empower and quell tools.%n%nThe axe has an internal energy storage of §c160,000RF§r and uses §c200RF§r per use in quelled mode and §c800RF§r per use when empowered. %n%nIt will do 3 hearts§r of damage normally increased to 3.5 when empowered.%n%nThe tool will not break from usage but must be recharged at a §6Charging Table§r or similar when fully drained. 
+lostera.quest63.desc=The Flux-Infused Axe functions like a regular axe when quelled. %n%nWhen empowered it can cut wood in a 3x3x3 cube. %n%nBy default §dpress V§r to empower and quell tools.%n%nThe axe has an internal energy storage of §c160,000RF§r and uses §c200RF§r per use in quelled mode and §c800RF§r per use when empowered. %n%nIt will do 3 hearts§r of damage normally increased to 3.5 when empowered.%n%nThe tool will not break from usage but must be recharged at a §6Charging Table§r or similar when fully drained. 
 
 # Quest.64 - Flux-Infused Pickaxe
 lostera.quest64.name=Flux-Infused Pickaxe
-lostera.quest64.desc=The Flux-Infused Pickaxe functions as a normal pickaxe when quelled.%n%nWhen empowered it can mine a 3x1 column in front of the user or a 2x1 column above or below the user. %n%nBy default §dpress V§r to empower and quell tools.%n%nIt has an internal energy storage of §c160,000 RF§r and uses §c200 RF§r per use in quelled mode and §c800 RF§r per use when empowered.%n%nOn hit it will do 2.5 hearts of damage normally increased to 3 when empowered.%n%n%nThe tool will not break from usage but must be recharged at a §6Charging Table§r or similar when fully drained. 
+lostera.quest64.desc=The Flux-Infused Pickaxe functions like a regular pickaxe when quelled.%n%nWhen empowered it can mine a 3x1 column in front of the user or a 2x1 column above or below the user. %n%nBy default §dpress V§r to empower and quell tools.%n%nIt has an internal energy storage of §c160,000 RF§r and uses §c200 RF§r per use in quelled mode and §c800 RF§r per use when empowered.%n%nOn hit it will do 2.5 hearts of damage normally increased to 3 when empowered.%n%n%nThe tool will not break from usage but must be recharged at a §6Charging Table§r or similar when fully drained. 
 
 # Quest.65 - Flux-Infused Shovel
 lostera.quest65.name=Flux-Infused Shovel
@@ -314,11 +314,11 @@ lostera.quest66.desc=The Flux-Infused BattleWrench when quelled it works like a 
 
 # Quest.67 - Flux-Infused Sword
 lostera.quest67.name=Flux-Infused Sword
-lostera.quest67.desc=The Flux-Infused Sword when quelled it functions as a normal sword. %n%nWhen empowered it has the special right-click ability to repel hostile mobs 2 meters away from the one using the sword in all directions. %n%nThis ability however will not block or reflect projectiles such as arrows. %n%nBy default §dpress V§r to empower and quell tools.%n%nIt has an internal energy storage of §c160,000RF§r and uses §c200RF§r per use in quelled mode and §c800RF§r per use when empowered. %n%nIt will do 4.5 hearts of damage normally increased to 6 when empowered.%n%nThe tool will not break from usage but must be recharged at a §6Charging Table§r or similar when fully drained. 
+lostera.quest67.desc=The Flux-Infused Sword when quelled it functions like a regular sword. %n%nWhen empowered it has the special right-click ability to repel hostile mobs 2 meters away from the one using the sword in all directions. %n%nThis ability however will not block or reflect projectiles such as arrows. %n%nBy default §dpress V§r to empower and quell tools.%n%nIt has an internal energy storage of §c160,000RF§r and uses §c200RF§r per use in quelled mode and §c800RF§r per use when empowered. %n%nIt will do 4.5 hearts of damage normally increased to 6 when empowered.%n%nThe tool will not break from usage but must be recharged at a §6Charging Table§r or similar when fully drained. 
 
 # Quest.68 - Flux-Infused Bow
 lostera.quest68.name=Flux-Infused Bow
-lostera.quest68.desc=The Flux-Infused Bow functions as a normal Bow. %n%nIt has an internal energy storage of §c160,000 RF§r and uses §c200 RF§r per use in quelled mode and §c800 RF§r per use when empowered. %n%nIt will do 8.5 hearts of damage normally increased to 11 when empowered.%n%nThe tool will not break from usage by must be recharged at a §6Charging Table§r or similar when fully drained. 
+lostera.quest68.desc=The Flux-Infused Bow functions like a regular bow. %n%nIt has an internal energy storage of §c160,000 RF§r and uses §c200 RF§r per use in quelled mode and §c800 RF§r per use when empowered. %n%nIt will do 8.5 hearts of damage normally increased to 11 when empowered.%n%nThe tool will not break from usage, but must be recharged at a §6Charging Table§r or similar when fully drained. 
 
 # Quest.69 - Flux-Infused Sickle
 lostera.quest69.name=Flux-Infused Sickle
@@ -330,7 +330,7 @@ lostera.quest70.desc=The Survivalist Generator produces 2 RF per tick from fuel 
 
 # Quest.71 - Flux-Infused OmniWrench
 lostera.quest71.name=Flux-Infused OmniWrench
-lostera.quest71.desc=The Flux-Infused OmniWrench functions as a normal universal omniwrench, with the added function of also working as shears. %n%nIt has an internal energy storage of §c160,000RF§r and uses §c200RF§r per use.%n%nThe tool will not break from usage but must be recharged at a §6Charging Table§r or similar when fully drained. 
+lostera.quest71.desc=The Flux-Infused OmniWrench functions like a regular universal omniwrench, with the added function of also working as shears. %n%nIt has an internal energy storage of §c160,000RF§r and uses §c200RF§r per use.%n%nThe tool will not break from usage but must be recharged at a §6Charging Table§r or similar when fully drained. 
 
 # Quest.72 - Furnace Generator
 lostera.quest72.name=Furnace Generator
@@ -374,7 +374,7 @@ lostera.quest81.desc=The Quarry is used to mine out large areas. %n%nBy default,
 
 # Quest.82 - Fluid Pumping
 lostera.quest82.name=Fluid Pumping
-lostera.quest82.desc=The Pump is used to collect liquid, such as Oil, Water and lava, and transport it into tanks.%n%nThe Pump will send the liquid it collects straight through any Fluid Pipes connected to it.%n%n§8%n§oThe Pump actually takes from more than just directly around it, so when pumping oil that is surrounded by water, it is wise to have two tanks or the water will get stuck in the pipe and no more oil will be able to be pumped. 
+lostera.quest82.desc=The Pump is used to collect liquid, such as Oil, Water and lava, and transport it into tanks.%n%nThe Pump sends the liquid it collects straight through any Fluid Pipes connected to it.%n%n§8%n§oThe Pump actually takes from more than just directly around it, so when pumping oil that is surrounded by water, it is wise to have two tanks or the water will get stuck in the pipe and no more oil will be able to be pumped. 
 
 # Quest.83 - Refinery
 lostera.quest83.name=Refinery
@@ -450,7 +450,7 @@ lostera.quest100.desc=The Picker Robot is designed to pick up items lying on the
 
 # Quest.101 - Lists
 lostera.quest101.name=Lists
-lostera.quest101.desc=Lists are a tool to extend inventory slots of filters in gates and pipes.%n%nIts main purpose is to allow users to specify more items than what the filter space from a gate allows.%n%nHowever it can be used in any buildcraft device that uses a filter, such as Diamond Pipes.%n%n%nLists have also 3 buttons that further empower its ability to filter items:%n%n§6%n§lPrecise§r%nItems must precisely match the filter, including damage, NBT, etc.%n%n§8Example%nOnly filter for an Enchantment book with a specific enchantment.%n%n§b%n§lType§r%nAccept all items of the same type as the list,%n%n§8Example%nIf a Golden Hoe is on the list, accept any hoes.%n%n§d%n§lMaterial§r%nAccept all items that share oredictionary material.%n%n§8Example%nIf an Iron Ingot is on the list, accept Iron Blocks, Iron Nuggets.%n%n§oIt even works with liquids! 
+lostera.quest101.desc=Lists extend inventory slots of filters in gates and pipes.%n%nIts main purpose is to allow users to specify more items than what the filter space from a gate allows.%n%nHowever it can be used in any buildcraft device that uses a filter, such as Diamond Pipes.%n%n%nLists have also 3 buttons that further empower its ability to filter items:%n%n§6%n§lPrecise§r%nItems must precisely match the filter, including damage, NBT, etc.%n%n§8Example%nOnly filter for an Enchantment book with a specific enchantment.%n%n§b%n§lType§r%nAccept all items of the same type as the list,%n%n§8Example%nIf a Golden Hoe is on the list, accept any hoes.%n%n§d%n§lMaterial§r%nAccept all items that share oredictionary material.%n%n§8Example%nIf an Iron Ingot is on the list, accept Iron Blocks, Iron Nuggets.%n%n§oIt even works with liquids! 
 
 # Quest.102 - Lasers
 lostera.quest102.name=Lasers
@@ -2206,7 +2206,7 @@ lostera.quest539.desc=A thank you for those who have helped me making this modpa
 
 # Quest.540 - Magic
 lostera.quest540.name=Magic
-lostera.quest540.desc=Magic relies on ancient fundamental principles.%n%nWith ancient scriptures and researches on the occult, you will have the utmost information on where and how to progress.%n%n§5Ultimately, it is not a question of if but of when you will become an all powerful magic wielder, only matched in combat by other magic users.§r %n%nThe catch is, magic is set on the old ways and thus lacks aptitude on more modern issues. %n%nMany of the more complex plans you may have will require to be creative with the power given to you.
+lostera.quest540.desc=Magic relies on ancient fundamental principles.%n%nWith ancient scriptures and research on the occult, you will have the utmost information on where and how to progress.%n%n§5Ultimately, it is not a question of 'if' but of 'when' you will become an all-powerful magic wielder, only matched in combat by other magic users.§r %n%nThe catch is, magic is set on the old ways and thus lacks aptitude for more modern issues. %n%nMany of the more complex plans you may have will require to be creative with the power given to you.
 
 # Quest.541 - Scientist
 lostera.quest541.name=Scientist
@@ -2218,11 +2218,11 @@ lostera.quest542.desc=The path of an Engineer utilizes Redstone Flux as the sour
 
 # Quest.543 - Mystic
 lostera.quest543.name=Mystic
-lostera.quest543.desc=The path of a Mystic is one of sourcery, often involving deities by earning their favour through bargain or combat.%n%nIf you seek to master the old ways of magic in the arts of casting spells, conjuring summons and even becoming well-verse in ritualistic incantations this might be the path for you.%n%n§a"The language of the Mystic Arts is as old as civilization. We harness energy from other dimensions to summon the supernatural and make magic."§r%n %n%n§lDifficulty:§r %n§8%nCasual | §aEasy§8 | Normal | Hard | Expert
+lostera.quest543.desc=The path of a Mystic is one of sorcery, often involving deities by earning their favour through bargain or combat.%n%nIf you seek to master the old ways of magic in the arts of casting spells, conjuring summons and even becoming well-versed in ritualistic incantations, this might be the path for you.%n%n§a"The language of the Mystic Arts is as old as civilization. We harness energy from other dimensions to summon the supernatural and invoke magic."§r%n %n%n§lDifficulty:§r %n§8%nCasual | §aEasy§8 | Normal | Hard | Expert
 
 # Quest.544 - Scholar
 lostera.quest544.name=Scholar
-lostera.quest544.desc=The path of a Scholar is one that disregards for the natural laws of the universe as we understand to create miracles.%n%nIf unbound power is what you seek then peering such forbidden knowledge may be the path for you but it can come at a dire price of losing one's sanity, life or worse.%n%nWhile the outcome is magical the process is scientific, requiring research, experimentations and a lot of risk taking.%n%nHeed my words of warning:%n§5"If you stare into the Abyss, the Abyss stares back at you."%n%n%n§lDifficulty:§r %n§8%nCasual | Easy | Normal |§5 Hard§8 | Expert
+lostera.quest544.desc=The path of a Scholar is one that disregards the natural laws of the universe to create miracles.%n%nIf unbound power is what you seek then peering such forbidden knowledge may be the path for you but it can come at a dire price of losing one's sanity, life or worse.%n%nWhile the outcome is magical the process is scientific, requiring research, experimentations and a lot of risk taking.%n%nHeed my words of warning:%n§5"If you stare into the Abyss, the Abyss stares back at you."%n%n%n§lDifficulty:§r %n§8%nCasual | Easy | Normal |§5 Hard§8 | Expert
 
 # Quest.545 - ~Types of Tracks & Chest Cart
 lostera.quest545.name=~Types of Tracks & Chest Cart
@@ -2253,7 +2253,7 @@ lostera.quest551.desc=For those who are looking to get away from a world they di
 
 # Quest.552 - Job: Smithing
 lostera.quest552.name=Job: Smithing
-lostera.quest552.desc=This job class is all about forging powerful equipments and leveraging on the versatility of alloys to take redstone mechanics to its limits.%n%nAdditionally, through the power of alloying, you will be able to develop a whole new category of redstone working by imparting it with metallic properties.%n%nWhen taking up forging you will be exploring worlds for the next best material for your tools andbe weaponry or creating mindboggling redstone mechanisms never thought possible.%n%n%n%n§lDifficulty:§r %n%n§bCasual§8 | Easy | Normal | Hard | Expert
+lostera.quest552.desc=This job class is all about forging powerful equipment and leveraging on the versatility of alloys to take redstone mechanics to its limits.%n%nAdditionally, through the power of alloying, you will be able to develop a whole new category of redstone working by imparting it with metallic properties.%n%nWhen taking up forging you will be exploring worlds for the next best material for your tools andbe weaponry or creating mindboggling redstone mechanisms never thought possible.%n%n%n%n§lDifficulty:§r %n%n§bCasual§8 | Easy | Normal | Hard | Expert
 
 # Quest.553 - Job: Automaton
 lostera.quest553.name=Job: Automaton
@@ -2897,7 +2897,7 @@ lostera.quest712.desc=The Pure Daisy can convert blocks to their magical counter
 
 # Quest.713 - Living Wood
 lostera.quest713.name=Living Wood
-lostera.quest713.desc=Livingwood is used in crafting of most of the magical equipments in this chapter.%n%nIt is created by placing logs near a Pure Daisy. %n%n§8Consult the Lexica Botania for additional information.§r
+lostera.quest713.desc=Livingwood is used in crafting of most of the magical equipment in this chapter.%n%nIt is created by placing logs near a Pure Daisy. %n%n§8Consult the Lexica Botania for additional information.§r
 
 # Quest.714 - Livingrock
 lostera.quest714.name=Livingrock
@@ -2925,7 +2925,7 @@ lostera.quest719.desc=The Manaseer Monocle visually manifests the mana flow and 
 
 # Quest.720 - Runic Altar
 lostera.quest720.name=Runic Altar
-lostera.quest720.desc=The Runic Altar is used for crafting mana based components.%n%nPlace or drop the items needed for recipes, supply it with mana, and lastly throw a piece of Livingrock on top of it to start the process.%n%nTo collect the final product you must interact with it whilst holding a Wand of the Forest. %n%n§8Consult the Lexica Botania for additional information.§r%n%n%n§r§lThis quest unlocks "Mana Sourcery". 
+lostera.quest720.desc=The Runic Altar is used for crafting mana based components.%n%nPlace or drop the items needed for recipes, supply it with mana, and lastly throw a piece of Livingrock on top of it to start the process.%n%nTo collect the final product you must interact with it whilst holding a Wand of the Forest. %n%n§8Consult the Lexica Botania for additional information.§r%n%n%n§r§lThis quest unlocks "Mana Sorcery". 
 
 # Quest.721 - Pulse Mana Spreader
 lostera.quest721.name=Pulse Mana Spreader
@@ -4013,7 +4013,7 @@ lostera.quest991.desc=Each piece of the Quantum Suit offers additional features 
 
 # Quest.992 - Power Tools
 lostera.quest992.name=Power Tools
-lostera.quest992.desc=In here you will find the next step of technological equipments.%n%nPower tools allow you to not worry about breaking your tools when you need them most.%n%nThey will never break, only need recharging.%n%nMake sure to pay attention to their power tier!%n%nMost of the tools can only be charged only with §b§lLow Voltage§r.
+lostera.quest992.desc=In here you will find the next step of technological equipment.%n%nPower tools allow you to not worry about breaking your tools when you need them most.%n%nThey will never break, only need recharging.%n%nMake sure to pay attention to their power tier!%n%nMost of the tools can only be charged only with §b§lLow Voltage§r.
 
 # Quest.993 - Electric Wrench
 lostera.quest993.name=Electric Wrench
@@ -4121,7 +4121,7 @@ lostera.quest1018.desc=Luminators are stylish-looking lamps that emit light when
 
 # Quest.1019 - Not Enough Items
 lostera.quest1019.name=Not Enough Items
-lostera.quest1019.desc=This a guide on how to view crafting recipes and usages of the majority of the items in the modpack.%n%nTo search an item, simply type on the black search box under your inventory. %nYou can also type §d@modname§r to search for items from that mod.%n%nDouble clicking the search bar will hide any item in your inventory that does not match the search box.%n%n§lImportant Keys:%n§rHover over an item and press to:%n%n§4"R" - See recipes%n§9"U" - See usage%n§a"A" - Bookmark item or remove item from bookmark%n%n§6"T" - Search for item in nearby storage.%n%n§4"R"§r & §9"U"§r will shows all the ways to craft or obtain that item, be it with a Crafting Bench, Furnace, Brewing Stand and other.%nThis also includes drops from monsters and what Y-level you will find the ores you are looking for.%n%nBe sure to scroll through all the options when you do search for something.%n%n§8"Backspace" will send you back to the previous viewed recipe.%n"O" will hide/unhide the item browsing tabs.
+lostera.quest1019.desc=This a guide on how to view crafting recipes and usages of the majority of the items in the modpack.%n%nTo search an item, simply type on the black search box under your inventory. %nYou can also type §d@modname§r to search for items from that mod.%n%nDouble clicking the search bar will hide any item in your inventory that does not match the search box.%n%n§lImportant Keys:%n§rHover over an item and press to:%n%n§4"R" - See recipes%n§9"U" - See usage%n§a"A" - Bookmark item or remove item from bookmark%n%n§6"T" - Search for item in nearby storage.%n%n§4"R"§r & §9"U"§r shows all the ways to craft or obtain that item, be it with a Crafting Bench, Furnace, Brewing Stand and other.%nThis also includes drops from monsters and what Y-level you will find the ores you are looking for.%n%nBe sure to scroll through all the options when you search for something.%n%n§8"Backspace" will send you back to the previous viewed recipe.%n"O" will hide/unhide the item browsing tabs.
 
 # Quest.1020 - Industrial Suit
 lostera.quest1020.name=Industrial Suit
@@ -7595,7 +7595,7 @@ lostera.quest1887.desc=Emeralds are rare and elusive gems commonly used as curre
 
 # Quest.1888 - After Dark
 lostera.quest1888.name=After Dark
-lostera.quest1888.desc=You can run and hide to avoid the dangers that lurk within darkness.%n%nHowever you can also fight back!
+lostera.quest1888.desc=You can run and hide to avoid the dangers that lurk within darkness.%n%nHowever, you can also fight back!
 
 # Quest.1889 - Minedrake Bulb
 lostera.quest1889.name=Minedrake Bulb
@@ -12546,7 +12546,7 @@ lostera.quest3125.desc=The Trapdoors are a §6Mechanism Component§r.%n%nMost Tr
 
 # Quest.3126 - Guards! Guards!
 lostera.quest3126.name=Guards! Guards!
-lostera.quest3126.desc=Golems are the perfect servants to keep out unwanted intruders in your property.%n%nThese will target any hostile creatures in the vicinity and fight them for you.%n%nThey are given life by assembling their parts in the appropriate pattern and given a §6pumpkin§r head.%n%nGolems comes in 2 flavours:%n%n§b§lSnow Golem:§r%n%nCheap golems that throws snowballs at enemies.%nThese are quite delicate at §c4 hearts§r and are susceptible to melting from heat and rain.%n%nMade out of §bsnow blocks§r and a §6pumpkin§r:%n§6▉§b%n▉%n▉§r%n%n%n§9§lIron Golem:§r%n%nSturdy golems deals significant damage and sends enemies flying.%nWhile being very resilient at §c50 hearts§r, they can also be healed using iron ingots§8 (heals for 12.5 hearts)§r.%n%nMade out of §9iron blocks§r and a §6pumpkin§r:%n§6  ▉§9%n▉▉▉%n  ▉ 
+lostera.quest3126.desc=Golems are the perfect servants to keep out unwanted intruders off your property.%n%nThese will target any hostile creatures in the vicinity and fight them for you.%n%nThey are given life by assembling their parts in the appropriate pattern and given a §6pumpkin§r head.%n%nGolems comes in 2 flavours:%n%n§b§lSnow Golem:§r%n%nCheap golems that throws snowballs at enemies.%nThese are quite delicate at §c4 hearts§r and are susceptible to melting from heat and rain.%n%nMade out of §bsnow blocks§r and a §6pumpkin§r:%n§6▉§b%n▉%n▉§r%n%n%n§9§lIron Golem:§r%n%nSturdy golems that deals significant damage and sends enemies flying.%nWhile being very resilient at §c50 hearts§r, they can even be healed using iron ingots§8 (heals for 12.5 hearts)§r.%n%nMade out of §9iron blocks§r and a §6pumpkin§r:%n§6  ▉§9%n▉▉▉%n  ▉ 
 
 # Quest.3127 - §6¬§r Forged in Fire
 lostera.quest3127.name=§6¬§r Forged in Fire
@@ -12846,7 +12846,7 @@ lostera.quest3200.desc=Keeping track on how to program Robots using gates can be
 
 # Quest.3201 - Manasteel Armor
 lostera.quest3201.name=Manasteel Armor
-lostera.quest3201.desc=Armor made out of Manasteel offers equivalent protection to that of iron armor albeit with higher enchantability.%n%nLike most mana equipments, it is capable of restoring itself with mana.%n%nWhen the full set is worn, the wearer's affinity to magic is increased ever so slightly, decreasing the cost of all mana consuming equipment by a tenth.%n%n%n§8Consult the Lexica Botania for additional information.§r
+lostera.quest3201.desc=Armor made out of Manasteel offers equivalent protection to that of iron armor albeit with higher enchantability.%n%nLike most mana equipment, it is capable of restoring itself with mana.%n%nWhen the full set is worn, the wearer's affinity to magic is increased ever so slightly, decreasing the cost of all mana consuming equipment by a tenth.%n%n%n§8Consult the Lexica Botania for additional information.§r
 
 # Quest.3202 - Terrasteel Armor
 lostera.quest3202.name=Terrasteel Armor
@@ -12910,7 +12910,7 @@ lostera.quest3216.desc=The Rod of the Hells is a magical device with the ability
 
 # Quest.3217 - Mana Mirror
 lostera.quest3217.name=Mana Mirror
-lostera.quest3217.desc=Mana Mirror allows remote access to it's bound to a Mana Pool, allowing equipments in your inventory to draw mana from it.%n%nSneak-right click to bind a Mana Mirror to a Mana Pool.%n%n%n§8Consult the Lexica Botania for additional information.§r
+lostera.quest3217.desc=Mana Mirror allows remote access to it's bound to a Mana Pool, allowing equipment in your inventory to draw mana from it.%n%nSneak-right click to bind a Mana Mirror to a Mana Pool.%n%n%n§8Consult the Lexica Botania for additional information.§r
 
 # Quest.3218 - Sojourner's Sash
 lostera.quest3218.name=Sojourner's Sash
@@ -13074,7 +13074,7 @@ lostera.quest3257.desc=The Thundercaller is a sword artifact capable of summonin
 
 # Quest.3258 - Manaweave Robes
 lostera.quest3258.name=Manaweave Robes
-lostera.quest3258.desc=Manaweave Robes are garbs with a high affinity to mana.%n%nLike most mana equipments, it is also capable of restoring itself with mana.%n%nThese may not be the greatest protection against foes, however they more than make up for it.%n%nOne wearing the full set is bestowed with the §b§oManatide Prowess§r blessing.%n%nThis empowers the user's proficiency with magical rods, increasing their powers or range as well as massively reducing the cost of mana consuming tools and artifacts.%n%n%n§8Consult the Lexica Botania for additional information.§r
+lostera.quest3258.desc=Manaweave Robes are garbs with a high affinity to mana.%n%nLike most mana equipment, it is also capable of restoring itself with mana.%n%nThese may not be the greatest protection against foes, however they more than make up for it.%n%nOne wearing the full set is bestowed with the §b§oManatide Prowess§r blessing.%n%nThis empowers the user's proficiency with magical rods, increasing their powers or range as well as massively reducing the cost of mana consuming tools and artifacts.%n%n%n§8Consult the Lexica Botania for additional information.§r
 
 # Quest.3259 - Planestrider's Sash
 lostera.quest3259.name=Planestrider's Sash
@@ -13606,7 +13606,7 @@ lostera.quest3390.desc=These are important checkpoints to maximize your chances 
 
 # Quest.3391 - Water Sources
 lostera.quest3391.name=Water Sources
-lostera.quest3391.desc=Water is the most basic element of survival.%n%nYou might occasionally find puddles and ponds but these may only prove to be a temporary solution.%n%nWhile there are ways to collect rainwater, the easiest way is to tap into nearby §9Rivers and Oceans§r for a lifetime unlimited supply.%n%n§aSwamps are also an alternative albeit more dangerous.§r%n%n%nYou may also run into §bWater Springs§r.%n%nOften mistaken as simple puddles, these reach deep underground and hold an unlimited amount of water.%n§7§oIt may require some pump technology for practical use.
+lostera.quest3391.desc=Water is the most basic element of survival.%n%nYou might occasionally find puddles and ponds but these may only prove to be a temporary solution.%n%nWhile there are ways to collect rainwater, the easiest way is to tap into nearby §9Rivers and Oceans§r for a lifetime supply.%n%n§aSwamps are also an alternative, albeit more dangerous.§r%n%n%nYou may also run into §bWater Springs§r.%n%nOften mistaken as simple puddles, these reach deep underground and hold an unlimited amount of water.%n§7§oIt may require some pump technology for practical use.
 
 # Quest.3392 - Furnace Specializations
 lostera.quest3392.name=Furnace Specializations
@@ -13638,7 +13638,7 @@ lostera.quest3398.desc=The Omega Chamber is an important infrastructure to activ
 
 # Quest.3399 - Using the Questbook
 lostera.quest3399.name=Using the Questbook
-lostera.quest3399.desc=The Questbook is a trusty guide to everything this world has to offer and more.%n%nAs you progress, more and more chapters will dynamically unlock based on the gameplay choices and will even reward you for achieving major milestones.%n%nThere is no single progression path to follow or restrictions to how many questlines you can follow.%n%n§6Make your path unique, mix and match questlines to your preferences and forge your own signature style!   §r %n%n%nShould you lose the book you can always make another one to catch right back where you started or access it remotely with the " §6`§r " hotkey.
+lostera.quest3399.desc=The Questbook is your trusty guide to everything this world has to offer and more.%n%nAs you progress, more and more chapters will dynamically unlock based on the gameplay choices and will even reward you for achieving major milestones.%n%nThere is no single progression path to follow or restrictions to how many questlines you can follow.%n%n§6Make your path unique, mix and match questlines to your preferences and forge your own signature style!   §r %n%n%nShould you lose the book, you can always make another one to get back to where you left off.%nTip: you can also always access the Questbook remotely with " §6`§r " hotkey.
 
 # Quest.3400 - Air Quality
 lostera.quest3400.name=Air Quality
@@ -14476,8 +14476,8 @@ lostera.line88.desc=Patient and generous as life, harsh and merciless as nature.
 lostera.line89.name=§2¬§r Esoteric Gadgetry
 lostera.line89.desc=A seedling of imagination.
 
-# QuestLine.90 - §2¬§r Mana Sourcery
-lostera.line90.name=§2¬§r Mana Sourcery
+# QuestLine.90 - §2¬§r Mana Sorcery
+lostera.line90.name=§2¬§r Mana Sorcery
 lostera.line90.desc=The study of the great spirits of days past.
 
 # QuestLine.91 - §2¬§r Elven Wispers
