@@ -14,6 +14,7 @@ configurations {
 dependencies {
     transformedMod(deobfCurse("aroma1997core-223735:2257644"))
     transformedMod(deobfCurse("aroma1997s-dimensional-world-60092:2219018"))
+    transformedMod(deobfCurse("warpdrive-233565:2578306"))
     compileOnly(rfg.deobf("curse.maven:grimoire-of-gaia-228948:2260836"))
     compileOnly(rfg.deobf("curse.maven:thermal-expansion-69163:2388758"))
     transformedMod(deobfCurse("cofh-core-69162:2388750"))

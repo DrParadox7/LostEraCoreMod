@@ -54,7 +54,7 @@ lostera.quest1.desc=Now that you have wood you will need a crafting table.%n%nTh
 
 # Quest.2 - Punching stone was never an option!
 lostera.quest2.name=Punching stone was never an option!
-lostera.quest2.desc=Craft a wooden pickaxe to obtain stone.
+lostera.quest2.desc=Craft a wooden pickaxe to obtain stone.%n%n%n§r§lThis quest unlocks "Tinker's Tools".
 
 # Quest.3 - Upgrade
 lostera.quest3.name=Upgrade
@@ -150,7 +150,7 @@ lostera.quest25.desc=The Grindstone allows you grind down ores to double their y
 
 # Quest.26 - Enchantment Table
 lostera.quest26.name=Enchantment Table
-lostera.quest26.desc=The Enchantment Table is a magical artifact that enables you to imbue tools and weapons with mystical properties, making them stronger and more effective.%n%nBy choosing glyphs from the Enchantment Table's book, you can select which effect to imbue your equipment.%n%nThe origin of these mysterious glyphs remains a mystery to this day. Some believe they hold the secrets of ancient civilizations or even the language of the gods. %n%nBeware, the Enchantment Table requires Experience Points. The stronger the glyph, the more experience it will require. %n%nAt its base capacity it can handle up to §a8 levels§r of experience which can be further expanded by surrounding it with bookshelves§r, increasing its XP handling up to §a30 levels§r, giving you access to even stronger enchantments:%n%n§6▉▉▉▉▉  ▉§r Bookshelf§6%n▉      ▉%n▉  §d▉§6  ▉  §d▉ §rEnchantment Table§6%n▉      ▉%n▉▉  ▉▉ 
+lostera.quest26.desc=The Enchantment Table is a magical artifact that enables you to imbue tools and weapons with mystical properties, making them stronger and more effective.%n%nBy choosing glyphs from the Enchantment Table's book, you can select which effect to imbue your equipment.%n%nThe origin of these mysterious glyphs remains a mystery to this day. Some believe they hold the secrets of ancient civilizations or even the language of the gods. %n%nBeware, the Enchantment Table requires Experience Points. The stronger the glyph, the more experience it will require. %n%nAt its base capacity it can handle up to §a8 levels§r of experience which can be further expanded by surrounding it with bookshelves§r, increasing its XP handling up to §a30 levels§r, giving you access to even stronger enchantments:%n%n§6▉▉▉▉▉  ▉§r Bookshelf§6%n▉      ▉%n▉  §d▉§6  ▉  §d▉ §rEnchantment Table§6%n▉      ▉%n▉▉  ▉▉%n%n§r§lThis quest unlocks "Enchanted Library".
 
 # Quest.27 - Thaumonomicon
 lostera.quest27.name=Thaumonomicon
@@ -1238,7 +1238,7 @@ lostera.quest297.desc=The Dictionary allows to inspect the §6Ore Dictionary §r
 
 # Quest.298 - Electric Bow
 lostera.quest298.name=Electric Bow
-lostera.quest298.desc=The Electric Bow is functions just like a normal bow but only uses RF to shoot, never needing any actual arrows.%n%nAdditionally, by using Shift+§5"Mode Change Key"§8 (Default: M)§r, the Electric Bow can be switched to a flaming mode for fiery arrows.
+lostera.quest298.desc=The Electric Bow is a bow that uses RF energy instead of durability.%n%nAdditionally, by using Shift+§5"Mode Change Key"§8 (Default: M)§r, the Electric Bow can be switched to a flaming mode for fiery arrows.
 
 # Quest.299 - Energy Tablet
 lostera.quest299.name=Energy Tablet
@@ -1400,9 +1400,9 @@ lostera.quest337.desc=This §aLaser Amplifier§r can condense up to §c5 Laser r
 lostera.quest338.name=Cauldron Mishaps
 lostera.quest338.desc=As with anything worth doing mistakes can be made but it is important to learn from those mistakes.%n%nThe following catalysts can be thrown into a Cauldron at any point to make those mistakes disappear without a trace:%n%n%n§7§lQuicklime§r%nVaporizes the contents of the cauldron.%n%n§8This may cause harm to nearby creature.§r%n%n§lGypsum§r%nThe contents of the cauldron vanish without harm.
 
-# Quest.339 - ~Magic
-lostera.quest339.name=~Magic
-lostera.quest339.desc=Become a Wizard or a Witch.
+# Quest.339 - 
+lostera.quest339.name=
+lostera.quest339.desc=
 
 # Quest.340 - Dormant Boon
 lostera.quest340.name=Dormant Boon
@@ -1414,7 +1414,7 @@ lostera.quest341.desc=The Iron Chest is the next tier of chests.%n%nIt has 54 in
 
 # Quest.342 - Wooden Pipe
 lostera.quest342.name=Wooden Pipe
-lostera.quest342.desc=The Wooden Pipe does the dirty work other pipes refuse to do:%n%n§lExtracting things from inventories to be passed to connected pipes.§r%n%nTo do so it must be powered by a §cRedstone Engine §ror above for it to extract items. %n§8§oThe wooden side is the extraction side and all other glass sides are output sides.§r%n%nIt can a §awater-proofed§r for the extraction of fluids or §4repurposed§r for the extraction of Redstone Flux (RF) from machines and engines.%n%nThis done by combining it with either §aPipe sealant§r or §4Redstone§r respectively but losing its ability to transfer items.%n%n§7Transport Max Trasfer Rate:§r 64 items/t%n§aWaterproof Max Tranfer Rate:§r 10 mB/t%n§4Kinesis Max Transfer Rate:§r 320 RF/t%n%n§8§oThe more powerful the engine the larger the amount of extraction per revolution.%n%nWooden Pipes will not connect to each other.
+lostera.quest342.desc=The Wooden Pipe does the dirty work other pipes refuse to do:%n%n§lExtracting things from inventories to be passed to connected pipes.§r%n%nTo do so it must be powered by a §cRedstone Engine §ror above for it to extract items. %n§8§oThe wooden side is the extraction side and all other glass sides are output sides (orientation can be switched using a Wrench).§r%n%nIt can a §awater-proofed§r for the extraction of fluids or §4repurposed§r for the extraction of Redstone Flux (RF) from machines and engines.%n%nThis done by combining it with either §aPipe sealant§r or §4Redstone§r respectively but losing its ability to transfer items.%n%n§7Transport Max Trasfer Rate:§r 64 items/t%n§aWaterproof Max Tranfer Rate:§r 10 mB/t%n§4Kinesis Max Transfer Rate:§r 320 RF/t%n%n§8§oThe more powerful the engine the larger the amount of extraction per revolution.%n%nWooden Pipes will not connect to each other.
 
 # Quest.343 - Cobblestone Pipe
 lostera.quest343.name=Cobblestone Pipe
@@ -2224,9 +2224,9 @@ lostera.quest543.desc=The path of a Mystic is one of sorcery, often involving de
 lostera.quest544.name=Scholar
 lostera.quest544.desc=The path of a Scholar is one that disregards the natural laws of the universe to create miracles.%n%nIf unbound power is what you seek then peering such forbidden knowledge may be the path for you but it can come at a dire price of losing one's sanity, life or worse.%n%nWhile the outcome is magical the process is scientific, requiring research, experimentations and a lot of risk taking.%n%nHeed my words of warning:%n§5"If you stare into the Abyss, the Abyss stares back at you."%n%n%n§lDifficulty:§r %n§8%nCasual | Easy | Normal |§5 Hard§8 | Expert
 
-# Quest.545 - ~Types of Tracks & Chest Cart
-lostera.quest545.name=~Types of Tracks & Chest Cart
-lostera.quest545.desc=Hidden quest for Tracks and Chest Cart.
+# Quest.545 - Locking Card
+lostera.quest545.name=Locking Card
+lostera.quest545.desc=This card allows you to block ME Interfaces from beginning new crafting operation based on the following conditions:%n%n§c- Redstone is low§r%n§4- Redstone is high§r%n§6- After a crafting operation has been requested, until a redstone pulse is received%n§a- After a crafting operation has been requested, until the results have returned to the same interface
 
 # Quest.546 - §9¬§r Nuclear Energy
 lostera.quest546.name=§9¬§r Nuclear Energy
@@ -2267,8 +2267,8 @@ lostera.quest554.desc=This job class is for those set on creating the farm of th
 lostera.quest555.name=§d¬§r Artisan Valley
 lostera.quest555.desc=This path will not only give you access to more complex and rewarding ingredients but will also show you ways to use farm produce in ways you never thought before.%n%nBe it creating your own green energy source, brewing mead from honey or even making your very own designer flowers everything is in the cards if you will it.
 
-# Quest.556 - §d¬§r Crop Hybridization
-lostera.quest556.name=§d¬§r Crop Hybridization
+# Quest.556 - §d¬§r Crop Husbandry
+lostera.quest556.name=§d¬§r Crop Husbandry
 lostera.quest556.desc=This the path in breeding crops to create to ultimate bountiful farm.%n%nIt can not only be used to obtain never before seen crops like hops, commonly used for beer, but also to breed them to make faster and higher yielding crops.
 
 # Quest.557 - §d¬§r Prize Breeds
@@ -2701,7 +2701,7 @@ lostera.quest663.desc=Leonard is the demonic being that presides over sabbats. %
 
 # Quest.664 - Fusion Reactor
 lostera.quest664.name=Fusion Reactor
-lostera.quest664.desc=The Fusion Reactor is a multiblock generator that fusing gases at an extreme level of heat forming new elements and producing Energy.%n%nUnlike other Fusion Reactors, it relies on §cElectromagnets§r to negate all physical contact between the reactor and the extremely hot plasma.%n%nThe added thermal efficiency & insulation of this method allows for the reactor to be kickstarted with a mere §48 Mega Kelvin§r.%n%nAny gas within the coils §8(including air itself if no fuel is present)§r will be subjected to a strong electromagnetic field and be heated to a dangerous §dSuperhot Plasma§r.%n%n%nFusion reactors cannot explode from heat alone, making a much safer alternative to a Fission Reactor.%n%n§4However, should the Electromagnets ever run out of power, the plasma will leak out of the ring and explode the reactor if it comes in contact with the Fusion Reactor Core containing fuel.§r%n%nOutput will be greatly dependent on the combination of Fuel Cells used.%nEach cell contains 100,000mB of Gas and §4hotter§r a reactor runs the more fuel it will consume.%n%nCompatible Mekanism gases can also be pumped straight onto the reactor.%n%n%n§lEnergy Production (RF/t):%n§r§9Efficiency%%§r x §5Toroid Size§r x §6Fuel Base Power§r§l%n%nDuration (seconds):§r%n100 x §5Toroid Size§r x §bFuel Base Lifetime§r/§9Efficiency%% 
+lostera.quest664.desc=The Fusion Reactor is a multiblock generator that fusing gases at an extreme level of heat forming new elements and producing Energy.%n%nUnlike other Fusion Reactors, it relies on §cElectromagnets§r to negate all physical contact between the reactor and the extremely hot plasma.%n%nThe added thermal efficiency & insulation of this method allows for the reactor to be kickstarted with a mere §48 Mega Kelvin§r.%n%nAny gas within the coils §8(including air itself if no fuel is present)§r will be subjected to a strong electromagnetic field and be heated to a dangerous §dSuperhot Plasma§r.%n%n%nFusion reactors cannot explode from heat alone, making a much safer alternative to a Fission Reactor.%n%n§4However, should the Electromagnets ever run out of power, the plasma will leak out of the ring and explode the reactor if it comes in contact with the Fusion Reactor Core containing fuel.§r%n%nOutput will be greatly dependent on the combination of Fuel Cells used.%nEach cell contains 100,000mB of Gas and §4hotter§r a reactor runs the more fuel it will consume.%n%nCompatible Mekanism gases can also be pumped straight onto the reactor.%n%n%n§lEnergy Production (RF/t):%n§r§9Efficiency%%§r x §5Toroid Size§r x §6Fuel Base Power§r§l%n%nFuel Consumption (ticks):§r%n100 x §5Toroid Size§r x §bConsumption§r/§9Efficiency%% 
 
 # Quest.665 - Crystal Ball
 lostera.quest665.name=Crystal Ball
@@ -3391,8 +3391,8 @@ lostera.quest835.desc=The Mana Lens: Flash, when installed on a Mana Spreader, m
 lostera.quest836.name=Mana Lens: Paintslinger
 lostera.quest836.desc=The Mana Lens: Paintslinger, when it is mixed with any color of floral powder it can be installed on Mana Spreader or Mana Blaster to turn their Mana Bursts into colorful ones. %n%nWhen a colored Burst hits Wool, Glass or Hardened Clay it dyes that block and connected blocks of the same type and colour to the color of the Burst. %n%nThis also works to dye Sheep.%n%n%n§8Consult the Lexica Botania for additional information.§r
 
-# Quest.837 - ~####
-lostera.quest837.name=~####
+# Quest.837 - §8####
+lostera.quest837.name=§8####
 lostera.quest837.desc=You're not supposed to be here.%n%n§c§nDon't touch anything!
 
 # Quest.838 - Mana Lens: Warp
@@ -3421,7 +3421,7 @@ lostera.quest843.desc=Magic Maps are an essential tool to any serious explorer i
 
 # Quest.844 - §dFusion Fuel:§r Hydrogen
 lostera.quest844.name=§dFusion Fuel:§r Hydrogen
-lostera.quest844.desc=Potential values for Hydrogen's fuel combinations:%n%n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nHydrogen & Hydrogen = §c32M RF§r, §6320 RF/t§r, §b100mB/t§r, 2140 MK%n%nHydrogen & Deuterium = §c40M RF§r, §6240 RF/t§r, §b60mB/t§r, 1380 MK%n%nHydrogen & Tritium = §c20M RF§r, §680 RF/t§r, §b40mB/t§r, 4700 MK%n%nHydrogen & Helium-3 = §c20M RF§r, §680 RF/t§r, §b40mB/t§r, 4820 MK%n%nHydrogen & Boron-11 = §c320M RF§r, §6320 RF/t§r, §b10mB/t§r, 5660 MK%n%nHydrogen & Lithium-6 = §c120M RF§r, §6120 RF/t§r, §b10mB/t§r, 4550 MK%n%nHydrogen & Lithium-7 = §c240M RF§r, §6480 RF/t§r, §b20mB/t§r, 4640MK%n%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
+lostera.quest844.desc=Potential values for Hydrogen's fuel combinations using 1,000mB each: %n%n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nHydrogen & Hydrogen = §c32M RF§r, §6320 RF/t§r, §b100mB/t§r, 2140 MK%n%nHydrogen & Deuterium = §c40M RF§r, §6240 RF/t§r, §b60mB/t§r, 1380 MK%n%nHydrogen & Tritium = §c20M RF§r, §680 RF/t§r, §b40mB/t§r, 4700 MK%n%nHydrogen & Helium-3 = §c20M RF§r, §680 RF/t§r, §b40mB/t§r, 4820 MK%n%nHydrogen & Boron-11 = §c320M RF§r, §6320 RF/t§r, §b10mB/t§r, 5660 MK%n%nHydrogen & Lithium-6 = §c120M RF§r, §6120 RF/t§r, §b10mB/t§r, 4550 MK%n%nHydrogen & Lithium-7 = §c240M RF§r, §6480 RF/t§r, §b20mB/t§r, 4640MK%n%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
 
 # Quest.845 - The Courtyard
 lostera.quest845.name=The Courtyard
@@ -3505,7 +3505,7 @@ lostera.quest864.desc=In the magical lands of the Twilight Forest you will seldo
 
 # Quest.865 - §dFusion Fuel:§r Deuterium
 lostera.quest865.name=§dFusion Fuel:§r Deuterium
-lostera.quest865.desc=Potential values for Deuterium's fuel combinations:%n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nDeuterium & Hydrogen = §c40M RF§r, §6240 RF/t§r, §b60mB/t§r, 1380 MK%n%nDeuterium & Deuterium = §c140M RF§r, §6560 RF/t§r, §b40mB/t§r, 4780 MK%n%nDeuterium & Tritium = §c100M RF§r, §6800 RF/t§r, §b80mB/t§r, 670 MK%n%nDeuterium & Helium-3 = §c256M RF§r, §6640 RF/t§r, §b25mB/t§r, 2370 MK%n%nDeuterium & Boron-11 = §c80M RF§r, §680 RF/t§r, §b10mB/t§r, 5955 MK%n%nDeuterium & Lithium-6 = §c240M RF§r, §6600 RF/t§r, §b25mB/t§r, 5335 MK%n%nDeuterium & Lithium-7 = §c40M RF§r, §640 RF/t§r, §b10mB/t§r, 7345MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
+lostera.quest865.desc=Potential values for Deuterium's fuel combinations using 1,000mB each: %n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nDeuterium & Hydrogen = §c40M RF§r, §6240 RF/t§r, §b60mB/t§r, 1380 MK%n%nDeuterium & Deuterium = §c140M RF§r, §6560 RF/t§r, §b40mB/t§r, 4780 MK%n%nDeuterium & Tritium = §c100M RF§r, §6800 RF/t§r, §b80mB/t§r, 670 MK%n%nDeuterium & Helium-3 = §c256M RF§r, §6640 RF/t§r, §b25mB/t§r, 2370 MK%n%nDeuterium & Boron-11 = §c80M RF§r, §680 RF/t§r, §b10mB/t§r, 5955 MK%n%nDeuterium & Lithium-6 = §c240M RF§r, §6600 RF/t§r, §b25mB/t§r, 5335 MK%n%nDeuterium & Lithium-7 = §c40M RF§r, §640 RF/t§r, §b10mB/t§r, 7345MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
 
 # Quest.866 - Crafting Spells
 lostera.quest866.name=Crafting Spells
@@ -3533,7 +3533,7 @@ lostera.quest871.desc=In order to progress in your quest and become an Archmage 
 
 # Quest.872 - §dFusion Fuel:§r Tritium
 lostera.quest872.name=§dFusion Fuel:§r Tritium
-lostera.quest872.desc=Potential values for Tritium's fuel combinations:%n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nTritium & Hydrogen = §c20M RF§r, §680 RF/t§r, §b40mB/t§r, 4700 MK%n%nTritium & Deuterium = §c100M RF§r, §6800 RF/t§r, §b80mB/t§r, 670 MK%n%nTritium & Tritium = §c120M RF§r, §6240 RF/t§r, §b20mB/t§r, 3875 MK%n%nTritium & Helium-3 = §c160M RF§r, §6160 RF/t§r, §b10mB/t§r, 5070 MK%n%nTritium & Boron-11 = §c40M RF§r, §640 RF/t§r, §b10mB/t§r, 5955 MK%n%nTritium & Lithium-6 = §c100M RF§r, §620 RF/t§r, §b2mB/t§r, 7510 MK%n%nTritium & Lithium-7 = §c100M RF§r, §640 RF/t§r, §b4mB/t§r, 8060MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
+lostera.quest872.desc=Potential values for Tritium's fuel combinations using 1,000mB each: %n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nTritium & Hydrogen = §c20M RF§r, §680 RF/t§r, §b40mB/t§r, 4700 MK%n%nTritium & Deuterium = §c100M RF§r, §6800 RF/t§r, §b80mB/t§r, 670 MK%n%nTritium & Tritium = §c120M RF§r, §6240 RF/t§r, §b20mB/t§r, 3875 MK%n%nTritium & Helium-3 = §c160M RF§r, §6160 RF/t§r, §b10mB/t§r, 5070 MK%n%nTritium & Boron-11 = §c40M RF§r, §640 RF/t§r, §b10mB/t§r, 5955 MK%n%nTritium & Lithium-6 = §c100M RF§r, §620 RF/t§r, §b2mB/t§r, 7510 MK%n%nTritium & Lithium-7 = §c100M RF§r, §640 RF/t§r, §b4mB/t§r, 8060MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
 
 # Quest.873 - RFTools Manual
 lostera.quest873.name=RFTools Manual
@@ -3617,7 +3617,7 @@ lostera.quest892.desc=Aura Nodes are concentrated mystical energy found througho
 
 # Quest.893 - §dFusion Fuel:§r Helium-3
 lostera.quest893.name=§dFusion Fuel:§r Helium-3
-lostera.quest893.desc=Potential values for Helium-3's fuel combinations:%n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nHelium-3 & Hydrogen = §c20M RF§r, §680 RF/t§r, §b40mB/t§r, 4820 MK%n%nHelium-3 & Deuterium = §c256M RF§r, §6640 RF/t§r, §b25mB/t§r, 2370 MK%n%nHelium-3 & Tritium = §c160M RF§r, §6160 RF/t§r, §b10mB/t§r, 5070 MK%n%nHelium-3 & Helium-3 = §c240M RF§r, §6480 RF/t§r, §b20mB/t§r, 6800 MK%n%nHelium-3 & Boron-11 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 8060 MK%n%nHelium-3 & Lithium-6 = §c200M RF§r, §6560 RF/t§r, §b28mB/t§r, 8800 MK%n%nHelium-3 & Lithium-7 = §c120M RF§r, §6120 RF/t§r, §b10mB/t§r, 12500MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutrons §rgeneration.
+lostera.quest893.desc=Potential values for Helium-3's fuel combinations using 1,000mB each: %n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nHelium-3 & Hydrogen = §c20M RF§r, §680 RF/t§r, §b40mB/t§r, 4820 MK%n%nHelium-3 & Deuterium = §c256M RF§r, §6640 RF/t§r, §b25mB/t§r, 2370 MK%n%nHelium-3 & Tritium = §c160M RF§r, §6160 RF/t§r, §b10mB/t§r, 5070 MK%n%nHelium-3 & Helium-3 = §c240M RF§r, §6480 RF/t§r, §b20mB/t§r, 6800 MK%n%nHelium-3 & Boron-11 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 8060 MK%n%nHelium-3 & Lithium-6 = §c200M RF§r, §6560 RF/t§r, §b28mB/t§r, 8800 MK%n%nHelium-3 & Lithium-7 = §c120M RF§r, §6120 RF/t§r, §b10mB/t§r, 12500MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutrons §rgeneration.
 
 # Quest.894 - Fridge
 lostera.quest894.name=Fridge
@@ -3645,7 +3645,7 @@ lostera.quest899.desc=The crucible is an important tool for any thaumaturge. It 
 
 # Quest.900 - §dFusion Fuel:§r Lithium-6
 lostera.quest900.name=§dFusion Fuel:§r Lithium-6
-lostera.quest900.desc=Potential values for Lithium-6's fuel combinations:%n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nLithium-6 & Hydrogen = §c120M RF§r, §6120 RF/t§r, §b10mB/t§r, 4550 MK%n%nLithium-6 & Deuterium = §c240M RF§r, §6600 RF/t§r, §b25mB/t§r, 5335 MK%n%nLithium-6 & Tritium = §c100M RF§r, §620 RF/t§r, §b2mB/t§r, 7510 MK%n%nLithium-6 & Helium-3 = §c200M RF§r, §6560 RF/t§r, §b28mB/t§r, 8800 MK%n%nLithium-6 & Boron-11 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 9200 MK%n%nLithium-6 & Lithium-6 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 120000 MK%n%nLithium-6 & Lithium-7 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 110000MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
+lostera.quest900.desc=Potential values for Lithium-6's fuel combinations using 1,000mB each: %n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nLithium-6 & Hydrogen = §c120M RF§r, §6120 RF/t§r, §b10mB/t§r, 4550 MK%n%nLithium-6 & Deuterium = §c240M RF§r, §6600 RF/t§r, §b25mB/t§r, 5335 MK%n%nLithium-6 & Tritium = §c100M RF§r, §620 RF/t§r, §b2mB/t§r, 7510 MK%n%nLithium-6 & Helium-3 = §c200M RF§r, §6560 RF/t§r, §b28mB/t§r, 8800 MK%n%nLithium-6 & Boron-11 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 9200 MK%n%nLithium-6 & Lithium-6 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 120000 MK%n%nLithium-6 & Lithium-7 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 110000MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
 
 # Quest.901 - Sink
 lostera.quest901.name=Sink
@@ -3697,7 +3697,7 @@ lostera.quest912.desc=A molecules are substances made from two or more elements 
 
 # Quest.913 - §dFusion Fuel:§r Lithium-7
 lostera.quest913.name=§dFusion Fuel:§r Lithium-7
-lostera.quest913.desc=Potential values for Lithium-7's fuel combinations:%n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nLithium-7 & Hydrogen = §c240M RF§r, §6480 RF/t§r, §b20mB/t§r, 4640 MK%n%nLithium-7 & Deuterium = §c40M RF§r, §640 RF/t§r, §b10mB/t§r, 7345 MK%n%nLithium-7 & Tritium = §c100M RF§r, §640 RF/t§r, §b4mB/t§r, 8060 MK%n%nLithium-7 & Helium-3 = §c120M RF§r, §6120 RF/t§r, §b10mB/t§r, 12500 MK%n%nLithium-7 & Boron-11 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 13000 MK%n%nLithium-7 & Lithium-6 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 11000 MK%n%nLithium-7 & Lithium-7 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 14000MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
+lostera.quest913.desc=Potential values for Lithium-7's fuel combinations using 1,000mB each: %n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nLithium-7 & Hydrogen = §c240M RF§r, §6480 RF/t§r, §b20mB/t§r, 4640 MK%n%nLithium-7 & Deuterium = §c40M RF§r, §640 RF/t§r, §b10mB/t§r, 7345 MK%n%nLithium-7 & Tritium = §c100M RF§r, §640 RF/t§r, §b4mB/t§r, 8060 MK%n%nLithium-7 & Helium-3 = §c120M RF§r, §6120 RF/t§r, §b10mB/t§r, 12500 MK%n%nLithium-7 & Boron-11 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 13000 MK%n%nLithium-7 & Lithium-6 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 11000 MK%n%nLithium-7 & Lithium-7 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 14000MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.
 
 # Quest.914 - Fusion Products
 lostera.quest914.name=Fusion Products
@@ -3729,7 +3729,7 @@ lostera.quest920.desc=The downside of being completely encased in metal is that 
 
 # Quest.921 - §dFusion Fuel:§r Boron-11
 lostera.quest921.name=§dFusion Fuel:§r Boron-11
-lostera.quest921.desc=Potential values for Boron-11's fuel combinations:%n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nBoron-11 & Hydrogen = §c320M RF§r, §6320 RF/t§r, §b10mB/t§r, 5660 MK%n%nBoron-11 & Deuterium = §c80M RF§r, §680 RF/t§r, §b10mB/t§r, 5955 MK%n%nBoron-11 & Tritium = §c40M RF§r, §640 RF/t§r, §b10mB/t§r, 7810 MK%n%nBoron-11 & Helium-3 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 8060 MK%n%nBoron-11 & Boron-11 = §c80M RF§r, §640 RF/t§r, §b5mB/t§r, 8500 MK%n%nBoron-11 & Lithium-6 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 9200 MK%n%nBoron-11 & Lithium-7 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 13000 MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.%n%n%n§8Boron is formed from exposure of cosmic ray spallation.%nAs a result, it is exclusively found within asteroid belts in the End and Space.
+lostera.quest921.desc=Potential values for Boron-11's fuel combinations using 1,000mB each: %n%n§cBase Production§r, §6Base Output§r, §bConsumption§r, Peak Heat Efficiency%n%nBoron-11 & Hydrogen = §c320M RF§r, §6320 RF/t§r, §b10mB/t§r, 5660 MK%n%nBoron-11 & Deuterium = §c80M RF§r, §680 RF/t§r, §b10mB/t§r, 5955 MK%n%nBoron-11 & Tritium = §c40M RF§r, §640 RF/t§r, §b10mB/t§r, 7810 MK%n%nBoron-11 & Helium-3 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 8060 MK%n%nBoron-11 & Boron-11 = §c80M RF§r, §640 RF/t§r, §b5mB/t§r, 8500 MK%n%nBoron-11 & Lithium-6 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 9200 MK%n%nBoron-11 & Lithium-7 = §c40M RF§r, §620 RF/t§r, §b5mB/t§r, 13000 MK%n%n%n*These combinations looks at power production alone and does not take in consideration §dHelium-4§r and §aNeutron §rgeneration.%n%n%n§8Boron is formed from exposure of cosmic ray spallation.%nAs a result, it is exclusively found within asteroid belts in the End and Space.
 
 # Quest.922 - Isotopes
 lostera.quest922.name=Isotopes
@@ -3941,7 +3941,7 @@ lostera.quest973.desc=This Card adds capacity to the config inventory of the §b
 
 # Quest.974 - §6¬§r Basic Materials
 lostera.quest974.name=§6¬§r Basic Materials
-lostera.quest974.desc=The surface, while it provides food and wood, it does not have the materials necessary for your needs.%n%nYou need to go deeper to mine for some basic materials. §l%n%nThis quest unlocks "Tinker's Tools".
+lostera.quest974.desc=The surface, while it provides food and wood, it does not have the materials necessary for your needs.%n%nYou need to go deeper to mine for some basic materials.
 
 # Quest.975 - Pechs
 lostera.quest975.name=Pechs
@@ -5681,6 +5681,7 @@ lostera.quest1408.desc=The Squeezing Extractor is used to process Sticky Resin i
 # Quest.1409 - Bronze Blast Furnace
 lostera.quest1409.name=Bronze Blast Furnace
 lostera.quest1409.desc=The Bronze Blast Furnace is the early game forging of Steel.%nIt is a multiblock composed of §cBronze Plated Bricks §rand a §6Bronze Bast Furnace§r.%n%nIt operates similarly to a furnace, albeit at a much hotter temperature.%n%nUnlike all the other Bronze Age machines, it §4DOES NOT REQUIRE STEAM!§r%n%nTop Layer:     2nd Layer:§c%n%n▉▉▉          ▉▉▉%n▉  ▉          ▉  ▉%n▉▉▉          ▉▉▉%n%n§r1st Layer:  Bottom Layer:§c%n%n▉▉▉          ▉▉▉%n▉  §6▉§c          ▉▉▉%n▉▉▉          ▉▉▉
+
 # Quest.1410 - Brass Item Pipe
 lostera.quest1410.name=Brass Item Pipe
 lostera.quest1410.desc=Brass Item Pipes are used to transport items.%n%nThese come in 2 sizes:%n%n§c§nSmall§r%n%nTransfer speed: §61 Stack per second%n%n§9§nLarge§r%n%nTransfer speed: §62 Stack per second%n%n§8%n1 second = 20 ticks
@@ -5921,9 +5922,9 @@ lostera.quest1468.desc=The Bronze Workbench is an industrial version of a crafti
 lostera.quest1469.name=Augment: Secondary Reception Coil
 lostera.quest1469.desc=An Augment that increases the processing speed of Machines at the cost of energy.%n%nMachines with this upgrade will process at §2x2 §rthe speed but will require §4+50%%§r the energy and will drain energy §6x3 §ras fast.%n%n%nRequires a Hardened Machine or better. 
 
-# Quest.1470 - ~All the Basic Components
-lostera.quest1470.name=~All the Basic Components
-lostera.quest1470.desc=Hidden quest to check if player has all the components to make a working computer.
+# Quest.1470 - 
+lostera.quest1470.name=
+lostera.quest1470.desc=
 
 # Quest.1471 - Coding Bootcamp
 lostera.quest1471.name=Coding Bootcamp
@@ -9289,8 +9290,8 @@ lostera.quest2310.desc=An Augment that increases the processing speed of Machine
 lostera.quest2311.name=Augment: Space-Time Flux Unifier
 lostera.quest2311.desc=An Augment that increases the processing speed of Machines at the cost of energy.%n%nMachines with this upgrade will process at §2x8 §rthe speed but will require §4+150%%§r the energy and will drain energy §6x20 §ras fast.%n%n%nRequires a Resonant Machine with the prior augment §8(Augment: Overclocked Modular Gear)§r. 
 
-# Quest.2312 - ~Brain Dance
-lostera.quest2312.name=~Brain Dance
+# Quest.2312 - §8Brain Dance
+lostera.quest2312.name=§8Brain Dance
 lostera.quest2312.desc=Hidden quest for Thaumcraft.
 
 # Quest.2313 - Etherium Conduits
@@ -11170,7 +11171,7 @@ lostera.quest2781.desc=The Anchor Cart acts as a chunk loader, functionally the 
 
 # Quest.2782 - Chest Cart
 lostera.quest2782.name=Chest Cart
-lostera.quest2782.desc=A minecart on a chest to carry all your items on rails. %nFunctions just like a chest, but mobile!%n%n%n§lThis quest unlocks "Modular Carts".
+lostera.quest2782.desc=A minecart on a chest to carry all your items on rails. %nFunctions just like a chest, but mobile!.
 
 # Quest.2783 - Common Issues
 lostera.quest2783.name=Common Issues
@@ -11222,7 +11223,7 @@ lostera.quest2794.desc=Like the look of Gravel under your rail, but can't be bot
 
 # Quest.2795 - Tunnel Bore
 lostera.quest2795.name=Tunnel Bore
-lostera.quest2795.desc=Tired of digging miles of tunnels by hand? You've come to the right place. The Tunnel Bore can do it for you!%n%nThe Tunnel Bore is an automatic miner capable of digging a 3×3 tunnel in whichever direction it travels.%n%nIt will automatically place tracks and gravel if there is not a spot to place the tracks.%n%nThe Tunnel Bore requires fuel and a Bore Head to operate.%n%n§4§nBore can stop for several reasons;§r %n-The Bore Head has broken%n- It has run out of fuel, tracks, or gravel%n-There is a hole greater than 10 blocks deep%n-Water is encountered, lava is suspected, or an unbreakable block is in its path.%n%n§7Mined items will be placed in linked Chestcarts.%nFuel and Gravel will be retrieved from linked Chestcarts when the Bore runs low.
+lostera.quest2795.desc=Tired of digging miles of tunnels by hand? You've come to the right place. The Tunnel Bore can do it for you!%n%nThe Tunnel Bore is an automatic miner capable of digging a 3×3 tunnel in whichever direction it travels.%n%nIt will automatically place tracks and gravel if there is not a spot to place the tracks.%n%nThe Tunnel Bore requires fuel and a Bore Head to operate.%n%n§4§nBore can stop for several reasons;§r %n-The Bore Head has broken%n- It has run out of fuel, tracks, or gravel%n-There is a hole greater than 10 blocks deep%n-Water is encountered, lava is suspected, or an unbreakable block is in its path.%n%n§7Mined items will be placed in linked Chestcarts.%nFuel and Gravel will be retrieved from linked Chestcarts when the Bore runs low.%n%n§lThis quest unlocks "Modular Carts"
 
 # Quest.2796 - Steam Locomotive
 lostera.quest2796.name=Steam Locomotive
@@ -11430,15 +11431,15 @@ lostera.quest2846.desc=Locomotives are often required to sound their horns/whist
 
 # Quest.2847 - Trackman's Backpack
 lostera.quest2847.name=Trackman's Backpack
-lostera.quest2847.desc=The Trackman's Backpack can hold tracks, minecarts, and miscellaneous devices useful for track workers.%n%nThe backpack has four modes. These modes can be toggled by sneaking and right clicking.%n%n§lNormal Mode§r will automatically collect picked up items in the backpack. §oSneak+Right clicking a chest with this mode enabled will dump all the backpacks contents into the chest.%n%n§r§lLocked Mode§r will not pick up items. §oChest interaction is the same as in Normal Mode.%n%n§r§lReceiving Mode§r, same as in Normal Mode, except that chest interaction will put allowed items into the backpack, rather than out.%n%n§lResupply Mode§r, same as Normal Mode in both item pickup and in chest interaction. Though, it will keep corresponding items in your inventory stocked to a full stack as long as possible.%n%nLike all bags, it can be upgraded into its woven version.
+lostera.quest2847.desc=The Trackman's Backpack is a portable storage for tracks, minecarts, and track signal devices.%n%nIt has 15 inventory slots but it can be upgraded to 45 by turning it into a Woven Trackman's Backpack. 
 
 # Quest.2848 - Iceman's Backpack
 lostera.quest2848.name=Iceman's Backpack
-lostera.quest2848.desc=The Iceman's Backpack can hold snowballs, snow blocks, ice, ice walls and slabs. %n%nThey also have the ability to compress snowballs into snow blocks, or decompress snow blocks into snowballs.%n%nThe backpack has four modes. These modes can be toggled by sneaking and right clicking.%n%n§lNormal Mode§r will automatically collect picked up items in the backpack. §oSneak+Right clicking a chest with this mode enabled will dump all the backpacks contents into the chest.%n%n§r§lLocked Mode§r will not pick up items. §oChest interaction is the same as in Normal Mode.%n%n§r§lReceiving Mode§r, same as in Normal Mode, except that chest interaction will put allowed items into the backpack, rather than out.%n%n§lResupply Mode§r, same as Normal Mode in both item pickup and in chest interaction. Though, it will keep corresponding items in your inventory stocked to a full stack as long as possible.%n%nLike all bags, it can be upgraded into its woven version.
+lostera.quest2848.desc=The Iceman's Backpack is a portable storage for snowballs, snow blocks, ice, ice walls and slabs.%n%nIt has 15 inventory slots but it can be upgraded to 45 by turning it into a Woven Iceman's Backpack. 
 
 # Quest.2849 - Apothecary's Backpack
 lostera.quest2849.name=Apothecary's Backpack
-lostera.quest2849.desc=The Iceman's Backpack can hold potions is stock for you. %nThe backpack has four modes. These modes can be toggled by sneaking and right clicking.%n%n§lNormal Mode§r will automatically collect picked up items in the backpack. §oSneak+Right clicking a chest with this mode enabled will dump all the backpacks contents into the chest.%n%n§r§lLocked Mode§r will not pick up items. §oChest interaction is the same as in Normal Mode.%n%n§r§lReceiving Mode§r, same as in Normal Mode, except that chest interaction will put allowed items into the backpack, rather than out.%n%n§lResupply Mode§r, same as Normal Mode in both item pickup and in chest interaction. Though, it will keep corresponding items in your inventory stocked to a full stack as long as possible.%n%nLike all bags, it can be upgraded into its woven version.
+lostera.quest2849.desc=The Apothecary's Backpack is a portable storage for potions.%n%nIt has 15 inventory slots but it can be upgraded to 45 by turning it into a Woven Apothecary's Backpack. 
 
 # Quest.2850 - Magnifying Glass
 lostera.quest2850.name=Magnifying Glass
@@ -11906,7 +11907,7 @@ lostera.quest2965.desc=The simplest engine to get started with is the Clockwork 
 
 # Quest.2966 - Carpenter
 lostera.quest2966.name=Carpenter
-lostera.quest2966.desc=The Carpenter uses RF power to craft recipes involving liquids, requiring §bWater§r, §aSeed Oil§r, §6Honey§r or §cLava§r depending on the recipe.%n%nSuch an example of this are Bronze Ingots, crafted from 3 Copper and 1 Tin Ingot and Lava.%n%n%n§lThis quest unlocks "Crop Hybridization".
+lostera.quest2966.desc=The Carpenter uses RF power to craft recipes involving liquids, requiring §bWater§r, §aSeed Oil§r, §6Honey§r or §cLava§r depending on the recipe.%n%nSuch an example of this are Bronze Ingots, crafted from 3 Copper and 1 Tin Ingot and Lava.%n%n%n§lThis quest unlocks "Crop Husbandry".
 
 # Quest.2967 - Squeezer
 lostera.quest2967.name=Squeezer
@@ -12118,7 +12119,7 @@ lostera.quest3018.desc=Refractory Capsules function in a manner which is almost 
 
 # Quest.3019 - Environmental Factors
 lostera.quest3019.name=Environmental Factors
-lostera.quest3019.desc=The water consumption of a Multifarm depends on 3 factors:%n%n§r§a§nBiome%n§rIdeally you want to build your multifarms in a cold and wet biome.%n%nHigh temperatures = Higher Water Consumption%nHigh Humidity = Lower Water Consumption%n%nYou don't want to farm in a desert but if so, try finding an Oasis (High Humidity)%n%n§9§nRainfall%n§rFrequency of rain will affect water content in the atmosphere.%nThe longer it goes without rain the higher your water consumption will be.%n%n§d§nType of Farm§r%nThis self explanatory. Generally Cactus require the least amount of water while Mushrooms require the most.
+lostera.quest3019.desc=The water consumption of a Multifarm depends on 3 factors:%n%n§r§a§nBiome%n§rIdeally you want to build your multifarms in a cold and wet biome.%n%nHigh Temperatures = Higher Water Consumption%nHigh Humidity = Lower Water Consumption%n%nYou don't want to farm in a desert but if so, try finding an Oasis (High Humidity)%n%n§9§nRainfall%n§rFrequency of rain will affect water content in the atmosphere.%nThe longer it goes without rain the higher your water consumption will be.%n%n§d§nType of Farm§r%nThis self explanatory. Generally Cactus require the least amount of water while Mushrooms require the most.
 
 # Quest.3020 - Builder's Backpack
 lostera.quest3020.name=Builder's Backpack
@@ -12214,7 +12215,7 @@ lostera.quest3042.desc=Flux is the physical manifestation of a Thaumaturge's mis
 
 # Quest.3043 - Totem of Undying
 lostera.quest3043.name=Totem of Undying
-lostera.quest3043.desc=The Totem of Undying is a mysterious consumable that will save its owner from death as long as it is held in their inventory.
+lostera.quest3043.desc=The Totem of Undying is a mysterious consumable that will save its owner from death when held in their inventory.
 
 # Quest.3044 - Dragon Breath
 lostera.quest3044.name=Dragon Breath
@@ -12238,7 +12239,7 @@ lostera.quest3048.desc=The Spectre Key grants you access to your own personal sp
 
 # Quest.3049 - Brewing Stand
 lostera.quest3049.name=Brewing Stand
-lostera.quest3049.desc=The Brewing Stand allows for the creation of potions.%n%nIt does not need fuel for it is powered by its own §6Blaze Rod§r.%n%nThe process of making a potion is simple, yet it requires one essential component:%n%n§c§nNether Warts§r%n%nThis vital ingredient, when combined with §9Water Bottles§r, is used to create the §dAwkward Potion§r, the base concoction to all potions.%n%nBy adding a §aCatalyst§r you can add an effect to the potion and optionally even a §eModifier§r to improve it further.%n%n§8To fill empty bottles with water, simply right click water with them. 
+lostera.quest3049.desc=The Brewing Stand allows for the creation of potions.%n%nIt does not need fuel for it is powered by its own §6Blaze Rod§r.%n%nThe process of making a potion is simple, yet it requires one essential component:%n%n§c§nNether Warts§r%n%nThis vital ingredient, when combined with §9Water Bottles§r, is used to create the §dAwkward Potion§r, the base concoction to all potions.%n%nBy adding a §aCatalyst§r you can add an effect to the potion and optionally even a §eModifier§r to improve it further.%n%n§8To fill empty bottles with water, simply right click water with them.%n%n%n§r§lThis quest unlocks "Alchemical Laboratory".
 
 # Quest.3050 - Division Sigil
 lostera.quest3050.name=Division Sigil
@@ -12250,7 +12251,7 @@ lostera.quest3051.desc=Unstable Ingots are strong yet highly volatile that make 
 
 # Quest.3052 - Ender Chest
 lostera.quest3052.name=Ender Chest
-lostera.quest3052.desc=The Ender Chest is chest with a storage space exclusive to each player.%n%nIt is merely a portal to a dimensional inventory and, as such, its contents can be accessed by any Ender Ehest.
+lostera.quest3052.desc=The Ender Chest is a portal to the user's personal dimensional inventory.%n%nUsers can only access their own personal dimensional inventory through an Ender Chest and may do so across any distance.
 
 # Quest.3053 - Builder's Backpack
 lostera.quest3053.name=Builder's Backpack
@@ -12828,8 +12829,8 @@ lostera.quest3195.desc=Basic Gates are limited to only 1 function §8(trigger + 
 lostera.quest3196.name=Map Location
 lostera.quest3196.desc=Map Locations are used in Gates to reference a location for programming Robots.%n%nThis includes where they should work or where to look for Docking Stations.%n%n%nMap Locations can be written a location in 3 ways:%n%n1) Simply right clicking on a block§r%n%nThis will record a 1 block space to be used.%n%n%n2) Right clicking on an area defined by a §9Land Mark§r%n%nThis allows you to define up to a 64x64x64 area.%n%n%n3) By using a §eZone Planner§r%n%nThis allows for defining massive areas at the cost of precision.
 
-# Quest.3197 - ~Full Guard
-lostera.quest3197.name=~Full Guard
+# Quest.3197 - §8Full Guard
+lostera.quest3197.name=§8Full Guard
 lostera.quest3197.desc=Hidden Quest to check player has full guard.
 
 # Quest.3198 - Charging Table
@@ -13364,8 +13365,8 @@ lostera.quest3329.desc=Investigate the alien technology within from asteroids sc
 lostera.quest3330.name=Not for the faint of heart
 lostera.quest3330.desc=Sign up for an all-inclusive LUA Coding Bootcamp!%n%nBy clicking the button you unequivocally accept our "§cTerms & Conditions§r".%n%n%n%n§r§lThis quest unlocks "Computer Science".
 
-# Quest.3331 - ~Magic Metals
-lostera.quest3331.name=~Magic Metals
+# Quest.3331 - §8Magic Metals
+lostera.quest3331.name=§8Magic Metals
 lostera.quest3331.desc=No Description
 
 # Quest.3332 - Owl
@@ -14126,11 +14127,11 @@ lostera.quest3520.desc=The RedNet Controller offers a range of programs with spe
 
 # Quest.3521 - Orchid
 lostera.quest3521.name=Orchid
-lostera.quest3521.desc=§6§lScientific Name:§r §o Vanda Coerulea%n%n§a§lOther Names:§r Autumn Lady's Tresses%n%n§d§lMeaning:§r Elegance & Sensuality / Fertility%n%n%n§9§lDescription:§r%nThe Orchid is renowned for its lush, voluptuous petals, which evoke the delicate beauty and elegance of a lady. Yet, it may also carries undertones of lust, rooted in the Greek mythology it is named after.%n%nOrchis, the son of a nymph and a satyr, attempted to seduce a priestess of Dionysus during the god's own festival. Furious, Dionysus annihilated him. %n%nHis grieving father pleaded desperately for his son's resurrection, but Dionysus refused. Instead, he created orchid flower from Orchis, eternally mocking his infamous folly of surrendering all reason to lust.
+lostera.quest3521.desc=§6§lScientific Name:§r §o Vanda Coerulea%n%n§a§lOther Names:§r Autumn Lady's Tresses%n%n§d§lMeaning:§r Elegance & Sensuality / Fertility%n%n%n§9§lDescription:§r%nThe Orchid is renowned for its lush, voluptuous petals, which evoke the delicate beauty and elegance of a lady. Yet, it may also carry undertones of lust, rooted from its Greek mythology.%n%nOrchis, the son of a nymph and a satyr, attempted to seduce a priestess of Dionysus during the god's own festival. Furious, Dionysus annihilated him. %n%nHis grieving father pleaded desperately for his son's resurrection, but Dionysus refused. Instead, he created orchid flower from Orchis, eternally mocking his infamous folly of surrendering all reason to lust.
 
 # Quest.3522 - Allium
 lostera.quest3522.name=Allium
-lostera.quest3522.desc=§6§lScientific Name:§r §o Allium Giganteum%n%n§a§lOther Names:§r Globemaster Allium / Giant Onion / Giant Leek / Giant Garlic%n%n§d§lMeaning:§r Prosperity%n%n%n§9§lDescription:§r%nThis flower is renown for it ability to to bloom and thrive even in harsh conditions, becoming a powerful symbol for overcoming life's challenges.%n%nAccording to myth, the Allium is said to have sprouted from the blood of Zeus during his revolt against the Titans. %n%nThis association gave it a sense of strength, power, and resilience and as such it was often seen as a symbol of victory and triumph over adversity, making it a popular choice in celebrations and ceremonies.
+lostera.quest3522.desc=§6§lScientific Name:§r §o Allium Giganteum%n%n§a§lOther Names:§r Globemaster Allium / Giant Onion / Giant Leek / Giant Garlic%n%n§d§lMeaning:§r Prosperity%n%n%n§9§lDescription:§r%nThis flower is renowned for its ability to to bloom and thrive even in harsh conditions, becoming a powerful symbol for overcoming life's challenges.%n%nAccording to myth, the Allium is said to have sprouted from the blood of Zeus during his revolt against the Titans. %n%nThis association gave it a sense of strength, power, and resilience and as such it was often seen as a symbol of victory and triumph over adversity, making it a popular choice in celebrations and ceremonies.
 
 # Quest.3523 - Bluet
 lostera.quest3523.name=Bluet
@@ -14142,11 +14143,11 @@ lostera.quest3524.desc=§6§lScientific Name:§r §o Hydrangea Macrophylla%n%n§
 
 # Quest.3525 - Foxglove
 lostera.quest3525.name=Foxglove
-lostera.quest3525.desc=§6§lScientific Name:§r §oDigitalis Purpurea%n%n§a§lOther Names:§r Folksglove / Bloody Fingers / Fairy's Glove / Dead Man's Thimbles%n%n§d§lMeaning:§r Insincerity / Deception%n%n%n§9§lDescription:§r%nThe Foxglove is a dangerously elegant but poisonous flower that resembles fingers of a glove.%n%nOriginally called "Folk's Glove", it reflected the folklore about fae folk hiding within its blooms. Children would peek inside these blooms in hopes to catch a glimpse and hear their riddles but never picking the flower, afraid of their anger.%n%nSymbolically, this bloom represents the metaphor of the velvet glove, veiling one's true nature beneath an outward allure of gentleness and courtesy.
+lostera.quest3525.desc=§6§lScientific Name:§r §oDigitalis Purpurea%n%n§a§lOther Names:§r Folksglove / Bloody Fingers / Fairy's Glove / Dead Man's Thimbles%n%n§d§lMeaning:§r Insincerity / Deception%n%n%n§9§lDescription:§r%nThe Foxglove is a dangerously elegant but poisonous flower that resembles fingers of a glove.%n%nOriginally called "Folk's Glove", it reflected the folklore about fae folk hiding within its blooms. Children would peek inside these in hopes to catch a glimpse and hear their riddles but never picking the flower, afraid of their anger.%n%nSymbolically, this bloom represents the metaphor of the velvet glove: Veiling one's nefarious intentions beneath an outward allure of gentleness and courtesy.
 
 # Quest.3526 - Zinnia
 lostera.quest3526.name=Zinnia
-lostera.quest3526.desc=§6§lScientific Name:§r §o Zinnia Elegans%n%n§a§lOther Names:§r Elegant Zinnia / Youth-and-Old-Age / Cut-and-Come-Again Zinnia%n%n§d§lMeaning:§r I mourn your absence%n%n§b§lColor-Specific Meanings:§r%n§7%n§lMagenta§7 - Lasting Affection%n§lYellow§7 - Daily Remembrance%n§lWhite§7 - Goodness / Good Deeds%n%n§9§lDescription:§r%nThe Zinnia is reknowned for its exceptionally resilient spirit, blooming relentlessly throghout its lifespan, unyielding to any harsh trials or tribulations such as harsh heat, drought or voracious pests.%n%nIn Victorian times, it symbolized the promise to remember and honor the recipient and their deeds, remaining unwavering through life's trials, no matter how challenging, inconvenient, or painful.
+lostera.quest3526.desc=§6§lScientific Name:§r §o Zinnia Elegans%n%n§a§lOther Names:§r Elegant Zinnia / Youth-and-Old-Age / Cut-and-Come-Again Zinnia%n%n§d§lMeaning:§r I mourn your absence%n%n§b§lColor-Specific Meanings:§r%n§7%n§lMagenta§7 - Lasting Affection%n§lYellow§7 - Daily Remembrance%n§lWhite§7 - Goodness / Good Deeds%n%n§9§lDescription:§r%nThe Zinnia is renowned for its exceptionally resilient spirit, blooming relentlessly throghout its lifespan, unyielding to any harsh trials or tribulations such as harsh heat, drought or voracious pests.%n%nIn Victorian times, it symbolized the promise to remember and honor the recipient and their deeds, remaining unwavering through life's trials, no matter how challenging, inconvenient, or painful they may become.
 
 # Quest.3527 - Chrysanthemum
 lostera.quest3527.name=Chrysanthemum
@@ -14154,7 +14155,7 @@ lostera.quest3527.desc=§6§lScientific Name:§r §o Chrysanthemum Grandiflorum%
 
 # Quest.3528 - Marigold
 lostera.quest3528.name=Marigold
-lostera.quest3528.desc=§6§lScientific Name:§r §o Tagetes erecta%n%n§a§lOther Names:§r Aztec Marigold / Cempaxochitl %n%n§d§lMeaning:§r Grief / Despair%n%n%n§9§lDescription:§r%nMarygolds are the traditional flowers of Día de los Muertos (Day of the Dead), when the spirits of the departed are believed to visit the living, a celebration rooted in the Aztec festival honoring Mictecacihuatl, the goddess of the underworld.%n%nAt dusk, the Marigold gently folds its petals and curls inward, bowing its head as if weeping. %n%nBy dawn, it unfurls again, revealing its reddish, flesh-like innerparts, as if reopening wounds that, adorned with the shimmering dew of the night glistening like tears, evokes a deep sense of grief and despair.%n
+lostera.quest3528.desc=§6§lScientific Name:§r §o Tagetes erecta%n%n§a§lOther Names:§r Aztec Marigold / Cempaxochitl %n%n§d§lMeaning:§r Grief / Despair%n%n%n§9§lDescription:§r%nMarygolds are the traditional flowers of Día de los Muertos (Day of the Dead), when the spirits of the departed are believed to visit the living, a celebration rooted in the Aztec festival honoring Mictecacihuatl, the goddess of the underworld.%n%nAt dusk, the Marigold gently folds its petals and curls inward, bowing its head as if weeping. %n%nBy dawn, it unfurls again, revealing its reddish, flesh-like innerparts, as if reopening wounds that, adorned with the shimmering dew of the night, glistening like tears, evokes a deep sense of grief and despair.%n
 
 # Quest.3529 - Geranium
 lostera.quest3529.name=Geranium
@@ -14166,7 +14167,7 @@ lostera.quest3530.desc=§6§lScientific Name:§r §o Rhododendron Luteum%n%n§a�
 
 # Quest.3531 - Primrose
 lostera.quest3531.name=Primrose
-lostera.quest3531.desc=§6§lScientific Name:§r §o Primula Vulgaris%n%n§a§lOther Names:§r Common Primrose / English Primula%n%n§d§lMeaning:§r Early Youth / Frivolousness & Sadness%n%n§b§lColor-Specific Meanings:§r%n%n§7§lRed§7 - Unpatronized Merit%n§lYellow§7 - Silent Love / Inconstancy%n%n§9§lDescription:§r%nThe Primrose is a charming and delicate bloom, one of the first to grace the garden in early spring.%n%nIn the Victorian era, it symbolized the bashfulness and inconsistency emotions of young love, but its most well-known message was, "I can’t live without you." %n%nThis bloom also carries a deeper symbolic meaning, with Shakespeare famously coining the term "Primrose Path" in Hamlet, symbolizing the seductive allure of a life of pleasure, indulgence and temptation that ultimately leads ruin and downfall later.
+lostera.quest3531.desc=§6§lScientific Name:§r §o Primula Vulgaris%n%n§a§lOther Names:§r Common Primrose / English Primula%n%n§d§lMeaning:§r Early Youth / Frivolousness & Sadness%n%n§b§lColor-Specific Meanings:§r%n%n§7§lRed§7 - Unpatronized Merit%n§lYellow§7 - Silent Love / Inconstancy%n%n§9§lDescription:§r%nThe Primrose is a charming and delicate bloom, one of the first to grace the garden in early spring.%n%nIn the Victorian era, it symbolized the bashful and inconsist emotions of young love, but its most well-known message was, "I can’t live without you." %n%nThis bloom also carries a deeper symbolic meaning, with Shakespeare famously coining the term "Primrose Path" in Hamlet, symbolizing the seductive allure of a life of pleasure, indulgence and temptation that ultimately leads ruin and downfall later.
 
 # Quest.3532 - Aster
 lostera.quest3532.name=Aster
@@ -14194,11 +14195,11 @@ lostera.quest3537.desc=§6§lScientific Name:§r §o Agapanthus Praecox%n%n§a§
 
 # Quest.3538 - Fuchsia
 lostera.quest3538.name=Fuchsia
-lostera.quest3538.desc=§6§lScientific Name:§r §o Fuchsia Magellanica%n%n§a§lOther Names:§r Earring Flower / Fuchsia Angel Earrings / Lady's Eardrops %n%n§d§lMeaning:§r Humble Love / Maiden's Love / Warning §8(Among Witches)%n%n%n§9§lDescription:§r%nThe Fuchsia is a whimsical, pendant-shaped blooms resembling fairy-like gowns, so enchanting that children would seek it out to craft tiny maidens from it by removing all but two stamens as legs, giving its association with the innocent, unguarded affection of a young girl's first love.%n%nFolklore states that this flower provides a favorite hiding spot for fairies, making it great to protect your home but unlucky to bring indoors.%n%nBetween witches it symbolizes warning. Either the fairies are weaving mischief for the recipient, or they urge them to consult the Seelie Court for urgent, looming matters tied to their imminent fate.
+lostera.quest3538.desc=§6§lScientific Name:§r §o Fuchsia Magellanica%n%n§a§lOther Names:§r Earring Flower / Fuchsia Angel Earrings / Lady's Eardrops %n%n§d§lMeaning:§r Humble Love / Maiden's Love / Warning §8(Among Witches)%n%n%n§9§lDescription:§r%nThe Fuchsia is a whimsical, pendant-shaped bloom resembling fairy-like gowns, so enchanting that children would seek it out to craft tiny maidens from it by removing all but two stamens as legs, giving its association with the innocent, unguarded affection of a young girl's first love.%n%nFolklore states that this flower provides a favorite hiding spot for fairies, making it great to protect your home but unlucky to bring indoors.%n%nBetween witches it symbolizes warning. Either the fairies are weaving mischief for the recipient, or they urge them to consult the Seelie Court for urgent, looming matters tied to their imminent fate.
 
 # Quest.3539 - Dianthus
 lostera.quest3539.name=Dianthus
-lostera.quest3539.desc=§6§lScientific Name:§r §o Dianthus Barbatus%n%n§a§lOther Names:§r Sweet William / China Carnation / Bearded Pink%n%n§d§lMeaning:§r Gallantry%n%n%n§9§lDescription:§r%nThe meaning of the Dianthus flower lies in its Greek name, composed of "dios" (god) and "anthos" (flower), symbolizing the noble spirit of one who's righteous actions protects the innocent and strikes down the wicked. %n%nIt is often referred as "Sweet William" in folkloric stories and ballads, representing the heroic deeds of a gallant hero, though its true origins remain a mystery.%n%nSpeculations surrounding this name suggests associations with various historical Williams, including William Shakespeare and William the Conqueror, among others but definitive proof does not exists. 
+lostera.quest3539.desc=§6§lScientific Name:§r §o Dianthus Barbatus%n%n§a§lOther Names:§r Sweet William / China Carnation / Bearded Pink%n%n§d§lMeaning:§r Gallantry%n%n%n§9§lDescription:§r%nThe meaning of the Dianthus flower lies in its Greek name, composed of "dios" (god) and "anthos" (flower), symbolizing the noble spirit of one who's righteous actions protects the innocent and strikes down the wicked. %n%nIt is often referred as "Sweet William" in folkloric stories and ballads, representing the heroic deeds of a gallant hero, though its true origins remain a mystery.%n%nSpeculations surrounding this name suggests associations with various historical Williams, including William Shakespeare and William the Conqueror, among others but there is no definitive proof. 
 
 # Quest.3540 - Forget-Me-Nots
 lostera.quest3540.name=Forget-Me-Nots
@@ -14214,7 +14215,7 @@ lostera.quest3542.desc=§6§lScientific Name:§r §o Aquilegia Vulgaris%n%n§a§
 
 # Quest.3543 - Edelweiss
 lostera.quest3543.name=Edelweiss
-lostera.quest3543.desc=§6§lScientific Name:§r §o Leontopodium Alpinum%n%n§a§lOther Names:§r Chatzen-Talpen / Wullbluomen / Stella Alpina%n%n§d§lMeaning:§r Courage / Daring%n%n%n§9§lDescription:§r%nThe Edelweiss, meaning "Noble White" in German, is a star-shaped flower with velvet texture that blooms at great heighs in the Alps.%n%nBeing a very short-lived flower that grows in remote dangerous places, it was an monumentally difficult flower to obtain.%n%nIt is precisely because of this reason that it became a symbol of courage, as offering an Edelweiss to a lover was seen as a audacious, yet devoted romantic gesture.%n
+lostera.quest3543.desc=§6§lScientific Name:§r §o Leontopodium Alpinum%n%n§a§lOther Names:§r Chatzen-Talpen / Wullbluomen / Stella Alpina%n%n§d§lMeaning:§r Courage / Daring%n%n%n§9§lDescription:§r%nThe Edelweiss, meaning "Noble White" in German, is a star-shaped flower with velvet texture that blooms at great heighs in the Alps.%n%nBeing a very short-lived flower that grows in remote dangerous places, it was monumentally difficult to obtain.%n%nIt is precisely because of this reason that it became a symbol of courage, as offering an Edelweiss to a lover was seen as a audacious, yet devoted romantic gesture.%n
 
 # Quest.3544 - Scabious
 lostera.quest3544.name=Scabious
@@ -14226,7 +14227,7 @@ lostera.quest3545.desc=§6§lScientific Name:§r §o Echinacea Purpura%n%n§a§l
 
 # Quest.3546 - Gaillardia
 lostera.quest3546.name=Gaillardia
-lostera.quest3546.desc=§6§lScientific Name:§r §o Gaillardia Aristata%n%n§a§lOther Names:§r Great Blanket Flower / Arizona Sun / Firewheel%n%n§d§lMeaning:§r Gratitude / Compassion%n%n%n§9§lDescription:§r%nThe Gaillardia flower holds deep ties to Aztec, with legends suggesting it was originally an all yellow wildflower until it witnessed the devastation brought by the Spanish conquest.%n%nThe bright yellow flower felt compassion for the deaths of the inhabitants and caught their blood as it fell, forever tainted red with the blood of the fallen Aztecs.%n%nIn another tale, a revered Aztec blanket maker, in his final days, wove a vibrant blanket as a gift to the Great Spirit, offering it for his journey to the afterlife. When he passed, the Great Spirit was so moved by the blanket that, each spring, it blanketed the earth in flowers mirroring the colors of the gifted blanked as a sign of gratitude to his people.
+lostera.quest3546.desc=§6§lScientific Name:§r §o Gaillardia Aristata%n%n§a§lOther Names:§r Great Blanket Flower / Arizona Sun / Firewheel%n%n§d§lMeaning:§r Gratitude / Compassion%n%n%n§9§lDescription:§r%nThe Gaillardia flower holds deep ties to the Aztecs, with legends suggesting it was originally an all yellow wildflower until it witnessed the devastation brought by the Spanish conquest.%n%nThe bright yellow flower felt compassion for the deaths of the inhabitants and, tainted by their blood, held on to the blood of the fallen Aztecs.%n%nIn another tale, a revered Aztec blanket maker, in his final days, wove a vibrant blanket as a gift to the Great Spirit, offering it for his journey to the afterlife. When he passed, the Great Spirit was so moved by the blanket that, each spring, it blanketed the earth in flowers mirroring the colors of the gift as a sign of gratitude to his people.
 
 # Quest.3547 - Auricula
 lostera.quest3547.name=Auricula
@@ -14234,11 +14235,11 @@ lostera.quest3547.desc=§6§lScientific Name:§r §o Primula Auricula%n%n§a§lO
 
 # Quest.3548 - Camellia
 lostera.quest3548.name=Camellia
-lostera.quest3548.desc=§6§lScientific Name:§r §o Camellia Japonica%n%n§a§lOther Names:§r Camellian Rose / Tsubaki%n%n§d§lMeaning:§r Unpretending Excellence%n%n§b§lColor-Specific Meanings:§r%n§7%n§lWhite§7 - Perfected Loveliness / Without blemish%n§lRed§7 - Thou art my heart's sovereign%n§lPink§7* - Longing for you §8(see bottom)%n%n§9§lDescription:§r%nThe Camellia is an elegant flower of regal appearance, known as the "Empress of Winter" for blooming amidst the stillness of the coldest months.%n%nThough it resembles its rival, the rose, it surpasses it in grace, possessing thicker, waxier petals and superior symmetry.%n%nNot needing the seductive fragrance of its floral counterpart, the Camellia captivates solely through its subtle splendor, symbolizing elegance without excess.%n%n§8* - The pink camellia's symbolism originates from Alexandre Dumas' "The Lady of the Camellias", which tells the tragic love story of a courtesan and a young bourgeois.%n%nThe man's father, fearing scandal, persuades her to leave, leading him to believe she has left him for another man. Falling ill from heartbreak, she ultimately dies alone, longing for the love she sacrificed.
+lostera.quest3548.desc=§6§lScientific Name:§r §o Camellia Japonica%n%n§a§lOther Names:§r Camellian Rose / Tsubaki%n%n§d§lMeaning:§r Unpretending Excellence%n%n§b§lColor-Specific Meanings:§r%n§7%n§lWhite§7 - Perfected Loveliness / Without blemish%n§lRed§7 - Thou art my heart's sovereign%n§lPink§7* - Longing for you §8(see bottom)%n%n§9§lDescription:§r%nThe Camellia is an elegant flower of regal appearance, known as the "Empress of Winter" for blooming amidst the stillness of the coldest months.%n%nThough it resembles its rival, the rose, it surpasses it in grace, possessing thicker, waxier petals and superior symmetry.%n%nNot needing the seductive fragrance of its floral counterpart, the Camellia captivates solely through its subtle splendor, symbolizing elegance without excess.%n%n§8* - The pink camellia's symbolism originates from Alexandre Dumas' "The Lady of the Camellias", which tells the tragic love story of a courtesan and a young bourgeois.%n%nThe man's father, fearing scandal, persuades her to leave, leading him to believe she has left him for another man. Falling terminally ill from heartbreak, it is not until her deathbed that he comes to find out, pledging to love her even after death in her final moments.
 
 # Quest.3549 - Goldenrod
 lostera.quest3549.name=Goldenrod
-lostera.quest3549.desc=§6§lScientific Name:§r §o Solidago Canadensis%n%n§a§lOther Names:§r Baguette d'Aaron / Goldruthe / Woundwort / Liberty Tea%n%n§d§lMeaning:§r Precaution%n%n%n§9§lDescription:§r%nThe Goldenrod is a majestic bloom that gets its symbolism from its Latin name "Solidago" (solderer) for its exceptional ability to heal and close wounds being antiseptic, anti-inflammatory, anti-microbial and astringent.%n%nThe ancient Germans would often gathering it as a precaution before battle, referring to it as "Golden Woundwort" or "Fastening Herb".%n%nAs the Boston Tea Party sparked the American Revolution and British control made tea scarce. Patriots, unwilling to part from drinking tea, took precautions devising a substitute from Goldenrod to replace English tea, aptly naming it "Liberty Tea".%n%nIts popularity skyrocketed, with shipments being exported at high prices to Europe, China and even Great Britain itself.
+lostera.quest3549.desc=§6§lScientific Name:§r §o Solidago Canadensis%n%n§a§lOther Names:§r Baguette d'Aaron / Goldruthe / Woundwort / Liberty Tea%n%n§d§lMeaning:§r Precaution%n%n%n§9§lDescription:§r%nThe Goldenrod is a majestic bloom that gets its symbolism from its Latin name "Solidago" (solderer) for its exceptional ability to heal and close wounds being antiseptic, anti-inflammatory, anti-microbial and astringent.%n%nThe ancient Germans would often gather it as a precaution before battle, referring to it as "Golden Woundwort" or "Fastening Herb".%n%nAs the Boston Tea Party sparked the American Revolution and British control made tea scarce, patriots, unwilling to part from drinking tea, took precautions devising a substitute from Goldenrod to replace English tea, aptly naming it "Liberty Tea".%n%nIts popularity skyrocketed, with shipments being exported at high prices to Europe, China and even Great Britain itself.
 
 # Quest.3550 - Althea
 lostera.quest3550.name=Althea
@@ -14250,11 +14251,11 @@ lostera.quest3551.desc=§6§lScientific Name:§r §o Penstemon Digitalis%n%n§a�
 
 # Quest.3552 - Delphinium
 lostera.quest3552.name=Delphinium
-lostera.quest3552.desc=§6§lScientific Name:§r §o Delphinium Staphisagria%n%n§a§lOther Names:§r Larkspur%n%n§d§lMeaning:§r Light-heartedness%n%n§b§lColor-Specific Meanings:§r%n§7%n§lPink§7 - Fickleness%n§lPurple§7 - Haughtiness%n%n§9§lDescription:§r%nThe Delphinium is playful but poisonous flower with irresistible air of whimsy. %n%nNamed for its closed buds shaped like dolphins, it's more commonly known as Larkspur, from its seed pods resembling the claw of a lark.%n%nIt is from this name that it gets its symbolism, embodying the nature of this lovely songbird, with its singing on the spur of the moment, uplifting and carefree yet fleeting, vanishing as quickly as it arrived as if indifferent to the joy it stirred.%n
+lostera.quest3552.desc=§6§lScientific Name:§r §o Delphinium Staphisagria%n%n§a§lOther Names:§r Larkspur%n%n§d§lMeaning:§r Light-heartedness%n%n§b§lColor-Specific Meanings:§r%n§7%n§lPink§7 - Fickleness%n§lPurple§7 - Haughtiness%n%n§9§lDescription:§r%nThe Delphinium is playful but poisonous flower with an irresistible air of whimsy. %n%nNamed for its closed buds shaped like dolphins, it's more commonly known as Larkspur, from its seed pods resembling the claw of a lark.%n%nIt is from this name that it gets its symbolism, embodying the nature of this lovely songbird, with its singing on the spur of the moment, uplifting and carefree yet fleeting, vanishing as quickly as it arrived as if indifferent to the joy it stirred.%n
 
 # Quest.3553 - Hollyhock
 lostera.quest3553.name=Hollyhock
-lostera.quest3553.desc=§6§lScientific Name:§r §o Alcea Rosea%n%n§a§lOther Names:§r Common Hollyhock%n%n§d§lMeaning:§r Ambition%n%n§b§lColor-Specific Meanings:§r%n§7%n§lWhite§7 - Female Ambition%n§lRed§7 - Fruitfulness / Fertility%n%n§9§lDescription:§r%nThe Alcea is a majestic indomitable flower, renowned for its relentless ambition to rise above any obstacle. Fueled by adversity, it thrives best on barren, unfertilized soil where other falter most, turning hardship into its greatest advantage. %n%nEven as its bloom fades, it produces an extraordinary number of seeds, seemingly refusing to let its legacy die, defying the odds at every turn.%n%n§8"My happiness is my reflection on the suffering during my journey and knowing that I never quit" §o - David Goggins
+lostera.quest3553.desc=§6§lScientific Name:§r §o Alcea Rosea%n%n§a§lOther Names:§r Common Hollyhock%n%n§d§lMeaning:§r Ambition%n%n§b§lColor-Specific Meanings:§r%n§7%n§lWhite§7 - Female Ambition%n§lRed§7 - Fruitfulness / Fertility%n%n§9§lDescription:§r%nThe Alcea is a majestic indomitable flower, renowned for its relentless ambition to rise above any obstacle. Fueled by adversity, it thrives best on barren, unfertilized soil where others falter most, turning hardship into its greatest advantage. %n%nEven as its bloom fades, it produces an extraordinary number of seeds, seemingly refusing to let its legacy die, defying the odds at every turn.%n%n§8"My happiness is my reflection on the suffering during my journey and knowing that I never quit" §o - David Goggins
 
 # Quest.3554 - Cornflower
 lostera.quest3554.name=Cornflower
@@ -14266,11 +14267,11 @@ lostera.quest3555.desc=§6§lScientific Name:§r §o Viola Tricolor%n%n§a§lOth
 
 # Quest.3556 - Iris
 lostera.quest3556.name=Iris
-lostera.quest3556.desc=§6§lScientific Name:§r §o Iris Germanica%n%n§a§lOther Names:§r Bearded Iris / Purple Flame Iris / Flower-de-Luce / Fleur-de-lis%n%n§d§lMeaning:§r Flame of Love / Faith, Wisdom & Valor%n%n%n§9§lDescription:§r%nThis flower has been associated with power and victory from Clovis I, the first king of what would become France.%n%nUpon converting to Christianity, he was given a vision of irises blooming on the river Lys, which lead him to promptly changed his coat of arms from toads to three lilies.%n%nHis soldiers would adorn themselves with the flower and would ultimately go on to unify the Franks and its neighbours under one ruler and the three upper petals of the iris would come to represent the valor, wisdom, and faith that secured their victory.%n%n§8Historically, the names Iris and Lily have been used interchangeably, causing confusion about which flower was the original fleur-de-lis/lys. %n
+lostera.quest3556.desc=§6§lScientific Name:§r §o Iris Germanica%n%n§a§lOther Names:§r Bearded Iris / Purple Flame Iris / Flower-de-Luce / Fleur-de-lis%n%n§d§lMeaning:§r Flame of Love / Faith, Wisdom & Valor%n%n%n§9§lDescription:§r%nThis flower has been associated with power and victory from Clovis I, the first king of what would become France.%n%nUpon converting to Christianity, he was given a vision of irises blooming on the river Lys, which lead him to promptly change his coat of arms from toads to three lilies.%n%nHis soldiers would adorn themselves with the flower and would ultimately go on to unify the Franks and its neighbours under one ruler and the three upper petals of the iris would come to represent the valor, wisdom, and faith that secured their victory.%n%n§8Historically, the names Iris and Lily have been used interchangeably, causing confusion about which flower was the original fleur-de-lis/lys. %n
 
 # Quest.3557 - Lavender
 lostera.quest3557.name=Lavender
-lostera.quest3557.desc=§6§lScientific Name:§r §o Lavandula Angustifolia%n%n§a§lOther Names:§r English Lavender / Garden Lavender%n%n§d§lMeaning:§r Distrust%n%n%n§9§lDescription:§r%nLavender is a fragrant flower whose name derives from the Latin word "lavare", meaning "to wash", from its historical use as a scent for baths and laundry.%n%nThe sight of this pleasant flower was often shadowed by danger and distrust.%n%nHistorically, it grows in hot climates alongside asp snakes, venomous snakes known to make their nests in lavender fields often leading careless people to their deaths.%n%nAccording to legend, it was one such snake, hidden in a bundle of lavender, that delivered the fateful bite to Cleopatra, killing her.
+lostera.quest3557.desc=§6§lScientific Name:§r §o Lavandula Angustifolia%n%n§a§lOther Names:§r English Lavender / Garden Lavender%n%n§d§lMeaning:§r Distrust%n%n%n§9§lDescription:§r%nLavender is a fragrant flower whose name derives from the Latin word "lavare", meaning "to wash", from its historical use as a scent for baths and laundry.%n%nThe sight of this pleasant flower was often overshadowed by danger and distrust.%n%nHistorically, it grows in hot climates alongside asp snakes, venomous snakes known to make their nests in lavender fields often leading careless people to their deaths.%n%nAccording to legend, it was one such snakes, hidden in a bundle of lavender, that delivered the fateful bite to Cleopatra, killing her.
 
 # Quest.3558 - Viola
 lostera.quest3558.name=Viola
@@ -14278,7 +14279,7 @@ lostera.quest3558.desc=§6§lScientific Name:§r §o Viola Odorata%n%n§a§lOthe
 
 # Quest.3559 - Daffodil
 lostera.quest3559.name=Daffodil
-lostera.quest3559.desc=§6§lScientific Name:§r §o Narcissus Pseudonarcissus%n%n§d§lMeaning:§r (Single) Unrequited Love / (Several) Regard%n%n§b§lColor-Specific Meanings:§r%n%n§7§lYellow§7 - (Single) Deceitful Hope / (Several) Resurgence%n§l§lWhite§7* - (Single) Narcissist / (Several) Self-Love §8(see bottom)§7%n%n§9§lDescription:§r%nThe Daffodil's many symbolism can be contradictory but are determined by the amount given. Also, because all Daffodils are also Narcissus they inherit its myth.%n%nDriven by unrequited love, Hades stole Persephone from a field of yellow daffodils. Her mother Demeter, goddess of harvest, plunged into such grief searching for her that the earth withered. Even in captivity, Persephone held confidently onto hope.%n%nThe gods intervened, but their efforts came too late; in the end, a sorrowful bargain was struck, with Persephone returned to her mother, only to be condemned to spend the latter half of each year in the underworld with Hades as his unwilling consort.%n%nEach spring, Demeter blooms daffodils to welcome her daughter's return, while in autumn, the grief of her departure withers the earth.%n%n§7* - Narcissus was a hunter who's beauty captured the hearts of mortals, only to reject all with contempt until one day he falls hopelessly in love with a reflection on water.%nUpon realizing it was his own, he dies from despair. From his grave grew a single white narcissus flower, symbolizing his self-obsession.
+lostera.quest3559.desc=§6§lScientific Name:§r §o Narcissus Pseudonarcissus%n%n§d§lMeaning:§r (Single) Unrequited Love / (Several) Regard%n%n§b§lColor-Specific Meanings:§r%n%n§7§lYellow§7 - (Single) Deceitful Hope / (Several) Resurgence%n§l§lWhite§7* - (Single) Narcissist / (Several) Self-Love §8(see bottom)§7%n%n§9§lDescription:§r%nThe Daffodil's many symbolisms can be contradictory but are determined by the amount presented. As all Daffodils are also Narcissus they inherit its myth.%n%nDriven by unrequited love, Hades stole Persephone from a field of yellow daffodils. Her mother Demeter, goddess of harvest, plunged into such grief searching for her that the earth withered. Even in captivity, Persephone held confidently onto hope.%n%nThe gods intervened, but their efforts came too late; in the end, a sorrowful bargain was struck, with Persephone returned to her mother, only to be condemned to spend the latter half of each year in the underworld with Hades as his unwilling consort.%n%nEach spring, Demeter blooms daffodils to welcome her daughter's return, while in autumn, the grief of her departure withers the earth.%n%n§7* - Narcissus was a hunter who's beauty captured the hearts of mortals, only to reject all with contempt until one day he falls hopelessly in love with a reflection on water.%nUpon realizing it was his own, he dies from despair. From his grave grew a single white narcissus flower, symbolizing his self-obsession.
 
 # Quest.3560 - Poppy
 lostera.quest3560.name=Poppy
@@ -14294,7 +14295,7 @@ lostera.quest3562.desc=§6§lScientific Name:§r §o Paeonia Suffruticosa%n%n§a
 
 # Quest.3563 - Rose
 lostera.quest3563.name=Rose
-lostera.quest3563.desc=§6§l§6§lScientific Name:§r §o Rosa Grandiflora%n%n§d§lMeaning:§r Love%n%n§b§lColor-Specific Meanings:§r%n§7%n§lWhite§7 - I am worthy of you / Sub-Rosa §8(Secrecy)§7%n§lPink§7 - Genuine Affection / If you love me, you will find it out §8(love will reveal itself overtime)§7%n§lYellow§7 - Decrease of Love / Jealousy%n§lPurple§7 - Love at first sight / Enchanted%n§lBurgundy§7 - Unconscious Beauty §8(Oblivious to their own beauty)%n%n§9§lDescription:§r%nThe Rose is the timeless bloom renown for its lush petals and sweet fragrance.%n%nIn Victorian times, Roses were commonly used to express love through color: white for courtship, blush pink for blossoming romance, and red for passionate love.%n%nIn Greek mythology, Chloris, the goddess of flowers, is said to have turned a beautiful, dead nymph into a rose. She invited Apollo to warm the bloom, Aphrodite to lend it her beauty, Dionysus to add sweet nectar, crowning it the "Queen of Flowers".
+lostera.quest3563.desc=§6§l§6§lScientific Name:§r §o Rosa Grandiflora%n%n§d§lMeaning:§r Love%n%n§b§lColor-Specific Meanings:§r%n§7%n§lWhite§7 - I am worthy of you / Sub-Rosa §8(Secrecy)§7%n§lPink§7 - Genuine Affection / If you love me, you will find it out §8(love will reveal itself overtime)§7%n§lYellow§7 - Decrease of Love / Jealousy%n§lPurple§7 - Love at first sight / Enchanted%n§lBurgundy§7 - Unconscious Beauty §8(Oblivious to their own beauty)%n%n§9§lDescription:§r%nThe Rose is the timeless bloom renowned for its lush petals and sweet fragrance.%n%nIn Victorian times, Roses were commonly used to express love through color: white for courtship, blush pink for blossoming romance, and red for passionate love.%n%nIn Greek mythology, Chloris, the goddess of flowers, is said to have turned a beautiful, dead nymph into a rose. She invited Apollo to warm the bloom, Aphrodite to lend it her beauty, Dionysus to add sweet nectar, crowning it the "Queen of Flowers".
 
 # Quest.3564 - Lilac
 lostera.quest3564.name=Lilac
@@ -14306,11 +14307,11 @@ lostera.quest3565.desc=§6§lScientific Name:§r §o Tulipa Agenesis%n%n§a§lOt
 
 # Quest.3566 - Floriography
 lostera.quest3566.name=Floriography
-lostera.quest3566.desc=The language of flowers, known as floriography, is a covert method of communicating through flowers and floral arrangements.%n%nIt emerged during the Victorian Era §8(1800s)§r in a time when proper etiquette discouraged any open and flagrant displays of emotion.%n%nIn order to circumnvent this social taboo, definitions were assigned to flowers based on literature, poetry, art and horticulture and used to express those feelings and thoughts which could not be openly spoken.%n%nHigh society of this time embraced and perfected the practice, sending bouquets for love or warning, arranging flowers for social visits and events, or discreetly tucking them into hair.%n%nEven those well-versed in the floral code couldn't be certain of the intent behind a message as plausible deniability was built in.%nAnyone could easily claim their floral choices were purely aesthetic with no hidden motives.%n%nFlower messages are conveyed through each flower's specific meaningand can be subtly adjusted by choosing atypical colors to better tailor it to your message (§oshould no color-specific meaning already exists for that flower§r):%n%n%n§n§lDefault Color Meanings:§r%n%n§0▉§r §lBlack§r - Despair / Grief / Resentment / Farewell%n§4▉§r §lRed§r - Passion / Desire / Strength%n§5▉§r §lPurple§r - Royalty / Dignity / Pride§r%n§d▉§r §lPink§r - Affection / Gentleness / Gracefulness%n§9▉§r §lBlue§r - Inner Peace/ Serenity / Spirituality / Honesty%n§a▉§r §lGreen§r - Health / Resilience / Good Fortune%n§e▉§r §lYellow§r - Joy / Friendship / Loss of Romantic Love§l*%n§6▉§r §lOrange§r - Zeal / Fervor §8(Ardent emotions of either excitement or hostility)§r%n▉ §lWhite§r - Innocence / Humility / Reverence
+lostera.quest3566.desc=The language of flowers, known as floriography, is a covert method of communicating through flowers and floral arrangements.%n%nIt emerged during the Victorian Era §8(1800s)§r in a time when proper etiquette discouraged any open and flagrant displays of emotion.%n%nIn order to circumnvent this social taboo, definitions were assigned to flowers based on literature, poetry, art and horticulture used to express those feelings and thoughts which could not be openly spoken.%n%nHigh society of this time embraced and perfected the practice, sending bouquets for love or warning, arranging flowers for social visits and events, or discreetly tucking them into hair.%n%nEven those well-versed in the floral code couldn't be certain of the intent behind a message as plausible deniability was built in.%nAnyone could easily claim their floral choices were purely aesthetic with no hidden motives.%n%nFlower messages are conveyed through each flower's specific meaning and can be subtly adjusted by choosing atypical colors to better tailor it to your message (§oshould no color-specific meaning already exists for that flower§r):%n%n%n§n§lDefault Color Meanings:§r%n%n§0▉§r §lBlack§r - Despair / Grief / Resentment / Farewell%n§4▉§r §lRed§r - Passion / Desire / Strength%n§5▉§r §lPurple§r - Royalty / Dignity / Pride§r%n§d▉§r §lPink§r - Affection / Gentleness / Gracefulness%n§9▉§r §lBlue§r - Inner Peace/ Serenity / Spirituality / Honesty%n§a▉§r §lGreen§r - Health / Resilience / Good Fortune%n§e▉§r §lYellow§r - Joy / Friendship / Loss of Romantic Love§l*%n§6▉§r §lOrange§r - Zeal / Fervor §8(Ardent emotions of either excitement or hostility)%n§r▉ §lWhite§r - Innocence / Humility / Reverence%n%n%n§8*Yellow was the color of the infamous 13th Christian apostle Judas Iscariot who's deeds are associated with treachery, unfaithfulness and betrayal.%n%nDue to exclusive nature of romantic love which demands trust, its symbolism ranges from the loss of love caused by broken commitments, such as neglect and jealousy, to outright deception, treachery and unfaithfulness.
 
 # Quest.3567 - Lily of the Valley
 lostera.quest3567.name=Lily of the Valley
-lostera.quest3567.desc=§6§lScientific Name:§r §o Convallaria Majalis%n%n§a§lOther Names:§r May Lily / Ladder to Heaven / Muguet%n%n§d§lMeaning:§r Return of Happiness%n%n§9§lDescription:§r%nThe Lily of the Valley is a fragrant yet poisonous bell-shaped bloom that delights in cool, damp places and dappled woodland.%n%nThis flower flourishes in May, the month of merriment, symbolizing the renewal of the seasons as spring fades into summer and carefree days return.%n%nDuring this time, the Flora Dance takes place, a cherished festival where young people, dressed in white, dance in pairs. %n%nBoys wear Lily of the Valley in their buttonholes, while girls adorn their hair with the blossoms, celebrating the joyful transition from spring's bloom to summer's warmth.
+lostera.quest3567.desc=§6§lScientific Name:§r §o Convallaria Majalis%n%n§a§lOther Names:§r May Lily / Ladder to Heaven / Muguet%n%n§d§lMeaning:§r Return of Happiness%n%n§9§lDescription:§r%nThe Lily of the Valley is a fragrant yet poisonous bell-shaped bloom that delights in cool, damp places and dappled woodland.%n%nThis flower flourishes in May, the month of merriment, symbolizing the renewal of the seasons as spring fades into summer and carefree days return.%n%nDuring this time, the Flora Dance takes place, a cherished festival where young people, dressed in white, dance in pairs. %n%nBoys wear them in their buttonholes, while girls adorn their hair with the blossoms, celebrating the joyful transition from spring's bloom to summer's warmth.
 
 # Quest.3569 - Daisy
 lostera.quest3569.name=Daisy
