@@ -1322,7 +1322,7 @@ lostera.quest318.desc=The Thermoelectric Boiler size can be anywhere from §l3x3
 
 # Quest.319 - Your First Cable
 lostera.quest319.name=Your First Cable
-lostera.quest319.desc=Cables are used to transfer energy between machines.%n%nEach type of cable differs in 3 aspects:%n%n§lInsulation: §r%nUninsulated cables will shock entities on contact at the cost of EU and have higher energy loss.%n%n§lVoltage:%n§rThe maximum voltage it can handle. It can be found at the item tooltip in EU/tick.%n%n§lEnergy Loss:%n§rHow much EU is lost per length of the cable.%n%n§bTin Cable: §r1 EU lost per 40 blocks%n§cCopper Cable: §r1 EU lost per 5 blocks%n§6Gold Cable: §r1 EU lost per 2.5 blocks%n§9HV Cable: §r0.8 EU lost per 1 block%n§dGlass Fibre: §rNo loss
+lostera.quest319.desc=Cables are used to transfer energy between machines.%n%nEach type of cable differs in 3 aspects:%n%n§lInsulation: §r%nUninsulated cables will shock entities on contact at the cost of EU and have higher energy loss.%n%n§lVoltage:%n§rThe maximum voltage it can handle. It can be found at the item tooltip in EU/tick.%n%n§lEnergy Loss:%n§rHow much EU is lost per block of cable travelled:%n%n                       §lInsulated   §r§8§lUninsulated§r%n§bTin Cable               §r0.15 EU         §80.2 EU%n§aCopper Cable§8          §r0.2 EU          §80.3 EU%n§eGold Cable        §r     0.45 EU          §80.5 EU%n§cHV Cable        §r       0.95 EU           §81 EU%n§5Glass Fibre §        §r   0.025 EU§8           /
 
 # Quest.320 - Induction Matrix
 lostera.quest320.name=Induction Matrix
