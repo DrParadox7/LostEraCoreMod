@@ -890,7 +890,7 @@ lostera.quest210.desc=The Hatchery serves to collect Larvae from the queen in th
 
 # Quest.211 - Electrical Stimulator
 lostera.quest211.name=Electrical Stimulator
-lostera.quest211.desc=The Electrical Stimulator accepts a circuit board, and allows various modifications to be applied to an alveary using power and circuit boards instead of the more traditional hive frames, which need to be replaced when damaged.%n%nCircuits are made using a Soldering Iron with the Electrical Stimulator layout selected. %n%nThe possible circuits are:%n%n§7§nIron§r§7§n - §oLV Stimulus§r %nProduction: §2+50% §8(+500% Max)%n%n§b§nDiamantine - §oHV Stimulus§r %nProduction: §2+150% §8(+1000% Max)%n%n§9§nApatine - §oBiotic Stimulus§r %nPollination: §2x1.5 §8(x5 Max)%n%n§5§nObsidian - §oCharged Stimulus§r %nLifespan: §4x0.8§8 (x0.2 Min)%n%n§9§nLapis - §oGentle Stimulus§r %nLifespan: §2x1.5 §8(x5 Max)%n%n§c§nBlazing - §oMolten Stimulus§r %nSimulates §lNether§r%n%n§6§nGolden- §oMutagenic Stimulus§r %nMutation: §2x1.5 §8(x5 Max)%n%n§r§nTin - §oInhibiting Stimulus§r %nTerritory: §4x0.4 §8(x0.1 Min)§r%nProduction: §4-10%%n%n§e§nBronze- §oAgitating Stimulus§r %nTerritory: §2x1.5 §8(x5 Max)
+lostera.quest211.desc=The Electrical Stimulator accepts a circuit board, and allows various modifications to be applied to an alveary using power and circuit boards instead of the more traditional hive frames, which need to be replaced when damaged.%n%nCircuits are made using a Soldering Iron with the Electrical Stimulator layout selected. %n%nThe possible circuits are:%n%n§7§nIron§r§7§n - §oLV Stimulus§r %nProduction: §2+50%% §8(500%% Max)%n%n§b§nDiamantine - §oHV Stimulus§r %nProduction: §2+150%% §8(1000%% Max)%n%n§9§nApatine - §oBiotic Stimulus§r %nPollination: §2x1.5 §8(x5 Max)%n%n§5§nObsidian - §oCharged Stimulus§r %nLifespan: §4x0.8§8 (x0.2 Min)%n%n§9§nLapis - §oGentle Stimulus§r %nLifespan: §2x1.5 §8(x5 Max)%n%n§c§nBlazing - §oMolten Stimulus§r %nSimulates §lNether§r%n%n§6§nGolden- §oMutagenic Stimulus§r %nMutation: §2x1.5 §8(x5 Max)%n%n§r§nTin - §oInhibiting Stimulus§r %nTerritory: §4x0.4 §8(x0.1 Min)§r%nProduction: §4-10%%%n%n§e§nBronze- §oAgitating Stimulus§r %nTerritory: §2x1.5 §8(x5 Max) %n
 
 # Quest.212 - Mutator
 lostera.quest212.name=Mutator
@@ -1400,9 +1400,9 @@ lostera.quest337.desc=This §aLaser Amplifier§r can condense up to §c5 Laser r
 lostera.quest338.name=Cauldron Mishaps
 lostera.quest338.desc=As with anything worth doing mistakes can be made but it is important to learn from those mistakes.%n%nThe following catalysts can be thrown into a Cauldron at any point to make those mistakes disappear without a trace:%n%n%n§7§lQuicklime§r%nVaporizes the contents of the cauldron.%n%n§8This may cause harm to nearby creature.§r%n%n§lGypsum§r%nThe contents of the cauldron vanish without harm.
 
-# Quest.339 - 
-lostera.quest339.name=
-lostera.quest339.desc=
+# Quest.339 - §3Contamination:§r Slowness
+lostera.quest339.name=§3Contamination:§r Slowness
+lostera.quest339.desc=Reduces movement speed by §4-15%%§r.%n%n§bAmplifier Effect:§r Reduces movement speed by a further §4-15%%%n§6Duration:§r 1:30§8 | 4:00 (Extended) | 0:20 (Amplified)
 
 # Quest.340 - Dormant Boon
 lostera.quest340.name=Dormant Boon
@@ -3939,8 +3939,8 @@ lostera.quest972.desc=This card allows ME Network devices to draw on the §5ME A
 lostera.quest973.name=Capacity Card
 lostera.quest973.desc=This Card adds capacity to the config inventory of the §bME Network Import §rand §6Export Bus§r devices.
 
-# Quest.974 - §6¬§r Basic Materials
-lostera.quest974.name=§6¬§r Basic Materials
+# Quest.974 - Metallurgy
+lostera.quest974.name=Metallurgy
 lostera.quest974.desc=The surface, while it provides food and wood, it does not have the materials necessary for your needs.%n%nYou need to go deeper to mine for some basic materials.
 
 # Quest.975 - Pechs
@@ -5922,9 +5922,9 @@ lostera.quest1468.desc=The Bronze Workbench is an industrial version of a crafti
 lostera.quest1469.name=Augment: Secondary Reception Coil
 lostera.quest1469.desc=An Augment that increases the processing speed of Machines at the cost of energy.%n%nMachines with this upgrade will process at §2x2 §rthe speed but will require §4+50%%§r the energy and will drain energy §6x3 §ras fast.%n%n%nRequires a Hardened Machine or better. 
 
-# Quest.1470 - 
-lostera.quest1470.name=
-lostera.quest1470.desc=
+# Quest.1470 - §3Contamination:§r Instant Damage
+lostera.quest1470.name=§3Contamination:§r Instant Damage
+lostera.quest1470.desc=Curses living targets, inflicting §46 damage §8(3 Hearts)§r. Undead are healed instead.%n%n§bAmplifier Effect:§r Increases damage by an additional §4+6 damage%n§6Duration:§r Instant
 
 # Quest.1471 - Coding Bootcamp
 lostera.quest1471.name=Coding Bootcamp
@@ -12217,9 +12217,9 @@ lostera.quest3042.desc=Flux is the physical manifestation of a Thaumaturge's mis
 lostera.quest3043.name=Totem of Undying
 lostera.quest3043.desc=The Totem of Undying is a mysterious consumable that will save its owner from death when held in their inventory.
 
-# Quest.3044 - Dragon Breath
-lostera.quest3044.name=Dragon Breath
-lostera.quest3044.desc=Dragon's Breath is an alchemic ingredient that makes possible to create potions that linger into an area for a duration of time, applying its effect to all that approach it.%n%nTo create one, apply §dDragon's Breath§r to your desired §6Splash Potions§r.
+# Quest.3044 - The Beginning After the End
+lostera.quest3044.name=The Beginning After the End
+lostera.quest3044.desc=The Temple Caller is used to call forth the §6Temple of Rebirth§r.%n%nThis is only possible if the Ender Dragon is defeated the user possesses the §5Dragon Egg§r in their inventory and the §dTemple Caller§r is fully charged.%n%n§8Simply holding a Temple Caller in your inventory while exploring the end causes it to charge itself.§r%n%nIf all the requirements are met, the user can initiate the §eRitual of Rebirth§r, which will consume the Dragon Egg and the whole End Dimension to regenerate it anew with a more powerful Ender Dragon.
 
 # Quest.3045 - Ectoplasm
 lostera.quest3045.name=Ectoplasm
@@ -14307,7 +14307,7 @@ lostera.quest3565.desc=§6§lScientific Name:§r §o Tulipa Agenesis%n%n§a§lOt
 
 # Quest.3566 - Floriography
 lostera.quest3566.name=Floriography
-lostera.quest3566.desc=The language of flowers, known as floriography, is a covert method of communicating through flowers and floral arrangements.%n%nIt emerged during the Victorian Era §8(1800s)§r in a time when proper etiquette discouraged any open and flagrant displays of emotion.%n%nIn order to circumnvent this social taboo, definitions were assigned to flowers based on literature, poetry, art and horticulture used to express those feelings and thoughts which could not be openly spoken.%n%nHigh society of this time embraced and perfected the practice, sending bouquets for love or warning, arranging flowers for social visits and events, or discreetly tucking them into hair.%n%nEven those well-versed in the floral code couldn't be certain of the intent behind a message as plausible deniability was built in.%nAnyone could easily claim their floral choices were purely aesthetic with no hidden motives.%n%nFlower messages are conveyed through each flower's specific meaning and can be subtly adjusted by choosing atypical colors to better tailor it to your message (§oshould no color-specific meaning already exists for that flower§r):%n%n%n§n§lDefault Color Meanings:§r%n%n§0▉§r §lBlack§r - Despair / Grief / Resentment / Farewell%n§4▉§r §lRed§r - Passion / Desire / Strength%n§5▉§r §lPurple§r - Royalty / Dignity / Pride§r%n§d▉§r §lPink§r - Affection / Gentleness / Gracefulness%n§9▉§r §lBlue§r - Inner Peace/ Serenity / Spirituality / Honesty%n§a▉§r §lGreen§r - Health / Resilience / Good Fortune%n§e▉§r §lYellow§r - Joy / Friendship / Loss of Romantic Love§l*%n§6▉§r §lOrange§r - Zeal / Fervor §8(Ardent emotions of either excitement or hostility)%n§r▉ §lWhite§r - Innocence / Humility / Reverence%n%n%n§8*Yellow was the color of the infamous 13th Christian apostle Judas Iscariot who's deeds are associated with treachery, unfaithfulness and betrayal.%n%nDue to exclusive nature of romantic love which demands trust, its symbolism ranges from the loss of love caused by broken commitments, such as neglect and jealousy, to outright deception, treachery and unfaithfulness.
+lostera.quest3566.desc=The language of flowers, known as floriography, is a covert method of communicating through flowers and floral arrangements.%n%nIt emerged during the Victorian Era §8(1800s)§r in a time when proper etiquette discouraged any open and flagrant displays of emotion.%n%nIn order to circumnvent this social taboo, definitions were assigned to flowers based on literature, poetry, art and horticulture used to express those feelings and thoughts which could not be openly spoken.%n%nHigh society of this time embraced and perfected the practice, sending bouquets for love or warning, arranging flowers for social visits and events, or discreetly tucking them into hair.%n%nEven those well-versed in the floral code couldn't be certain of the intent behind a message as plausible deniability was built in.%nAnyone could easily claim their floral choices were purely aesthetic with no hidden motives.%n%nFlower messages are conveyed through each flower's specific meaning and can be subtly adjusted by choosing atypical colors to better tailor it to your message (§oshould no color-specific meaning already exists for that flower§r):%n%n%n§n§lDefault Color Meanings:§r%n%n§0▉§r §lBlack§r - Despair / Grief / Resentment / Farewell%n§4▉§r §lRed§r - Passion / Desire / Strength%n§5▉§r §lPurple§r - Royalty / Dignity / Pride§r%n§d▉§r §lPink§r - Affection / Gentleness / Gracefulness%n§9▉§r §lBlue§r - Inner Peace/ Serenity / Spirituality / Honesty%n§a▉§r §lGreen§r - Health / Resilience / Good Fortune%n§e▉§r §lYellow§r - Joy / Friendship / Loss of Romantic Love§l*%n§6▉§r §lOrange§r - Zeal / Fervor §8(Ardent emotions of either excitement or hostility)%n§r▉ §lWhite§r - Innocence / Humility / Reverence%n%n%n§8*Yellow was the color of the infamous 13th Christian apostle Judas Iscariot whose deeds are associated with treachery, unfaithfulness and betrayal.%n%nDue to exclusive nature of romantic love which demands trust, its symbolism ranges from the loss of love caused by broken commitments, such as neglect and jealousy, to outright deception, treachery and unfaithfulness.
 
 # Quest.3567 - Lily of the Valley
 lostera.quest3567.name=Lily of the Valley
@@ -14320,6 +14320,246 @@ lostera.quest3569.desc=§6§lScientific Name:§r §o Bellis Perennis%n%n§a§lOt
 # Quest.3570 - Dandelion
 lostera.quest3570.name=Dandelion
 lostera.quest3570.desc=§6§lScientific Name:§r §o Taraxacum Officinale%n%n§a§lOther Names:§r Lion's Teeth, Fortune-Teller, Shepherd's Clock, Wet-A-Bed%n%n§d§lMeaning:§r Rustic Oracle§r / Hope / Healing%n%n%n§9§lDescription:§r%nThis flower is a powerful medicinal plant with its scientific name literally meaning "Disorder-remedying medicine".%n%nFor the seasoned shepherd, it also serves as both clock and weather divinator.%n%nFolklore states that blowing the puff off a dandelion is said to carry your thoughts to your loved one or to the gods when making a wish.
+
+# Quest.3571 - §9Catalysts
+lostera.quest3571.name=§9Catalysts
+lostera.quest3571.desc=Catalysts are the heart of potion brewing!%n%nThey turn the untapped magic of an §6Awkward Potion§r into one bursting with powerful effects.%n%nEach Catalyst works its own kind of magic, imparting unique and exciting magical effects.%n%nReady to experiment? Give it a go!
+
+# Quest.3572 - §6Modifiers
+lostera.quest3572.name=§6Modifiers
+lostera.quest3572.desc=Modifiers are special in that they react with the §9Catalyst§r of a potion to tweak or boost its effects.%n%nThese let you tailor your potions to suit your needs or even completely change how they works, creating something truly unique.%n
+
+# Quest.3573 - §6Modifier:§r Lingering
+lostera.quest3573.name=§6Modifier:§r Lingering
+lostera.quest3573.desc=Dragon's Breath is an modifier agent that makes possible to create potions that linger into an area for a duration of time, applying its effect to all that approach it.%n%nTo create one, apply §dDragon's Breath§r to your desired §6Splash Potions§r.%n
+
+# Quest.3574 - §6Modifier:§r Splash
+lostera.quest3574.name=§6Modifier:§r Splash
+lostera.quest3574.desc=Gunpowder is a modifier agent that turns potions into alchemical bombs, affecting all targets caught in its splash area.
+
+# Quest.3575 - §6Modifier:§r Lenghtening
+lostera.quest3575.name=§6Modifier:§r Lenghtening
+lostera.quest3575.desc=Redstone Dust is a modifier agent that, when applied to a potion, extends the duration of its effect.%n%nIt conflicts with §eAmplifier Modifiers§r.
+
+# Quest.3576 - §6Modifier:§r Thickening
+lostera.quest3576.name=§6Modifier:§r Thickening
+lostera.quest3576.desc=Glowstone Dust is a modifier agent that, when applied to a potion, concentrates its effects, amplifying the potency at the cost of shortening its duration.%n%nIt conflicts with §cLenghtening Modifiers§r.
+
+# Quest.3577 - §3Contamination:§r Invisibility
+lostera.quest3577.name=§3Contamination:§r Invisibility
+lostera.quest3577.desc=Renders the user's body invisible.%nEquipped items and armor are unaffected and will still remain visible.%n%n%n§bAmplifier Effect:§r None%n§6Duration:§r 3:00§8 | 8:00 (Extended)
+
+# Quest.3578 - §9Catalyst:§r Night Vision
+lostera.quest3578.name=§9Catalyst:§r Night Vision
+lostera.quest3578.desc=Enhanced vision in unlit areas, allowing to see clearly even in the absence of light.%n%n§bAmplifier Effect:§r None%n§6Duration:§r 3:00§8 | 8:00 (Extended)
+
+# Quest.3579 - §9Catalyst:§r Fire Resistance
+lostera.quest3579.name=§9Catalyst:§r Fire Resistance
+lostera.quest3579.desc=Provides immunity to fire and fire-based attacks.%n%n%n§bAmplifier Effect:§r None%n§6Duration:§r 3:00§8 | 8:00 (Extended)
+
+# Quest.3580 - §9Catalyst:§r Swiftness
+lostera.quest3580.name=§9Catalyst:§r Swiftness
+lostera.quest3580.desc=Increases movement speed by §a+20%%§r.%n%n%n§bAmplifier Effect:§r Increase speed by an additional §a+20%%§r%n§6Duration:§r 3:00§8 | 8:00 (Extended) | 1:30 (Amplified)
+
+# Quest.3581 - §9Catalyst:§r Healing
+lostera.quest3581.name=§9Catalyst:§r Healing
+lostera.quest3581.desc=Blesses the living, healing them by §a4 health §8(2 Hearts)§r. Undead targets are harmed instead.%n%n%n§bAmplifier Effect:§r Increases healing by an additional §a+4 health%n§6Duration:§r Instant
+
+# Quest.3582 - §9Catalyst:§r Poison
+lostera.quest3582.name=§9Catalyst:§r Poison
+lostera.quest3582.desc=Inflicts §41 damage §8(0.5 Hearts)§r every 2.5 seconds over its duration without killing the target.%n%n%n§bAmplifier Effect:§r Increases damage frequency to every 1.25 seconds §8(2.5/Amplifier Level)§r%n§6Duration:§r 0:45§8 | 1:30 (Extended) | 0:21 (Amplified)
+
+# Quest.3583 - §9Catalyst:§r Regeneration
+lostera.quest3583.name=§9Catalyst:§r Regeneration
+lostera.quest3583.desc=Restores §a+1 health §8(0.5 Hearts)§r every 2.5 seconds over its duration.%n%n%n§bAmplifier Effect:§r Increases healing frequency to every 1.25 seconds §8(2.5/Amplifier Level)§r%n§6Duration:§r 0:45§8 | 1:30 (Extended) | 0:22 (Amplified)
+
+# Quest.3584 - §9Catalyst:§r Strenght
+lostera.quest3584.name=§9Catalyst:§r Strenght
+lostera.quest3584.desc=Increases melee damage by §a+3 damage §8(2.5 Hearts)§r.%n%n%n§%n§bAmplifier Effect:§r Increase damage by an additional §a+3 damage%n§6Duration:§r 3:00§8 | 8:00 (Extended) | 1:30 (Amplified)
+
+# Quest.3585 - §9Catalyst:§r Water Breathing
+lostera.quest3585.name=§9Catalyst:§r Water Breathing
+lostera.quest3585.desc=Grants the ability to breathe underwater.%n%n§bAmplifier Effect:§r None%n§6Duration:§r 3:00 | §88:00 (Extended)
+
+# Quest.3586 - §2Contaminant:§r Weakness
+lostera.quest3586.name=§2Contaminant:§r Weakness
+lostera.quest3586.desc=The Fermented Spider Eye is a powerful contaminant agent used to induce an alchemical backlash on any potion containing magic.%n%nThe result is often a potion that, rather than imbuing targets with magical energy, drains them of their life force inflicting Weakness§r.%n%n§2Weakness:§r Decreases melee damage by §4-4 damage §8(2 Hearts)§r.%n%n§bAmplifier Effect:§r None%n§6Duration:§r 1:30 | §84:00 (Extended)%n%n%n§r§dThat is not always the case as certain combinations, when contaminated, can instead create unique potion effects.%n%n
+
+# Quest.3587 - §9Catalyst:§r Nausea
+lostera.quest3587.name=§9Catalyst:§r Nausea
+lostera.quest3587.desc=Impairs the target's with warping vision and vertigo.%n%n§bAmplifier Effect:§r None%n§6Duration:§r 0:45§8 | 1:30 (Extended)
+
+# Quest.3588 - §9Catalyst:§r Decay
+lostera.quest3588.name=§9Catalyst:§r Decay
+lostera.quest3588.desc=Applies the wither effect to targets, corroding §41 health §8(0.5 hearts)§r every 2 seconds over its duration.%n%n%n§bAmplifier Effect:§r None%n§6Duration:§r 0:45§8 | 1:30 (Extended)
+
+# Quest.3589 - Zombie Doctor
+lostera.quest3589.name=Zombie Doctor
+lostera.quest3589.desc=The Potion of Weakness, unlike what you would expect, can be also used to cure zombification.%n%nThe process involves using the potion on zombified targets to weaken their curse, followed its cure: §6Golden Apple§r.%n%nWhile the §6Golden Apple§r would usually have no effect on such beings, the weakening process gives it a fighting chance.%n%nThe process is slow but it can be sped up by caging the target in §bIron Fences§r and having a §cBed§r nearby.%n%nAt the end of the process you should have yourself a completely cured patient.%n%nThis process only seems to work on §lZombie Villagers§r for they are not too far gone, and §lHellish Hounds§r from the Nether surprisingly!
+
+# Quest.3590 - Armor Enchantments
+lostera.quest3590.name=Armor Enchantments
+lostera.quest3590.desc=Enchantments for §9Armor§r such as helmets, boots, leggings and chestplate.
+
+# Quest.3591 - Bow Enchantments
+lostera.quest3591.name=Bow Enchantments
+lostera.quest3591.desc=Enchantments for §eBows§r and §6Reinforced Bows§r.
+
+# Quest.3592 - Weapon Enchantments
+lostera.quest3592.name=Weapon Enchantments
+lostera.quest3592.desc=Enchantments for §cMelee Weapons§r such as Swords and Axes.
+
+# Quest.3593 - Fishing Rod Enchantments
+lostera.quest3593.name=Fishing Rod Enchantments
+lostera.quest3593.desc=Enchantments for §bFihing Rods§r.
+
+# Quest.3594 - Protection
+lostera.quest3594.name=Protection
+lostera.quest3594.desc=Reduces damage taken from all source.%n%n%n§bRank Effect:§r Reduces damage 4%% §8(Max Rank: IV)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r Any Protection Enchantment
+
+# Quest.3595 - Aqua Affinity
+lostera.quest3595.name=Aqua Affinity
+lostera.quest3595.desc=Restores* underwater tool speed when mining blocks.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Helmet%n%n§4Conflicts:§r None%n%n§8* - Due to water resistance, breaking blocks underwater takes 5x as long to mine with an additional 5x penalty if actively swimming with your feet not touching ground.
+
+# Quest.3596 - Bane of Arthropods
+lostera.quest3596.name=Bane of Arthropods
+lostera.quest3596.desc=Increase damage dealt against carapaced insects.%n%n%n§bRank Effect:§r Increase damage by 3 §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Weapons%n%n§4Conflicts:§r Smite, Sharpness
+
+# Quest.3597 - Blast Protection
+lostera.quest3597.name=Blast Protection
+lostera.quest3597.desc=Reduces damage and knockback from explosions.%n%n%n§bRank Effect:§r Reduces explosion damage by 8%% and knockback by 15%% §8(Max Rank: IV)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r Any Protection Enchantment
+
+# Quest.3598 - Tool Enchantments
+lostera.quest3598.name=Tool Enchantments
+lostera.quest3598.desc=Enchantments for §aTools§r such as Pickaxes, Hoes and Swords.
+
+# Quest.3599 - Efficiency
+lostera.quest3599.name=Efficiency
+lostera.quest3599.desc=Increases the mining speed of tools.%n%n%n§bRank Effect:§r Increases Tool Mining Speed by 2/5/10/17/26 (Based on Level) §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Tools%n%n§4Conflicts:§r None%n%n%n§8§lMining Speeds:§8%nWood: 2%nStone: 4%nIron: 6%nDiamond: 8%nGold: 12%n
+
+# Quest.3600 - Feather Falling
+lostera.quest3600.name=Feather Falling
+lostera.quest3600.desc=Reduces fall damage%n%n%n§bRank Effect:§r Reduces fall damage by 2 §8(Max Rank: IV)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r None
+
+# Quest.3601 - Fire Aspect
+lostera.quest3601.name=Fire Aspect
+lostera.quest3601.desc=Set enemies on fire.%n%n%n§bRank Effect:§r +4 seconds fire duration §8(Max Rank: II)%n%n§6Enchanting Restrictions:§r Weapons%n%n§4Conflicts:§r None
+
+# Quest.3602 - Fire Protection
+lostera.quest3602.name=Fire Protection
+lostera.quest3602.desc=Reduces on fire duration and fire damage §8(such as Blazes)§r.%n%n%n§bRank Effect:§r Reduces fire damage by 8%% and duration by 15%% §8(Max Rank: IV)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r Any Protection Enchantment
+
+# Quest.3603 - Flame
+lostera.quest3603.name=Flame
+lostera.quest3603.desc=Ignites arrows, burning targets for 5 seconds.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
+
+# Quest.3604 - Fortune
+lostera.quest3604.name=Fortune
+lostera.quest3604.desc=Chance to multiply drops from gemstone ores §8(coal, redstone, diamond, emerald, etc...).%n%n%n§bRank Effect:§r Increases multiplier by 1 §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Tools%n%n§4Conflicts:§r Silk Touch
+
+# Quest.3605 - Infinity
+lostera.quest3605.name=Infinity
+lostera.quest3605.desc=Magically summons its own arrows when firing at no cost.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
+
+# Quest.3606 - Knockback
+lostera.quest3606.name=Knockback
+lostera.quest3606.desc=Causes attacks to knock enemies back.%n%n%n§bRank Effect:§r Increases knockback distance by 3 blocks §8(Max Rank: II)%n%n§6Enchanting Restrictions:§r Weapons%n%n§4Conflicts:§r None
+
+# Quest.3607 - Looting
+lostera.quest3607.name=Looting
+lostera.quest3607.desc=Improves chances and amount of loot dropped by defeated enemies%n%n%n§bRank Effect:§r Increase loot chance by 15%%. Loot chance above 100%% increases quantity.  §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Weapons%n%n§4Conflicts:§r None
+
+# Quest.3608 - Luck of the Sea
+lostera.quest3608.name=Luck of the Sea
+lostera.quest3608.desc=Boosts chances of fishing up equipment, enchanted books and similar loot.%n%n%n§bRank Effect:§r Increases loot chance by +3%% §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Fishing Rod%n%n§4Conflicts:§r None
+
+# Quest.3609 - Lure
+lostera.quest3609.name=Lure
+lostera.quest3609.desc=Reduces time between bites.%n%n%n§bRank Effect:§r Decreases wait time by 5 seconds §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Fishing Rod%n%n§4Conflicts:§r None
+
+# Quest.3610 - Multishot
+lostera.quest3610.name=Multishot
+lostera.quest3610.desc=Fires multiple arrows from a single shot.%n%n%n§bRank Effect:§r Each rank fires 1 extra arrow per shot §8(Max Rank: IV)%n%n§6Enchanting Restrictions:§r Reinforced Bows%n%n§4Conflicts:§r None
+
+# Quest.3611 - Power
+lostera.quest3611.name=Power
+lostera.quest3611.desc=Increases arrow damage.%n%n%n§bRank Effect:§r Increase arrow damage by 1 §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
+
+# Quest.3612 - Projectile Protection
+lostera.quest3612.name=Projectile Protection
+lostera.quest3612.desc=Reduces damage from projectiles.%n%n%n§bRank Effect:§r Reduces projectile damage by 4%% §8(Max Rank: IV)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r Any Protection Enchantment
+
+# Quest.3613 - Punch
+lostera.quest3613.name=Punch
+lostera.quest3613.desc=Increases arrow knockback.%n%n%n§bRank Effect:§r Increases knockback distance by 3 blocks §8(Max Rank: II)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
+
+# Quest.3614 - Respiration
+lostera.quest3614.name=Respiration
+lostera.quest3614.desc=Extends underwater breathing time.%n%n%n§bRank Effect:§r Increases breathing time by 15 seconds §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Helmet%n%n§4Conflicts:§r None
+
+# Quest.3615 - Sharpness
+lostera.quest3615.name=Sharpness
+lostera.quest3615.desc=Sharpens the weapon's edge increasing damage.%n%n%n§bRank Effect:§r Increase damage by 1 §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Weapons%n%n§4Conflicts:§r Smite, Bane of Arthropods
+
+# Quest.3616 - Silk Touch
+lostera.quest3616.name=Silk Touch
+lostera.quest3616.desc=Harvest blocks without breaking them, preventing conversion into block drops or another block.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Tools%n%n§4Conflicts:§r Fortune
+
+# Quest.3617 - Smite
+lostera.quest3617.name=Smite
+lostera.quest3617.desc=Sanctifies weapon, dealing extra damage against undead.%n%n%n§bRank Effect:§r Increase damage by 3 §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Weapons%n%n§4Conflicts:§r Sharpness, Bane of Arthropods
+
+# Quest.3618 - Thorns
+lostera.quest3618.name=Thorns
+lostera.quest3618.desc=Taking damage reflects up to 4 damage back to the attacker at the cost of 1 extra durability point.%n%n%n§bRank Effect:§r Increases chance by 15%% §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r None
+
+# Quest.3619 - Unbreaking
+lostera.quest3619.name=Unbreaking
+lostera.quest3619.desc=Add chance for equipment to not use durability on use §8(but is approximately half as effective on armor)§r.%n%n%n§bRank Effect:§r Each rank halves the chance of durability being used §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Tools, Weapons & Armors%n%n§4Conflicts:§r None
+
+# Quest.3620 - Flim Flam
+lostera.quest3620.name=Flim Flam
+lostera.quest3620.desc=When hit, it causes bad luck to those around you.%nIf applied to armor, it causes bad luck from being hit instead.%n%n%n§bRank Effect:§r Increase bad luck §8(Max Rank: IV)%n%n§6Enchanting Restrictions:§r Weapons & Armors%n%n§4Conflicts:§r None
+
+# Quest.3621 - Crowbar Enchantments
+lostera.quest3621.name=Crowbar Enchantments
+lostera.quest3621.desc=Enchantments for §5Crowbars§r.
+
+# Quest.3622 - Implosion
+lostera.quest3622.name=Implosion
+lostera.quest3622.desc=Increases damage against creepers.%n%n%n§bRank Effect:§r Increases damage by +200%% §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Crowbar%n%n§4Conflicts:§r None
+
+# Quest.3623 - Unstable
+lostera.quest3623.name=Unstable
+lostera.quest3623.desc=Gives gunpowder you carry a chance to explode upon taking damage.%n%n%n§bRank Effect:§r Increases explosion damage, knockback and cost §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r None
+
+# Quest.3624 - Decay
+lostera.quest3624.name=Decay
+lostera.quest3624.desc=Applies the Wither effect to enemies, corroding targets for 5 seconds.  %n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Weapons%n%n§4Conflicts:§r None
+
+# Quest.3625 - Withering
+lostera.quest3625.name=Withering
+lostera.quest3625.desc=Applies the Wither effect to arrows, corroding 1 health §8(0.5 Hearts)§r from targets for 5 seconds.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
+
+# Quest.3626 - Magic Resistance
+lostera.quest3626.name=Magic Resistance
+lostera.quest3626.desc=Decreases damage from magical sources like potions and enchantments.%n%n%n§bRank Effect:§r Reduces damage by +15%% §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r None
+
+# Quest.3627 - Enhanced Brewing
+lostera.quest3627.name=Enhanced Brewing
+lostera.quest3627.desc=The Enhanced Brewing Stand is a mythical artifact that defies the laws of alchemy.%n%nThrough unknown magic, it enables practitioners to transcend brewing limitations.%n%nIt is said that potions crafted with it can be successfully infused multiple times by §6Modifier§r reactants, allowing their effects to stack with one another without conflict.%n%nMore details on how it operates and where to find one, however, have long been lost to time.%n
+
+# Quest.3631 - Wrecking
+lostera.quest3631.name=Wrecking
+lostera.quest3631.desc=Boosts damage dealt to targets.%n%n%n§bRank Effect:§r Increases damage by +50%% §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Crowbar%n%n§4Conflicts:§r None
+
+# Quest.3632 - Destruction
+lostera.quest3632.name=Destruction
+lostera.quest3632.desc=Dismantle rails and other rail related blocks in a wide area.%n%n%n§bRank Effect:§r Increases range by +100%% §8(Max Rank: III)%n%n§6Enchanting Restrictions:§r Crowbar%n%n§4Conflicts:§r None
+
+# Quest.3633 - Last Stand
+lostera.quest3633.name=Last Stand
+lostera.quest3633.desc=Negates lethal damage by draining your experience points instead.%n%n%n§bRank Effect:§r Reduces the XP cost. §8(Max Rank: II)%n%n§6Enchanting Restrictions:§r Armor%n%n§4Conflicts:§r None
 
 ##################################Line##################################
 
@@ -14610,18 +14850,22 @@ lostera.line70.desc=Ex granis fit acervus.
 lostera.line71.name=§5¬§r A Glimpse into Oblivion
 lostera.line71.desc=Nitimur in vetitum.
 
-# QuestLine.72 -    
-lostera.line72.name=   
-lostera.line72.desc=
-# QuestLine.73 -    
-lostera.line73.name=   
-lostera.line73.desc=
-# QuestLine.74 -    
-lostera.line74.name=   
-lostera.line74.desc=
-# QuestLine.75 -    
-lostera.line75.name=   
-lostera.line75.desc=
+# QuestLine.72 - Underground Surveying
+lostera.line72.name=Underground Surveying
+lostera.line72.desc=No Description
+
+# QuestLine.73 - Exotic Miner
+lostera.line73.name=Exotic Miner
+lostera.line73.desc=No Description
+
+# QuestLine.74 - Alchemical Laboratory
+lostera.line74.name=Alchemical Laboratory
+lostera.line74.desc=Alchemy is the process of taking something ordinary and turning it into something extraordinary, sometimes in ways you'd never expect.
+
+# QuestLine.75 - Enchanted Library
+lostera.line75.name=Enchanted Library
+lostera.line75.desc=Do Not Take Me for Some Conjurer of Cheap Tricks!
+
 # QuestLine.76 -    
 lostera.line76.name=   
 lostera.line76.desc=
@@ -14674,7 +14918,7 @@ lostera.line89.desc=A seedling of imagination.
 
 # QuestLine.90 - §2¬§r Mana Sorcery
 lostera.line90.name=§2¬§r Mana Sorcery
-lostera.line90.desc=The study of the great spirits of days past.
+lostera.line90.desc=Simple invocations to the primordial spirits, promising a glimpse of nature's secrets.
 
 # QuestLine.91 - §2¬§r Elven Wispers
 lostera.line91.name=§2¬§r Elven Wispers
