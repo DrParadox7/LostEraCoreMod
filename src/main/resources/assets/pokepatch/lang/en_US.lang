@@ -206,11 +206,11 @@ lostera.quest39.desc=The Steam Dynamo generates power from water and burnables a
 
 # Quest.40 - Magmatic Dynamo
 lostera.quest40.name=Magmatic Dynamo
-lostera.quest40.desc=The Magmatic Dynamo generates power from §chot fluids§r at a rate of §420 RF/tick§r.%n%nIt requires §clava (or other hot fluids)§r to generate power. %nThese liquids can be input directly with a bucket or through a pipe, such as a Fluiduct.
+lostera.quest40.desc=The Magmatic Dynamo generates power from §chot fluids§r at a rate of §420 RF/tick§r.%n%nIt requires §cLava§r or §6Pyrotheum§r to generate power. %n%nThese liquids can be input directly with a bucket or through a pipe, such as a Fluiduct.
 
 # Quest.41 - Compression Dynamo
 lostera.quest41.name=Compression Dynamo
-lostera.quest41.desc=The Compression Dynamo generates power from §eFuels§r at a rate of 50 RF/tick.%n%nIt requires §eFuel §rto generate power as well as coolant to generate power.%nThis may be supplied directly via Fluiducts or a bucket.%n%n§6§nList of some of the compatible fuel:%n§rOil, Fuel, Ethanol, Biofuel, Liquified Coal, Biogas, and Hydrogen.%n%n§b§nList of some of the compatible coolant (not extensive):%n§rWater, Distilled Water, Crushed Ice, Liquid Nitrogen, and Gelid Cryotheum.
+lostera.quest41.desc=The Compression Dynamo generates power from §eFuels§r at a rate of 50 RF/tick.%n%nIt requires §eFuel §rto generate power as well as coolant to generate power.%nThis may be supplied directly via Fluiducts or a bucket.%n%n§6§nList of some of the compatible fuel:%n§rOil, Fuel, Ethanol and Liquified Coal.%n%n§b§nList of some of the compatible coolant (not extensive):%n§rWater, Distilled Water, Crushed Ice, Helium, Liquid Nitrogen, and Gelid Cryotheum.
 
 # Quest.42 - Reactant Dynamo
 lostera.quest42.name=Reactant Dynamo
@@ -374,7 +374,7 @@ lostera.quest81.desc=The Quarry is used to mine out large areas. %n%nBy default,
 
 # Quest.82 - Fluid Pumping
 lostera.quest82.name=Fluid Pumping
-lostera.quest82.desc=The Pump is used to collect liquid, such as Oil, Water and lava, and transport it into tanks.%n%nThe Pump sends the liquid it collects straight through any Fluid Pipes connected to it.%n%n§8%n§oThe Pump actually takes from more than just directly around it, so when pumping oil that is surrounded by water, it is wise to have two tanks or the water will get stuck in the pipe and no more oil will be able to be pumped. 
+lostera.quest82.desc=The Pump is used to collect liquid, such as Oil, Water and lava, and transport it into tanks when powered with Redstone Flux.%n%nThe Pump sends the liquid it collects straight through any Fluid Pipes connected to it.%n%n§8%n§oThe Pump actually takes from more than just directly around it, so when pumping oil that is surrounded by water, it is wise to have two tanks or the water will get stuck in the pipe and no more oil will be able to be pumped. 
 
 # Quest.83 - Refinery
 lostera.quest83.name=Refinery
@@ -890,7 +890,7 @@ lostera.quest210.desc=The Hatchery serves to collect Larvae from the queen in th
 
 # Quest.211 - Electrical Stimulator
 lostera.quest211.name=Electrical Stimulator
-lostera.quest211.desc=The Electrical Stimulator accepts a circuit board, and allows various modifications to be applied to an alveary using power and circuit boards instead of the more traditional hive frames, which need to be replaced when damaged.%n%nCircuits are made using a Soldering Iron with the Electrical Stimulator layout selected. %n%nThe possible circuits are:%n%n§7§nIron§r§7§n - §oLV Stimulus§r %nProduction: §2+50%% §8(500%% Max)%n%n§b§nDiamantine - §oHV Stimulus§r %nProduction: §2+150%% §8(1000%% Max)%n%n§9§nApatine - §oBiotic Stimulus§r %nPollination: §2x1.5 §8(x5 Max)%n%n§5§nObsidian - §oCharged Stimulus§r %nLifespan: §4x0.8§8 (x0.2 Min)%n%n§9§nLapis - §oGentle Stimulus§r %nLifespan: §2x1.5 §8(x5 Max)%n%n§c§nBlazing - §oMolten Stimulus§r %nSimulates §lNether§r%n%n§6§nGolden- §oMutagenic Stimulus§r %nMutation: §2x1.5 §8(x5 Max)%n%n§r§nTin - §oInhibiting Stimulus§r %nTerritory: §4x0.4 §8(x0.1 Min)§r%nProduction: §4-10%%%n%n§e§nBronze- §oAgitating Stimulus§r %nTerritory: §2x1.5 §8(x5 Max) %n
+lostera.quest211.desc=The Electrical Stimulator accepts a circuit board, and allows various modifications to be applied to an alveary using power and circuit boards instead of the more traditional hive frames, which need to be replaced when damaged.%n%nCircuits are made using a Soldering Iron with the Electrical Stimulator layout selected. %n%nThe possible circuits are:%n%n§7§nIron§r§7§n - §oLV Stimulus§r %nProduction: §2+50%% §8(500%% Max)%n%n§b§nDiamantine - §oHV Stimulus§r %nProduction: §2+150%% §8(1000%% Max)%n%n§9§nApatine - §oBiotic Stimulus§r %nPollination: §2x1.5 §8(x5 Max)%n%n§5§nObsidian - §oCharged Stimulus§r %nLifespan: §4x0.8§8 (x0.2 Min)%n%n§9§nLapis - §oGentle Stimulus§r %nLifespan: §2x1.5 §8(x5 Max)%n%n§c§nBlazing - §oMolten Stimulus§r %nSimulates §lNether§r%n%n§6§nGolden- §oMutagenic Stimulus§r %nMutation: §2x1.5 §8(x5 Max)%n%n§r§nTin - §oInhibiting Stimulus§r %nTerritory: §4x0.4 §8(x0.1 Min)§r%nProduction: §4-10%%%n%n§e§nBronze- §oAgitating Stimulus§r %nTerritory: §2x1.5 §8(x5 Max) 
 
 # Quest.212 - Mutator
 lostera.quest212.name=Mutator
@@ -1648,9 +1648,9 @@ lostera.quest399.desc=Portable Tanks store fluids, and can be used to transport 
 lostera.quest400.name=Diamond Chest
 lostera.quest400.desc=The Diamond Chest is the high-end luxury chest.%nBoth elegant and practical, this the best choice for a storage device.%n%nIt has a generous 108 inventory slots, which is 36 more than the Gold Chest.§8%nNeed any more to be said?%n§r%nIt also comes with not 1 but 2 style options to choose from.%nTruly the most optimal storage solution!
 
-# Quest.401 - Silver Chest
-lostera.quest401.name=Silver Chest
-lostera.quest401.desc=The Silver Chest is the entry level luxury chest.%n%nMost chests just lack in the "Wow" factor department. The Silver chest aims to address that and more without breaking the bank.%n%nIt comes packed with 72 inventory slots (18 more than an Iron Chest), making it not just a pretty piece of furniture but an actual worthwhile upgrade.%n%nGet it while stock lasts!
+# Quest.401 - Steel Chest
+lostera.quest401.name=Steel Chest
+lostera.quest401.desc=The Steel Chest is designed to meet the demands of heavy-duty use efficiently and affordably.%n%nBuilt for performance, the Steel Chest ensures your workspace stays efficient and clutter-free without breaking the bank.%n%nIt comes packed with 72 inventory slots (18 more than an Iron Chest), making it the solution of choice for industrial application.%n%nGet it while stock lasts!
 
 # Quest.402 - Gold Chest
 lostera.quest402.name=Gold Chest
@@ -2753,7 +2753,7 @@ lostera.quest676.desc=The Brew of Flowing Spirit captures the essence of the Spi
 
 # Quest.677 - §9Blueprint:§r Fusion Reactor
 lostera.quest677.name=§9Blueprint:§r Fusion Reactor
-lostera.quest677.desc=A Fusion reactor is made of a hollow ring of §cElectromagnets§r connected to a single §dFusion Reactor Core§r via §6Fusion Connectors§r. %n%nThe size of a reactor is measured from the distance between the Fusion Reactor Core and its Electromagnetic ring and can be anywhere from 2x2x2 to a maximum of 26x26x26.%n%nSize= §6Radius of Fusion connectors §r+1%n%n§8§lToroid Size 2 Schematic:%n§c%n▉▉▉▉▉▉▉▉▉%n▉▉▉▉▉▉▉▉▉%n▉▉▉▉▉▉▉▉▉%n▉▉▉  §6▉  §c▉▉▉%n▉▉▉§6▉§5▉§6▉§c▉▉▉%n▉▉▉  §6▉§c  ▉▉▉%n▉▉▉▉▉▉▉▉▉%n▉▉▉▉▉▉▉▉▉%n▉▉▉▉▉▉▉▉▉%n%n§rThe ring must be hollow inside as the plasma needs a clear path around the Reactor Core:%n%n§c  ▉%n▉  ▉%n  ▉§r%n%n%nAll §cElectromagnet§r need to be fully charged for the reactor to form and will each consume §c100RF/t§r while the reactor is running.%nOnce a reactor is provided with fuel it will require power to reach a temperature of §48 Mega Kelvin§r to start producing energy.%n%nA reactor can also be expanded vertically by creating multiple identical fusion reactors on top of another, all sharing the fuel and inventory of the bottom-most §dFusion Reactor Core§r becoming one large multiblock reactor.%n%n%nProviding a §4Redstone Signal §rto the Reactor Core will turn it OFF.
+lostera.quest677.desc=A Fusion reactor is made of a hollow ring of §cElectromagnets§r connected to a single §dFusion Reactor Core§r via §6Fusion Connectors§r. %n%nThe size of a reactor is measured from the distance between the Fusion Reactor Core and its Electromagnetic ring and can be anywhere from 2x2x2 to a maximum of 26x26x26.%n%nSize = 1 + §6Radius of Fusion Connectors §8(Size 1 has the Reactor Core directly connected to the Ring)%n%n§8§lToroid Size 2 Schematic:%n§c%n▉▉▉▉▉▉▉▉▉%n▉▉▉▉▉▉▉▉▉%n▉▉▉▉▉▉▉▉▉%n▉▉▉  §6▉  §c▉▉▉%n▉▉▉§6▉§5▉§6▉§c▉▉▉%n▉▉▉  §6▉§c  ▉▉▉%n▉▉▉▉▉▉▉▉▉%n▉▉▉▉▉▉▉▉▉%n▉▉▉▉▉▉▉▉▉%n%n§rThe ring must be hollow inside as the plasma needs a clear path around the Reactor Core:%n%n§c  ▉%n▉  ▉%n  ▉§r%n%n%nAll §cElectromagnet§r need to be fully charged for the reactor to form and will each consume §c100RF/t§r while the reactor is running.%nOnce a reactor is provided with fuel it will require power to reach a temperature of §48 Mega Kelvin§r to start producing energy.%n%nA reactor can also be expanded vertically by creating multiple identical fusion reactors on top of another, all sharing the fuel and inventory of the bottom-most §dFusion Reactor Core§r becoming one large multiblock reactor.%n%n%nProviding a §4Redstone Signal §rto the Reactor Core will turn it OFF.
 
 # Quest.678 - Bark Belt
 lostera.quest678.name=Bark Belt
@@ -3733,7 +3733,7 @@ lostera.quest921.desc=Potential values for Boron-11's fuel combinations using 1,
 
 # Quest.922 - Isotopes
 lostera.quest922.name=Isotopes
-lostera.quest922.desc=Isotopes are variants of a chemical element due to presence§6 Neutrons§r:%n%n§lHydrogen Atom§r%n1 §7Proton§r & 1 §cElectron§r%n%n    §7⬤§r §c ●%n%n§3Atomic Number:§8 1%n§2Atomic Mass:§8 2%n §r%n§lDeuterium Atom§r §8§o(an isotope of Hydrogen)%n§r1 §7Proton§r, 1§c Electron§r & 1 §6Neutron§r%n%n    §7⬤§r§6◉§c ●%n%n§3Atomic Number:§8 1%n§2Atomic Mass:§8 3%n§r%n%nThe number of neutrons in an isotope can be derived by the numbers in its name, such as§7 §lUranium-235§r.%n%nThe 235 indicates the §2Atomic Mass§r of the element, which is the number of components within the atom.%n%nSince the §3Atomic Number§r is the number of §7Protons§r within the atom and atoms contain equal numbers of §7Protons§r and §cElectrons§r, non-isotope elements have an §2Atomic Mass§r §nexactly double§r the §3Atomic Number§r.%n%nAnymore indicates the presence of §6Neutrons§r.%n%n§lUranium-235:§r%n§3Atomic Number:§8 92%n§2Atomic Mass: §8235%n §r%n%n§2235§r - (§392§r x 2)§r= %n§2235§r - 184 =  §6§l51 Neutrons
+lostera.quest922.desc=Isotopes are variants of a chemical element due to presence of excess §6Neutrons§r:%n%n§lHydrogen Atom§r%n1 §7Proton§r & 1 §cElectron§r%n%n    §7⬤§r §c ●%n%n§3Atomic Number:§8 1%n§2Atomic Mass:§8 1%n§r%n§lDeuterium Atom§r §8§o(an isotope of Hydrogen)%n§r1 §7Proton§r, 1§c Electron§r & 1 §6Neutron§r%n%n    §7⬤§6◉§c ●%n%n§3Atomic Number:§8 1%n§2Atomic Mass:§8 2%n§r%n%nIsotopes are identified by their unusual §2Atomic Mass§r, determined by the total count of §7Protons§r and §6Neutrons§r §8(Electrons are too small to matter)§r.%n%nAtoms with more than 1 §7Proton§r need at least an equal numbers of §6Neutrons§r to keep themselves from bursting.%n%n§6Neutrons§r, with their neutral charge, act as the glue holding §7Protons§r together, preventing them from repelling each other with their positive charge.%n%nIsotopes are distiguished from one another by their difference in §6Neutron§r count, often indicated by including their §2Atomic Mass§r in their name:%n%n§lUranium-235:§r%n§3Atomic Number:§8 92 (Protons)%n§2Atomic Mass: §8235 (Protons + Neutrons)§r%n%n§lUranium-238:§r%n§3Atomic Number:§8 92 (Protons)%n§2Atomic Mass: §8238 (Protons + Neutrons)%n§r%n%n238§r - 235 = §6§l3 Neutron Difference
 
 # Quest.923 - Thaumic Metallurgy
 lostera.quest923.name=Thaumic Metallurgy
@@ -4924,7 +4924,7 @@ lostera.quest1219.desc=Shards are the crystallized manifestation of primal vis c
 
 # Quest.1220 - Electrical Engine
 lostera.quest1220.name=Electrical Engine
-lostera.quest1220.desc=Many machines here will require Redstone Flux for you to use them but fret not.%n%nThe Electrical Engine, if provided EU/t, it will generate enough RF to fill your needs.%n%n§lSpecs:§r%n%n-The engine produces 20 RF/t and requires 6 EU/t to run%n%n%n§rShould you have a spare §lsoldering iron§r and §lcircuit board§r at hand, you can upgrade its stats further by populating the circuit board with the following:%n%n§7Iron Electron Tube:%n§r§nEfficiency:§r -1 EU/t input, +/-0 RF/t%n%n§cCopper Electron Tube%n§r§nChoke:§r -2 EU/t input, -10 RF/t output%n%n§eTin Electron Tube%n§r§nBoost I:§r +7 EU/t input, +20RF/t output%n%n§bBronze Electron Tube%n§r§nBoost II:§r +15 EU/t input, +40 RF/t output%n%n§lMax Voltage:§r §eHigh Voltage%n
+lostera.quest1220.desc=Many machines here will require Redstone Flux for you to use them but fret not.%n%nThe Electrical Engine, if provided EU/t, it will generate enough RF to fill your needs.%n%n§lSpecs:§r%n%n-The engine produces 20 RF/t and requires 6 EU/t to run%n%n%n§rShould you have a spare §lsoldering iron§r and §lcircuit board§r at hand, you can upgrade its stats further by populating the circuit board with the following:%n%n§7Iron Electron Tube:%n§r§nEfficiency:§r -1 EU/t input, +/-0 RF/t%n%n§cCopper Electron Tube%n§r§nChoke:§r -2 EU/t input, -10 RF/t output%n%n§eTin Electron Tube%n§r§nBoost I:§r +7 EU/t input, +20RF/t output%n%n§bBronze Electron Tube%n§r§nBoost II:§r +15 EU/t input, +40 RF/t output%n%n§lMax Voltage:§r §eHigh Voltage
 
 # Quest.1221 - Dining Set
 lostera.quest1221.name=Dining Set
@@ -6356,7 +6356,7 @@ lostera.quest1577.desc=A Lightning Rod is a Device, which uses the Power of Thun
 
 # Quest.1578 - Gas Turbine
 lostera.quest1578.name=Gas Turbine
-lostera.quest1578.desc=The Gas Turbine generates EU from burnable gas at a max rate of §616 EU/t§r.%n%n§eHydrogen: §r1,500 EU per 1,000 mB%n§dMethane: §r4,500 EU per 1,000 mB%n%n%n§lEU Output: §r§bLow Voltage
+lostera.quest1578.desc=The Gas Turbine generates EU from burnable gas at a max rate of §616 EU/t§r.%n%n§eHydrogen: §r15,000 EU per 1,000 mB%n§dMethane: §r45,000 EU per 1,000 mB%n%n%n§lEU Output: §r§bLow Voltage
 
 # Quest.1579 - Large Gas Turbine
 lostera.quest1579.name=Large Gas Turbine
@@ -7388,7 +7388,7 @@ lostera.quest1835.desc=The Last Millenium is an empty void dimension of which it
 
 # Quest.1836 - Typesetting Table
 lostera.quest1836.name=Typesetting Table
-lostera.quest1836.desc=The Typesetting Table creates §6Print Press Plates§r of books for printing copies at the Printing Press.%n%nThis allows for printing copies of Written Books, Enchanted Books, Recipe Books, Big Books, and the Atlas.%n%nTo use, insert §bPrint Press Chase §rin the middle department and place your chosen book on the left slot.%n%nUpon sneak-right clicking the book will become blue to indicate it has been saved and can now be accessed from the side department to set it as public/private or selected. When a redstone signal is given it will create a §6Printing Press Plate§r of the currently selected book.%n%n§8No redstone pulse is required for enchanted books or the Atlas since the act of sneak-clicking creates the plate instead of saving the book. %n%nThis must be done like this because levels will be subtracted from the player, shown when glasses are worn.%n
+lostera.quest1836.desc=The Typesetting Table creates §6Print Press Plates§r of books for printing copies at the Printing Press.%n%nThis allows for printing copies of Written Books, Enchanted Books, Recipe Books, Big Books, and the Atlas.%n%nTo use, insert §bPrint Press Chase §rin the middle department and place your chosen book on the left slot.%n%nUpon sneak-right clicking the book will become blue to indicate it has been saved and can now be accessed from the side department to set it as public/private or selected. When a redstone signal is given it will create a §6Printing Press Plate§r of the currently selected book.%n%n§8No redstone pulse is required for enchanted books or the Atlas since the act of sneak-clicking creates the plate instead of saving the book. %n%nThis must be done like this because levels will be subtracted from the player, shown when glasses are worn.
 
 # Quest.1837 - Barricade
 lostera.quest1837.name=Barricade
@@ -7452,7 +7452,7 @@ lostera.quest1851.desc=Before attempting your jump, it's advised to run a few ch
 
 # Quest.1852 - Hyperspace
 lostera.quest1852.name=Hyperspace
-lostera.quest1852.desc=Star systems are excessively large for us humans. %n%nSpace travelling is greatly accelerated when using hyperspace, an alternate dimension reachable by the largest ships §8(more than 4000 m³)§r.%n%n%nHyperspace can be used to travel much faster, including between multiple Star systems.%n%n%n§5§l1 Block §5travelled in Hyperspace is equal to §l100 Blocks§5 in space.§r%n%n%nTo engage Hyperspace a Warp Core will need to engage in overdrive, consuming §910,000,000 EU §ror §c40,000,000 RF§r.%n%n§8%nDue to gravitation fields of planets, your ship needs to be already in space to attempt to reach hyperspace.
+lostera.quest1852.desc=Star systems are excessively large for us humans.%n%nSpace travelling is greatly accelerated when using hyperspace, the space above outer space, reachable by the largest ships §8(more than 4000 m³)§r.%n%n%nAttempting to enter Hyperspace a Warp Core will need to engage in overdrive, consuming §910,000,000 EU §ror §c40,000,000 RF§r.%n%n%n§5In Hyperspace, ships can jump twice as far with significantly reduced energy costs for distance and mass.%n%n%n§rHowever, engaging the Warp Core requires 10x more energy compared to standard space travel, making it only suitable for long-distance travel.
 
 # Quest.1853 - Basic Hull
 lostera.quest1853.name=Basic Hull
@@ -9636,7 +9636,7 @@ lostera.quest2397.desc=The Printing Press is used to print books from Print Pres
 
 # Quest.2398 - Vintage Clocks
 lostera.quest2398.name=Vintage Clocks
-lostera.quest2398.desc=Vintage Clocks tell the time of day as well as make chime sounds or emit redstone signals at the times your configure it to.%n%nAt 6 o'clock dawn begins and at 18 o'clock dusk begins.%n%nClocks can also be configured by shift+right-clicking with an empty hand to open the GUI.%n%nIn it you will find the clock GUI with 2 circles of dots, each dot representing half a rotation of the minute hand:%n%nThe §aOuter Circle§r is to specify when the clock should chime.%nThe §cInner Circle§r defines when the clock should output a redstone signal.%n%n%nYou will find 4 buttons at the bottom:%n%n§6Tick Sound: §rToggle tick sound%n§aChime Sound: §rToggle Chime functionality%n§cRedstone: §rToggle Redstone functionality%n§4Pulse/Solid: §rPulse Redstone for 1 second every red dot / Keep Redstone signal up until the clock is met with no red dot.%n%nLastly, 2 Clocks can combined into a Granfather's Clock by placing them atop of one another and connecting them with a §bScrewgun§r or §eHand drill§r.%n
+lostera.quest2398.desc=Vintage Clocks tell the time of day as well as make chime sounds or emit redstone signals at the times your configure it to.%n%nAt 6 o'clock dawn begins and at 18 o'clock dusk begins.%n%nClocks can also be configured by shift+right-clicking with an empty hand to open the GUI.%n%nIn it you will find the clock GUI with 2 circles of dots, each dot representing half a rotation of the minute hand:%n%nThe §aOuter Circle§r is to specify when the clock should chime.%nThe §cInner Circle§r defines when the clock should output a redstone signal.%n%n%nYou will find 4 buttons at the bottom:%n%n§6Tick Sound: §rToggle tick sound%n§aChime Sound: §rToggle Chime functionality%n§cRedstone: §rToggle Redstone functionality%n§4Pulse/Solid: §rPulse Redstone for 1 second every red dot / Keep Redstone signal up until the clock is met with no red dot.%n%nLastly, 2 Clocks can combined into a Granfather's Clock by placing them atop of one another and connecting them with a §bScrewgun§r or §eHand drill§r.
 
 # Quest.2399 - Typewritter
 lostera.quest2399.name=Typewritter
@@ -10183,7 +10183,7 @@ lostera.quest2534.desc=At last you've discover the secret powers that lead demon
 
 # Quest.2535 - Wood Ash
 lostera.quest2535.name=Wood Ash
-lostera.quest2535.desc=Wood Ash is the foundation level of all incenses, enabling the ritual of the §5Great Sacrifice§r.%n%nIt provides:%n- §620%%§r Life Essence bonus%n- §95%%§r Soul Fray reduction%n%nIt must be placed inside the §aIncense Crucible§r and each dust will grant the user exactly §65 uses§r §8(lasting indefinitely otherwise)§r.%n
+lostera.quest2535.desc=Wood Ash is the foundation level of all incenses, enabling the ritual of the §5Great Sacrifice§r.%n%nIt provides:%n- §620%%§r Life Essence bonus%n- §95%%§r Soul Fray reduction%n%nIt must be placed inside the §aIncense Crucible§r and each dust will grant the user exactly §65 uses§r §8(lasting indefinitely otherwise)§r.
 
 # Quest.2536 - Byrrus
 lostera.quest2536.name=Byrrus
@@ -12239,7 +12239,7 @@ lostera.quest3048.desc=The Spectre Key grants you access to your own personal sp
 
 # Quest.3049 - Brewing Stand
 lostera.quest3049.name=Brewing Stand
-lostera.quest3049.desc=The Brewing Stand allows for the creation of potions.%n%nIt does not need fuel for it is powered by its own §6Blaze Rod§r.%n%nThe process of making a potion is simple, yet it requires one essential component:%n%n§c§nNether Warts§r%n%nThis vital ingredient, when combined with §9Water Bottles§r, is used to create the §dAwkward Potion§r, the base concoction to all potions.%n%nBy adding a §aCatalyst§r you can add an effect to the potion and optionally even a §eModifier§r to improve it further.%n%n§8To fill empty bottles with water, simply right click water with them.%n%n%n§r§lThis quest unlocks "Alchemical Laboratory".
+lostera.quest3049.desc=The Brewing Stand allows for the creation of potions.%n%nIt does not need fuel for it is powered by its own §6Blaze Rod§r.%n%n%n§r§lThis quest unlocks "Alchemical Laboratory".
 
 # Quest.3050 - Division Sigil
 lostera.quest3050.name=Division Sigil
@@ -13507,7 +13507,7 @@ lostera.quest3365.desc=§lActivation Cost:§r     10,000 LP%n§lCost:§r     80 
 
 # Quest.3366 - Requiem of the Satiated Stomach
 lostera.quest3366.name=Requiem of the Satiated Stomach
-lostera.quest3366.desc=§lActivation Cost:§r     100,000 LP%n§lCost:§r     100 LP per food%n%n%n"Sacrifices foods from an inventory above its Master Ritual Stones feeding nearby player double its saturation value."%n%n§7§oIt does not refill hunger, only stops it from decreasing.§r%n
+lostera.quest3366.desc=§lActivation Cost:§r     100,000 LP%n§lCost:§r     100 LP per food%n%n%n"Sacrifices foods from an inventory above its Master Ritual Stones feeding nearby player double its saturation value."%n%n§7§oIt does not refill hunger, only stops it from decreasing.§r
 
 # Quest.3367 - Rhythm of the Beating Anvil
 lostera.quest3367.name=Rhythm of the Beating Anvil
@@ -13535,7 +13535,7 @@ lostera.quest3372.desc=§lActivation Cost:§r     25,000 LP%n§lCost:§r    20 L
 
 # Quest.3373 - Ritual of the Feathered Knife
 lostera.quest3373.name=Ritual of the Feathered Knife
-lostera.quest3373.desc=§lActivation Cost:§r     50,000 LP%n§lCost:§r    20 LP per drain%n%n"Drains health from healthy players in a 15 block radius of its Master Stone converting 1 heart to 125 transfering it to the nearest Blood Altar in a 9 block radius."%n%n§7§oRunes of Self-Sacrifice from the Altar will still augment the LP fed into it by the ritual."§r%n%n%n§lReagents:§r%n%n§6§nSanctus:§r Ignore players below 7 hearts.%n§7§nReductus:§r Decreases range to a 8 block radius.%n§d§nMagicales:§r Only drain the player who activated the ritual.%n§1§nPotentia:§r Doubles the rate of life drain.%n
+lostera.quest3373.desc=§lActivation Cost:§r     50,000 LP%n§lCost:§r    20 LP per drain%n%n"Drains health from healthy players in a 15 block radius of its Master Stone converting 1 heart to 125 transfering it to the nearest Blood Altar in a 9 block radius."%n%n§7§oRunes of Self-Sacrifice from the Altar will still augment the LP fed into it by the ritual."§r%n%n%n§lReagents:§r%n%n§6§nSanctus:§r Ignore players below 7 hearts.%n§7§nReductus:§r Decreases range to a 8 block radius.%n§d§nMagicales:§r Only drain the player who activated the ritual.%n§1§nPotentia:§r Doubles the rate of life drain.
 
 # Quest.3374 - Ballad of Alchemy
 lostera.quest3374.name=Ballad of Alchemy
@@ -13551,15 +13551,15 @@ lostera.quest3376.desc=§lActivation Cost:§r     00,000 LP%n§lCost:§r    40 L
 
 # Quest.3377 - Focus of the Ellipsoid
 lostera.quest3377.name=Focus of the Ellipsoid
-lostera.quest3377.desc=§lActivation Cost:§r     25,000 LP%n§lCost:§r    20 LP * average radius every second while building%n%n"Creates an Ellipsoid (egg shape) out of the material provided in the inventory §nbelow§r the Master Ritual Stone."%n%nSize configuration is specified by items placed in the 1st, 2nd and 3rd slot of the inventory §nabove§r the Master Ritual Stone:%n%n§l1st:§r Lenght (X radius)%n§l2nd: §rHeight (Y radius)%n§l3rd:§r Width (Z radius)%n%n§cRemember:%n%n§r-§bTop Chest§r is for specifying sizes.%n-§aBottom Chest§r is for building materials.%n%n%n§8§oAverage radius (for the LP cost) = (1st+2nd+3rd)/3"%n
+lostera.quest3377.desc=§lActivation Cost:§r     25,000 LP%n§lCost:§r    20 LP * average radius every second while building%n%n"Creates an Ellipsoid (egg shape) out of the material provided in the inventory §nbelow§r the Master Ritual Stone."%n%nSize configuration is specified by items placed in the 1st, 2nd and 3rd slot of the inventory §nabove§r the Master Ritual Stone:%n%n§l1st:§r Lenght (X radius)%n§l2nd: §rHeight (Y radius)%n§l3rd:§r Width (Z radius)%n%n§cRemember:%n%n§r-§bTop Chest§r is for specifying sizes.%n-§aBottom Chest§r is for building materials.%n%n%n§8§oAverage radius (for the LP cost) = (1st+2nd+3rd)/3"
 
 # Quest.3378 - Song of Evaporation
 lostera.quest3378.name=Song of Evaporation
-lostera.quest3378.desc=§lActivation Cost:§r     20,000 LP%n§lCost:§r    0 LP per teleport%n%n"Destroys all liquids suppressed by the §lSigil of Suppression§r or §lRitual of §lof Suppression§r in a 9 block radius."%n%n§cOnly deletes sources upon activation.§r%n§8§oIt is not a constantly running ritual.§r%n
+lostera.quest3378.desc=§lActivation Cost:§r     20,000 LP%n§lCost:§r    0 LP per teleport%n%n"Destroys all liquids suppressed by the §lSigil of Suppression§r or §lRitual of §lof Suppression§r in a 9 block radius."%n%n§cOnly deletes sources upon activation.§r%n§8§oIt is not a constantly running ritual.§r
 
 # Quest.3379 - Ward of Sacrosanctity
 lostera.quest3379.name=Ward of Sacrosanctity
-lostera.quest3379.desc=§lActivation Cost:§r     150,000 LP%n§lCost:§r    300 LP every second%n%n"Prevents hostile creatures from spawning in a 31 block radius around the Master Ritual Stone regardless of light level."%n
+lostera.quest3379.desc=§lActivation Cost:§r     150,000 LP%n§lCost:§r    300 LP every second%n%n"Prevents hostile creatures from spawning in a 31 block radius around the Master Ritual Stone regardless of light level."
 
 # Quest.3380 - Veil of Evil
 lostera.quest3380.name=Veil of Evil
@@ -13603,7 +13603,7 @@ lostera.quest3389.desc=§lActivation Cost:§r     15,000,000 LP%n§lCost:§r    
 
 # Quest.3390 - Survival To-Do List
 lostera.quest3390.name=Survival To-Do List
-lostera.quest3390.desc=These are important checkpoints to maximize your chances of survival in this wilderness:%n%n-Conserve energy until you've obtained a sustainable source of food.%n§8Running and jumping can be taxing on your hunger bar early on.§r%n%n-Seek shelter at night and search for food during day.%n§8Food is everywhere if you know where to look. You should avoid hostile mobs until you are well equipped.§r%n%n-Find a suitable location for a home to start farming.%n§8Being near a body of water would make it especially easy, such as a river, lake or even ocean.§r%n%n-Weaponize yourself against hostile mobs.%n§8Especially when exploring the underground for ores.§r%n%n-Avoid hostile habitats (Deserts, Swamps, and Snow Biomes).%n
+lostera.quest3390.desc=These are important checkpoints to maximize your chances of survival in this wilderness:%n%n-Conserve energy until you've obtained a sustainable source of food.%n§8Running and jumping can be taxing on your hunger bar early on.§r%n%n-Seek shelter at night and search for food during day.%n§8Food is everywhere if you know where to look. You should avoid hostile mobs until you are well equipped.§r%n%n-Find a suitable location for a home to start farming.%n§8Being near a body of water would make it especially easy, such as a river, lake or even ocean.§r%n%n-Weaponize yourself against hostile mobs.%n§8Especially when exploring the underground for ores.§r%n%n-Avoid hostile habitats (Deserts, Swamps, and Snow Biomes).
 
 # Quest.3391 - Water Sources
 lostera.quest3391.name=Water Sources
@@ -13623,7 +13623,7 @@ lostera.quest3394.desc=Snow Biome §o(Difficulty: Moderate)§r%n%n"Freezing temp
 
 # Quest.3395 - §cHostile Habitat:§r Desert
 lostera.quest3395.name=§cHostile Habitat:§r Desert
-lostera.quest3395.desc=Desert§r§o (Difficulty: Medium)§r%n%n"A dry sandy environment with lack of water, vegetation or animals."%n%n§c§nDangers:§r%n- Cockatrice birds that poison you on hit, found in large groups.%n- Harpies attack in a lunge motion making them hard to evade, also found in groups.%n%n§a§nBenefits§r%n- Excellent source of Enderpearls at night.%n- Cinderpearls provide Blaze Powder.%n- Best source of glass.%n- Renewable source of Saltpeter.%n
+lostera.quest3395.desc=Desert§r§o (Difficulty: Medium)§r%n%n"A dry sandy environment with lack of water, vegetation or animals."%n%n§c§nDangers:§r%n- Cockatrice birds that poison you on hit, found in large groups.%n- Harpies attack in a lunge motion making them hard to evade, also found in groups.%n%n§a§nBenefits§r%n- Excellent source of Enderpearls at night.%n- Cinderpearls provide Blaze Powder.%n- Best source of glass.%n- Renewable source of Saltpeter.
 
 # Quest.3396 - §cHostile Habitat:§r Swamp
 lostera.quest3396.name=§cHostile Habitat:§r Swamp
@@ -13635,7 +13635,7 @@ lostera.quest3397.desc=§lActivation Cost:§r    20,000 LP%n§lCost:§r    10,00
 
 # Quest.3398 - §7§oSymmetry of the Omega:§r Omega Chamber
 lostera.quest3398.name=§7§oSymmetry of the Omega:§r Omega Chamber
-lostera.quest3398.desc=The Omega Chamber is an important infrastructure to activate and empower the Symmetry of the Omega ritual.%n%nIt must be built atop of the ritual itself and be sealed without holes to contain the reagents placed into the ritual slots.%n%nThe maximum size for such a chamber is §511x5x11§r:%n%n§5▉▉▉▉▉▉▉▉▉▉▉%n▉                  ▉%n▉                  ▉%n▉                  ▉%n▉                  ▉%n§r▉§r§a▉▉▉§7▉§e▉§7▉§a▉▉▉§r▉%n     \ Ritual /%n%nThe chamber plays a critical role in enhancing the stability of the ritual itself, which directly translates to a §nlonger Omega state§r.%n%nSince Reagents behave similar to a gas, the important factor for the chamber is its surface area (block faces).%nEvery block face the Reagent can access will increase the stability level by 1.%n%n§4The ritual will not even activate if the stability level is below 150.§r%n%nSince surface area is the important bit, do add columns and other details to increase the block per face count to contribute to the ritual stability.%nEspecially avoid sealing off areas from the Reagent by mistake as those areas the Reagent cannot access will not count.%n
+lostera.quest3398.desc=The Omega Chamber is an important infrastructure to activate and empower the Symmetry of the Omega ritual.%n%nIt must be built atop of the ritual itself and be sealed without holes to contain the reagents placed into the ritual slots.%n%nThe maximum size for such a chamber is §511x5x11§r:%n%n§5▉▉▉▉▉▉▉▉▉▉▉%n▉                  ▉%n▉                  ▉%n▉                  ▉%n▉                  ▉%n§r▉§r§a▉▉▉§7▉§e▉§7▉§a▉▉▉§r▉%n     \ Ritual /%n%nThe chamber plays a critical role in enhancing the stability of the ritual itself, which directly translates to a §nlonger Omega state§r.%n%nSince Reagents behave similar to a gas, the important factor for the chamber is its surface area (block faces).%nEvery block face the Reagent can access will increase the stability level by 1.%n%n§4The ritual will not even activate if the stability level is below 150.§r%n%nSince surface area is the important bit, do add columns and other details to increase the block per face count to contribute to the ritual stability.%nEspecially avoid sealing off areas from the Reagent by mistake as those areas the Reagent cannot access will not count.
 
 # Quest.3399 - Using the Questbook
 lostera.quest3399.name=Using the Questbook
@@ -13643,7 +13643,7 @@ lostera.quest3399.desc=The Questbook is your trusty guide to everything this wor
 
 # Quest.3400 - Air Quality
 lostera.quest3400.name=Air Quality
-lostera.quest3400.desc=Air Quality is an environmental attribute that measures the crop's ability to access and benefit from the quality of the surrounding air. %n%nThis attribute is influenced by 3 factors:%n%n§bSky View:§r%nAn unobstructed view of the sky increases air quality by §a+2 points§r.%n%n§9Altitude:§r%nThe altitude at which a crop is planted relative to sea level (Y-64) will also increase air quality.%n%nFor every 15 blocks above this point, the crop's air quality improves by §a+1 point§r (up to a maximum of +4 points at 124 and above). %n%n§dPersonal Space:§r%nObstructions surrounding the crop§r will affect the crop's access to fresh air quality.%n%nFor every §eunobstructed space§r or empty spot around the crop§r, its air quality improves by §a+1/2 point§r (up to 4 points).%n%n§e▉▉▉%n▉§8▉§e▉%n▉▉▉%n
+lostera.quest3400.desc=Air Quality is an environmental attribute that measures the crop's ability to access and benefit from the quality of the surrounding air. %n%nThis attribute is influenced by 3 factors:%n%n§bSky View:§r%nAn unobstructed view of the sky increases air quality by §a+2 points§r.%n%n§9Altitude:§r%nThe altitude at which a crop is planted relative to sea level (Y-64) will also increase air quality.%n%nFor every 15 blocks above this point, the crop's air quality improves by §a+1 point§r (up to a maximum of +4 points at 124 and above). %n%n§dPersonal Space:§r%nObstructions surrounding the crop§r will affect the crop's access to fresh air quality.%n%nFor every §eunobstructed space§r or empty spot around the crop§r, its air quality improves by §a+1/2 point§r (up to 4 points).%n%n§e▉▉▉%n▉§8▉§e▉%n▉▉▉
 
 # Quest.3401 - Inscriber Calculation Press
 lostera.quest3401.name=Inscriber Calculation Press
@@ -13671,11 +13671,11 @@ lostera.quest3406.desc=Each crop has three genetic traits that determine their p
 
 # Quest.3407 - §6Gain
 lostera.quest3407.name=§6Gain
-lostera.quest3407.desc=The Gain stat (§6Ga§r) is responsible for how much a crop can produce. %n%nWhen this stat is higher, the crop tends to yield more produce on average.%n%nFor each point of Gain, increases the base output by §a+3%%§r and increases the chances for additional bonus output by §a+1%%§r.%n%nThis is particularly valuable with high-tier crops because each tier reduces base output by §4-5%%§r*.%n%n§c§nPushing this stat to 24 and beyond, gradually impairs the crop's ability to produce new additional seeds.§r%n%n§8Each point beyond this threshhold decreases the crop's chance at producing new seeds by 5%%.§r%n%nIn other words, while it may yield more, its seed production decreases as a trade-off.%n%n%n§8* Formula for base output (subject to random variance):%n%nBase Output = 0.95^Tier * 1.03^Ga%n
+lostera.quest3407.desc=The Gain stat (§6Ga§r) is responsible for how much a crop can produce. %n%nWhen this stat is higher, the crop tends to yield more produce on average.%n%nFor each point of Gain, increases the base output by §a+3%%§r and increases the chances for additional bonus output by §a+1%%§r.%n%nThis is particularly valuable with high-tier crops because each tier reduces base output by §4-5%%§r*.%n%n§c§nPushing this stat to 24 and beyond, gradually impairs the crop's ability to produce new additional seeds.§r%n%n§8Each point beyond this threshhold decreases the crop's chance at producing new seeds by 5%%.§r%n%nIn other words, while it may yield more, its seed production decreases as a trade-off.%n%n%n§8* Formula for base output (subject to random variance):%n%nBase Output = 0.95^Tier * 1.03^Ga
 
 # Quest.3408 - §2Growth
 lostera.quest3408.name=§2Growth
-lostera.quest3408.desc=The Growth stat (§2Gr§r) controls how fast a crop grows. %n%nThis stat significantly accelerates the crop's natural growth*.%n%nIt also boosts the chance of obtaining new additional seeds when picking the crop fully mature §8(1%% chance per point)§r*.%n%nIncreasing this stat to 16 or higher will also make it more efficient at cross-breeding with other crops, allowing it to do so more rapidly.%n%n§4§nBeware that by pushing this stat to 24 and beyond will cause crops to begin express weed-like behaviours:§r%n%nOnce these crops have grown beyond their first growth stage, they will begin infesting nearby Crop Sticks with weeds, behaving exactly like fully grown weeds but also becoming immune to weed infestations themselves.%n%n%n§8* The growth speed is determined by this formula:%n%nGrowth Speed = Natural Growth x Environmental Modifier x Gr%n§oNatural growth is a random number between 3 and 6.%n%n%n* §lAdditional Seeds Chance§8 = Growth Stage Chance + Gr/100%n%nGrowth Stage Chance:%nStage 1 = 0%%, Stage 2 = 25%%, Stage 3+ = 50%%%n
+lostera.quest3408.desc=The Growth stat (§2Gr§r) controls how fast a crop grows. %n%nThis stat significantly accelerates the crop's natural growth*.%n%nIt also boosts the chance of obtaining new additional seeds when picking the crop fully mature §8(1%% chance per point)§r*.%n%nIncreasing this stat to 16 or higher will also make it more efficient at cross-breeding with other crops, allowing it to do so more rapidly.%n%n§4§nBeware that by pushing this stat to 24 and beyond will cause crops to begin express weed-like behaviours:§r%n%nOnce these crops have grown beyond their first growth stage, they will begin infesting nearby Crop Sticks with weeds, behaving exactly like fully grown weeds but also becoming immune to weed infestations themselves.%n%n%n§8* The growth speed is determined by this formula:%n%nGrowth Speed = Natural Growth x Environmental Modifier x Gr%n§oNatural growth is a random number between 3 and 6.%n%n%n* §lAdditional Seeds Chance§8 = Growth Stage Chance + Gr/100%n%nGrowth Stage Chance:%nStage 1 = 0%%, Stage 2 = 25%%, Stage 3+ = 50%%
 
 # Quest.3409 - §3Resistance
 lostera.quest3409.name=§3Resistance
@@ -14119,7 +14119,7 @@ lostera.quest3518.desc=Kitchen Floors are blocks that connect to other kitchen m
 
 # Quest.3519 - RedNet Expansion
 lostera.quest3519.name=RedNet Expansion
-lostera.quest3519.desc=The RedNet Controller offers various logic programs tailored for specific purposes.%n%nEach Controller supports up to 6 circuits, enabling concurrent execution of up to 6 logic programs simultaneously.%n%nAdditionally, they incorporate 16 shared variables between all circuitry for inter-program communication.%n%nControllers circuits and variables can be expanded with PRC Logic Expansion Cards:%n%n§lLX-100: §r§6+1 circuits§r & §d+8 variables§r.%n§lLX-300: §r§6+3 circuits§r & §d+16 variables§r.%n§lLC-500: §r§6+5 circuits§r & §d+32 variables§r.%n%nEach Controller can accommodate up to 6 Expansion Cards total.%n
+lostera.quest3519.desc=The RedNet Controller offers various logic programs tailored for specific purposes.%n%nEach Controller supports up to 6 circuits, enabling concurrent execution of up to 6 logic programs simultaneously.%n%nAdditionally, they incorporate 16 shared variables between all circuitry for inter-program communication.%n%nControllers circuits and variables can be expanded with PRC Logic Expansion Cards:%n%n§lLX-100: §r§6+1 circuits§r & §d+8 variables§r.%n§lLX-300: §r§6+3 circuits§r & §d+16 variables§r.%n§lLC-500: §r§6+5 circuits§r & §d+32 variables§r.%n%nEach Controller can accommodate up to 6 Expansion Cards total.
 
 # Quest.3520 - RedNet Programming
 lostera.quest3520.name=RedNet Programming
@@ -14135,7 +14135,7 @@ lostera.quest3522.desc=§6§lScientific Name:§r §o Allium Giganteum%n%n§a§lO
 
 # Quest.3523 - Bluet
 lostera.quest3523.name=Bluet
-lostera.quest3523.desc=§6§lScientific Name:§r §o Houstonia Caerulea%n%n§a§lOther Names:§r Venus' Pride / Quaker Ladies Flowers / Azure Bluet%n%n§d§lMeaning:§r Contentment%n%n%n§9§lDescription:§r%nHoustonia, or the "Bluet," is a flower embodying subtlety and simplicity.%n%nDespite its small size and modest appearance, its gentle presence and delicate beauty embodies an appreciation for life's simplest pleasures.%n%nIn Victorian times, its unassuming yet endearing charm was cherished as a symbol of contentment.%n%n
+lostera.quest3523.desc=§6§lScientific Name:§r §o Houstonia Caerulea%n%n§a§lOther Names:§r Venus' Pride / Quaker Ladies Flowers / Azure Bluet%n%n§d§lMeaning:§r Contentment%n%n%n§9§lDescription:§r%nHoustonia, or the "Bluet," is a flower embodying subtlety and simplicity.%n%nDespite its small size and modest appearance, its gentle presence and delicate beauty embodies an appreciation for life's simplest pleasures.%n%nIn Victorian times, its unassuming yet endearing charm was cherished as a symbol of contentment.
 
 # Quest.3524 - Hydrangea
 lostera.quest3524.name=Hydrangea
@@ -14155,7 +14155,7 @@ lostera.quest3527.desc=§6§lScientific Name:§r §o Chrysanthemum Grandiflorum%
 
 # Quest.3528 - Marigold
 lostera.quest3528.name=Marigold
-lostera.quest3528.desc=§6§lScientific Name:§r §o Tagetes erecta%n%n§a§lOther Names:§r Aztec Marigold / Cempaxochitl %n%n§d§lMeaning:§r Grief / Despair%n%n%n§9§lDescription:§r%nMarygolds are the traditional flowers of Día de los Muertos (Day of the Dead), when the spirits of the departed are believed to visit the living, a celebration rooted in the Aztec festival honoring Mictecacihuatl, the goddess of the underworld.%n%nAt dusk, the Marigold gently folds its petals and curls inward, bowing its head as if weeping. %n%nBy dawn, it unfurls again, revealing its reddish, flesh-like innerparts, as if reopening wounds that, adorned with the shimmering dew of the night, glistening like tears, evokes a deep sense of grief and despair.%n
+lostera.quest3528.desc=§6§lScientific Name:§r §o Tagetes erecta%n%n§a§lOther Names:§r Aztec Marigold / Cempaxochitl %n%n§d§lMeaning:§r Grief / Despair%n%n%n§9§lDescription:§r%nMarygolds are the traditional flowers of Día de los Muertos (Day of the Dead), when the spirits of the departed are believed to visit the living, a celebration rooted in the Aztec festival honoring Mictecacihuatl, the goddess of the underworld.%n%nAt dusk, the Marigold gently folds its petals and curls inward, bowing its head as if weeping. %n%nBy dawn, it unfurls again, revealing its reddish, flesh-like innerparts, as if reopening wounds that, adorned with the shimmering dew of the night, glistening like tears, evokes a deep sense of grief and despair.
 
 # Quest.3529 - Geranium
 lostera.quest3529.name=Geranium
@@ -14179,7 +14179,7 @@ lostera.quest3533.desc=§6§lScientific Name:§r §o Dianthus Caryophyllus%n%n§
 
 # Quest.3534 - Lily
 lostera.quest3534.name=Lily
-lostera.quest3534.desc=§6§lScientific Name:§r §o Lilium Longiflorum§r%n%n§a§lOther Names:§r Easter Lily / Bermuda Lily / Trumpet Lily%n%n§d§lMeaning:§r Majesty / Excellence%n%n§b§lColor-Specific Meanings:§r%n§7%n§lWhite§7 - Purity%n§lYellow§7§7 - Falsehood%n§lOrange§7 - Hatred / Revenge%n%n§9§lDescription:§r%nThe Lily is deeply tied to the Virgin Mary with archangel Gabriel giving her a white Lily during his announcement that she would conceive and be the mother of Christ.%n%nIn another story, Virgin Mary stooped down to pick yellow lilies which promptly turned white at her touch, unveiling the flower's true colors and its deception.%n%nIn Hanakotoba §7(Japanese Floriography)§r, the Orange Lily symbolizes feelings of hatred or vengeance due to its fiery appearance closely resembling wildfires.%n
+lostera.quest3534.desc=§6§lScientific Name:§r §o Lilium Longiflorum§r%n%n§a§lOther Names:§r Easter Lily / Bermuda Lily / Trumpet Lily%n%n§d§lMeaning:§r Majesty / Excellence%n%n§b§lColor-Specific Meanings:§r%n§7%n§lWhite§7 - Purity%n§lYellow§7§7 - Falsehood%n§lOrange§7 - Hatred / Revenge%n%n§9§lDescription:§r%nThe Lily is deeply tied to the Virgin Mary with archangel Gabriel giving her a white Lily during his announcement that she would conceive and be the mother of Christ.%n%nIn another story, Virgin Mary stooped down to pick yellow lilies which promptly turned white at her touch, unveiling the flower's true colors and its deception.%n%nIn Hanakotoba §7(Japanese Floriography)§r, the Orange Lily symbolizes feelings of hatred or vengeance due to its fiery appearance closely resembling wildfires.
 
 # Quest.3535 - Yarrow
 lostera.quest3535.name=Yarrow
@@ -14191,7 +14191,7 @@ lostera.quest3536.desc=§6§lScientific Name:§r §o Petunia Atkinsiana%n%n§a§
 
 # Quest.3537 - Agapanthus
 lostera.quest3537.name=Agapanthus
-lostera.quest3537.desc=§6§lScientific Name:§r §o Agapanthus Praecox%n%n§a§lOther Names:§r Lily of the Nile / Blue Lily / Isicakathi / Ubani%n%n§d§lMeaning:§r Love Letter / Hidden Love / Undying Love%n%n%n§9§lDescription:§r%n%nThe meaning of the Agapanthus flower lies in its Greek name, composed of "agape" (love) and "anthos" (flower), making it a popular flower for love confessions.%n%nHowever, the Greek language has no single word for love, requiring the right term depending on whether you're expressing love to a spouse, parent, or friend.%n%n"Agape" specifically refers to transcendent love: unconditional appreciation of something's existence, a meaning that was lost in translation in Victorian times.%n%n%n%n%n%n%n%n
+lostera.quest3537.desc=§6§lScientific Name:§r §o Agapanthus Praecox%n%n§a§lOther Names:§r Lily of the Nile / Blue Lily / Isicakathi / Ubani%n%n§d§lMeaning:§r Love Letter / Hidden Love / Undying Love%n%n%n§9§lDescription:§r%n%nThe meaning of the Agapanthus flower lies in its Greek name, composed of "agape" (love) and "anthos" (flower), making it a popular flower for love confessions.%n%nHowever, the Greek language has no single word for love, requiring the right term depending on whether you're expressing love to a spouse, parent, or friend.%n%n"Agape" specifically refers to transcendent love: unconditional appreciation of something's existence, a meaning that was lost in translation in Victorian times.
 
 # Quest.3538 - Fuchsia
 lostera.quest3538.name=Fuchsia
@@ -14203,7 +14203,7 @@ lostera.quest3539.desc=§6§lScientific Name:§r §o Dianthus Barbatus%n%n§a§l
 
 # Quest.3540 - Forget-Me-Nots
 lostera.quest3540.name=Forget-Me-Nots
-lostera.quest3540.desc=§6§lScientific Name:§r §o Myosotis Arvensis%n%n§d§lMeaning:§r Forget me not%n%n%n§9§lDescription:§r%nThe Forget-me-nots are small yet vibrant blooms with self-evident symbolism, originating from a German folktale about a knight and his betrothed.%n%nWhile strolling by a river, the bride-to-be was captivated by a cluster of blue flowers along the stream and her mail-clad lover, wanting to please her, promptly plunged into the river to retrieve them. %n%nHowever, upon picking the flowers, he struggled to return ashore being weighed down by his armor.%n%nWith the current carrying him away, he tossed the flowers to his beloved, calling out his final words, "Forget me not", as he sank beneath the waters to her horror, never to resurface again.%n%n
+lostera.quest3540.desc=§6§lScientific Name:§r §o Myosotis Arvensis%n%n§d§lMeaning:§r Forget me not%n%n%n§9§lDescription:§r%nThe Forget-me-nots are small yet vibrant blooms with self-evident symbolism, originating from a German folktale about a knight and his betrothed.%n%nWhile strolling by a river, the bride-to-be was captivated by a cluster of blue flowers along the stream and her mail-clad lover, wanting to please her, promptly plunged into the river to retrieve them. %n%nHowever, upon picking the flowers, he struggled to return ashore being weighed down by his armor.%n%nWith the current carrying him away, he tossed the flowers to his beloved, calling out his final words, "Forget me not", as he sank beneath the waters to her horror, never to resurface again.
 
 # Quest.3541 - Anemone
 lostera.quest3541.name=Anemone
@@ -14215,7 +14215,7 @@ lostera.quest3542.desc=§6§lScientific Name:§r §o Aquilegia Vulgaris%n%n§a§
 
 # Quest.3543 - Edelweiss
 lostera.quest3543.name=Edelweiss
-lostera.quest3543.desc=§6§lScientific Name:§r §o Leontopodium Alpinum%n%n§a§lOther Names:§r Chatzen-Talpen / Wullbluomen / Stella Alpina%n%n§d§lMeaning:§r Courage / Daring%n%n%n§9§lDescription:§r%nThe Edelweiss, meaning "Noble White" in German, is a star-shaped flower with velvet texture that blooms at great heighs in the Alps.%n%nBeing a very short-lived flower that grows in remote dangerous places, it was monumentally difficult to obtain.%n%nIt is precisely because of this reason that it became a symbol of courage, as offering an Edelweiss to a lover was seen as a audacious, yet devoted romantic gesture.%n
+lostera.quest3543.desc=§6§lScientific Name:§r §o Leontopodium Alpinum%n%n§a§lOther Names:§r Chatzen-Talpen / Wullbluomen / Stella Alpina%n%n§d§lMeaning:§r Courage / Daring%n%n%n§9§lDescription:§r%nThe Edelweiss, meaning "Noble White" in German, is a star-shaped flower with velvet texture that blooms at great heighs in the Alps.%n%nBeing a very short-lived flower that grows in remote dangerous places, it was monumentally difficult to obtain.%n%nIt is precisely because of this reason that it became a symbol of courage, as offering an Edelweiss to a lover was seen as a audacious, yet devoted romantic gesture.
 
 # Quest.3544 - Scabious
 lostera.quest3544.name=Scabious
@@ -14251,7 +14251,7 @@ lostera.quest3551.desc=§6§lScientific Name:§r §o Penstemon Digitalis%n%n§a�
 
 # Quest.3552 - Delphinium
 lostera.quest3552.name=Delphinium
-lostera.quest3552.desc=§6§lScientific Name:§r §o Delphinium Staphisagria%n%n§a§lOther Names:§r Larkspur%n%n§d§lMeaning:§r Light-heartedness%n%n§b§lColor-Specific Meanings:§r%n§7%n§lPink§7 - Fickleness%n§lPurple§7 - Haughtiness%n%n§9§lDescription:§r%nThe Delphinium is playful but poisonous flower with an irresistible air of whimsy. %n%nNamed for its closed buds shaped like dolphins, it's more commonly known as Larkspur, from its seed pods resembling the claw of a lark.%n%nIt is from this name that it gets its symbolism, embodying the nature of this lovely songbird, with its singing on the spur of the moment, uplifting and carefree yet fleeting, vanishing as quickly as it arrived as if indifferent to the joy it stirred.%n
+lostera.quest3552.desc=§6§lScientific Name:§r §o Delphinium Staphisagria%n%n§a§lOther Names:§r Larkspur%n%n§d§lMeaning:§r Light-heartedness%n%n§b§lColor-Specific Meanings:§r%n§7%n§lPink§7 - Fickleness%n§lPurple§7 - Haughtiness%n%n§9§lDescription:§r%nThe Delphinium is playful but poisonous flower with an irresistible air of whimsy. %n%nNamed for its closed buds shaped like dolphins, it's more commonly known as Larkspur, from its seed pods resembling the claw of a lark.%n%nIt is from this name that it gets its symbolism, embodying the nature of this lovely songbird, with its singing on the spur of the moment, uplifting and carefree yet fleeting, vanishing as quickly as it arrived as if indifferent to the joy it stirred.
 
 # Quest.3553 - Hollyhock
 lostera.quest3553.name=Hollyhock
@@ -14267,7 +14267,7 @@ lostera.quest3555.desc=§6§lScientific Name:§r §o Viola Tricolor%n%n§a§lOth
 
 # Quest.3556 - Iris
 lostera.quest3556.name=Iris
-lostera.quest3556.desc=§6§lScientific Name:§r §o Iris Germanica%n%n§a§lOther Names:§r Bearded Iris / Purple Flame Iris / Flower-de-Luce / Fleur-de-lis%n%n§d§lMeaning:§r Flame of Love / Faith, Wisdom & Valor%n%n%n§9§lDescription:§r%nThis flower has been associated with power and victory from Clovis I, the first king of what would become France.%n%nUpon converting to Christianity, he was given a vision of irises blooming on the river Lys, which lead him to promptly change his coat of arms from toads to three lilies.%n%nHis soldiers would adorn themselves with the flower and would ultimately go on to unify the Franks and its neighbours under one ruler and the three upper petals of the iris would come to represent the valor, wisdom, and faith that secured their victory.%n%n§8Historically, the names Iris and Lily have been used interchangeably, causing confusion about which flower was the original fleur-de-lis/lys. %n
+lostera.quest3556.desc=§6§lScientific Name:§r §o Iris Germanica%n%n§a§lOther Names:§r Bearded Iris / Purple Flame Iris / Flower-de-Luce / Fleur-de-lis%n%n§d§lMeaning:§r Flame of Love / Faith, Wisdom & Valor%n%n%n§9§lDescription:§r%nThis flower has been associated with power and victory from Clovis I, the first king of what would become France.%n%nUpon converting to Christianity, he was given a vision of irises blooming on the river Lys, which lead him to promptly change his coat of arms from toads to three lilies.%n%nHis soldiers would adorn themselves with the flower and would ultimately go on to unify the Franks and its neighbours under one ruler and the three upper petals of the iris would come to represent the valor, wisdom, and faith that secured their victory.%n%n§8Historically, the names Iris and Lily have been used interchangeably, causing confusion about which flower was the original fleur-de-lis/lys. 
 
 # Quest.3557 - Lavender
 lostera.quest3557.name=Lavender
@@ -14313,6 +14313,10 @@ lostera.quest3566.desc=The language of flowers, known as floriography, is a cove
 lostera.quest3567.name=Lily of the Valley
 lostera.quest3567.desc=§6§lScientific Name:§r §o Convallaria Majalis%n%n§a§lOther Names:§r May Lily / Ladder to Heaven / Muguet%n%n§d§lMeaning:§r Return of Happiness%n%n§9§lDescription:§r%nThe Lily of the Valley is a fragrant yet poisonous bell-shaped bloom that delights in cool, damp places and dappled woodland.%n%nThis flower flourishes in May, the month of merriment, symbolizing the renewal of the seasons as spring fades into summer and carefree days return.%n%nDuring this time, the Flora Dance takes place, a cherished festival where young people, dressed in white, dance in pairs. %n%nBoys wear them in their buttonholes, while girls adorn their hair with the blossoms, celebrating the joyful transition from spring's bloom to summer's warmth.
 
+# Quest.3568 - Awkward Potion
+lostera.quest3568.name=Awkward Potion
+lostera.quest3568.desc=The process of making a potion is simple, yet it requires one essential component:%n%n§c§nNether Warts§r%n%nThis vital ingredient, when combined with §9Water Bottles§r, is used to create the §dAwkward Potion§r, the base concoction to all potions.%n%nBy adding a §aCatalyst§r you can add an effect to the potion and optionally even a §eModifier§r to improve it further.%n%n§8To fill empty bottles with water, simply right click water with them.
+
 # Quest.3569 - Daisy
 lostera.quest3569.name=Daisy
 lostera.quest3569.desc=§6§lScientific Name:§r §o Bellis Perennis%n%n§a§lOther Names:§r Marguerite, Day's Eye%n%n§d§lMeaning:§r Innocence / Childhood%n%n%n§9§lDescription:§r%nThe Daisy was originally know as Day's Eye for it opens its petals at dawn and closes them at dusk.%n%nIts association with innocence and childhood is unanimous across many culture:%n%nIn Norse mythology, it is the flower of Freya, the goddess of fertility, motherhood, and childbirth.%n%nIn the Greek/Roman mythology it is associated with the nymph Belides where she, unwilling to lose her innocence to embrace womanhood, turns herself into a daisy to evade the unrelenting love of Vertumnus, the god of the seasons.
@@ -14327,11 +14331,11 @@ lostera.quest3571.desc=Catalysts are the heart of potion brewing!%n%nThey turn t
 
 # Quest.3572 - §6Modifiers
 lostera.quest3572.name=§6Modifiers
-lostera.quest3572.desc=Modifiers are special in that they react with the §9Catalyst§r of a potion to tweak or boost its effects.%n%nThese let you tailor your potions to suit your needs or even completely change how they works, creating something truly unique.%n
+lostera.quest3572.desc=Modifiers are special in that they react with the §9Catalyst§r of a potion to tweak or boost its effects.%n%nThese let you tailor your potions to suit your needs or even completely change how they works, creating something truly unique.
 
 # Quest.3573 - §6Modifier:§r Lingering
 lostera.quest3573.name=§6Modifier:§r Lingering
-lostera.quest3573.desc=Dragon's Breath is an modifier agent that makes possible to create potions that linger into an area for a duration of time, applying its effect to all that approach it.%n%nTo create one, apply §dDragon's Breath§r to your desired §6Splash Potions§r.%n
+lostera.quest3573.desc=Dragon's Breath is an modifier agent that makes possible to create potions that linger into an area for a duration of time, applying its effect to all that approach it.%n%nTo create one, apply §dDragon's Breath§r to your desired §6Splash Potions§r.
 
 # Quest.3574 - §6Modifier:§r Splash
 lostera.quest3574.name=§6Modifier:§r Splash
@@ -14383,7 +14387,7 @@ lostera.quest3585.desc=Grants the ability to breathe underwater.%n%n§bAmplifier
 
 # Quest.3586 - §2Contaminant:§r Weakness
 lostera.quest3586.name=§2Contaminant:§r Weakness
-lostera.quest3586.desc=The Fermented Spider Eye is a powerful contaminant agent used to induce an alchemical backlash on any potion containing magic.%n%nThe result is often a potion that, rather than imbuing targets with magical energy, drains them of their life force inflicting Weakness§r.%n%n§2Weakness:§r Decreases melee damage by §4-4 damage §8(2 Hearts)§r.%n%n§bAmplifier Effect:§r None%n§6Duration:§r 1:30 | §84:00 (Extended)%n%n%n§r§dThat is not always the case as certain combinations, when contaminated, can instead create unique potion effects.%n%n
+lostera.quest3586.desc=The Fermented Spider Eye is a powerful contaminant agent used to induce an alchemical backlash on any potion containing magic.%n%nThe result is often a potion that, rather than imbuing targets with magical energy, drains them of their life force inflicting Weakness§r.%n%n§2Weakness:§r Decreases melee damage by §4-4 damage §8(2 Hearts)§r.%n%n§bAmplifier Effect:§r None%n§6Duration:§r 1:30 | §84:00 (Extended)%n%n%n§r§dThat is not always the case as certain combinations, when contaminated, can instead create unique potion effects.
 
 # Quest.3587 - §9Catalyst:§r Nausea
 lostera.quest3587.name=§9Catalyst:§r Nausea
@@ -14435,7 +14439,7 @@ lostera.quest3598.desc=Enchantments for §aTools§r such as Pickaxes, Hoes and S
 
 # Quest.3599 - Efficiency
 lostera.quest3599.name=Efficiency
-lostera.quest3599.desc=Increases the mining speed of tools.%n%n%n§bRank Effect:§r Increases Tool Mining Speed by 2/5/10/17/26 (Based on Level) §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Tools%n%n§4Conflicts:§r None%n%n%n§8§lMining Speeds:§8%nWood: 2%nStone: 4%nIron: 6%nDiamond: 8%nGold: 12%n
+lostera.quest3599.desc=Increases the mining speed of tools.%n%n%n§bRank Effect:§r Increases Tool Mining Speed by 2/5/10/17/26 (Based on Level) §8(Max Rank: V)%n%n§6Enchanting Restrictions:§r Tools%n%n§4Conflicts:§r None%n%n%n§8§lMining Speeds:§8%nWood: 2%nStone: 4%nIron: 6%nDiamond: 8%nGold: 12
 
 # Quest.3600 - Feather Falling
 lostera.quest3600.name=Feather Falling
@@ -14451,7 +14455,7 @@ lostera.quest3602.desc=Reduces on fire duration and fire damage §8(such as Blaz
 
 # Quest.3603 - Flame
 lostera.quest3603.name=Flame
-lostera.quest3603.desc=Ignites arrows, burning targets for 5 seconds.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
+lostera.quest3603.desc=Ignites arrows, burning targets hit for 5 seconds.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
 
 # Quest.3604 - Fortune
 lostera.quest3604.name=Fortune
@@ -14459,7 +14463,7 @@ lostera.quest3604.desc=Chance to multiply drops from gemstone ores §8(coal, red
 
 # Quest.3605 - Infinity
 lostera.quest3605.name=Infinity
-lostera.quest3605.desc=Magically summons its own arrows when firing at no cost.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
+lostera.quest3605.desc=Bows magically summon their own arrows when firing at no cost.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Bows%n%n§4Conflicts:§r None
 
 # Quest.3606 - Knockback
 lostera.quest3606.name=Knockback
@@ -14503,7 +14507,7 @@ lostera.quest3615.desc=Sharpens the weapon's edge increasing damage.%n%n%n§bRan
 
 # Quest.3616 - Silk Touch
 lostera.quest3616.name=Silk Touch
-lostera.quest3616.desc=Harvest blocks without breaking them, preventing conversion into block drops or another block.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Tools%n%n§4Conflicts:§r Fortune
+lostera.quest3616.desc=Harvest blocks without breaking them, preventing conversion into its block drops or a different block.%n%n%n§bRank Effect:§r None §8(Max Rank: I)%n%n§6Enchanting Restrictions:§r Tools%n%n§4Conflicts:§r Fortune
 
 # Quest.3617 - Smite
 lostera.quest3617.name=Smite
@@ -14547,7 +14551,11 @@ lostera.quest3626.desc=Decreases damage from magical sources like potions and en
 
 # Quest.3627 - Enhanced Brewing
 lostera.quest3627.name=Enhanced Brewing
-lostera.quest3627.desc=The Enhanced Brewing Stand is a mythical artifact that defies the laws of alchemy.%n%nThrough unknown magic, it enables practitioners to transcend brewing limitations.%n%nIt is said that potions crafted with it can be successfully infused multiple times by §6Modifier§r reactants, allowing their effects to stack with one another without conflict.%n%nMore details on how it operates and where to find one, however, have long been lost to time.%n
+lostera.quest3627.desc=The Enhanced Brewing Stand is a mythical artifact that defies the laws of alchemy.%n%nThrough unknown magic, it enables practitioners to transcend brewing limitations.%n%nIt is said that potions crafted with it can be successfully infused multiple times by §6Modifier§r reactants, allowing their effects to stack with one another without conflict.%n%nMore details on how it operates and where to find one, however, have long been lost to time.
+
+# Quest.3627 - Crop: Exotic
+lostera.quest3627.name=Crop: Exotic
+lostera.quest3627.desc=The Crop: Exotic allows the Farmer module able to use modded seeds.%n%nA Farmer can have more than one Crop upgrade at a time. 
 
 # Quest.3631 - Wrecking
 lostera.quest3631.name=Wrecking
