@@ -134,7 +134,7 @@ lostera.quest21.desc=Craft a furnace out of cobblestone for your ores and meals.
 
 # Quest.22 - Nano Warfare
 lostera.quest22.name=Nano Warfare
-lostera.quest22.desc=NanoSuit is an armor set that provides providing 18 Armor points armor points §8(Diamond is 20 Armor Points)§r.%n%n§rIt will use EU instead of durability and cannot break but cannot be enchanted.%n%nIt is a Tier-3 Item, so it can only be charged with §eHV Voltage or higher§8(MFE or above)§r.%n%n§rThe NanoSuit Helmet features a HUD, which §5costs no EU§r. %nTo cycle between HUD modes, press the Alt Key §o(default:LMENU)§r + HUD Expand Key §8§o(Default:X).%n%n§r§f§l%nThe HUD has three modes:§r%n%n§b§nDisabled:§r The HUD is disabled.%n%n§a§nBasic:§r The HUD shows the charge of each electric armour. Non-electric armours are shown as 99%%, despite their actual durability. The HUD brightens when holding an electric item. %n%n§6§nExtended:§r This mode is the same as Basic mode, except it shows detailed information about the currently held item. If the held item is electric, the HUD brightens a little and displays its charge as well as the Tier.%n%n%n%n§8The NanoSuit Helmet also inherits Night-Vision from the Nightvision Goggles.%n%n§oPress the Alt Key (default:LMENU) + mode switch key (default:M) to toggle Night-Vision, just like you would with the Goggles. Night-vision consumes 1 EU/t.
+lostera.quest22.desc=NanoSuit is an armor set that provides providing 18 Armor points armor points §8(Diamond is 20 Armor Points)§r.%n%n§rIt will use EU instead of durability and cannot break but cannot be enchanted.%n%nIt is a Tier-3 Item, so it can only be charged with §eHV Voltage or higher§8(MFE or above)§r.%n%n§rThe NanoSuit Helmet features a HUD, which §5costs no EU§r. %nTo cycle between HUD modes, press the Alt Key §o(default:LMENU)§r + HUD Expand Key §8§o(Default:X).%n%n§r§f§l%nThe HUD has three modes:§r%n%n§b§nDisabled:§r The HUD is disabled.%n%n§a§nBasic:§r The HUD shows the charge of each electric armour. Non-electric armours are shown as 99%%, despite their actual durability. The HUD brightens when holding an electric item. %n%n§6§nExtended:§r This mode is the same as Basic mode, except it shows detailed information about the currently held item. If the held item is electric, the HUD brightens a little and displays its charge as well as the Tier.%n%n%n%n§8The NanoSuit Helmet also inherits Night-Vision from the Nightvision Goggles.%n%n§8Press the Alt Key (default:LMENU) + mode switch key (default:M) to toggle Night-Vision, just like you would with the Goggles. Night-vision consumes 1 EU/t.
 
 # Quest.23 - §4¬§r Crescent Hammer
 lostera.quest23.name=§4¬§r Crescent Hammer
@@ -374,7 +374,7 @@ lostera.quest81.desc=The Quarry is used to mine out large areas. %n%nBy default,
 
 # Quest.82 - Fluid Pumping
 lostera.quest82.name=Fluid Pumping
-lostera.quest82.desc=The Pump is used to collect liquid, such as Oil, Water and lava, and transport it into tanks when powered with Redstone Flux.%n%nThe Pump sends the liquid it collects straight through any Fluid Pipes connected to it.%n%n§8%n§oThe Pump actually takes from more than just directly around it, so when pumping oil that is surrounded by water, it is wise to have two tanks or the water will get stuck in the pipe and no more oil will be able to be pumped. 
+lostera.quest82.desc=The Pump is used to collect liquid, such as Oil, Water and lava, and transport it into tanks when powered with Redstone Flux.%n%nThe Pump sends the liquid it collects straight through any Fluid Pipes connected to it.%n%n%n§8§oThe Pump actually takes from more than just directly around it, so when pumping oil that is surrounded by water, it is wise to have two tanks or the water will get stuck in the pipe and no more oil will be able to be pumped. 
 
 # Quest.83 - Refinery
 lostera.quest83.name=Refinery
@@ -398,7 +398,7 @@ lostera.quest87.desc=The Mining Well digs a hole straight down. It stops once it
 
 # Quest.88 - An Even Better Quarry?
 lostera.quest88.name=An Even Better Quarry?
-lostera.quest88.desc=This a mining machine that extracts resources from the ground and replaces it with dirt.%n%nTo set-up the mining area, use Ender-Markers at the corners and placing the Quarry next to one of the Markers. %n%nWith an inventory placed adjacent to collect the output and power connected, 'Right-clicking' will set the boundary and start the mining.%n%nThe Ender Quarry chunkloads the chunk that it is currently mining. %n%n§8A purple particle effect above the block mined shows that the Quarry is active. %n%nOnce the area has been mined, the Ender Quarry will stop drawing power and display the message: "Quarry is Finished" if 'Right-clicked'. %n%nThe Ender Quarry requires no chunkloading as it autonomously keeps both its own chunk and that of current excavation loaded while powered.%n%n%nEnergy Buffer: 200,000,000 RF%n§o
+lostera.quest88.desc=This a mining machine that extracts resources from the ground and replaces it with dirt.%n%nTo set-up the mining area, use Ender-Markers at the corners and placing the Quarry next to one of the Markers. %n%nWith an inventory placed adjacent to collect the output and power connected, 'Right-clicking' will set the boundary and start the mining.%n%nThe Ender Quarry chunkloads the chunk that it is currently mining. %n%n§8A purple particle effect above the block mined shows that the Quarry is active. %n%nOnce the area has been mined, the Ender Quarry will stop drawing power and display the message: "Quarry is Finished" if 'Right-clicked'. %n%nThe Ender Quarry requires no chunkloading as it autonomously keeps both its own chunk and that of current excavation loaded while powered.%n%n%nEnergy Buffer: 200,000,000 RF
 
 # Quest.89 - This not even my final form
 lostera.quest89.name=This not even my final form
@@ -530,7 +530,7 @@ lostera.quest120.desc=The Generator is the most basic EU generating machine.%nIt
 
 # Quest.121 - Hobbyist's Steam Engine
 lostera.quest121.name=Hobbyist's Steam Engine
-lostera.quest121.desc=This is your chance to build your very own working Steam Engine!%n%nThe Hobbyist's Steam Engine is unique in that it has its own internal boiler to generate its own steam from solid fuels and water.%n%nOnce the temperature reaches the boiling point of §e100°C§r it will begin operating, consuming §b10mB of steam§r to generate §616 RF/t§r worth of energy as pressure.%n%nThis method has some dangers as adding water to a dry and hot Engine §8(over 100°C)§r, §r§c§nit will explode!§r%n%nAlternatively, for even more power you can provide it with steam externally to boost the Engine's efficiency to §620 RF/t§r worth of energy as pressure.%n%nWhen active, each engine revolution will deliver §6160 RF§r consuming an equivalent amount of pressure.%n%n§rIt starts off slow with excess power building up internally as pressure, acting similarly to an energy buffer.%n%n§lEnergy output §8(Revolution speed)§r increases with pressure levels, indicated by the engine's colors:%n%n§9§l0%% §r - Very Slow %n§a§l20%%§r - Slow%n§e§l40%%§r - Moderate%n§6§l60%%§r - Fast%n§c§l80%%§r - Peak Performance%n%n§oThe Max Energy Output §8(§620 RF/t§8)§r §ois reached when the engine's generation matches its RF output since stabilizing the pressure.%n%nWith internal combustion the total pressure will stabilize at §6§l78%%§r while providing it with steam externally will stabilize it at §c§l89%%§r.%n%nReaching §c§l100%%§r will cause the engine to overheat, ceasing all operations while leaking out pressure.%n%nThis will only occur if the engine is running while it has nowhere to send its power and can be easily repaired using a wrench.%n%n%n§8Will only accept steam and produce power once given a redstone signal.
+lostera.quest121.desc=This is your chance to build your very own working Steam Engine!%n%nThe Hobbyist's Steam Engine is unique in that it has its own internal boiler to generate its own steam from solid fuels and water.%n%nOnce the temperature reaches the boiling point of §e100°C§r it will begin operating, consuming §b10mB of steam§r to generate §616 RF/t§r worth of energy as pressure.%n%nThis method has some dangers as adding water to a dry and hot Engine §8(over 100°C)§r, §r§c§nit will explode!§r%n%nAlternatively, for even more power you can provide it with steam externally to boost the Engine's efficiency to §620 RF/t§r worth of energy as pressure.%n%nWhen active, each engine revolution will deliver §6160 RF§r consuming an equivalent amount of pressure.%n%n§rIt starts off slow with excess power building up internally as pressure, acting similarly to an energy buffer.%n%n§lEnergy output §8(Revolution speed)§r increases with pressure levels, indicated by the engine's colors:%n%n§9§l0%% §r - Very Slow %n§a§l20%%§r - Slow%n§e§l40%%§r - Moderate%n§6§l60%%§r - Fast%n§c§l80%%§r - Peak Performance%n%n§oThe Max Energy Output §8(§620 RF/t§8)§r §ois reached when the engine's generation matches its RF output since stabilizing the pressure.%n%nWith internal combustion the total pressure will stabilize at §6§l78%%§r§o while providing it with steam externally will stabilize it at §c§l89%%§r.%n%nReaching §c§l100%%§r will cause the engine to overheat, ceasing all operations while leaking out pressure.%n%nThis will only occur if the engine is running while it has nowhere to send its power and can be easily repaired using a wrench.%n%n%n§8Will only accept steam and produce power once given a redstone signal.
 
 # Quest.122 - Energy to Matter Conversion
 lostera.quest122.name=Energy to Matter Conversion
@@ -746,7 +746,7 @@ lostera.quest174.desc=The Lepidopterist's Backpack is effectively a mobile Lepid
 
 # Quest.175 - Frames
 lostera.quest175.name=Frames
-lostera.quest175.desc=Frames offer ways to improve and alter the efficiency and behaviours of bees.%n%nThere are 3 basic frames available to you early on:%n%n§bUntreated Frame§r %nDurability: 80%nProduction: §2+100%%§8 (Max: 1000%%)%nMutation Meltdown: §8-10%% %n%n§6Impregnanted Frame:§r %nDurability: 240 %nProduction: §2+100%% §8(Max: 1000%%)%nMutation Meltdown: §8-60%% %n%n§5Proven Frame:§r %nDurability: 720 %nProduction: §2+100%%§8 (Max: 1000%%)%nMutation Meltdown: §8-70%%%n%n§rOverworking bees by boosting the production rate §nover 1000%%§r will lead to §4permanent genetic damage§r.
+lostera.quest175.desc=Frames offer ways to improve and alter the efficiency and behaviours of bees.%n%nThere are 3 basic frames available to you early on:%n%n§bUntreated Frame§r %nDurability: 80%nProduction: §2+100%%§8 (Max Bonus: +1000%%)%nMutation Meltdown: §8-10%% %n%n§6Impregnanted Frame:§r %nDurability: 240 %nProduction: §2+100%% §8(Max Bonus: +1000%%)%nMutation Meltdown: §8-60%% %n%n§5Proven Frame:§r %nDurability: 720 %nProduction: §2+100%%§8 (Max Bonus: +1000%%)%nMutation Meltdown: §8-70%%%n%n§rOverworking bees by boosting the production rate §nover 1600%%§r will lead to §4permanent genetic damage§r.
 
 # Quest.176 - Apiary
 lostera.quest176.name=Apiary
@@ -1218,7 +1218,7 @@ lostera.quest292.desc=The Gas Upgrade increases the gas usage efficiency of a ma
 
 # Quest.293 - Speed Upgrade
 lostera.quest293.name=Speed Upgrade
-lostera.quest293.desc=The Speed Upgrade allows machines to operate a higher speeds with the trade-off of using more power. %n%n§cThe speed bonus depends on the machines:§r%nIt can increase the speed by 33%% but increases the power usage by 78%%, or increase both by 100%%. %n%nA maximum of eight upgrades can be used in any machine, and the effects are multiplicative.
+lostera.quest293.desc=The Speed Upgrade allows machines to operate a higher speeds with the trade-off of using more power.%n%nA maximum of eight upgrades can be used in any machine stacking multiplicative.
 
 # Quest.294 - Elite Control Circuit
 lostera.quest294.name=Elite Control Circuit
@@ -1358,7 +1358,7 @@ lostera.quest327.desc=The Portable Teleporter is a handheld teleportation device
 
 # Quest.328 - Energy Conversion
 lostera.quest328.name=Energy Conversion
-lostera.quest328.desc=The rate of energy produced is dependent on temperature and the type of cooling.%n§r%nThe conversion from heat to energy for both methods of cooling is done by the following:%n%n§6Passive Generation §8§o(RF/t) =  §cCasing Temperature§r/20,000 %n§r§b%nSteam Generation §r§8§o(mB/t) §r = §4Plasma Temperature§r/200,000%n%n§5§lCooling Methods:%n%n§a§nAir Cooling§r is the default method of operation of the reactor. As heat is emanated from the plasma, the Reactor Casing converts this thermal energy into RF energy. %n%nMuch of that heat is lost on  the way from the plasma to the reactor casing due to the poor thermal conductivity of air.%n%n§8§oThis process may not the most efficient but it is the least infrastructure intensive.%n%n%n§9§nWater Cooling§r is achieved by injecting water directly to the incandescent plasma to create steam.%n%nThis process will lower both §cCasing§r and §4Plasma§r temperature but the steam can now be converted into RF energy in other generators.%n%n§8§oWhile the Passive generation of the generator will be reduced, both passive and steam generation combined will produce much more energy than an §lAir Cooled§r§8§o system due to the added thermal efficiency of water/steam. 
+lostera.quest328.desc=The rate of energy produced is dependent on temperature and the type of cooling.%n§r%nThe conversion from heat to energy for both methods of cooling is done by the following:%n%n§6Passive Generation §8§o(RF/t) =  §cCasing Temperature§r/20,000 %n§r§b%nSteam Generation §r§8§o(mB/t) §r = §4Plasma Temperature§r/100,000%n%n§5§lCooling Methods:%n%n§a§nAir Cooling§r is the default method of operation of the reactor. As heat is emanated from the plasma, the Reactor Casing converts this thermal energy into RF energy. %n%nMuch of that heat is lost on  the way from the plasma to the reactor casing due to the poor thermal conductivity of air.%n%n§8§oThis process may not the most efficient but it is the least infrastructure intensive.%n%n%n§9§nWater Cooling§r is achieved by injecting water directly to the incandescent plasma to create steam.%n%nThis process will lower both §cCasing§r and §4Plasma§r temperature but the steam can now be converted into RF energy in other generators.%n%n§8§oWhile the Passive generation of the generator will be reduced, both passive and steam generation combined will produce much more energy than an §lAir Cooled§r§8§o system due to the added thermal efficiency of water/steam. 
 
 # Quest.329 - §9Blueprint:§r Fusion Reactor
 lostera.quest329.name=§9Blueprint:§r Fusion Reactor
@@ -1714,7 +1714,7 @@ lostera.quest416.desc=The Desk is used to store but also read books.%n%nBooks ca
 
 # Quest.417 - Armor Stand
 lostera.quest417.name=Armor Stand
-lostera.quest417.desc=The Armor Stand is used to store a set of Armor.%n%You can add Armor to the stand by holding the piece of Armor in their hand and aiming at the desired slot.%n%You can also swap worn Armor with Armor on the Stand by sneak right-clicking on the Armor stand on the desired piece.%n%n§8§oIf a redstone signal is applied to the stand, sneak clicking on the armor stand will swap your entire set of armor.
+lostera.quest417.desc=The Armor Stand is used to store a set of Armor.%n%nYou can add Armor to the stand by holding the piece of Armor in their hand and aiming at the desired slot.%n%nYou can also swap worn Armor with Armor on the Stand by sneak right-clicking on the Armor stand on the desired piece.%n%n§8§oIf a redstone signal is applied to the stand, sneak clicking on the armor stand will swap your entire set of armor.
 
 # Quest.418 - Sword Pedestal
 lostera.quest418.name=Sword Pedestal
@@ -1870,7 +1870,7 @@ lostera.quest455.desc=Routed Interface Pipes are a type of pipe that are used to
 
 # Quest.456 - Item Responder Chip
 lostera.quest456.name=Item Responder Chip
-lostera.quest456.desc=An §6Item Responder Chip§r tells §3Extractor Chips§r on the network they can are a valid inventory to send contents to that match the filter set.%n%nItems sent in this way have a blue aura, and travel quite quickly.%n%nFilter and Priority can be set by right clicking the chip.%n%nChips with a higher priority value will have items sent to them first, until the inventory becomes full, after which items will be sent to other inventories with valid filters and remaining space.
+lostera.quest456.desc=An §6Item Responder Chip§r allows §3Extractor Chips§r on the network to detect and send contents to the adjacent inventories matching the filter set.%n%nItems sent in this way have a blue aura, and travel quite quickly.%n%nFilter and Priority can be set by right clicking the chip.%n%nChips with a higher priority value will have items sent to them first, until the inventory becomes full, after which items will be sent to other inventories with valid filters and remaining space.
 
 # Quest.457 - Item Extractor Chip
 lostera.quest457.name=Item Extractor Chip
@@ -1962,7 +1962,7 @@ lostera.quest478.desc=The Tiny Coal Engine is the cheapest and smallest engine u
 
 # Quest.479 - Coal Engine
 lostera.quest479.name=Coal Engine
-lostera.quest479.desc=The coal engine is a better version of the Tiny Coal Engine. It is very good for mining since lasts a long time. %n%nThe Engine works only with the Standard and Reinforced Hulls. It's too complex for the others.
+lostera.quest479.desc=The coal engine is a upgraded version of the Tiny Coal Engine. It is 4.5x more fuel efficient and 3x the storage capacity. %n%nThe Engine works only with the Standard and Reinforced Hulls. It's too complex for the others.
 
 # Quest.480 - Basic Solar Engine
 lostera.quest480.name=Basic Solar Engine
@@ -1970,11 +1970,11 @@ lostera.quest480.desc=The Basic Solar Engine is the weakest but cheapest solar e
 
 # Quest.481 - Solar Engine
 lostera.quest481.name=Solar Engine
-lostera.quest481.desc=The Solar Engine is a larger and most powerful version of the Basic solar engine.%n%nA minecart equipped with a solar engine must have a clear view of the sky. %n%nLeaves will also block the view, so a Wood Cutter cart should have a tiny or regular coal engine as an alternate power source when it is chopping down trees.
+lostera.quest481.desc=The Solar Engine is a larger and more powerful version of the Basic Solar Engine.%n%nIt comes with double the amount of solar panels for 2.5x higher efficiency and 8x the energy capacity than its basic counterpart.%n%nA minecart equipped with a solar engine must have a clear view of the sky. %n%nLeaves will also block the view, so a Wood Cutter cart should have a tiny or regular coal engine as an alternate power source when it is chopping down trees.
 
 # Quest.482 - Compact Solar Engine
 lostera.quest482.name=Compact Solar Engine
-lostera.quest482.desc=The Compact Solar Engine is the only solar engine that does not take up a top slot, using the sides instead. %n%nIt generates energy at the same speed as the Solar Engine, but it has a much smaller power capacity and is more expensive to craft. %n%nPlease note this engine has the same generation rate as the standard Solar Engine but a very small max power capacity.
+lostera.quest482.desc=The Compact Solar Engine is special for it is the only solar engine that does not take up a top slot, using the sides instead, for extra module compatibility. %n%nIt is 2.5x more efficient than the Basic Solar engine but at 1/4 its energy capacity.
 
 # Quest.483 - Thermal Engine
 lostera.quest483.name=Thermal Engine
@@ -1982,7 +1982,7 @@ lostera.quest483.desc=The Thermal Engine is the first tier of thermal engine mod
 
 # Quest.484 - Advanced Thermal Engine 
 lostera.quest484.name=Advanced Thermal Engine 
-lostera.quest484.desc=The Advanced Thermal Engine is the second tier of thermal engine modules.%n%nIt is more efficient than the Thermal Engine but it needs both lava and water to operate.%n%nTo supply Lava, the cart needs a tank module. It needs a coolant (Water), though, and therefore needs at least one additional tank module.
+lostera.quest484.desc=The Advanced Thermal Engine is the second tier of thermal engine modules.%n%nIt is 2.4x more efficient than the Thermal Engine but it needs both lava and water to operate.%n%nTo supply both §6Lava§r and §bWater§r, the cart needs at least 2 tank modules.
 
 # Quest.485 - Hulls
 lostera.quest485.name=Hulls
@@ -2010,11 +2010,11 @@ lostera.quest490.desc=The Basic Wood Cutter is a tool used for planting saplings
 
 # Quest.491 - Basic Drill
 lostera.quest491.name=Basic Drill
-lostera.quest491.desc=The Basic Drill is the second tier of Drill for minecarts.%n%nIt has 20x the durability of the iron drill and digs much faster.
+lostera.quest491.desc=The Basic Drill is the second tier of Drill for minecarts.%n%nIt lasts 6x the longer and digs 5x faster than the Iron Drill.
 
 # Quest.492 - Hardened Drill
 lostera.quest492.name=Hardened Drill
-lostera.quest492.desc=The Hardened Drill is the third tier of Drill for minecarts.%n%nIt has more than 3x the durability of the Basic Drill and digs incredibly faster.
+lostera.quest492.desc=The Hardened Drill is the third tier of Drill for minecarts.%n%nIt will dig a blocks in a 5x5 area at double the speed and over 3x longer than a Basic Drill.
 
 # Quest.493 - Galgadorian Drill
 lostera.quest493.name=Galgadorian Drill
@@ -2034,7 +2034,7 @@ lostera.quest496.desc=Uranium is a heavy metal mostly used as fuel in Fission Re
 
 # Quest.497 - Galgadorian Wood Cutter
 lostera.quest497.name=Galgadorian Wood Cutter
-lostera.quest497.desc=The Galgadorian Wood Cutter is the upgrade to the Hardened Cutter.%n%nIt is effectively indestructible and it is 25%% more efficient at collecting wood, effectively giving you more output.
+lostera.quest497.desc=The Galgadorian Wood Cutter is the upgrade to the Hardened Cutter.%n%nIt is effectively indestructible and it is 25%% more efficient at collecting wood than the Hardened Wood Cutter, effectively giving you more output.
 
 # Quest.498 - Attachment 
 lostera.quest498.name=Attachment 
@@ -2373,11 +2373,11 @@ lostera.quest581.desc=In the book, §dWitchcraft: Herbology§r, describes the va
 
 # Quest.582 - Witches Oven
 lostera.quest582.name=Witches Oven
-lostera.quest582.desc=The Witches Oven is a very practical device for the would-be witch or warlock. %nWhile unable to smelt metals, the oven is particularly good at cooking food and making charcoal; %n%nThe book, §dWitchcraft: Collecting Fumes§r describes the use of the oven to collect by-products.
+lostera.quest582.desc=The Witches Oven is a very practical device for the would-be witch or warlock. %nWhile unable to smelt metals, the oven is particularly good at cooking food and making charcoal. %n%nThe book, §dWitchcraft: Collecting Fumes§r describes the use of the oven to collect by-products.
 
 # Quest.583 - Fumes
 lostera.quest583.name=Fumes
-lostera.quest583.desc=The more important feature of a Witches Oven, is that it is able to capture the by-products produced in the cooking process.%n%nIf there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. %nThese by-products are important ingredients in other recipes. %n%nIf there are no clay jars in the oven when something is cooked, no by-products will be produced. 
+lostera.quest583.desc=The more important feature of a Witches Oven, is that it is able to capture the by-products produced in the cooking process.%n%nIf there are clay jars present when something is cooked, there is a 1 in 3 chance a by-product will be captured in one of the jars. %nThese by-products are important ingredients in other recipes. %n%nIf there are no clay jars in the oven when something is cooked, no by-products will be produced. 
 
 # Quest.584 - Fume Funnels
 lostera.quest584.name=Fume Funnels
@@ -2733,7 +2733,7 @@ lostera.quest671.desc=The Dream Weaver of Intensity has two effects, firstly it 
 
 # Quest.672 - Steam Conversion
 lostera.quest672.name=Steam Conversion
-lostera.quest672.desc=A much more efficient version of the standard §5Fusion Reactor§r.%nIt outputs §bSteam§r or §cDense/SuperDense Steam§r if running extremely hot.%n%nWhen paired with a §9Steam Turbine§r it will produce §n50%% more power.
+lostera.quest672.desc=A much more efficient version of the standard §5Fusion Reactor§r.%nIt outputs §bSteam§r or §cDense/SuperDense Steam§r if running extremely hot.%n%n§lSteam Production (mB/t):%n§r0.525 x §9Efficiency%%§r x §5Toroid Size§r x §6Fuel Base Power§r
 
 # Quest.673 - Parasitic Louse
 lostera.quest673.name=Parasitic Louse
@@ -2821,7 +2821,7 @@ lostera.quest693.desc=A Fetish is an object believed to have supernatural powers
 
 # Quest.694 - Brew of The Grave
 lostera.quest694.name=Brew of The Grave
-lostera.quest694.desc=The Infused Brew of the Grave can be drunk to allow a Necromantic Stone to be used to take control of normal undead creatures (not just those raised with a brew of raising). %n%n§5This ability can be used once every 30 seconds.§r%n%nAdditionally, when a witch under the influence of this brew kills and animal, villager or other player, they will regain hunger and a little life as the feed off their victim.%n%nThe brew lasts 2 hours. Only a single Infused Brew can be active at a time, with the newer one replacing the older one.%n%n§7§lThe Infused Brew of the Grave is made using an Infused Brew Base, Bone, Dense Web, Necromantic Stone and a Zombie with the §a§lRite of Infusion§7.§r
+lostera.quest694.desc=The Infused Brew of the Grave can be drunk to allow a Necromantic Stone to be used to take control of normal undead creatures (not just those raised with a brew of raising). %n%n§5This ability can be used once every 30 seconds.§r%n%nAdditionally, when a witch under the influence of this brew kills and animal, villager or other player, they will regain hunger and a little life as the feed off their victim.%n%nThe brew lasts 2 hours. Only a single Infused Brew can be active at a time, with the newer one replacing the older one.%n%n§7§lThe Infused Brew of the Grave is made using an Infused Brew Base, Bone, Dense Web, Necromantic Stone and a Zombie with the §a§lRite of Infusion§7.
 
 # Quest.695 - Winged Monkey
 lostera.quest695.name=Winged Monkey
@@ -3769,7 +3769,7 @@ lostera.quest930.desc=Mana Beans are magical produce obtained from mature Mana P
 
 # Quest.931 - Steam Conversion
 lostera.quest931.name=Steam Conversion
-lostera.quest931.desc=A much more efficient version of the standard §aFission Reactor§r.%nIt outputs §cSteam§r or §cDense/SuperDense Steam§r if running extremely hot.%n%nWhen paired with a §9Steam Turbine§r it will produce §n50%% more power.
+lostera.quest931.desc=A much more efficient version of the standard §aFission Reactor§r.%nIt outputs §cSteam§r or §cDense/SuperDense Steam§r if running extremely hot.%n%n§lBase Steam Production (mB/t): %n0.525 x §eNumber of Cell Compartments§r x (§r§9Efficiency§r/100) x §6Fuel Base Power§r
 
 # Quest.932 - Efficiency
 lostera.quest932.name=Efficiency
@@ -4341,7 +4341,7 @@ lostera.quest1073.desc=An Augment used to increase the chances of Pulverizers, I
 
 # Quest.1074 - Augment: GyroServo
 lostera.quest1074.name=Augment: GyroServo
-lostera.quest1074.desc=An Augment used to increase the chances of Pulverizers, Induction Smelter and Sawmills from producing by-products. %n%nThis augment increases the chance of Machines producing secondary outputs by§l 81%%§r.%n%nIt requires a Resonant Machine.§8%n%n§oIf the chance for secondary output is higher than 100%%, multiple secondary output items may be produced at once.
+lostera.quest1074.desc=An Augment used to increase the chances of Pulverizers, Induction Smelter and Sawmills from producing by-products. %n%nThis augment increases the chance of Machines producing secondary outputs by§l 81%%§r.%n%nIt requires a Resonant Machine.§8%n%n§oIf the chance for secondary output is higher than 100%%, multiple secondary output items may be produced at once.%n%n§8Bonus stacks multiplicatively.
 
 # Quest.1075 - Augment: Flux Modulation Booster
 lostera.quest1075.name=Augment: Flux Modulation Booster
@@ -5580,7 +5580,7 @@ lostera.quest1383.desc=A Space Manipulation Chamber allows a builder to manipula
 
 # Quest.1384 - Dimlets
 lostera.quest1384.name=Dimlets
-lostera.quest1384.desc=Dimlets are complicated devices, that can literally define how a world works.%nThey are the main component used in the creation of new dimensions.%n%nIn order to identify and use a Unknown Dimlet you will need to process it into a §5Dimlet Researcher§r.%n%nThese can seldomly be found in dungeons, perhaps a remnant of an ancient advanced civilization.
+lostera.quest1384.desc=Dimlets are complicated devices, that can literally define how a world works.%nThey are the main component used in the creation of new dimensions.%n%nIn order to identify and use a Unknown Dimlet you will need to process it into a §5Dimlet Researcher§r.
 
 # Quest.1385 - Dimlet Researcher
 lostera.quest1385.name=Dimlet Researcher
@@ -7164,7 +7164,7 @@ lostera.quest1779.desc=Quantum Dust drops from quantum ore.%n%nIt exhibits behav
 
 # Quest.1780 - Essence of Superposition
 lostera.quest1780.name=Essence of Superposition
-lostera.quest1780.desc=The Essence of Superposition is a medium used to give materials quantum attributes via crafting.%n%nThis Essence specifically gives blocks the §aSuperposition§r attribute:%n%n§8In Quantum Physics, particles are all of their states simultaneously until observed.§r%n%nUsing this attribute you can create a block that can are all blocks simultanously until looked from a certain axis.%n%nWhen looked from that axis it will assume the state of 1 of 2 blocks defined in a crafting grid:%n%n%n §6Y-Axis  §8|  §9Z-Axis§8   | %n§8-----------------------%n §cX-Axis  §r§8| §aEssence§8 | §cX-Axis §8%n-----------------------%n §6Y-Axis§8  |  §9Z-Axis§8   |%n%n§rIn this setup, when looked from the North §ror South, it will randomly transform in either the §9top or bottom§r block specified by the grid.§8%n%n%nThis includes transforming into nothing if left empty allowing the block to appear or disappear depending on the direction it is observed.%n%n§8Vanilla blocks only.
+lostera.quest1780.desc=The Essence of Superposition is a medium used to give materials quantum attributes via crafting.%n%nThis Essence specifically gives blocks the §aSuperposition§r attribute:%n%n§8In Quantum Physics, particles are all of their states simultaneously until observed.§r%n%nUsing this attribute you can create a block that are all blocks simultanously until looked from a certain axis.%n%nWhen looked from that axis it will assume the state of 1 of 2 blocks defined in a crafting grid:%n%n%n §6Y-Axis  §8|  §9Z-Axis§8   | %n§8-----------------------%n §cX-Axis  §r§8| §aEssence§8 | §cX-Axis §8%n-----------------------%n §6Y-Axis§8  |  §9Z-Axis§8   |%n%n§rIn this setup, when looked from the North §ror South, it will randomly transform in either the §9top or bottom§r block specified by the grid.§8%n%n%nThis includes transforming into nothing if left empty allowing the block to appear or disappear depending on the direction it is observed.%n%n§8Vanilla blocks only.
 
 # Quest.1781 - Essence of Observation
 lostera.quest1781.name=Essence of Observation
@@ -7612,7 +7612,7 @@ lostera.quest1891.desc=Find all Torn Pages from "The Observations of an Immortal
 
 # Quest.1892 - Gnawing Bee
 lostera.quest1892.name=Gnawing Bee
-lostera.quest1892.desc=§6§lScientific Name:§r §o Vacapis Apica%n§9§lFamily Branch:§r  §oApidae Vacapis%n%n§d§lBranch:§r Barren Branch%n%n§a§lOrigin:§r Barren bee + Forest bee%n%n§7§l%nDescription:§r  
+lostera.quest1892.desc=§6§lScientific Name:§r §o Vacapis Apica%n§9§lFamily Branch:§r  §oApidae Vacapis%n%n§d§lBranch:§r Barren Branch%n%n§a§lOrigin:§r Barren bee + Forest bee%n%n§7§l%nDescription:§r %n%nIt’ll chew through wood, metal, and probably your last nerve.
 
 # Quest.1893 - Meadows Bee
 lostera.quest1893.name=Meadows Bee
@@ -7816,7 +7816,7 @@ lostera.quest1942.desc=§6§lScientific Name:§r §o Infenapis Erepos%n§9§lFam
 
 # Quest.1943 - Hazardous Bee
 lostera.quest1943.name=Hazardous Bee
-lostera.quest1943.desc=§6§lScientific Name:§r §o Modapis Infensus%n§9§lFamily Branch:§r  §oApidae Modapis%n%n§d§lBranch:§r Austere Branch%n%n§a§lOrigin:§r Desolate bee + Austere bee%n%n§7§l%nDescription:§r  
+lostera.quest1943.desc=§6§lScientific Name:§r §o Modapis Infensus%n§9§lFamily Branch:§r  §oApidae Modapis%n%n§d§lBranch:§r Austere Branch%n%n§a§lOrigin:§r Desolate bee + Austere bee%n%n§7§l%nDescription:§r %n%nComes with a sting, a warning label, and an emergency evacuation plan.
 
 # Quest.1944 - Rocky Bee
 lostera.quest1944.name=Rocky Bee
@@ -7852,23 +7852,23 @@ lostera.quest1951.desc=§6§lScientific Name:§r §o Lamminapis Plumbous%n§9§l
 
 # Quest.1952 - Galvanized Bee
 lostera.quest1952.name=Galvanized Bee
-lostera.quest1952.desc=§6§lScientific Name:§r §o Metalapis Spelta%n§9§lFamily Branch:§r  §oApidae Metalapis%n%n§d§lBranch:§r Metallic Branch%n%n§a§lOrigin:§r Resilient bee + Wintry bee%n%n§7§l%nDescription:§r  
+lostera.quest1952.desc=§6§lScientific Name:§r §o Metalapis Spelta%n§9§lFamily Branch:§r  §oApidae Metalapis%n%n§d§lBranch:§r Metallic Branch%n%n§a§lOrigin:§r Resilient bee + Wintry bee%n%n§7§l%nDescription:§r %n%nElectrified and ready to sting—shocking, isn’t it?
 
 # Quest.1953 - Impregnable Bee
 lostera.quest1953.name=Impregnable Bee
-lostera.quest1953.desc=§6§lScientific Name:§r §o Allapis titania%n§9§lFamily Branch:§r  §oApidae Allapis%n%n§d§lBranch:§r Alloyed Branch%n%n§a§lOrigin:§r Resilient bee + Cultivated bee%n%n§7§l%nDescription:§r  
+lostera.quest1953.desc=§6§lScientific Name:§r §o Allapis titania%n§9§lFamily Branch:§r  §oApidae Allapis%n%n§d§lBranch:§r Alloyed Branch%n%n§a§lOrigin:§r Resilient bee + Cultivated bee%n%n§7§l%nDescription:§r Hive security so tight, it's is harder than breaking into a bank vault
 
 # Quest.1954 - Invincible Bee
 lostera.quest1954.name=Invincible Bee
-lostera.quest1954.desc=§6§lScientific Name:§r §o Metalapis Wolfram%n§9§lFamily Branch:§r  §oApidae Metalapis%n%n§d§lBranch:§r Metallic Branch%n%n§a§lOrigin:§r Resilient bee + Common bee%n%n§7§l%nDescription:§r  
+lostera.quest1954.desc=§6§lScientific Name:§r §o Metalapis Wolfram%n§9§lFamily Branch:§r  §oApidae Metalapis%n%n§d§lBranch:§r Metallic Branch%n%n§a§lOrigin:§r Resilient bee + Common bee%n%n§7§l%nDescription:§r %n%nSwatted 37 times, still going—legend says it’s just built different.
 
 # Quest.1955 - Lustered Bee
 lostera.quest1955.name=Lustered Bee
-lostera.quest1955.desc=§6§lScientific Name:§r §o Metalapis Claro%n§9§lFamily Branch:§r  §oApidae Metalapis%n%n§d§lBranch:§r Metallic Branch%n%n§a§lOrigin:§r Resilient bee + Forest Bee%n%n§7§l%nDescription:§r  
+lostera.quest1955.desc=§6§lScientific Name:§r §o Metalapis Claro%n§9§lFamily Branch:§r  §oApidae Metalapis%n%n§d§lBranch:§r Metallic Branch%n%n§a§lOrigin:§r Resilient bee + Forest Bee%n%n§7§l%nDescription:§r %n%nLooking like it just stepped out of a bee salon, glossy wings and all.
 
 # Quest.1956 - Shining Bee
 lostera.quest1956.name=Shining Bee
-lostera.quest1956.desc=§6§lScientific Name:§r §o Pluriapis Argentus%n§9§lFamily Branch:§r  §oApidae Pluriapis%n%n§d§lBranch:§r Precious Branch%n%n§a§lOrigin:§r Majestic bee + Galvanized bee%n%n§7§l%nDescription:§r  
+lostera.quest1956.desc=§6§lScientific Name:§r §o Pluriapis Argentus%n§9§lFamily Branch:§r  §oApidae Pluriapis%n%n§d§lBranch:§r Precious Branch%n%n§a§lOrigin:§r Majestic bee + Galvanized bee%n%n§7§l%nDescription:§r %n%nSo bright, other bees wear sunglasses around it.
 
 # Quest.1957 - Water Bee
 lostera.quest1957.name=Water Bee
@@ -7900,15 +7900,15 @@ lostera.quest1963.desc=§6§lScientific Name:§r §o Aquapis Atramentum%n§9§lF
 
 # Quest.1964 - Decomposing Bee
 lostera.quest1964.name=Decomposing Bee
-lostera.quest1964.desc=§6§lScientific Name:§r §o Vacapis Aegrus%n§9§lFamily Branch:§r  §oApidae Vacapis%n%n§d§lBranch:§r Barren Branch%n%n§a§lOrigin:§r Barren bee + Marshy bee%n%n§7§l%nDescription:§r  
+lostera.quest1964.desc=§6§lScientific Name:§r §o Vacapis Aegrus%n§9§lFamily Branch:§r  §oApidae Vacapis%n%n§d§lBranch:§r Barren Branch%n%n§a§lOrigin:§r Barren bee + Marshy bee%n%n§7§l%nDescription:§r %n%nIt may be falling apart, but it never stops working.
 
 # Quest.1965 - Lapis Bee
 lostera.quest1965.name=Lapis Bee
-lostera.quest1965.desc=§6§lScientific Name:§r §o Niphapis Lazuli%n§9§lFamily Branch:§r  §oApidae Niphapis%n%n§d§lBranch:§r Mineral Branch%n%n§a§lOrigin:§r Resilient bee + Imperial bee%n%n§7§l%nDescription:§r  
+lostera.quest1965.desc=§6§lScientific Name:§r §o Niphapis Lazuli%n§9§lFamily Branch:§r  §oApidae Niphapis%n%n§d§lBranch:§r Mineral Branch%n%n§a§lOrigin:§r Resilient bee + Imperial bee%n%n§7§l%nDescription:§r %n%nDeep blue, mysterious and shimmering with ancient energy.
 
 # Quest.1966 - Glittering Bee
 lostera.quest1966.name=Glittering Bee
-lostera.quest1966.desc=§6§lScientific Name:§r §o Pluriapis Aureus%n§9§lFamily Branch:§r  §oApidae Pluriapis%n%n§d§lBranch:§r Precious Branch%n%n§a§lOrigin:§r Majestic bee + Rusty bee%n%n§7§l%nDescription:§r  
+lostera.quest1966.desc=§6§lScientific Name:§r §o Pluriapis Aureus%n§9§lFamily Branch:§r  §oApidae Pluriapis%n%n§d§lBranch:§r Precious Branch%n%n§a§lOrigin:§r Majestic bee + Rusty bee%n%n§7§l%nDescription:§r %n%nLeaves a trail of sparkles and chaos wherever it goes.
 
 # Quest.1967 - Valuable Bee
 lostera.quest1967.name=Valuable Bee
@@ -7920,15 +7920,15 @@ lostera.quest1968.desc=§6§lScientific Name:§r §o Gemmapis Emerala%n§9§lFam
 
 # Quest.1969 - Ruby Bee
 lostera.quest1969.name=Ruby Bee
-lostera.quest1969.desc=§6§lScientific Name:§r §o Gemmapis Ruba%n§9§lFamily Branch:§r  §oApidae Gemmapis%n%n§d§lBranch:§r Gemstone Branch%n%n§a§lOrigin:§r Lapis bee + Modest bee%n%n§7§l%nDescription:§r  
+lostera.quest1969.desc=§6§lScientific Name:§r §o Gemmapis Ruba%n§9§lFamily Branch:§r  §oApidae Gemmapis%n%n§d§lBranch:§r Gemstone Branch%n%n§a§lOrigin:§r Lapis bee + Modest bee%n%n§7§l%nDescription:§r %n%nA tiny flying ember, buzzing with untamed energy and a flair for the dramatic.
 
-# Quest.1970 - Saphire Bee
-lostera.quest1970.name=Saphire Bee
-lostera.quest1970.desc=§6§lScientific Name:§r §o Gemmapis Saphhira%n§9§lFamily Branch:§r  §oApidae Gemmapis%n%n§d§lBranch:§r Gemstone Branch%n%n§a§lOrigin:§r Lapis bee + Water bee%n%n§7§l%nDescription:§r  
+# Quest.1970 - Sapphire Bee
+lostera.quest1970.name=Sapphire Bee
+lostera.quest1970.desc=§6§lScientific Name:§r §o Gemmapis Sapphira%n§9§lFamily Branch:§r  §oApidae Gemmapis%n%n§d§lBranch:§r Gemstone Branch%n%n§a§lOrigin:§r Lapis bee + Water bee%n%n§7§l%nDescription:§r %n%nCool, composed, and probably way out of your league.
 
 # Quest.1971 - Diamond Bee
 lostera.quest1971.name=Diamond Bee
-lostera.quest1971.desc=§6§lScientific Name:§r §o Gemmapis Diama%n§9§lFamily Branch:§r  §oApidae Gemmapis%n%n§d§lBranch:§r Gemstone Branch%n%n§a§lOrigin:§r Lapis bee + Cultivated bee%n%n§7§l%nDescription:§r  
+lostera.quest1971.desc=§6§lScientific Name:§r §o Gemmapis Diama%n§9§lFamily Branch:§r  §oApidae Gemmapis%n%n§d§lBranch:§r Gemstone Branch%n%n§a§lOrigin:§r Lapis bee + Cultivated bee%n%n§7§l%nDescription:§r %n%nUnbreakable, high-value, and definitely not sharing its wealth.
 
 # Quest.1972 - Jaded Bee
 lostera.quest1972.name=Jaded Bee
@@ -7936,71 +7936,71 @@ lostera.quest1972.desc=§6§lScientific Name:§r §o Eftebeapis Jadeca%n§9§lFa
 
 # Quest.1973 - Unstable Bee
 lostera.quest1973.name=Unstable Bee
-lostera.quest1973.desc=§6§lScientific Name:§r §o Levapis Levis%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Prehistoric bee + Resilient bee%n%n§7§l%nDescription:§r  
+lostera.quest1973.desc=§6§lScientific Name:§r §o Levapis Levis%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Prehistoric bee + Resilient bee%n%n§7§l%nDescription:§r %n%nBuzzes unpredictably, stings randomly, and makes life very interesting.
 
 # Quest.1974 - Nuclear Bee
 lostera.quest1974.name=Nuclear Bee
-lostera.quest1974.desc=§6§lScientific Name:§r §o Levapis Nucleus%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Unstable bee + Any bee from the Rusty or Metallic branch%n%n§7§l%nDescription:§r  
+lostera.quest1974.desc=§6§lScientific Name:§r §o Levapis Nucleus%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Unstable bee + Any bee from the Rusty or Metallic branch%n%n§7§l%nDescription:§r %n%nComes with its own fallout zone. Handle with extreme caution.
 
 # Quest.1975 - Radioactive Bee
 lostera.quest1975.name=Radioactive Bee
-lostera.quest1975.desc=§6§lScientific Name:§r §o Levapis Fervens%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Nuclear bee + Glittering bee%n%n§7§l%nDescription:§r  
+lostera.quest1975.desc=§6§lScientific Name:§r §o Levapis Fervens%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Nuclear bee + Glittering bee%n%n§7§l%nDescription:§r %n%nGlows in the dark and gives you superpowers (or, you know… radiation poisoning).
 
 # Quest.1976 - Yellorium Bee
 lostera.quest1976.name=Yellorium Bee
-lostera.quest1976.desc=§6§lScientific Name:§r §o Levapis Yellori%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Nuclear bee + Frugal bee%n%n§7§l%nDescription:§r  
+lostera.quest1976.desc=§6§lScientific Name:§r §o Levapis Yellori%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Nuclear bee + Frugal bee%n%n§7§l%nDescription:§r %n%nPowered by pure energy, but no one’s sure if that’s a good thing.
 
 # Quest.1977 - Cyanite Bee
 lostera.quest1977.name=Cyanite Bee
-lostera.quest1977.desc=§6§lScientific Name:§r §o Levapis Cyanita%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Yellorium bee + Nuclear bee%n%n§7§l%nDescription:§r  
+lostera.quest1977.desc=§6§lScientific Name:§r §o Levapis Cyanita%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Yellorium bee + Nuclear bee%n%n§7§l%nDescription:§r %n%nBuzzes at frequencies only reactors (and conspiracy theorists) understand.
 
 # Quest.1978 - Blutonium Bee
 lostera.quest1978.name=Blutonium Bee
-lostera.quest1978.desc=§6§lScientific Name:§r §o Levapis Caruthus%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Cyanite bee + Yellorium bee%n%n§7§l%nDescription:§r  
+lostera.quest1978.desc=§6§lScientific Name:§r §o Levapis Caruthus%n§9§lFamily Branch:§r  §oApidae Levapis%n%n§d§lBranch:§r Nuclear Branch%n%n§a§lOrigin:§r Cyanite bee + Yellorium bee%n%n§7§l%nDescription:§r %n%nHighly explosive, slightly moody, and definitely not safe for casual beekeeping.
 
 # Quest.1979 - Ancient Bee
 lostera.quest1979.name=Ancient Bee
-lostera.quest1979.desc=§6§lScientific Name:§r §o Priscapis Antiquus%n§9§lFamily Branch:§r  §oApidae Priscapis%n%n§d§lBranch:§r Prehistoric Branch%n%n§a§lOrigin:§r Noble bee + Diligent bee%n%n§7§l%nDescription:§r  
+lostera.quest1979.desc=§6§lScientific Name:§r §o Priscapis Antiquus%n§9§lFamily Branch:§r  §oApidae Priscapis%n%n§d§lBranch:§r Prehistoric Branch%n%n§a§lOrigin:§r Noble bee + Diligent bee%n%n§7§l%nDescription:§r %n%nIt’s been buzzing for millennia and still thinks modern bees have it easy.
 
 # Quest.1980 - Primeval Bee
 lostera.quest1980.name=Primeval Bee
-lostera.quest1980.desc=§6§lScientific Name:§r §o Priscapis Priscus%n§9§lFamily Branch:§r  §oApidae Priscapis%n%n§d§lBranch:§r Prehistoric Branch%n%n§a§lOrigin:§r Ancient bee + Secluded bee%n%n§7§l%nDescription:§r  
+lostera.quest1980.desc=§6§lScientific Name:§r §o Priscapis Priscus%n§9§lFamily Branch:§r  §oApidae Priscapis%n%n§d§lBranch:§r Prehistoric Branch%n%n§a§lOrigin:§r Ancient bee + Secluded bee%n%n§7§l%nDescription:§r %n%nOlder than time, wiser than you, and unimpressed by your lack of pollen collection.
 
 # Quest.1981 - Prehistoric Bee
 lostera.quest1981.name=Prehistoric Bee
-lostera.quest1981.desc=§6§lScientific Name:§r §o Priscapis Pristinus%n§9§lFamily Branch:§r  §oApidae Priscapis%n%n§d§lBranch:§r Prehistoric Branch%n%n§a§lOrigin:§r Primeval bee + Ancient bee%n%n§7§l%nDescription:§r  
+lostera.quest1981.desc=§6§lScientific Name:§r §o Priscapis Pristinus%n§9§lFamily Branch:§r  §oApidae Priscapis%n%n§d§lBranch:§r Prehistoric Branch%n%n§a§lOrigin:§r Primeval bee + Ancient bee%n%n§7§l%nDescription:§r %n%nThinks honey used to be way better back in the Mesozoic.
 
 # Quest.1982 - Relic Bee
 lostera.quest1982.name=Relic Bee
-lostera.quest1982.desc=§6§lScientific Name:§r §o Priscapis Sapiens%n§9§lFamily Branch:§r  §oApidae Priscapis%n%n§d§lBranch:§r Prehistoric Branch%n%n§a§lOrigin:§r Prehistoric bee + Imperial bee%n%n§7§l%nDescription:§r  
+lostera.quest1982.desc=§6§lScientific Name:§r §o Priscapis Sapiens%n§9§lFamily Branch:§r  §oApidae Priscapis%n%n§d§lBranch:§r Prehistoric Branch%n%n§a§lOrigin:§r Prehistoric bee + Imperial bee%n%n§7§l%nDescription:§r %n%nLegendary, mysterious, and probably cursed.
 
-# Quest.1983 - Fossilised Bee
-lostera.quest1983.name=Fossilised Bee
-lostera.quest1983.desc=§6§lScientific Name:§r §o Fosiapis Carbo%n§9§lFamily Branch:§r  §oApidae Fosiapis%n%n§d§lBranch:§r Fossilized Branch%n%n§a§lOrigin:§r Primeval bee + Growing bee%n%n§7§l%nDescription:§r  
+# Quest.1983 - Fossilized Bee
+lostera.quest1983.name=Fossilized Bee
+lostera.quest1983.desc=§6§lScientific Name:§r §o Fosiapis Carbo%n§9§lFamily Branch:§r  §oApidae Fosiapis%n%n§d§lBranch:§r Fossilized Branch%n%n§a§lOrigin:§r Primeval bee + Growing bee%n%n§7§l%nDescription:§r %n%nTechnically extinct, but still finding ways to make a buzz.
 
 # Quest.1984 - Resinous Bee
 lostera.quest1984.name=Resinous Bee
-lostera.quest1984.desc=§6§lScientific Name:§r §o Fosiapis Lacrima%n§9§lFamily Branch:§r  §oApidae Fosiapis%n%n§d§lBranch:§r Fossilized Branch%n%n§a§lOrigin:§r Primeval bee + Miry bee%n%n§7§l%nDescription:§r  
+lostera.quest1984.desc=§6§lScientific Name:§r §o Fosiapis Lacrima%n§9§lFamily Branch:§r  §oApidae Fosiapis%n%n§d§lBranch:§r Fossilized Branch%n%n§a§lOrigin:§r Primeval bee + Miry bee%n%n§7§l%nDescription:§r %n%nIts hive is held together by sheer stubbornness and an excessive amount of tree sap.
 
 # Quest.1985 - Oily Bee
 lostera.quest1985.name=Oily Bee
-lostera.quest1985.desc=§6§lScientific Name:§r §o Fosiapis Lubricus%n§9§lFamily Branch:§r  §oApidae Fosiapis%n%n§d§lBranch:§r Fossilized Branch%n%n§a§lOrigin:§r Primeval bee + Ocean bee%n%n§7§l%nDescription:§r  
+lostera.quest1985.desc=§6§lScientific Name:§r §o Fosiapis Lubricus%n§9§lFamily Branch:§r  §oApidae Fosiapis%n%n§d§lBranch:§r Fossilized Branch%n%n§a§lOrigin:§r Primeval bee + Ocean bee%n%n§7§l%nDescription:§r %n%nSlick, phony, and always finding a way out of sticky situations.
 
 # Quest.1986 - Distilled Bee
 lostera.quest1986.name=Distilled Bee
-lostera.quest1986.desc=§6§lScientific Name:§r §o Petrapis Distilli%n§9§lFamily Branch:§r  §oApidae Petrapis%n%n§d§lBranch:§r Refined Branch%n%n§a§lOrigin:§r Oily bee + Industrious bee%n%n§7§l%nDescription:§r  
+lostera.quest1986.desc=§6§lScientific Name:§r §o Petrapis Distilli%n§9§lFamily Branch:§r  §oApidae Petrapis%n%n§d§lBranch:§r Refined Branch%n%n§a§lOrigin:§r Oily bee + Industrious bee%n%n§7§l%nDescription:§r %n%nPurified, refined, and judging your inferior nectar choices.
 
 # Quest.1987 - Refined Bee
 lostera.quest1987.name=Refined Bee
-lostera.quest1987.desc=§6§lScientific Name:§r §o Petrapis Refina%n§9§lFamily Branch:§r  §oApidae Petrapis%n%n§d§lBranch:§r Refined Branch%n%n§a§lOrigin:§r Distilled bee + Oily bee%n%n§7§l%nDescription:§r  
+lostera.quest1987.desc=§6§lScientific Name:§r §o Petrapis Refina%n§9§lFamily Branch:§r  §oApidae Petrapis%n%n§d§lBranch:§r Refined Branch%n%n§a§lOrigin:§r Distilled bee + Oily bee%n%n§7§l%nDescription:§r %n%nBuzzes with elegance, sips only the finest nectar, and prefers its honey aged.
 
 # Quest.1988 - Tarry Bee
 lostera.quest1988.name=Tarry Bee
-lostera.quest1988.desc=§6§lScientific Name:§r §o Petrapis Creosota%n§9§lFamily Branch:§r  §oApidae Petrapis%n%n§d§lBranch:§r Refined Branch%n%n§a§lOrigin:§r Distilled bee + Fossilised bee%n%n§7§l%nDescription:§r  
+lostera.quest1988.desc=§6§lScientific Name:§r §o Petrapis Creosota%n§9§lFamily Branch:§r  §oApidae Petrapis%n%n§d§lBranch:§r Refined Branch%n%n§a§lOrigin:§r Distilled bee + Fossilised bee%n%n§7§l%nDescription:§r %n%nMoves slow, smells strong, and definitely leaves a mess wherever it lands.
 
 # Quest.1989 - Elastic Bee
 lostera.quest1989.name=Elastic Bee
-lostera.quest1989.desc=§6§lScientific Name:§r §o Petrapis Latex%n§9§lFamily Branch:§r  §oApidae Petrapis%n%n§d§lBranch:§r Refined Branch%n%n§a§lOrigin:§r Distilled bee + Resinous bee%n%n§7§l%nDescription:§r  
+lostera.quest1989.desc=§6§lScientific Name:§r §o Petrapis Latex%n§9§lFamily Branch:§r  §oApidae Petrapis%n%n§d§lBranch:§r Refined Branch%n%n§a§lOrigin:§r Distilled bee + Resinous bee%n%n§7§l%nDescription:§r %n%nBounces back from anything (literally and figuratively).
 
 # Quest.1990 - Growing Bee
 lostera.quest1990.name=Growing Bee
@@ -8044,39 +8044,39 @@ lostera.quest1999.desc=§6§lScientific Name:§r §o Irrapis Glowia%n§9§lFamil
 
 # Quest.2000 - Glutinous Bee
 lostera.quest2000.name=Glutinous Bee
-lostera.quest2000.desc=§6§lScientific Name:§r §o Viscapis Glutina%n§9§lFamily Branch:§r  §oApidae Viscapis%n%n§d§lBranch:§r Viscous Branch%n%n§a§lOrigin:§r Viscous bee + Exotic bee%n%n§7§l%nDescription:§r  
+lostera.quest2000.desc=§6§lScientific Name:§r §o Viscapis Glutina%n§9§lFamily Branch:§r  §oApidae Viscapis%n%n§d§lBranch:§r Viscous Branch%n%n§a§lOrigin:§r Viscous bee + Exotic bee%n%n§7§l%nDescription:§r %n%nHighly explosive, slightly moody, and definitely not safe for casual beekeeping.
 
 # Quest.2001 - Sticky Bee
 lostera.quest2001.name=Sticky Bee
-lostera.quest2001.desc=§6§lScientific Name:§r §o Viscapis Lentesco%n§9§lFamily Branch:§r  §oApidae Viscapis%n%n§d§lBranch:§r Viscous Branch%n%n§a§lOrigin:§r Glutinous bee + Viscous bee%n%n§7§l%nDescription:§r  
+lostera.quest2001.desc=§6§lScientific Name:§r §o Viscapis Lentesco%n§9§lFamily Branch:§r  §oApidae Viscapis%n%n§d§lBranch:§r Viscous Branch%n%n§a§lOrigin:§r Glutinous bee + Viscous bee%n%n§7§l%nDescription:§r %n%nAnything it touches becomes part of the hive whether it wants to or not.
 
 # Quest.2002 - Viscous Bee
 lostera.quest2002.name=Viscous Bee
-lostera.quest2002.desc=§6§lScientific Name:§r §o Viscapis Liquidus%n§9§lFamily Branch:§r  §oApidae Viscapis%n%n§d§lBranch:§r Viscous Branch%n%n§a§lOrigin:§r Exotic bee + Water bee%n%n§7§l%nDescription:§r  
+lostera.quest2002.desc=§6§lScientific Name:§r §o Viscapis Liquidus%n§9§lFamily Branch:§r  §oApidae Viscapis%n%n§d§lBranch:§r Viscous Branch%n%n§a§lOrigin:§r Exotic bee + Water bee%n%n§7§l%nDescription:§r %n%nMore liquid than bee. Leaves a trail of questionable goo.
 
 # Quest.2003 - Malicious Bee
 lostera.quest2003.name=Malicious Bee
-lostera.quest2003.desc=§6§lScientific Name:§r §o Virapis Acerbus%n§9§lFamily Branch:§r  §oApidae Virapis%n%n§d§lBranch:§r Virulent Branch%n%n§a§lOrigin:§r Sinister bee + Tropical bee%n%n§7§l%nDescription:§r  
+lostera.quest2003.desc=§6§lScientific Name:§r §o Virapis Acerbus%n§9§lFamily Branch:§r  §oApidae Virapis%n%n§d§lBranch:§r Virulent Branch%n%n§a§lOrigin:§r Sinister bee + Tropical bee%n%n§7§l%nDescription:§r %n%nStings first, asks questions later.
 
 # Quest.2004 - Infectious Bee
 lostera.quest2004.name=Infectious Bee
-lostera.quest2004.desc=§6§lScientific Name:§r §o Virapis Contagio%n§9§lFamily Branch:§r  §oApidae Virapis%n%n§d§lBranch:§r Virulent Branch%n%n§a§lOrigin:§r Malicious bee + Tropical bee%n%n§7§l%nDescription:§r  
+lostera.quest2004.desc=§6§lScientific Name:§r §o Virapis Contagio%n§9§lFamily Branch:§r  §oApidae Virapis%n%n§d§lBranch:§r Virulent Branch%n%n§a§lOrigin:§r Malicious bee + Tropical bee%n%n§7§l%nDescription:§r %n%nSpreads trouble faster than gossip in a bee colony.
 
 # Quest.2005 - Virulent Bee
 lostera.quest2005.name=Virulent Bee
-lostera.quest2005.desc=§6§lScientific Name:§r §o Virapis Morbus%n§9§lFamily Branch:§r  §oApidae Virapis%n%n§d§lBranch:§r Virulent Branch%n%n§a§lOrigin:§r Infectious bee + Malicious bee%n%n§7§l%nDescription:§r  
+lostera.quest2005.desc=§6§lScientific Name:§r §o Virapis Morbus%n§9§lFamily Branch:§r  §oApidae Virapis%n%n§d§lBranch:§r Virulent Branch%n%n§a§lOrigin:§r Infectious bee + Malicious bee%n%n§7§l%nDescription:§r %n%nOne sting, and you’ll be rethinking all your life choices.
 
 # Quest.2006 - Corrosive Bee
 lostera.quest2006.name=Corrosive Bee
-lostera.quest2006.desc=§6§lScientific Name:§r §o Morbapis Corrumpo%n§9§lFamily Branch:§r  §oApidae Morbapis%n%n§d§lBranch:§r Caustic Branch%n%n§a§lOrigin:§r Malicious bee + Viscous bee%n%n§7§l%nDescription:§r  
+lostera.quest2006.desc=§6§lScientific Name:§r §o Morbapis Corrumpo%n§9§lFamily Branch:§r  §oApidae Morbapis%n%n§d§lBranch:§r Caustic Branch%n%n§a§lOrigin:§r Malicious bee + Viscous bee%n%n§7§l%nDescription:§r %n%nIts honey eats through metal, but hey, at least it’s organic!
 
 # Quest.2007 - Caustic Bee
 lostera.quest2007.name=Caustic Bee
-lostera.quest2007.desc=§6§lScientific Name:§r §o Morbapis Torrens%n§9§lFamily Branch:§r  §oApidae Morbapis%n%n§d§lBranch:§r Caustic Branch%n%n§a§lOrigin:§r Corrosive bee + Fiendish bee%n%n§7§l%nDescription:§r  
+lostera.quest2007.desc=§6§lScientific Name:§r §o Morbapis Torrens%n§9§lFamily Branch:§r  §oApidae Morbapis%n%n§d§lBranch:§r Caustic Branch%n%n§a§lOrigin:§r Corrosive bee + Fiendish bee%n%n§7§l%nDescription:§r %n%nGets into one argument and leaves nothing but burnt bridges and regret, just like that one ex.
 
 # Quest.2008 - Acidic Bee
 lostera.quest2008.name=Acidic Bee
-lostera.quest2008.desc=§6§lScientific Name:§r §o Morbapis Acidus%n§9§lFamily Branch:§r  §oApidae Morbapis%n%n§d§lBranch:§r Caustic Branch%n%n§a§lOrigin:§r Cautistic bee + Corrosive bee%n%n§7§l%nDescription:§r  
+lostera.quest2008.desc=§6§lScientific Name:§r §o Morbapis Acidus%n§9§lFamily Branch:§r  §oApidae Morbapis%n%n§d§lBranch:§r Caustic Branch%n%n§a§lOrigin:§r Cautistic bee + Corrosive bee%n%n§7§l%nDescription:§r %n%nYou could harvest its honey… if you enjoy melting your hands off.
 
 # Quest.2009 - Excited Bee
 lostera.quest2009.name=Excited Bee
@@ -8092,15 +8092,15 @@ lostera.quest2011.desc=§6§lScientific Name:§r §o Incitapis Ecstatica%n§9§l
 
 # Quest.2012 - Shadowed Bee
 lostera.quest2012.name=Shadowed Bee
-lostera.quest2012.desc=§6§lScientific Name:§r §o Pullapis Shadowa%n§9§lFamily Branch:§r  §oApidae Pullapis %n%n§d§lBranch:§r Shadow Branch%n%n§a§lOrigin:§r Rocky bee + Sinister bee%n%n§7§l%nDescription:§r  
+lostera.quest2012.desc=§6§lScientific Name:§r §o Pullapis Shadowa%n§9§lFamily Branch:§r  §oApidae Pullapis %n%n§d§lBranch:§r Shadow Branch%n%n§a§lOrigin:§r Rocky bee + Sinister bee%n%n§7§l%nDescription:§r %n%nYou never see it coming, but you always feel it watching.
 
 # Quest.2013 - Darkened Bee
 lostera.quest2013.name=Darkened Bee
-lostera.quest2013.desc=§6§lScientific Name:§r §o Pullapis Darka%n§9§lFamily Branch:§r  §oApidae Pullapis %n%n§d§lBranch:§r Shadow Branch%n%n§a§lOrigin:§r Shadowed bee + Rocky bee%n%n§7§l%nDescription:§r  
+lostera.quest2013.desc=§6§lScientific Name:§r §o Pullapis Darka%n§9§lFamily Branch:§r  §oApidae Pullapis %n%n§d§lBranch:§r Shadow Branch%n%n§a§lOrigin:§r Shadowed bee + Rocky bee%n%n§7§l%nDescription:§r %n%nBuzzes in low, haunting tones, lurking where even light is afraid to go.
 
 # Quest.2014 - Abyssal Bee
 lostera.quest2014.name=Abyssal Bee
-lostera.quest2014.desc=§6§lScientific Name:§r §o Pullapis Abyssba%n§9§lFamily Branch:§r  §oApidae Pullapis %n%n§d§lBranch:§r Shadow Branch%n%n§a§lOrigin:§r Darkened bee + Shadowed bee%n%n§7§l%nDescription:§r %n%nYou merely adopted the dark. %nThese were born in it, molded by it.
+lostera.quest2014.desc=§6§lScientific Name:§r §o Pullapis Abyssba%n§9§lFamily Branch:§r  §oApidae Pullapis %n%n§d§lBranch:§r Shadow Branch%n%n§a§lOrigin:§r Darkened bee + Shadowed bee%n%n§7§l%nDescription:§r %n%nCrawled out of an ancient void, and honestly, it looks unhappy about it.
 
 # Quest.2015 - Vindictive Bee
 lostera.quest2015.name=Vindictive Bee
@@ -8136,15 +8136,15 @@ lostera.quest2022.desc=§6§lScientific Name:§r §oPaludapis Lama%n§9§lFamily
 
 # Quest.2023 - Abnormal Bee
 lostera.quest2023.name=Abnormal Bee
-lostera.quest2023.desc=§6§lScientific Name:§r §o Quantapis Daniella%n§9§lFamily Branch:§r  §oApidae Quantapis%n%n§d§lBranch:§r Quantum Branch%n%n§a§lOrigin:§r Secluded bee + Ender bee%n%n§7§l%nDescription:§r  
+lostera.quest2023.desc=§6§lScientific Name:§r §o Quantapis Daniella%n§9§lFamily Branch:§r  §oApidae Quantapis%n%n§d§lBranch:§r Quantum Branch%n%n§a§lOrigin:§r Secluded bee + Ender bee%n%n§7§l%nDescription:§r %n%nIts wings bend in ways they shouldn’t, and its honey drips upward.
 
 # Quest.2024 - Spatial Bee
 lostera.quest2024.name=Spatial Bee
-lostera.quest2024.desc=§6§lScientific Name:§r §o Quantapis Spatia%n§9§lFamily Branch:§r  §oApidae Quantapis%n%n§d§lBranch:§r Quantum Branch%n%n§a§lOrigin:§r Abnormal bee + Hermitic bee%n%n§7§l%nDescription:§r  
+lostera.quest2024.desc=§6§lScientific Name:§r §o Quantapis Spatia%n§9§lFamily Branch:§r  §oApidae Quantapis%n%n§d§lBranch:§r Quantum Branch%n%n§a§lOrigin:§r Abnormal bee + Hermitic bee%n%n§7§l%nDescription:§r %n%nIts hive exists in five dimensions, but it only stings in three.
 
 # Quest.2025 - Quantum Bee
 lostera.quest2025.name=Quantum Bee
-lostera.quest2025.desc=§6§lScientific Name:§r §o Quantapis Quanta%n§9§lFamily Branch:§r  §oApidae Quanta%n%n§d§lBranch:§r Quantum Branch%n%n§a§lOrigin:§r Spatial bee + Spectral bee%n%n§7§l%nDescription:§r  
+lostera.quest2025.desc=§6§lScientific Name:§r §o Quantapis Quanta%n§9§lFamily Branch:§r  §oApidae Quanta%n%n§d§lBranch:§r Quantum Branch%n%n§a§lOrigin:§r Spatial bee + Spectral bee%n%n§7§l%nDescription:§r %n%nIts honey exists in multiple states at once… but the flavor is uncertain.
 
 # Quest.2026 - Maroon Bee
 lostera.quest2026.name=Maroon Bee
@@ -8176,39 +8176,39 @@ lostera.quest2032.desc=§6§lScientific Name:§r §o Primapis Fuscus%n§9§lFami
 
 # Quest.2033 - Amber Bee
 lostera.quest2033.name=Amber Bee
-lostera.quest2033.desc=§6§lScientific Name:§r §o Secapis Flammeus%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Maroon bee + Saffron bee%n§7§l%n%nDescription:§r  
+lostera.quest2033.desc=§6§lScientific Name:§r §o Secapis Flammeus%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Maroon bee + Saffron bee%n§7§l%n%nDescription:§r %n%nBuzzing with the wisdom, yet still somehow stuck in the past.
 
 # Quest.2034 - Turquoise Bee
 lostera.quest2034.name=Turquoise Bee
-lostera.quest2034.desc=§6§lScientific Name:§r §o Secapis Cyana%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Natural bee + Prussian bee%n§7§l%n%nDescription:§r  
+lostera.quest2034.desc=§6§lScientific Name:§r §o Secapis Cyana%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Natural bee + Prussian bee%n§7§l%n%nDescription:§r %n%nShimmering between blue and green, its wings ripple like an ocean wave.
 
 # Quest.2035 - Indigo Bee
 lostera.quest2035.name=Indigo Bee
-lostera.quest2035.desc=§6§lScientific Name:§r §o Secapis Purpureus%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Maroon bee + Prussian bee%n§7§l%n%nDescription:§r  
+lostera.quest2035.desc=§6§lScientific Name:§r §o Secapis Purpureus%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Maroon bee + Prussian bee%n§7§l%n%nDescription:§r %n%nToo cool for the standard hive, it prefers the velvet hush of twilight.
 
 # Quest.2036 - Slate Bee
 lostera.quest2036.name=Slate Bee
-lostera.quest2036.desc=§6§lScientific Name:§r §o Secapis Ravus%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Ebony bee + Bleached bee%n§7§l%n%nDescription:§r  
+lostera.quest2036.desc=§6§lScientific Name:§r §o Secapis Ravus%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Ebony bee + Bleached bee%n§7§l%n%nDescription:§r %n%nBlends into the stone and vanishes when you least expect it.
 
 # Quest.2037 - Azure Bee
 lostera.quest2037.name=Azure Bee
-lostera.quest2037.desc=§6§lScientific Name:§r §o Secapis Aqua%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Prussian bee + Bleached bee%n§7§l%n%nDescription:§r  
+lostera.quest2037.desc=§6§lScientific Name:§r §o Secapis Aqua%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Prussian bee + Bleached bee%n§7§l%n%nDescription:§r %n%nAs light as the sky, as fleeting as a passing cloud.
 
 # Quest.2038 - Lavender Bee
 lostera.quest2038.name=Lavender Bee
-lostera.quest2038.desc=§6§lScientific Name:§r §o Secapis Rosaceus%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Maroon bee + Bleached bee%n§7§l%n%nDescription:§r  
+lostera.quest2038.desc=§6§lScientific Name:§r §o Secapis Rosaceus%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Maroon bee + Bleached bee%n§7§l%n%nDescription:§r %n%nToo chill to sting, but will absolutely judge your stress levels.
 
 # Quest.2039 - Lime Bee
 lostera.quest2039.name=Lime Bee
-lostera.quest2039.desc=§6§lScientific Name:§r §o Secapis Lima%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Natural bee + Bleached bee%n§7§l%n%nDescription:§r  
+lostera.quest2039.desc=§6§lScientific Name:§r §o Secapis Lima%n§9§lFamily Branch:§r  §oApidae Secapis%n%n§d§lBranch:§r Secondary Branch%n%n§a§lOrigin:§r Natural bee + Bleached bee%n§7§l%n%nDescription:§r %n%nZesty, energetic, and always buzzing just a little too fast.
 
 # Quest.2040 - Fuchsia Bee
 lostera.quest2040.name=Fuchsia Bee
-lostera.quest2040.desc=§6§lScientific Name:§r §o Tertiapis Fuchsia%n§9§lFamily Branch:§r  §oApidae Tertiapis%n%n§d§lBranch:§r Tertiary Branch%n%n§a§lOrigin:§r Indigo bee + Lavender bee%n§7§l%n%nDescription:§r  
+lostera.quest2040.desc=§6§lScientific Name:§r §o Tertiapis Fuchsia%n§9§lFamily Branch:§r  §oApidae Tertiapis%n%n§d§lBranch:§r Tertiary Branch%n%n§a§lOrigin:§r Indigo bee + Lavender bee%n§7§l%n%nDescription:§r %n%nBright, bold, and buzzing like it’s the life of the party.
 
 # Quest.2041 - Ashen Bee
 lostera.quest2041.name=Ashen Bee
-lostera.quest2041.desc=§6§lScientific Name:§r §o Tertiapis canus%n§9§lFamily Branch:§r  §oApidae Tertiapis%n%n§d§lBranch:§r Tertiary Branch%n%n§a§lOrigin:§r Slate bee + Bleached bee%n§7§l%n%nDescription:§r  
+lostera.quest2041.desc=§6§lScientific Name:§r §o Tertiapis canus%n§9§lFamily Branch:§r  §oApidae Tertiapis%n%n§d§lBranch:§r Tertiary Branch%n%n§a§lOrigin:§r Slate bee + Bleached bee%n§7§l%n%nDescription:§r %n%nBuzzing softly, like a forgotten melody from a world long gone.
 
 # Quest.2042 - Mystical Bee
 lostera.quest2042.name=Mystical Bee
@@ -8304,7 +8304,7 @@ lostera.quest2064.desc=§6§lScientific Name:§r §o Malevonapis Malevolens%n§9
 
 # Quest.2065 - Ghastly Bee
 lostera.quest2065.name=Ghastly Bee
-lostera.quest2065.desc=§6§lScientific Name:§r §o Malevonapis Pallens%n§9§lFamily:§r  §oApidae Malevolenapis%n%n§r§d§lBranch:§r Skulking Branch%n%n§a§lOrigin: §rSkulking bee + Ethereal bee%n%n§7§l%nDescription:§r %n%n"*sigh*... Really, Myst?"
+lostera.quest2065.desc=§6§lScientific Name:§r §o Malevonapis Pallens%n§9§lFamily:§r  §oApidae Malevolenapis%n%n§r§d§lBranch:§r Skulking Branch%n%n§a§lOrigin: §rBatty bee + Ethereal bee%n%n§7§l%nDescription:§r %n%n"*sigh*... Really, Myst?"
 
 # Quest.2066 - Spidery Bee
 lostera.quest2066.name=Spidery Bee
@@ -8996,115 +8996,115 @@ lostera.quest2237.desc=§6§lScientific Name:§r §o Malus Domestica%n§9§lFami
 
 # Quest.2238 - Sweet Crab Apple
 lostera.quest2238.name=Sweet Crab Apple
-lostera.quest2238.desc=§6§lScientific Name:§r §o Malus Coronaria%n§9§lFamily:§r  §oPlantae Malus%n%n§r§d§lBranch:§r Malus Branch%n%n§c§lFruit:§r Crabapple%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrchard Apple + Sugar Maple%n%n%n§7§lDescription:§r  
+lostera.quest2238.desc=§6§lScientific Name:§r §o Malus Coronaria%n§9§lFamily:§r  §oPlantae Malus%n%n§r§d§lBranch:§r Malus Branch%n%n§c§lFruit:§r Crabapple%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrchard Apple + Sugar Maple%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2239 - Flowering Crab Apple
 lostera.quest2239.name=Flowering Crab Apple
-lostera.quest2239.desc=§6§lScientific Name:§r §o Malus Hopa%n§9§lFamily:§r  §oPlantae Malus%n%n§r§d§lBranch:§r Malus Branch%n%n§c§lFruit:§r Crabapple%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrchard Apple + Sweet Crab Apple%n%n%n§7§lDescription:§r  
+lostera.quest2239.desc=§6§lScientific Name:§r §o Malus Hopa%n§9§lFamily:§r  §oPlantae Malus%n%n§r§d§lBranch:§r Malus Branch%n%n§c§lFruit:§r Crabapple%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrchard Apple + Sweet Crab Apple%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2240 - Prairie Crab Apple
 lostera.quest2240.name=Prairie Crab Apple
-lostera.quest2240.desc=§6§lScientific Name:§r §o Malus Ioensis%n§9§lFamily:§r  §oPlantae Malus%n%n§r§d§lBranch:§r Malus Branch%n%n§c§lFruit:§r Crabapple%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrchard Apple + Silver Birch%n%n%n§7§lDescription:§r  
+lostera.quest2240.desc=§6§lScientific Name:§r §o Malus Ioensis%n§9§lFamily:§r  §oPlantae Malus%n%n§r§d§lBranch:§r Malus Branch%n%n§c§lFruit:§r Crabapple%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrchard Apple + Silver Birch%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2241 - Blackthorn
 lostera.quest2241.name=Blackthorn
-lostera.quest2241.desc=§6§lScientific Name:§r §o Prunus Spinosa%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Blackthorn%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Orchard Apple%n%n%n§7§lDescription:§r  
+lostera.quest2241.desc=§6§lScientific Name:§r §o Prunus Spinosa%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Blackthorn%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Orchard Apple%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2242 - Cherry Plum
 lostera.quest2242.name=Cherry Plum
-lostera.quest2242.desc=§6§lScientific Name:§r §o Prunus Cerasifera%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Cherry Plum%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Hill Cherry%n%n%n§7§lDescription:§r  
+lostera.quest2242.desc=§6§lScientific Name:§r §o Prunus Cerasifera%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Cherry Plum%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Hill Cherry%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2243 - Peach
 lostera.quest2243.name=Peach
-lostera.quest2243.desc=§6§lScientific Name:§r §o Prunus Persica%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Peach%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Sweet Chestnut%n%n%n§7§lDescription:§r  
+lostera.quest2243.desc=§6§lScientific Name:§r §o Prunus Persica%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Peach%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Sweet Chestnut%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2244 - Nectarine
 lostera.quest2244.name=Nectarine
-lostera.quest2244.desc=§6§lScientific Name:§r §o Prunus Nectarina%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Nectarine%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Peach%n%n%n§7§lDescription:§r  
+lostera.quest2244.desc=§6§lScientific Name:§r §o Prunus Nectarina%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Nectarine%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Peach%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2245 - Apricot
 lostera.quest2245.name=Apricot
-lostera.quest2245.desc=§6§lScientific Name:§r §o Prunus Armeniaca%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Apricot%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Peach%n%n%n§7§lDescription:§r  
+lostera.quest2245.desc=§6§lScientific Name:§r §o Prunus Armeniaca%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Apricot%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Peach%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2246 - Almond
 lostera.quest2246.name=Almond
-lostera.quest2246.desc=§6§lScientific Name:§r §o Prunus Amygdalus%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Almond%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Common Walnut%n%n%n§7§lDescription:§r  
+lostera.quest2246.desc=§6§lScientific Name:§r §o Prunus Amygdalus%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Almond%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPlum + Common Walnut%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2247 - Wild Cherry
 lostera.quest2247.name=Wild Cherry
-lostera.quest2247.desc=§6§lScientific Name:§r §o Prunus Avium%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Wild Cherry%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rSilver Lime + Hill Cherry%n%n%n§7§lDescription:§r  
+lostera.quest2247.desc=§6§lScientific Name:§r §o Prunus Avium%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Wild Cherry%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rSilver Lime + Hill Cherry%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2248 - Sour Cherry
 lostera.quest2248.name=Sour Cherry
-lostera.quest2248.desc=§6§lScientific Name:§r §o Prunus Cerasus%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Sour Cherry%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rWhite Willow + Hill Cherry%n%n%n§7§lDescription:§r  
+lostera.quest2248.desc=§6§lScientific Name:§r §o Prunus Cerasus%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Prunus Branch%n%n§c§lFruit:§r Sour Cherry%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rWhite Willow + Hill Cherry%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2249 - Orange
 lostera.quest2249.name=Orange
-lostera.quest2249.desc=§6§lScientific Name:§r §o Citrus Sinensis%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Orange%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPomelo + Mandarin%n%n%n§7§lDescription:§r  
+lostera.quest2249.desc=§6§lScientific Name:§r §o Citrus Sinensis%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Orange%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPomelo + Mandarin%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2250 - Mandarin
 lostera.quest2250.name=Mandarin
-lostera.quest2250.desc=§6§lScientific Name:§r §o Citrus Reticulata%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Manderin%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPomelo + Hill Cherry%n%n%n§7§lDescription:§r  
+lostera.quest2250.desc=§6§lScientific Name:§r §o Citrus Reticulata%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Manderin%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPomelo + Hill Cherry%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2251 - Satsuma
 lostera.quest2251.name=Satsuma
-lostera.quest2251.desc=§6§lScientific Name:§r §o Citrus Unshie%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Satsuma%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rKumquat + Mandarin%n%n%n§7§lDescription:§r  
+lostera.quest2251.desc=§6§lScientific Name:§r §o Citrus Unshie%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Satsuma%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rKumquat + Mandarin%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2252 - Tangerine
 lostera.quest2252.name=Tangerine
-lostera.quest2252.desc=§6§lScientific Name:§r §o Citrus Tangerina%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Tangerine%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rKumquat + Mandarin%n%n%n§7§lDescription:§r  
+lostera.quest2252.desc=§6§lScientific Name:§r §o Citrus Tangerina%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Tangerine%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rKumquat + Mandarin%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2253 - Lime
 lostera.quest2253.name=Lime
-lostera.quest2253.desc=§6§lScientific Name:§r §o Citrus Latifolia%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Tangerine%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPomelo + Key Lime%n%n%n§7§lDescription:§r  
+lostera.quest2253.desc=§6§lScientific Name:§r §o Citrus Latifolia%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Tangerine%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPomelo + Key Lime%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2254 - Key Lime
 lostera.quest2254.name=Key Lime
-lostera.quest2254.desc=§6§lScientific Name:§r §o Citrus Aurantifolia%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Key Lime%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rHill Cherry + Lemon%n%n%n§7§lDescription:§r  
+lostera.quest2254.desc=§6§lScientific Name:§r §o Citrus Aurantifolia%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Key Lime%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rHill Cherry + Lemon%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2255 - Finger Lime
 lostera.quest2255.name=Finger Lime
-lostera.quest2255.desc=§6§lScientific Name:§r §o Citrus Australasica%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Finger Lime%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rKey Lime + Lemon%n%n%n§7§lDescription:§r  
+lostera.quest2255.desc=§6§lScientific Name:§r §o Citrus Australasica%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Finger Lime%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rKey Lime + Lemon%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2256 - Pomelo
 lostera.quest2256.name=Pomelo
-lostera.quest2256.desc=§6§lScientific Name:§r §o Citrus Maxima%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Pomelo%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rHill Cherry + Lemon%n%n%n§7§lDescription:§r  
+lostera.quest2256.desc=§6§lScientific Name:§r §o Citrus Maxima%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Pomelo%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rHill Cherry + Lemon%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2257 - Grapefruit
 lostera.quest2257.name=Grapefruit
-lostera.quest2257.desc=§6§lScientific Name:§r §o Citrus Paradisi%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Grapefruit%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrange + Pomelo%n%n%n§7§lDescription:§r  
+lostera.quest2257.desc=§6§lScientific Name:§r §o Citrus Paradisi%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Grapefruit%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrange + Pomelo%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2258 - Kumquat
 lostera.quest2258.name=Kumquat
-lostera.quest2258.desc=§6§lScientific Name:§r §o Citrus Margarita%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Kumquat%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rMandarin + Hill Cherry%n%n%n§7§lDescription:§r  
+lostera.quest2258.desc=§6§lScientific Name:§r §o Citrus Margarita%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Kumquat%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rMandarin + Hill Cherry%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2259 - Citron
 lostera.quest2259.name=Citron
-lostera.quest2259.desc=§6§lScientific Name:§r §o Citrus Medica%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Citron%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPomelo + Lemon%n%n%n§7§lDescription:§r  
+lostera.quest2259.desc=§6§lScientific Name:§r §o Citrus Medica%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Citron%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rPomelo + Lemon%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2260 - Buddha's Hand
 lostera.quest2260.name=Buddha's Hand
-lostera.quest2260.desc=§6§lScientific Name:§r §o Citrus Sarcodactylus%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Citron%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rCitron + Mandarin%n%n§7§lDescription:§r  
+lostera.quest2260.desc=§6§lScientific Name:§r §o Citrus Sarcodactylus%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Citrus Branch%n%n§c§lFruit:§r Citron%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rCitron + Mandarin%n%n§7§lDescription:§r %n%n
 
 # Quest.2261 - Butternut
 lostera.quest2261.name=Butternut
-lostera.quest2261.desc=§6§lScientific Name:§r §o Juglans Cinerea%n§9§lFamily:§r  §oPlantae Juglans%n%n§r§d§lBranch:§r Juglans Branch%n%n§c§lFruit:§r Butternut%n§b§lSupports:§r Pomes/Prunes/Nuts/Citrus%n%n§a§lOrigin: §rCommon Walnut + Hill Cherry%n%n%n§7§lDescription:§r  
+lostera.quest2261.desc=§6§lScientific Name:§r §o Juglans Cinerea%n§9§lFamily:§r  §oPlantae Juglans%n%n§r§d§lBranch:§r Juglans Branch%n%n§c§lFruit:§r Butternut%n§b§lSupports:§r Pomes/Prunes/Nuts/Citrus%n%n§a§lOrigin: §rCommon Walnut + Hill Cherry%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2262 - Common Ash
 lostera.quest2262.name=Common Ash
-lostera.quest2262.desc=§6§lScientific Name:§r §o Fraxinus Excelsior%n§9§lFamily:§r  §oPlantae Fraxinus%n%n§r§d§lBranch:§r Fraxinus Branch%n%n§c§lFruit:§r Apples%n§b§lSupports:§r Pomes/Prunes/Nuts/Citrus%n%n§a§lOrigin: §rSilver Lime + Red Spruce%n%n%n§7§lDescription:§r  
+lostera.quest2262.desc=§6§lScientific Name:§r §o Fraxinus Excelsior%n§9§lFamily:§r  §oPlantae Fraxinus%n%n§r§d§lBranch:§r Fraxinus Branch%n%n§c§lFruit:§r Apples%n§b§lSupports:§r Pomes/Prunes/Nuts/Citrus%n%n§a§lOrigin: §rSilver Lime + Red Spruce%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2263 - Sycamore Fig
 lostera.quest2263.name=Sycamore Fig
-lostera.quest2263.desc=§6§lScientific Name:§r §o Ficus Sycomorus%n§9§lFamily:§r  §oPlantae Fraxinus%n%n§r§d§lBranch:§r Fraxinus Branch%n%n§c§lFruit:§r Fig%n§b§lSupports:§r Prunes/Nuts/Citrus%n%n§a§lOrigin: §rCommon Ash + Sugar Maple%n%n§7§lDescription:§r  
+lostera.quest2263.desc=§6§lScientific Name:§r §o Ficus Sycomorus%n§9§lFamily:§r  §oPlantae Fraxinus%n%n§r§d§lBranch:§r Fraxinus Branch%n%n§c§lFruit:§r Fig%n§b§lSupports:§r Prunes/Nuts/Citrus%n%n§a§lOrigin: §rCommon Ash + Sugar Maple%n%n§7§lDescription:§r %n%n
 
 # Quest.2264 - Whitebeam
 lostera.quest2264.name=Whitebeam
-lostera.quest2264.desc=§6§lScientific Name:§r §o Sorbus Aria%n§9§lFamily:§r  §oPlantae Sorbus%n%n§r§d§lBranch:§r Sorbus Branch%n%n§c§lFruit:§r Apple%n§b§lSupports:§r Pommes/Prunes%n%n§a§lOrigin: §rCommon Ash + Silver Birch%n%n§7§lDescription:§r  
+lostera.quest2264.desc=§6§lScientific Name:§r §o Sorbus Aria%n§9§lFamily:§r  §oPlantae Sorbus%n%n§r§d§lBranch:§r Sorbus Branch%n%n§c§lFruit:§r Apple%n§b§lSupports:§r Pommes/Prunes%n%n§a§lOrigin: §rCommon Ash + Silver Birch%n%n§7§lDescription:§r %n%n
 
 # Quest.2265 - Common Elm
 lostera.quest2265.name=Common Elm
-lostera.quest2265.desc=§6§lScientific Name:§r §o Ulmus Procera%n§9§lFamily:§r  §oPlantae Ulmus%n%n§r§d§lBranch:§r Ulmus Branch%n%n§c§lFruit:§r Apple%n§b§lSupports:§r Pommes/Prunes%n%n§a§lOrigin: §rCommon Ash + Bull Pine%n%n§7§lDescription:§r  
+lostera.quest2265.desc=§6§lScientific Name:§r §o Ulmus Procera%n§9§lFamily:§r  §oPlantae Ulmus%n%n§r§d§lBranch:§r Ulmus Branch%n%n§c§lFruit:§r Apple%n§b§lSupports:§r Pommes/Prunes%n%n§a§lOrigin: §rCommon Ash + Bull Pine%n%n§7§lDescription:§r %n%n
 
 # Quest.2266 - Common Hornbeam
 lostera.quest2266.name=Common Hornbeam
@@ -9112,15 +9112,15 @@ lostera.quest2266.desc=§6§lScientific Name:§r §o Carpinus Betulus%n§9§lFam
 
 # Quest.2267 - Acorn Oak
 lostera.quest2267.name=Acorn Oak
-lostera.quest2267.desc=§6§lScientific Name:§r §o Quercus Robur%n§9§lFamily:§r  §oPlantae Quercus%n%n§r§d§lBranch:§r Quercus Branch%n%n§c§lFruit:§r Acorn%n§b§lSupports:§r Pomes/Prunes/Nuts%n%n§a§lOrigin: §rCommon Walnut + Apple Oak%n%n§7§lDescription:§r  
+lostera.quest2267.desc=§6§lScientific Name:§r §o Quercus Robur%n§9§lFamily:§r  §oPlantae Quercus%n%n§r§d§lBranch:§r Quercus Branch%n%n§c§lFruit:§r Acorn%n§b§lSupports:§r Pomes/Prunes/Nuts%n%n§a§lOrigin: §rCommon Walnut + Apple Oak%n%n§7§lDescription:§r %n%n
 
 # Quest.2268 - Olive
 lostera.quest2268.name=Olive
-lostera.quest2268.desc=§6§lScientific Name:§r §o Olea Europaea%n§9§lFamily:§r  §oPlantae Olea%n%n§r§d§lBranch:§r Olea Branch%n%n§c§lFruit:§r Olive%n§b§lSupports:§r Prunes/Nuts/Citrus%n%n§a§lOrigin: §rHill Cherry + Common Alder%n%n§7§lDescription:§r  
+lostera.quest2268.desc=§6§lScientific Name:§r §o Olea Europaea%n§9§lFamily:§r  §oPlantae Olea%n%n§r§d§lBranch:§r Olea Branch%n%n§c§lFruit:§r Olive%n§b§lSupports:§r Prunes/Nuts/Citrus%n%n§a§lOrigin: §rHill Cherry + Common Alder%n%n§7§lDescription:§r %n%n
 
 # Quest.2269 - Red Maple
 lostera.quest2269.name=Red Maple
-lostera.quest2269.desc=§6§lScientific Name:§r §o Acer Ubrum%n§9§lFamily:§r  §oPlantae Acer%n%n§r§d§lBranch:§r Acer Branch%n%n§c§lFruit:§r Apple%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rSugar Maple + Silver Lime%n%n§7§lDescription:§r  
+lostera.quest2269.desc=§6§lScientific Name:§r §o Acer Ubrum%n§9§lFamily:§r  §oPlantae Acer%n%n§r§d§lBranch:§r Acer Branch%n%n§c§lFruit:§r Apple%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rSugar Maple + Silver Lime%n%n§7§lDescription:§r %n%n
 
 # Quest.2270 - Sweetgum
 lostera.quest2270.name=Sweetgum
@@ -9128,51 +9128,51 @@ lostera.quest2270.desc=§6§lScientific Name:§r §o Liquidambar Styraciflua%n§
 
 # Quest.2271 - Cultivated Pear
 lostera.quest2271.name=Cultivated Pear
-lostera.quest2271.desc=§6§lScientific Name:§r §o Pyrus Communis%n§9§lFamily:§r  §oPlantae Pyrus%n%n§r§d§lBranch:§r Pyrus Branch%n%n§c§lFruit:§r Pear%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrchard Apple + Silver Birch%n%n§7§lDescription:§r  
+lostera.quest2271.desc=§6§lScientific Name:§r §o Pyrus Communis%n§9§lFamily:§r  §oPlantae Pyrus%n%n§r§d§lBranch:§r Pyrus Branch%n%n§c§lFruit:§r Pear%n§b§lSupports:§r Pomes/Prunes/Citrus%n%n§a§lOrigin: §rOrchard Apple + Silver Birch%n%n§7§lDescription:§r %n%n
 
 # Quest.2272 - Clove
 lostera.quest2272.name=Clove
-lostera.quest2272.desc=§6§lScientific Name:§r §o Syzygium Aromaticum%n§9§lFamily:§r  §oPlantae Syzygium%n%n§r§d§lBranch:§r Syzygium Branch%n%n§c§lFruit:§r Clove%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rCoffee + Teak%n%n§7§lDescription:§r  
+lostera.quest2272.desc=§6§lScientific Name:§r §o Syzygium Aromaticum%n§9§lFamily:§r  §oPlantae Syzygium%n%n§r§d§lBranch:§r Syzygium Branch%n%n§c§lFruit:§r Clove%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rCoffee + Teak%n%n§7§lDescription:§r %n%n
 
 # Quest.2273 - Coffee
 lostera.quest2273.name=Coffee
-lostera.quest2273.desc=§6§lScientific Name:§r §o Coffea Arabica%n§9§lFamily:§r  §oPlantae Coffea%n%n§r§d§lBranch:§r Coffea Branch%n%n§c§lFruit:§r Coffee%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rHill Cherry + Jungle%n%n§7§lDescription:§r  
+lostera.quest2273.desc=§6§lScientific Name:§r §o Coffea Arabica%n§9§lFamily:§r  §oPlantae Coffea%n%n§r§d§lBranch:§r Coffea Branch%n%n§c§lFruit:§r Coffee%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rHill Cherry + Jungle%n%n§7§lDescription:§r %n%n
 
 # Quest.2274 - Blackcurrant
 lostera.quest2274.name=Blackcurrant
-lostera.quest2274.desc=§6§lScientific Name:§r §o Ribes Nigrum%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Ribes Branch%n%n§c§lFruit:§r Blackcurrant%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rBlack Cherry + Redcurrant%n%n§7§lDescription:§r  
+lostera.quest2274.desc=§6§lScientific Name:§r §o Ribes Nigrum%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Ribes Branch%n%n§c§lFruit:§r Blackcurrant%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rBlack Cherry + Redcurrant%n%n§7§lDescription:§r %n%n
 
 # Quest.2275 - Redcurrant
 lostera.quest2275.name=Redcurrant
-lostera.quest2275.desc=§6§lScientific Name:§r §o Ribes Rubrum%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Ribes Branch%n%n§c§lFruit:§r Redcurrant%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rHill Cherry + Elderberry%n%n§7§lDescription:§r  
+lostera.quest2275.desc=§6§lScientific Name:§r §o Ribes Rubrum%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Ribes Branch%n%n§c§lFruit:§r Redcurrant%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rHill Cherry + Elderberry%n%n§7§lDescription:§r %n%n
 
 # Quest.2276 - Blackberry
 lostera.quest2276.name=Blackberry
-lostera.quest2276.desc=§6§lScientific Name:§r §o Ribes Fruticosus%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Ribes Branch%n%n§c§lFruit:§r Blackberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rBlack Cherry + Raspberry%n%n§7§lDescription:§r  
+lostera.quest2276.desc=§6§lScientific Name:§r §o Ribes Fruticosus%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Ribes Branch%n%n§c§lFruit:§r Blackberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rBlack Cherry + Raspberry%n%n§7§lDescription:§r %n%n
 
 # Quest.2277 - Raspberry
 lostera.quest2277.name=Raspberry
-lostera.quest2277.desc=§6§lScientific Name:§r §o Rubus Idaeus%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Rubus Branch%n%n§c§lFruit:§r Raspberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rHill Cherry + Elderberry%n%n§7§lDescription:§r  
+lostera.quest2277.desc=§6§lScientific Name:§r §o Rubus Idaeus%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Rubus Branch%n%n§c§lFruit:§r Raspberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rHill Cherry + Elderberry%n%n§7§lDescription:§r %n%n
 
 # Quest.2278 - Blueberry
 lostera.quest2278.name=Blueberry
-lostera.quest2278.desc=§6§lScientific Name:§r §o Vaccinium Corybosum%n§9§lFamily:§r  §oPlantae Vaccinium%n%n§r§d§lBranch:§r Vaccinium Branch%n%n§c§lFruit:§r Blueberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rBlackberry + Raspberry%n%n§7§lDescription:§r  
+lostera.quest2278.desc=§6§lScientific Name:§r §o Vaccinium Corybosum%n§9§lFamily:§r  §oPlantae Vaccinium%n%n§r§d§lBranch:§r Vaccinium Branch%n%n§c§lFruit:§r Blueberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rBlackberry + Raspberry%n%n§7§lDescription:§r %n%n
 
 # Quest.2279 - Cranberry
 lostera.quest2279.name=Cranberry
-lostera.quest2279.desc=§6§lScientific Name:§r §o Vaccinium Oxycoccos%n§9§lFamily:§r  §oPlantae Vaccinium%n%n§r§d§lBranch:§r Vaccinium Branch%n%n§c§lFruit:§r Cranberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rBlackberry + Cherry Plum%n%n§7§lDescription:§r  
+lostera.quest2279.desc=§6§lScientific Name:§r §o Vaccinium Oxycoccos%n§9§lFamily:§r  §oPlantae Vaccinium%n%n§r§d§lBranch:§r Vaccinium Branch%n%n§c§lFruit:§r Cranberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rBlackberry + Cherry Plum%n%n§7§lDescription:§r %n%n
 
 # Quest.2280 - Juniper
 lostera.quest2280.name=Juniper
-lostera.quest2280.desc=§6§lScientific Name:§r §o Juniperus Communis%n§9§lFamily:§r  §oPlantae Juniperus%n%n§r§d§lBranch:§r Juniperus Branch%n%n§c§lFruit:§r Juniper%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rRaspberry + Silver Fir%n%n§7§lDescription:§r  
+lostera.quest2280.desc=§6§lScientific Name:§r §o Juniperus Communis%n§9§lFamily:§r  §oPlantae Juniperus%n%n§r§d§lBranch:§r Juniperus Branch%n%n§c§lFruit:§r Juniper%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rRaspberry + Silver Fir%n%n§7§lDescription:§r %n%n
 
 # Quest.2281 - Gooseberry
 lostera.quest2281.name=Gooseberry
-lostera.quest2281.desc=§6§lScientific Name:§r §o Ribes Grossularia%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Ribes Branch%n%n§c§lFruit:§r Gooseberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rRaspberry + Lime%n%n§7§lDescription:§r  
+lostera.quest2281.desc=§6§lScientific Name:§r §o Ribes Grossularia%n§9§lFamily:§r  §oPlantae Ribes%n%n§r§d§lBranch:§r Ribes Branch%n%n§c§lFruit:§r Gooseberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rRaspberry + Lime%n%n§7§lDescription:§r %n%n
 
 # Quest.2282 - Golden Raspberry
 lostera.quest2282.name=Golden Raspberry
-lostera.quest2282.desc=§6§lScientific Name:§r §o Rubus Occidentalis%n§9§lFamily:§r  §oPlantae Rubus%n%n§r§d§lBranch:§r Rubus Branch%n%n§c§lFruit:§r Golden Raspberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rRaspberry + Orange%n%n§7§lDescription:§r  
+lostera.quest2282.desc=§6§lScientific Name:§r §o Rubus Occidentalis%n§9§lFamily:§r  §oPlantae Rubus%n%n§r§d§lBranch:§r Rubus Branch%n%n§c§lFruit:§r Golden Raspberry%n§b§lSupports:§r Prunes/Nuts/Berries%n%n§a§lOrigin: §rRaspberry + Orange%n%n§7§lDescription:§r %n%n
 
 # Quest.2283 - Cinnamon
 lostera.quest2283.name=Cinnamon
@@ -9180,39 +9180,39 @@ lostera.quest2283.desc=§6§lScientific Name:§r §o Cinnamomum Cassia%n§9§lFa
 
 # Quest.2284 - Coconut
 lostera.quest2284.name=Coconut
-lostera.quest2284.desc=§6§lScientific Name:§r §o Cocous Nucifera%n§9§lFamily:§r  §oPlantae Cocous%n%n§r§d§lBranch:§r Cocous Branch%n%n§c§lFruit:§r Coconut%n§b§lSupports:§r Jungle%n%n§a§lOrigin: §rBalsa + Brazil Nut%n%n%n§7§lDescription:§r  
+lostera.quest2284.desc=§6§lScientific Name:§r §o Cocous Nucifera%n§9§lFamily:§r  §oPlantae Cocous%n%n§r§d§lBranch:§r Cocous Branch%n%n§c§lFruit:§r Coconut%n§b§lSupports:§r Jungle%n%n§a§lOrigin: §rBalsa + Brazil Nut%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2285 - Cashew
 lostera.quest2285.name=Cashew
-lostera.quest2285.desc=§6§lScientific Name:§r §o Anacardium Occidentale%n§9§lFamily:§r  §oPlantae Anacardium%n%n§r§d§lBranch:§r Anacardium Branch%n%n§c§lFruit:§r Cashew%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rTeak + Apple Oak%n%n§7§lDescription:§r  
+lostera.quest2285.desc=§6§lScientific Name:§r §o Anacardium Occidentale%n§9§lFamily:§r  §oPlantae Anacardium%n%n§r§d§lBranch:§r Anacardium Branch%n%n§c§lFruit:§r Cashew%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rTeak + Apple Oak%n%n§7§lDescription:§r %n%n
 
 # Quest.2286 - Avocado
 lostera.quest2286.name=Avocado
-lostera.quest2286.desc=§6§lScientific Name:§r §o Persea Americana%n§9§lFamily:§r  §oPlantae Persea%n%n§r§d§lBranch:§r Persea Branch%n%n§c§lFruit:§r Avacado%n§b§lSupports:§r Prunes/Citrus/Jungle%n%n§a§lOrigin: §rWenge + Apple Oak%n%n§7§lDescription:§r  
+lostera.quest2286.desc=§6§lScientific Name:§r §o Persea Americana%n§9§lFamily:§r  §oPlantae Persea%n%n§r§d§lBranch:§r Persea Branch%n%n§c§lFruit:§r Avacado%n§b§lSupports:§r Prunes/Citrus/Jungle%n%n§a§lOrigin: §rWenge + Apple Oak%n%n§7§lDescription:§r %n%n
 
 # Quest.2287 - Nutmeg
 lostera.quest2287.name=Nutmeg
-lostera.quest2287.desc=§6§lScientific Name:§r §o Myristica Fragrans%n§9§lFamily:§r  §oPlantae Myristica%n%n§r§d§lBranch:§r Myristica Branch%n%n§c§lFruit:§r Nutmeg%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rTeak + Clove%n%n%n§7§lDescription:§r  
+lostera.quest2287.desc=§6§lScientific Name:§r §o Myristica Fragrans%n§9§lFamily:§r  §oPlantae Myristica%n%n§r§d§lBranch:§r Myristica Branch%n%n§c§lFruit:§r Nutmeg%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rTeak + Clove%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2288 - Allspice
 lostera.quest2288.name=Allspice
-lostera.quest2288.desc=§6§lScientific Name:§r §o Pimenta Dioica%n§9§lFamily:§r  §oPlantae Pimenta%n%n§r§d§lBranch:§r Pimenta Branch%n%n§c§lFruit:§r Allspice%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rTeak + Clove%n%n%n§7§lDescription:§r  
+lostera.quest2288.desc=§6§lScientific Name:§r §o Pimenta Dioica%n§9§lFamily:§r  §oPlantae Pimenta%n%n§r§d§lBranch:§r Pimenta Branch%n%n§c§lFruit:§r Allspice%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rTeak + Clove%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2289 - Chilli Pepper
 lostera.quest2289.name=Chilli Pepper
-lostera.quest2289.desc=§6§lScientific Name:§r §o Capsicum Annuum%n§9§lFamily:§r  §oPlantae Capsicum%n%n§r§d§lBranch:§r Capsicum Branch%n%n§c§lFruit:§r Chilli%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rCommon Hazel + Ginkgo%n%n%n§7§lDescription:§r  
+lostera.quest2289.desc=§6§lScientific Name:§r §o Capsicum Annuum%n§9§lFamily:§r  §oPlantae Capsicum%n%n§r§d§lBranch:§r Capsicum Branch%n%n§c§lFruit:§r Chilli%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rCommon Hazel + Ginkgo%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2290 - Star Anise
 lostera.quest2290.name=Star Anise
-lostera.quest2290.desc=§6§lScientific Name:§r §o Illicium Verum%n§9§lFamily:§r  §oPlantae Illicium%n%n§r§d§lBranch:§r Illicium Branch%n%n§c§lFruit:§r Star Anise%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rAllspice + Clove%n%n%n§7§lDescription:§r  
+lostera.quest2290.desc=§6§lScientific Name:§r §o Illicium Verum%n§9§lFamily:§r  §oPlantae Illicium%n%n§r§d§lBranch:§r Illicium Branch%n%n§c§lFruit:§r Star Anise%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rAllspice + Clove%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2291 - Mango
 lostera.quest2291.name=Mango
-lostera.quest2291.desc=§6§lScientific Name:§r §o Mangifera Indica%n§9§lFamily:§r  §oPlantae Mangifera%n%n§r§d§lBranch:§r Mangifera Branch%n%n§c§lFruit:§r Mango%n§b§lSupports:§r Pomes/Prunes/Citrus/Jungle%n%n§a§lOrigin: §rJungle + Orange%n%n§7§lDescription:§r  
+lostera.quest2291.desc=§6§lScientific Name:§r §o Mangifera Indica%n§9§lFamily:§r  §oPlantae Mangifera%n%n§r§d§lBranch:§r Mangifera Branch%n%n§c§lFruit:§r Mango%n§b§lSupports:§r Pomes/Prunes/Citrus/Jungle%n%n§a§lOrigin: §rJungle + Orange%n%n§7§lDescription:§r %n%n
 
 # Quest.2292 - Starfruit
 lostera.quest2292.name=Starfruit
-lostera.quest2292.desc=§6§lScientific Name:§r §o Averrhoa Carambola%n§9§lFamily:§r  §oPlantae Carambola%n%n§r§d§lBranch:§r Carambola Branch%n%n§c§lFruit:§r Starfruit%n§b§lSupports:§r Prunes/Citrus/Jungle%n%n§a§lOrigin: §rStar Anise + Mango%n%n§7§lDescription:§r  
+lostera.quest2292.desc=§6§lScientific Name:§r §o Averrhoa Carambola%n§9§lFamily:§r  §oPlantae Carambola%n%n§r§d§lBranch:§r Carambola Branch%n%n§c§lFruit:§r Starfruit%n§b§lSupports:§r Prunes/Citrus/Jungle%n%n§a§lOrigin: §rStar Anise + Mango%n%n§7§lDescription:§r %n%n
 
 # Quest.2293 - Silver Lime
 lostera.quest2293.name=Silver Lime
@@ -9224,11 +9224,11 @@ lostera.quest2294.desc=§6§lScientific Name:§r §o Junglans Regia%n§9§lFamil
 
 # Quest.2295 - Candlenut
 lostera.quest2295.name=Candlenut
-lostera.quest2295.desc=§6§lScientific Name:§r §o Aleurites Moluccana%n§9§lFamily:§r  §oPlantae Aleurites%n%n§r§d§lBranch:§r Aleurites Branch%n%n§c§lFruit:§r Candlenut%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rCommon Hazel + Ginkgo%n%n%n§7§lDescription:§r  
+lostera.quest2295.desc=§6§lScientific Name:§r §o Aleurites Moluccana%n§9§lFamily:§r  §oPlantae Aleurites%n%n§r§d§lBranch:§r Aleurites Branch%n%n§c§lFruit:§r Candlenut%n§b§lSupports:§r Nuts/Jungle%n%n§a§lOrigin: §rCommon Hazel + Ginkgo%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2296 - Dwarf Hazel
 lostera.quest2296.name=Dwarf Hazel
-lostera.quest2296.desc=§6§lScientific Name:§r §o Corylus Americana%n§9§lFamily:§r  §oPlantae Corylus%n%n§r§d§lBranch:§r Corylus Branch%n%n§c§lFruit:§r Hazelnut%n§b§lSupports:§r Prunes/Nuts%n%n§a§lOrigin: §rCommon Hazel + Common Alder%n%n%n§7§lDescription:§r  
+lostera.quest2296.desc=§6§lScientific Name:§r §o Corylus Americana%n§9§lFamily:§r  §oPlantae Corylus%n%n§r§d§lBranch:§r Corylus Branch%n%n§c§lFruit:§r Hazelnut%n§b§lSupports:§r Prunes/Nuts%n%n§a§lOrigin: §rCommon Hazel + Common Alder%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2297 - Sweet Chestnut
 lostera.quest2297.name=Sweet Chestnut
@@ -9240,47 +9240,47 @@ lostera.quest2298.desc=§6§lScientific Name:§r §o Prunus Serrulata%n§9§lFam
 
 # Quest.2299 - Lemon
 lostera.quest2299.name=Lemon
-lostera.quest2299.desc=§6§lScientific Name:§r §o Citrus Limon%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Branch Citrus%n%n§c§lFruit:§r Lemon%n§b§lSupports:§r Prunes/Pomes/Citrus%n%n§a§lOrigin: §rSilver Lime + Hill Cherry%n%n%n§7§lDescription:§r  
+lostera.quest2299.desc=§6§lScientific Name:§r §o Citrus Limon%n§9§lFamily:§r  §oPlantae Citrus%n%n§r§d§lBranch:§r Branch Citrus%n%n§c§lFruit:§r Lemon%n§b§lSupports:§r Prunes/Pomes/Citrus%n%n§a§lOrigin: §rSilver Lime + Hill Cherry%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2300 - Plum
 lostera.quest2300.name=Plum
-lostera.quest2300.desc=§6§lScientific Name:§r §o Prunus Domestica%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Branch Prunus%n%n§c§lFruit:§r Plum%n§b§lSupports:§r Prunes/Pomes/Citrus%n%n§a§lOrigin: §rLemon + Hill Cherry%n%n%n§7§lDescription:§r  
+lostera.quest2300.desc=§6§lScientific Name:§r §o Prunus Domestica%n§9§lFamily:§r  §oPlantae Prunus%n%n§r§d§lBranch:§r Branch Prunus%n%n§c§lFruit:§r Plum%n§b§lSupports:§r Prunes/Pomes/Citrus%n%n§a§lOrigin: §rLemon + Hill Cherry%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2301 - Sugar Maple
 lostera.quest2301.name=Sugar Maple
-lostera.quest2301.desc=§6§lScientific Name:§r §o Acer Saccharum%n§9§lFamily:§r  §oPlantae Acer%n%n§r§d§lBranch:§r Branch Acer%n%n§c§lFruit: §8None%n§b§lSupports:§r Prunes/Pomes/Citrus%n%n§a§lOrigin: §rMundane Larch + Red Spruce%n%n%n§7§lDescription:§r  
+lostera.quest2301.desc=§6§lScientific Name:§r §o Acer Saccharum%n§9§lFamily:§r  §oPlantae Acer%n%n§r§d§lBranch:§r Branch Acer%n%n§c§lFruit: §8None%n§b§lSupports:§r Prunes/Pomes/Citrus%n%n§a§lOrigin: §rMundane Larch + Red Spruce%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2302 - Papaya
 lostera.quest2302.name=Papaya
-lostera.quest2302.desc=§6§lScientific Name:§r §o Carica Papaya%n§9§lFamily:§r  §oPlantae Carica%n%n§r§d§lBranch:§r Carica Branch%n%n§c§lFruit:§r Papaya%n§b§lSupports:§r Jungle/Nuts%n%n§a§lOrigin: §rHill Cherry + Jungle%n%n%n§7§lDescription:§r  
+lostera.quest2302.desc=§6§lScientific Name:§r §o Carica Papaya%n§9§lFamily:§r  §oPlantae Carica%n%n§r§d§lBranch:§r Carica Branch%n%n§c§lFruit:§r Papaya%n§b§lSupports:§r Jungle/Nuts%n%n§a§lOrigin: §rHill Cherry + Jungle%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2303 - Padauk
 lostera.quest2303.name=Padauk
-lostera.quest2303.desc=§6§lScientific Name:§r §o Pterocarpus Soyauxii%n§9§lFamily:§r  §oPlantae Pterocarpus%n%n§r§d§lBranch:§r Pterocarpus Branch%n%n§c§lFruit:§8 None%n§b§lSupports:§r Jungle%n%n§a§lOrigin: §rAcacia + Jungle%n%n%n§7§lDescription:§r  
+lostera.quest2303.desc=§6§lScientific Name:§r §o Pterocarpus Soyauxii%n§9§lFamily:§r  §oPlantae Pterocarpus%n%n§r§d§lBranch:§r Pterocarpus Branch%n%n§c§lFruit:§8 None%n§b§lSupports:§r Jungle%n%n§a§lOrigin: §rAcacia + Jungle%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2304 - Coccobolo
 lostera.quest2304.name=Coccobolo
-lostera.quest2304.desc=§6§lScientific Name:§r §o Dalbergia Retusa%n§9§lFamily:§r  §oPlantae Dalbergia%n%n§r§d§lBranch:§r Dalbergia Branch%n%n§c§lFruit:§8 None%n§b§lSupports:§r Jungle%n%n§a§lOrigin: §rDesert Acacia + Dark Oak%n%n%n§7§lDescription:§r  
+lostera.quest2304.desc=§6§lScientific Name:§r §o Dalbergia Retusa%n§9§lFamily:§r  §oPlantae Dalbergia%n%n§r§d§lBranch:§r Dalbergia Branch%n%n§c§lFruit:§8 None%n§b§lSupports:§r Jungle%n%n§a§lOrigin: §rDesert Acacia + Dark Oak%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2305 - Zebrawood
 lostera.quest2305.name=Zebrawood
-lostera.quest2305.desc=§6§lScientific Name:§r §o Astronium Graveolens%n§9§lFamily:§r  §oPlantae Astronium%n%n§r§d§lBranch:§r Astronium Branch%n%n§c§lFruit:§r §8None%n§b§lSupports:§r Nuts%n%n§a§lOrigin: §rMyrtle Ebony + White Poplar%n%n%n§7§lDescription:§r  
+lostera.quest2305.desc=§6§lScientific Name:§r §o Astronium Graveolens%n§9§lFamily:§r  §oPlantae Astronium%n%n§r§d§lBranch:§r Astronium Branch%n%n§c§lFruit:§r §8None%n§b§lSupports:§r Nuts%n%n§a§lOrigin: §rMyrtle Ebony + White Poplar%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2306 - Ipe
 lostera.quest2306.name=Ipe
-lostera.quest2306.desc=§6§lScientific Name:§r §o Tabebuia Serratifolia%n§9§lFamily:§r  §oPlantae Tabebuia%n%n§r§d§lBranch:§r Tabebuia Branch%n%n§c§lFruit:§r §8None%n§b§lSupports:§r Jungle%n%n§a§lOrigin: §rTeak + Dark Oak%n%n%n§7§lDescription:§r  
+lostera.quest2306.desc=§6§lScientific Name:§r §o Tabebuia Serratifolia%n§9§lFamily:§r  §oPlantae Tabebuia%n%n§r§d§lBranch:§r Tabebuia Branch%n%n§c§lFruit:§r §8None%n§b§lSupports:§r Jungle%n%n§a§lOrigin: §rTeak + Dark Oak%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2307 - Date Palm
 lostera.quest2307.name=Date Palm
-lostera.quest2307.desc=§6§lScientific Name:§r §o Phoenix Dactylifera%n§9§lFamily:§r  §oPlantae Phoenix%n%n§r§d§lBranch:§r Phoenix Branch%n%n§c§lFruit:§r Dates%n§b§lSupports:§r Jungle/Nuts%n%n§a§lOrigin: §rJungle + Papaya%n%n%n§7§lDescription:§r  
+lostera.quest2307.desc=§6§lScientific Name:§r §o Phoenix Dactylifera%n§9§lFamily:§r  §oPlantae Phoenix%n%n§r§d§lBranch:§r Phoenix Branch%n%n§c§lFruit:§r Dates%n§b§lSupports:§r Jungle/Nuts%n%n§a§lOrigin: §rJungle + Papaya%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2308 - White Poplar
 lostera.quest2308.name=White Poplar
-lostera.quest2308.desc=§6§lScientific Name:§r §o Populus Alba%n§9§lFamily:§r  §oPlantae Populus%n%n§r§d§lBranch:§r Populus Branch%n%n§c§lFruit:§8 None%n§b§lSupports:§r Prunes/Pomes/Citrus%n%n§a§lOrigin: §r%nWhite Willow + Silver Birch%nWhite Willow + Apple Oak%nWhite Willow + Silver Lime%n%n%n§7§lDescription:§r  
+lostera.quest2308.desc=§6§lScientific Name:§r §o Populus Alba%n§9§lFamily:§r  §oPlantae Populus%n%n§r§d§lBranch:§r Populus Branch%n%n§c§lFruit:§8 None%n§b§lSupports:§r Prunes/Pomes/Citrus%n%n§a§lOrigin: §r%nWhite Willow + Silver Birch%nWhite Willow + Apple Oak%nWhite Willow + Silver Lime%n%n%n§7§lDescription:§r %n%n
 
 # Quest.2309 - Giant Sequoia
 lostera.quest2309.name=Giant Sequoia
-lostera.quest2309.desc=§6§lScientific Name:§r §o Sequoiadendron Giganteum%n§9§lFamily:§r  §oPlantae Sequoiadendron%n%n§r§d§lBranch:§r Sequoiadendron Branch%n%n§c§lFruit:§r §8None%n§b§lSupports:§r §8None%n%n§a§lOrigin: §rCoast Sequoia + Grandidier's Baobab%n%n%n§7§lDescription:§r %n%nLargest and tallest tree in existance.
+lostera.quest2309.desc=§6§lScientific Name:§r §o Sequoiadendron Giganteum%n§9§lFamily:§r  §oPlantae Sequoiadendron%n%n§r§d§lBranch:§r Sequoiadendron Branch%n%n§c§lFruit:§r §8None%n§b§lSupports:§r §8None%n%n§a§lOrigin: §rCoast Sequoia + Grandidier's Baobab%n%n%n§7§lDescription:§r %n%nLargest and tallest tree in existence.
 
 # Quest.2310 - Augment: Overclocked Modular Gearbox
 lostera.quest2310.name=Augment: Overclocked Modular Gearbox
@@ -9736,7 +9736,7 @@ lostera.quest2422.desc=The Blood Altar is a sacrifical altar than feeds on life 
 
 # Quest.2423 - Sacrificial Knife
 lostera.quest2423.name=Sacrificial Knife
-lostera.quest2423.desc=The Sacrificial Knife is a ritualistic dagger that harms its user to feed Life Points to a Blood Altar.%n%nSimply using the dagger near the Blood Altar will sacrifice your health creating generating §6200 Life Points§r for every §cHeart§r sacrificed.
+lostera.quest2423.desc=The Sacrificial Knife is a ritualistic dagger that harms its user to feed Life Points to a Blood Altar.%n%nSimply using the dagger near the Blood Altar will sacrifice your health creating generating §6200 Life Points§r for every §cHeart§r sacrificed.%n%nThis process momentarily weakens the soul, requiring small breaks to gather strength and courage before braving the next sacrifice.
 
 # Quest.2424 - Dagger of Sacrifice
 lostera.quest2424.name=Dagger of Sacrifice
@@ -11855,7 +11855,7 @@ lostera.quest2952.desc=The Cargo Manager allows passing carts to load and unload
 
 # Quest.2953 - External Distributor
 lostera.quest2953.name=External Distributor
-lostera.quest2953.desc=The Externa; Distributor allows to connect pipes and tubes to the Cargo Manager in a better way. %n%nIn order to use the External Distributor, it must be placed right on top or below a Cargo Manager, which itself must be placed next to an Advanced Detector Rail to be able to interact with minecarts.%n%nWithout External Distributor the pipes and tubes will treat Cargo Manager as a single inventory, despite the fact it can have up to 4 separate areas for cargo/fuel/rails etc. %n%nThe External Distributor was made specifically to solve this problem.%n%nIt has 6 different colors on its sides. In its GUI one can choose which part of the Cargo Manager the sides of the Distributor should connect to.%n%n§oIt is possible to use a single Cargo Distributor with 2 Cargo Managers
+lostera.quest2953.desc=The External Distributor allows to connect pipes and tubes to the Cargo Manager in a better way. %n%nIn order to use the External Distributor, it must be placed right on top or below a Cargo Manager, which itself must be placed next to an Advanced Detector Rail to be able to interact with minecarts.%n%nWithout External Distributor the pipes and tubes will treat Cargo Manager as a single inventory, despite the fact it can have up to 4 separate areas for cargo/fuel/rails etc. %n%nThe External Distributor was made specifically to solve this problem.%n%nIt has 6 different colors on its sides. In its GUI one can choose which part of the Cargo Manager the sides of the Distributor should connect to.%n%n§8It is possible to use a single Cargo Distributor with 2 Cargo Managers
 
 # Quest.2954 - Liquid Manager
 lostera.quest2954.name=Liquid Manager
@@ -14415,7 +14415,7 @@ lostera.quest3592.desc=Enchantments for §cMelee Weapons§r such as Swords and A
 
 # Quest.3593 - Fishing Rod Enchantments
 lostera.quest3593.name=Fishing Rod Enchantments
-lostera.quest3593.desc=Enchantments for §bFihing Rods§r.
+lostera.quest3593.desc=Enchantments for §bFishing Rods§r.
 
 # Quest.3594 - Protection
 lostera.quest3594.name=Protection
@@ -14553,9 +14553,9 @@ lostera.quest3626.desc=Decreases damage from magical sources like potions and en
 lostera.quest3627.name=Enhanced Brewing
 lostera.quest3627.desc=The Enhanced Brewing Stand is a mythical artifact that defies the laws of alchemy.%n%nThrough unknown magic, it enables practitioners to transcend brewing limitations.%n%nIt is said that potions crafted with it can be successfully infused multiple times by §6Modifier§r reactants, allowing their effects to stack with one another without conflict.%n%nMore details on how it operates and where to find one, however, have long been lost to time.
 
-# Quest.3627 - Crop: Exotic
-lostera.quest3627.name=Crop: Exotic
-lostera.quest3627.desc=The Crop: Exotic allows the Farmer module able to use modded seeds.%n%nA Farmer can have more than one Crop upgrade at a time. 
+# Quest.3628 - Crop: Exotic
+lostera.quest3628.name=Crop: Exotic
+lostera.quest3628.desc=The Crop: Exotic allows the Farmer module able to use modded seeds.%n%nA Farmer can have more than one Crop upgrade at a time. 
 
 # Quest.3631 - Wrecking
 lostera.quest3631.name=Wrecking
@@ -14866,13 +14866,13 @@ lostera.line72.desc=No Description
 lostera.line73.name=Exotic Miner
 lostera.line73.desc=No Description
 
-# QuestLine.74 - Alchemical Laboratory
-lostera.line74.name=Alchemical Laboratory
-lostera.line74.desc=Alchemy is the process of taking something ordinary and turning it into something extraordinary, sometimes in ways you'd never expect.
+# QuestLine.74 - Enchanted Library
+lostera.line74.name=Enchanted Library
+lostera.line74.desc=Do Not Take Me for Some Conjurer of Cheap Tricks!
 
-# QuestLine.75 - Enchanted Library
-lostera.line75.name=Enchanted Library
-lostera.line75.desc=Do Not Take Me for Some Conjurer of Cheap Tricks!
+# QuestLine.75 - Alchemical Laboratory
+lostera.line75.name=Alchemical Laboratory
+lostera.line75.desc=Alchemy is the process of taking something ordinary and turning it into something extraordinary, sometimes in ways you'd never expect.
 
 # QuestLine.76 -    
 lostera.line76.name=   
