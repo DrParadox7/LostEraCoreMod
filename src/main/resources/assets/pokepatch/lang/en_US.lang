@@ -2182,7 +2182,7 @@ lostera.quest533.desc=The Lunch Bag is a portable food storage that can store up
 
 # Quest.534 - Lunch Box
 lostera.quest534.name=Lunch Box
-lostera.quest534.desc=The Lunch Box is a portable food storage that can store up to 3 stacks.%n%nIt can be eaten from when opened using sneak right click.%n%nWhen eating from an open lunch box, it will intelligently choose the most filling food to eat from it.%n%nIf you right click it on an inventory while open, it will automatically refill it with a variety of foods.
+lostera.quest534.desc=The Lunch Box is a portable food storage that can store up to 6 stacks.%n%nIt can be eaten from when opened using sneak right click.%n%nWhen eating from an open lunch box, it will intelligently choose the most filling food to eat from it.%n%nIf you right click it on an inventory while open, it will automatically refill it with a variety of foods.
 
 # Quest.535 - Culinary Generator
 lostera.quest535.name=Culinary Generator
@@ -5680,7 +5680,7 @@ lostera.quest1408.desc=The Squeezing Extractor is used to process Sticky Resin i
 
 # Quest.1409 - Bronze Blast Furnace
 lostera.quest1409.name=Bronze Blast Furnace
-lostera.quest1409.desc=The Bronze Blast Furnace is the early game forging of Steel.%nIt is a multiblock composed of §cBronze Plated Bricks §rand a §6Bronze Bast Furnace§r.%n%nIt operates similarly to a furnace, albeit at a much hotter temperature.%n%nUnlike all the other Bronze Age machines, it §4DOES NOT REQUIRE STEAM!§r%n%nTop Layer:     2nd Layer:§c%n%n▉▉▉          ▉▉▉%n▉  ▉          ▉  ▉%n▉▉▉          ▉▉▉%n%n§r1st Layer:  Bottom Layer:§c%n%n▉▉▉          ▉▉▉%n▉  §6▉§c          ▉▉▉%n▉▉▉          ▉▉▉
+lostera.quest1409.desc=The Bronze Blast Furnace is the early game forging of Steel.%nIt is a multiblock composed of §cBronze Plated Bricks §rand a §6Bronze Blast Furnace§r.%n%nIt operates similarly to a furnace, albeit at a much hotter temperature.%n%nUnlike all the other Bronze Age machines, it §4DOES NOT REQUIRE STEAM!§r%n%nTop Layer:     2nd Layer:§c%n%n▉▉▉          ▉▉▉%n▉  ▉          ▉  ▉%n▉▉▉          ▉▉▉%n%n§r1st Layer:  Bottom Layer:§c%n%n▉▉▉          ▉▉▉%n▉  §6▉§c          ▉▉▉%n▉▉▉          ▉▉▉
 
 # Quest.1410 - Brass Item Pipe
 lostera.quest1410.name=Brass Item Pipe
