@@ -386,7 +386,7 @@ lostera.quest84.desc=The Architect Table is used to 3D scan a structure up to 64
 
 # Quest.85 - Filler
 lostera.quest85.name=Filler
-lostera.quest85.desc=The Filler is a machine used to fill whole areas with blocks.%n%nA Filler must be placed next to a Land Mark, similar to a Quarry, in order to function.%n%nThree Land Marks, one in front of the Filler and two along the X and Z axis relative to the first define the area to be filled. %n%nOne more Land Mark to define the Y area to be filled is optional.%n%nThe Filler has a GUI that allows the player to toggle the different modes.
+lostera.quest85.desc=The Filler is a machine used to fill whole areas with blocks.%n%nA Filler must be placed next to a §9Land Mark§r, similar to a Quarry, in order to function.%n%nThree Land Marks, one in front of the Filler and two along the X and Z axis §8(length and width)§r relative to the first define the area to be filled.%nOne more Land Mark to define the Y area to be filled is optional.%n%nThe Filler has a GUI that allows the player to toggle the different modes:%n%n§lFill§r - Fills the area with blocks%n§lFlatten§r - Flattens terrain up to height of target area%n§lFrame§r - Hollow cube with no walls%n§lHorizon§r - Flattens terrain up to sky level%n§lPyramid§r - Pyramid that can also be built upside-down. Center point is configurable.%n§lStairs§r - Stair shape that configurable facing and even upside-down.%n§lBox§r - A hollow cube with 4 walls, a roof and a floor.%n§lClear§r - Clears all blocks in the target area%n§lCylinder§r - Cylinder shape that can be made hollow
 
 # Quest.86 - Land Mark
 lostera.quest86.name=Land Mark
@@ -2182,7 +2182,7 @@ lostera.quest533.desc=The Lunch Bag is a portable food storage that can store up
 
 # Quest.534 - Lunch Box
 lostera.quest534.name=Lunch Box
-lostera.quest534.desc=The Lunch Box is a portable food storage that can store up to 3 stacks.%n%nIt can be eaten from when opened using sneak right click.%n%nWhen eating from an open lunch box, it will intelligently choose the most filling food to eat from it.%n%nIf you right click it on an inventory while open, it will automatically refill it with a variety of foods.
+lostera.quest534.desc=The Lunch Box is a portable food storage that can store up to 6 stacks.%n%nIt can be eaten from when opened using sneak right click.%n%nWhen eating from an open lunch box, it will intelligently choose the most filling food to eat from it.%n%nIf you right click it on an inventory while open, it will automatically refill it with a variety of foods.
 
 # Quest.535 - Culinary Generator
 lostera.quest535.name=Culinary Generator
@@ -7284,7 +7284,7 @@ lostera.quest1809.desc=A Warp Drive is a superluminal spacecraft propulsion syst
 
 # Quest.1810 - Carpenter's Tools
 lostera.quest1810.name=Carpenter's Tools
-lostera.quest1810.desc=Carpenter's Tools allow for altering the appearance of Carpenter's Blocks.%n%nThe §9Carpenter's Hammer §ris used to alter the shape of Carpenter's Blocks as well as remove accessories from them.%n%nThe §eCarpenter's Chisel §ris used to carve intricate designs onto Carpenter's Blocks.
+lostera.quest1810.desc=Carpenter's Tools allow for altering the appearance of Carpenter's Blocks.%n%nThe §9Carpenter's Hammer§r is used to alter the shape of Carpenter's Blocks §8(right-click)§r, rotate them §8(left-click)§r, as well as remove accessories from them §8(sneak + left-click)§r.%n%nThe §eCarpenter's Chisel §ris used to carve intricate designs onto Carpenter's Blocks §8(right & left-click)§r or clear it from any carving §8(sneak + left-click)§r.
 
 # Quest.1811 - Carpenter's Vase
 lostera.quest1811.name=Carpenter's Vase
@@ -7292,7 +7292,7 @@ lostera.quest1811.desc=The Carpenter's Vase allows you to plant almost anything 
 
 # Quest.1812 - Carpenter's Block
 lostera.quest1812.name=Carpenter's Block
-lostera.quest1812.desc=Carpenter's Blocks are blocks that take the texture of any block you right click it with.%n%nThese can also be made into a slab using a §6Carpenter's Hammer§r, allowing you to overcome many building limitations, such as vertical slabs.
+lostera.quest1812.desc=Carpenter's Blocks are blocks that take the texture of any block you right click it with.%n%nThese can also be made into a slab using a §6Carpenter's Hammer§r, allowing you to overcome many building limitations, such as vertical slabs.%n%n§8The Carpenter's Block inherits most of the donor block's properties including fire and explosion resistance, in addition to displaying it's texture.§r
 
 # Quest.1813 - Carpenter's Stairs
 lostera.quest1813.name=Carpenter's Stairs
@@ -7412,7 +7412,7 @@ lostera.quest1841.desc=These are magical glasses that will only allow selective 
 
 # Quest.1842 - Accents
 lostera.quest1842.name=Accents
-lostera.quest1842.desc=These are a couple of neat tricks you can use with Carpenter's Blocks:%n%n§c§lCovers§r%nA placed Carpenter's Block can be right-clicked with any block adding a cover of matching texture to it. %n§8%nThe Carpenter's Block inherits most of the donor block's properties including fire and explosion resistance, in addition to displaying it's texture.§r%n%n%n§3§lOverlays§r%nOverlays can be added to Carpenter's Block by shift-right clicking them with the following items:%n%n§aSeeds: §radds a grass overlay%n§9Snow: §radds a snow overlay%n§eString: §radds a cobweb overlay%n§6Wheat:§r adds a haybale overlay%n§dMushroom: §radds a mycelium overlay%n%n%n§e§lExtras§r%n§rExtra properties can be added to Carpenter's Blocks by shift-right clicking them with the following items:%n%n§6Glowstone Dust: §rIt will act as a light source.%n§aAny Dye:§r Will dye the block's texture with that color.%n%n§8Vanilla dyes only.
+lostera.quest1842.desc=These are a couple of neat tricks you can use with Carpenter's Blocks:%n%n§c§lSide Covers§r%nAn already textured Carpenter's Block can be right-clicked with a block to add an additional cover of matching texture to it.%n%n%n§3§lOverlays§r%nOverlays can be added to Carpenter's Block by shift-right clicking them with the following items:%n%n§aSeeds: §radds a grass overlay%n§9Snow: §radds a snow overlay%n§eString: §radds a cobweb overlay%n§6Wheat:§r adds a haybale overlay%n§dMushroom: §radds a mycelium overlay%n%n%n§e§lExtras§r%n§rExtra properties can be added to Carpenter's Blocks by shift-right clicking them with the following items:%n%n§6Glowstone Dust: §rIt will act as a light source.%n§aAny Dye:§r Will dye the block's texture with that color.%n%n§8Vanilla dyes only.
 
 # Quest.1843 - Ship Core
 lostera.quest1843.name=Ship Core
@@ -7600,7 +7600,7 @@ lostera.quest1888.desc=You can run and hide to avoid the dangers that lurk withi
 
 # Quest.1889 - Minedrake Bulb
 lostera.quest1889.name=Minedrake Bulb
-lostera.quest1889.desc=The Minedrake is the insane result of crossing a mandrake with a creeper. %n%nWhen minedrake bulbs are dropped onto the ground they will become very cute explosive pets to whomever dropped it.%nThese creatures have undying loyalty to their master and will eliminate any foes their master targets via self-destruction!%n%nAdditionally, Minedrake bulbs can be planted in tilled earth, for a chance to drop a second bulb.%n%nThe Minedrake Bulb is the most complex and dangerous of all of the plant mutations!%n%n§r§2§lMutation process:%n%n§r-§51 Grassper holding an Attuned Stone%n§r-§34 Fully grown Mandrake §8(with bats for owls or slimes for toads)%n§r-§92 Grasspers holding Mutandis Extremis§r%n-§c1 Grassper holding Focused Will%n§r-§61 Cobweb above water §8(containing a Creeper)%n%n§5▉§3▉§9▉%n§3▉§6▉§3▉%n§9▉§3▉§c▉ 
+lostera.quest1889.desc=The Minedrake is the insane result of crossing a mandrake with a creeper. %n%nWhen minedrake bulbs are dropped onto the ground they will become very cute explosive pets to whomever dropped it.%nThese creatures have undying loyalty to their master and will eliminate any foes their master targets via self-destruction!%n%nAdditionally, Minedrake bulbs can be planted in tilled earth, for a chance to drop a second bulb.%n%nThe Minedrake Bulb is the most complex and dangerous of all of the plant mutations!%n%n§r§2§lMutation process:%n%n§r-§51 Grassper holding an Attuned Stone%n§r-§34 Fully grown Mandrake%n-§92 Grasspers holding Mutandis Extremis§r%n-§c1 Grassper holding Focused Will%n§r-§61 Cobweb above water §8(containing a Creeper)%n%n§5▉§3▉§9▉%n§3▉§6▉§3▉%n§9▉§3▉§c▉ 
 
 # Quest.1890 - Blood Crucible
 lostera.quest1890.name=Blood Crucible
@@ -8464,7 +8464,7 @@ lostera.quest2104.desc=§6§lScientific Name:§r §o Thaumiapis Arcanus Labe%n§
 
 # Quest.2105 - Pure Bee
 lostera.quest2105.name=Pure Bee
-lostera.quest2105.desc=§6§lScientific Name:§r §o Thaumiapis %n§9§lFamily:§r  §oApidae Thaumiapis%n%n§r§d§lBranch:§r Thaumic Branch%n%n§a§lOrigin: §rTransmuting bee + Rejuvanating bee §8(During a Full Moon)%n%n%n§7§lDescription:§r %n%n"It's like a bee janitor!"
+lostera.quest2105.desc=§6§lScientific Name:§r §o Thaumiapis %n§9§lFamily:§r  §oApidae Thaumiapis%n%n§r§d§lBranch:§r Thaumic Branch%n%n§a§lOrigin: §rTransmuting bee + Rejuvanating bee §8(During a New Moon)%n%n%n§7§lDescription:§r %n%n"It's like a bee janitor!"
 
 # Quest.2106 - Ravening Bee
 lostera.quest2106.name=Ravening Bee
@@ -12147,7 +12147,7 @@ lostera.quest3025.desc=Backpacks have different "modes", which can be switched b
 
 # Quest.3026 - Beekeeping
 lostera.quest3026.name=Beekeeping
-lostera.quest3026.desc=To start your own homemade honey you will need bees. Bees can be found in the wild inside Hives.%n%nHives can only be harvested with a §6Scoop§r and will always drop a Princess and have a random chance at dropping a Drone and a Honeycomb.%n%nThere are many different hives to discover and the easiest way to find them is to explore at night, as the glow of working bees will help you spot them. 
+lostera.quest3026.desc=To start your own homemade honey you will need bees. Bees can be found in the wild inside Hives.%n%nHives can only be harvested with a §6Scoop§r and most will always drop a Princess and have a random chance at dropping a Drone and a Honeycomb.%n%nThere are many different hives to discover and the easiest way to find them is to explore at night, as the glow of working bees will help you spot them. 
 
 # Quest.3027 - Royal Line of Succession
 lostera.quest3027.name=Royal Line of Succession
