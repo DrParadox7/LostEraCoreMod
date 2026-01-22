@@ -5680,7 +5680,7 @@ lostera.quest1408.desc=The Squeezing Extractor is used to process Sticky Resin i
 
 # Quest.1409 - Bronze Blast Furnace
 lostera.quest1409.name=Bronze Blast Furnace
-lostera.quest1409.desc=The Bronze Blast Furnace is the early game forging of Steel.%nIt is a multiblock composed of §cBronze Plated Bricks §rand a §6Bronze Bast Furnace§r.%n%nIt operates similarly to a furnace, albeit at a much hotter temperature.%n%nUnlike all the other Bronze Age machines, it §4DOES NOT REQUIRE STEAM!§r%n%nTop Layer:     2nd Layer:§c%n%n▉▉▉          ▉▉▉%n▉  ▉          ▉  ▉%n▉▉▉          ▉▉▉%n%n§r1st Layer:  Bottom Layer:§c%n%n▉▉▉          ▉▉▉%n▉  §6▉§c          ▉▉▉%n▉▉▉          ▉▉▉
+lostera.quest1409.desc=The Bronze Blast Furnace is the early game forging of Steel.%nIt is a multiblock composed of §cBronze Plated Bricks §rand a §6Bronze Blast Furnace§r.%n%nIt operates similarly to a furnace, albeit at a much hotter temperature.%n%nUnlike all the other Bronze Age machines, it §4DOES NOT REQUIRE STEAM!§r%n%nTop Layer:     2nd Layer:§c%n%n▉▉▉          ▉▉▉%n▉  ▉          ▉  ▉%n▉▉▉          ▉▉▉%n%n§r1st Layer:  Bottom Layer:§c%n%n▉▉▉          ▉▉▉%n▉  §6▉§c          ▉▉▉%n▉▉▉          ▉▉▉
 
 # Quest.1410 - Brass Item Pipe
 lostera.quest1410.name=Brass Item Pipe
@@ -11919,7 +11919,7 @@ lostera.quest2968.desc=The Centrifuge is every Bee keepers must have machine.%nI
 
 # Quest.2969 - Fermenter
 lostera.quest2969.name=Fermenter
-lostera.quest2969.desc=The Fermenter brews organic materials into §aBiomass§r, and §rHoneydew§r/§rLiquid Honey§r into §eShort Mead§r for your drunken needs.%n%nIt requires a fluid + a fermentation catalyst:%n%n§nFluids:§r%n§bWater§r, §6Honey §ror §dFruit Juice§r %n%n§7Honey or Fruit Juice produce §l50%% §7more Biomass.§r%n%n§nFermentation catalyst:%n§9Fertilizer§r, §3Mulch§r or §cCompost§r %n%n§7Mulch or Compost last §l20%%§7 longer.%n%n%n§a§nOrganic Materials:§r%n%n§r§lSaplings§r §o(250-1500mb per sapling) *§r%n§lWheat §r(100mb)§r%n§lCactus§r §o(200mb)§r%n§lSugar Cane§r (200mb)§r%n§lMushroom§r §o(200mb)§r%n§lPlantBall§r (400mb)§r%n§lCompressed PlantBall§r (500mb)%n%n§8§o*sapling output depends on their "Sapiness" genetical trade.%n%n§8§o1 Bucket = 1,000mB
+lostera.quest2969.desc=The Fermenter brews organic materials into §aBiomass§r, and §rHoneydew§r/§rLiquid Honey§r into §eShort Mead§r for your drunken needs.%n%nIt requires a fluid + a fermentation catalyst:%n%n§nFluids:§r%n§bWater§r, §6Honey §ror §dFruit Juice§r %n%n§7Honey or Fruit Juice produce §l50%% §7more Biomass.§r%n%n§nFermentation catalyst:%n§9Fertilizer§r, §3Mulch§r or §cCompost§r %n%n§7Mulch or Compost last §l20%%§7 longer.%n%n%n§a§nOrganic Materials:§r%n%n§r§lSaplings§r §o(250-1500mb per sapling) *§r%n§lWheat §r(50mb)§r%n§lCactus§r §o(50mb)§r%n§lSugar Cane§r (50mb)§r%n§lMushroom§r §o(50mb)§r%n§lPlantBall§r (450mb)%n%n§8§o*sapling output depends on their "Sapiness" genetical trade.%n%n§8§o1 Bucket = 1,000mB
 
 # Quest.2970 - Still
 lostera.quest2970.name=Still
